@@ -92,7 +92,7 @@ jobs:
 
       - name: Run Stock Hub
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           RUN_MODE: ${{ env.RUN_MODE }}
         run: python scripts/main.py
 
