@@ -203,7 +203,7 @@
       "yellow": 3.0,
       "red": 89.4
     },
-    "run_time": "2026-06-14 16:29",
+    "run_time": "2026-06-14 16:41",
     "phase": "Regular Hours",
     "max_score": 17
   },
@@ -1048,11 +1048,11 @@
         ]
       }
     ],
-    "generated_at_utc": "2026-06-14 16:29 UTC",
-    "generated_at_tw": "2026-06-15 00:29 TW",
+    "generated_at_utc": "2026-06-14 16:41 UTC",
+    "generated_at_tw": "2026-06-15 00:41 TW",
     "ticker_count": 10
   },
-  "llm_note": "\u2022 Validate top screener picks vs sector momentum: \nThe top sector is Materials, but the top screener picks are from Technology and Financials. This indicates a sector mismatch, but the Technology and Financials picks have strong scores.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nNone found, as the screener and monitor signals are independent.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: AMAT (score=14/17) due to its high score.\nWeakest pick: INTC (score=13/17) due to its low MFI (46.2).\n\n\u2022 Overall confidence: MEDIUM\nThe screener picks show strong scores, but the sector mismatch and weak MFI of INTC reduce overall confidence.",
+  "llm_note": "\u2022 Validate top screener picks vs sector momentum: \nThe Materials sector is strong, but Technology and Financials sectors are also performing well. \nAMAT, JPM, INTC, QCOM, and C are all in strong uptrends with high MFI and above MA200, validating the top picks.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nNone found, as all top picks have strong signals and no monitor signals contradict the screener picks.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: AMAT (score=14/17 and high MFI=81.4).\nWeakest pick: INTC (score=13/17 and low MFI=46.2).\n\n\u2022 Overall confidence: HIGH with strong sector momentum and high MFI for top picks.",
   "news": {
     "general": [
       {
@@ -1068,7 +1068,7 @@
         "published": "Sun, 14 Jun 2026"
       }
     ],
-    "generated_at_utc": "2026-06-14 16:29 UTC",
-    "generated_at_tw": "2026-06-15 00:29 TW"
+    "generated_at_utc": "2026-06-14 16:41 UTC",
+    "generated_at_tw": "2026-06-15 00:41 TW"
   }
 }
