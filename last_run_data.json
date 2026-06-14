@@ -203,7 +203,7 @@
       "yellow": 3.0,
       "red": 89.4
     },
-    "run_time": "2026-06-14 16:12",
+    "run_time": "2026-06-14 16:18",
     "phase": "Regular Hours",
     "max_score": 17
   },
@@ -1048,11 +1048,11 @@
         ]
       }
     ],
-    "generated_at_utc": "2026-06-14 16:12 UTC",
-    "generated_at_tw": "2026-06-15 00:12 TW",
+    "generated_at_utc": "2026-06-14 16:18 UTC",
+    "generated_at_tw": "2026-06-15 00:18 TW",
     "ticker_count": 10
   },
-  "llm_note": "\u26a0\ufe0f LLM supervision disabled.\nTo enable FREE supervision: get a key at https://aistudio.google.com/apikey (Google sign-in only, no credit card) then add GEMINI_API_KEY as a GitHub Secret.",
+  "llm_note": "LLM API error 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-a",
   "news": {
     "general": [
       {
@@ -1068,7 +1068,7 @@
         "published": "Sun, 14 Jun 2026"
       }
     ],
-    "generated_at_utc": "2026-06-14 16:13 UTC",
-    "generated_at_tw": "2026-06-15 00:13 TW"
+    "generated_at_utc": "2026-06-14 16:18 UTC",
+    "generated_at_tw": "2026-06-15 00:18 TW"
   }
 }
