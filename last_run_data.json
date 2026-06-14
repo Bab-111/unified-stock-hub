@@ -203,7 +203,7 @@
       "yellow": 3.0,
       "red": 89.4
     },
-    "run_time": "2026-06-14 15:53",
+    "run_time": "2026-06-14 16:12",
     "phase": "Regular Hours",
     "max_score": 17
   },
@@ -1048,11 +1048,11 @@
         ]
       }
     ],
-    "generated_at_utc": "2026-06-14 15:54 UTC",
-    "generated_at_tw": "2026-06-14 23:54 TW",
+    "generated_at_utc": "2026-06-14 16:12 UTC",
+    "generated_at_tw": "2026-06-15 00:12 TW",
     "ticker_count": 10
   },
-  "llm_note": "\u26a0\ufe0f LLM supervision disabled \u2014 add ANTHROPIC_API_KEY as GitHub Secret to enable.",
+  "llm_note": "\u26a0\ufe0f LLM supervision disabled.\nTo enable FREE supervision: get a key at https://aistudio.google.com/apikey (Google sign-in only, no credit card) then add GEMINI_API_KEY as a GitHub Secret.",
   "news": {
     "general": [
       {
@@ -1068,7 +1068,7 @@
         "published": "Sun, 14 Jun 2026"
       }
     ],
-    "generated_at_utc": "2026-06-14 15:54 UTC",
-    "generated_at_tw": "2026-06-14 23:54 TW"
+    "generated_at_utc": "2026-06-14 16:13 UTC",
+    "generated_at_tw": "2026-06-15 00:13 TW"
   }
 }
