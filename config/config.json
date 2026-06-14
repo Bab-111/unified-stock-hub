@@ -19,8 +19,9 @@
   "earnings_alert_days": 7,
   "timezone": "Asia/Taipei",
   "llm_max_tokens": 300,
-  "llm_model": "claude-haiku-4-5-20251001",
+  "llm_model": "gemini-2.0-flash",
   "llm_log_max_entries": 10,
   "news_per_ticker": 5,
-  "news_general_count": 4
+  "news_general_count": 4,
+  "llm_provider": "gemini"
 }
