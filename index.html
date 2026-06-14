@@ -1,0 +1,1212 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stock Hub — 2026-06-14 23:54 TW</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0f1117;
+  --bg2: #161b27;
+  --bg3: #1e2535;
+  --border: #2a3347;
+  --text: #e2e8f0;
+  --muted: #64748b;
+  --accent: #00d4aa;
+  --accent2: #0ea5e9;
+  --amber: #f59e0b;
+  --red: #ef4444;
+  --green: #22c55e;
+  --pos: #22c55e;
+  --neg: #ef4444;
+  --warn: #f59e0b;
+  --pill-r: 4px;
+}
+[data-theme="light"] {
+  --bg: #f8fafc; --bg2: #ffffff; --bg3: #f1f5f9;
+  --border: #e2e8f0; --text: #0f172a; --muted: #64748b;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { font-size: 15px; }
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background: var(--bg); color: var(--text);
+  min-height: 100vh; padding-bottom: 80px;
+}
+a { color: var(--accent2); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* ── Header ── */
+#header {
+  background: var(--bg2); border-bottom: 1px solid var(--border);
+  padding: 12px 20px; position: sticky; top: 0; z-index: 100;
+  display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
+}
+.header-title { font-weight: 700; font-size: 1.1rem; color: var(--accent); letter-spacing: -.02em; }
+.phase-badge {
+  background: var(--bg3); border: 1px solid var(--border);
+  border-radius: 20px; padding: 3px 10px; font-size: .72rem;
+  color: var(--muted); display: flex; align-items: center; gap: 6px;
+}
+.phase-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--accent); animation: pulse 2s infinite; }
+@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.4} }
+.header-time { font-size: .75rem; color: var(--muted); margin-left: auto; }
+.theme-btn {
+  background: var(--bg3); border: 1px solid var(--border); border-radius: 6px;
+  color: var(--text); padding: 4px 8px; cursor: pointer; font-size: .75rem;
+}
+
+/* ── Tabs ── */
+#tabs { display: flex; background: var(--bg2); border-bottom: 1px solid var(--border); overflow-x: auto; }
+.tab-btn {
+  padding: 12px 20px; font-size: .85rem; font-weight: 500; color: var(--muted);
+  border: none; background: none; cursor: pointer; white-space: nowrap;
+  border-bottom: 2px solid transparent; transition: all .2s;
+}
+.tab-btn.active { color: var(--accent); border-bottom-color: var(--accent); }
+.tab-btn:hover { color: var(--text); }
+
+/* ── Content ── */
+.tab-pane { display: none; padding: 20px; max-width: 1200px; margin: 0 auto; }
+.tab-pane.active { display: block; }
+
+/* ── Two-column layout ── */
+.two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+@media (max-width: 768px) { .two-col { grid-template-columns: 1fr; } }
+
+/* ── Cards ── */
+.card {
+  background: var(--bg2); border: 1px solid var(--border);
+  border-radius: 12px; padding: 16px; margin-bottom: 14px;
+}
+.card.tl-strong  { border-left: 3px solid var(--green); }
+.card.tl-moderate { border-left: 3px solid var(--amber); }
+.card.tl-weak    { border-left: 3px solid var(--red); }
+
+/* ── Card internals ── */
+.card-header { margin-bottom: 10px; }
+.card-title-row { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; flex-wrap: wrap; }
+.ticker { font-size: 1.25rem; font-weight: 700; letter-spacing: -.02em; }
+.tl-badge {
+  font-size: .68rem; font-weight: 600; padding: 2px 8px; border-radius: 4px; text-transform: uppercase;
+}
+.tl-badge.tl-strong  { background: rgba(34,197,94,.15); color: var(--green); }
+.tl-badge.tl-moderate { background: rgba(245,158,11,.15); color: var(--amber); }
+.tl-badge.tl-weak    { background: rgba(239,68,68,.15); color: var(--red); }
+.card-price-row { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 4px; }
+.price { font-size: 1.1rem; font-weight: 600; }
+.chg { font-weight: 600; font-size: .9rem; }
+.pos { color: var(--green); }
+.neg { color: var(--red); }
+.sector-tag { font-size: .7rem; color: var(--muted); background: var(--bg3); border-radius: 4px; padding: 2px 6px; }
+.card-name { font-size: .8rem; color: var(--muted); margin-bottom: 4px; }
+.range-row { font-size: .78rem; color: var(--muted); margin-top: 4px; }
+
+/* ── Score bar ── */
+.score-bar-wrap { display: flex; align-items: center; gap: 8px; margin: 10px 0; }
+.score-bar-track { flex: 1; background: var(--bg3); border-radius: 4px; height: 6px; overflow: hidden; }
+.score-bar-fill { height: 100%; border-radius: 4px; transition: width .5s; }
+.score-bar-fill.tl-strong  { background: var(--green); }
+.score-bar-fill.tl-moderate { background: var(--amber); }
+.score-bar-fill.tl-weak    { background: var(--red); }
+.score-label { font-size: .75rem; color: var(--muted); min-width: 32px; text-align: right; }
+
+/* ── Factor pills ── */
+.factor-pills { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 10px; }
+.pill { font-size: .65rem; font-weight: 600; padding: 2px 7px; border-radius: var(--pill-r); text-transform: uppercase; }
+.pill.fg { background: rgba(34,197,94,.15); color: var(--green); }
+.pill.fy { background: rgba(245,158,11,.15); color: var(--amber); }
+.pill.fr { background: rgba(239,68,68,.12); color: var(--red); }
+
+/* ── Card meta row ── */
+.card-meta { display: flex; flex-wrap: wrap; gap: 8px 14px; font-size: .75rem; color: var(--muted); }
+.card-meta strong { color: var(--text); }
+
+/* ── Sector bars ── */
+.sector-bars { display: flex; flex-direction: column; gap: 6px; }
+.sector-row { display: flex; align-items: center; gap: 8px; }
+.sector-name { font-size: .75rem; color: var(--muted); min-width: 110px; }
+.bar-track { flex: 1; background: var(--bg3); border-radius: 3px; height: 8px; overflow: hidden; }
+.bar-fill { height: 100%; border-radius: 3px; min-width: 2px; }
+.bar-fill.pos { background: var(--green); }
+.bar-fill.neg { background: var(--red); }
+.sector-chg { font-size: .75rem; font-weight: 600; min-width: 52px; text-align: right; }
+
+/* ── Signals ── */
+.signals-wrap { display: flex; flex-direction: column; gap: 4px; margin: 10px 0; }
+.signal { font-size: .78rem; padding: 4px 8px; border-radius: 6px; }
+.sig-crit  { background: rgba(239,68,68,.18); color: #fca5a5; }
+.sig-warn  { background: rgba(245,158,11,.15); color: #fcd34d; }
+.sig-neg   { background: rgba(239,68,68,.1);  color: #f87171; }
+.sig-pos   { background: rgba(34,197,94,.1);  color: var(--green); }
+.sig-opp   { background: rgba(0,212,170,.12); color: var(--accent); }
+.sig-caut  { background: rgba(245,158,11,.1); color: var(--amber); }
+
+/* ── Technical row ── */
+.tech-row { display: flex; gap: 12px; margin: 8px 0; flex-wrap: wrap; }
+.tech-item { background: var(--bg3); border-radius: 8px; padding: 8px 12px; min-width: 80px; }
+.tech-label { font-size: .65rem; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
+.tech-val { font-size: .95rem; font-weight: 600; margin-top: 2px; }
+.rsi-ob { color: var(--red); }
+.rsi-os { color: var(--green); }
+.warn { color: var(--amber); }
+
+/* ── MA pills ── */
+.ma-pills { display: flex; gap: 6px; flex-wrap: wrap; margin: 6px 0; }
+.ma-pill { font-size: .7rem; padding: 2px 8px; border-radius: 4px; font-weight: 500; }
+.ma-pill.pos { background: rgba(34,197,94,.1); color: var(--green); }
+.ma-pill.neg { background: rgba(239,68,68,.1); color: var(--red); }
+
+/* ── Fundamentals grid ── */
+.fund-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 4px; margin: 10px 0; }
+.fund-row { background: var(--bg3); border-radius: 6px; padding: 5px 8px; font-size: .72rem; display: flex; justify-content: space-between; align-items: center; }
+.fund-row span { color: var(--muted); }
+.fund-row strong { color: var(--text); }
+
+/* ── Options section ── */
+.opts-section { background: var(--bg3); border-radius: 8px; padding: 10px 12px; margin: 8px 0; }
+.opts-row { display: flex; gap: 16px; flex-wrap: wrap; font-size: .78rem; margin-top: 4px; }
+.opts-row strong { color: var(--accent2); }
+.csp-row { font-size: .75rem; color: var(--muted); margin-top: 4px; }
+
+/* ── Earnings badges ── */
+.earn-badge { font-size: .7rem; padding: 2px 8px; border-radius: 4px; font-weight: 600; }
+.earn-urgent { background: rgba(239,68,68,.2); color: #fca5a5; }
+.earn-soon   { background: rgba(245,158,11,.15); color: var(--amber); }
+
+/* ── News section ── */
+.news-section { background: var(--bg2); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; margin-bottom: 12px; }
+.section-label { font-size: .75rem; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; margin-bottom: 10px; }
+.article { padding: 7px 0; border-bottom: 1px solid var(--border); }
+.article:last-child { border-bottom: none; }
+.article a { font-size: .85rem; color: var(--text); font-weight: 500; }
+.article a:hover { color: var(--accent2); }
+.article-meta { display: flex; align-items: center; gap: 6px; margin-top: 3px; }
+.src-badge { font-size: .65rem; background: var(--bg3); color: var(--muted); padding: 1px 6px; border-radius: 3px; }
+
+/* ── LLM panel ── */
+.llm-panel { background: var(--bg2); border: 1px solid var(--border); border-radius: 10px; padding: 16px; margin-bottom: 14px; }
+.llm-entry { border-bottom: 1px solid var(--border); padding: 10px 0; }
+.llm-entry:last-child { border-bottom: none; }
+.llm-meta { font-size: .7rem; color: var(--muted); margin-bottom: 6px; }
+.llm-note { font-size: .82rem; color: var(--text); line-height: 1.6; }
+.conflict-list { margin-bottom: 6px; }
+.conflict-badge { font-size: .7rem; background: rgba(245,158,11,.15); color: var(--amber); padding: 2px 6px; border-radius: 4px; margin-right: 4px; }
+.hall-warn { font-size: .72rem; color: var(--red); background: rgba(239,68,68,.08); border-radius: 4px; padding: 4px 8px; margin-top: 4px; }
+
+/* ── Sentiment strip ── */
+.sentiment-strip { display: flex; border-radius: 8px; overflow: hidden; height: 24px; margin: 12px 0; }
+.sent-seg { display: flex; align-items: center; justify-content: center; font-size: .7rem; font-weight: 600; transition: width .4s; }
+.sent-g { background: rgba(34,197,94,.25); color: var(--green); }
+.sent-y { background: rgba(245,158,11,.25); color: var(--amber); }
+.sent-r { background: rgba(239,68,68,.18); color: var(--red); }
+
+/* ── Misc ── */
+.muted { color: var(--muted); font-size: .82rem; }
+.section-title { font-size: 1rem; font-weight: 600; margin: 20px 0 10px; }
+.updated-note { font-size: .72rem; color: var(--muted); margin-bottom: 14px; }
+.run-mode-tag { font-size: .68rem; background: var(--bg3); color: var(--muted); padding: 2px 8px; border-radius: 4px; }
+
+/* ── Mobile bottom nav ── */
+@media (max-width: 640px) {
+  #tabs { display: none; }
+  #bottom-nav { display: flex; }
+  .tab-pane { padding: 14px; }
+}
+#bottom-nav {
+  display: none; position: fixed; bottom: 0; left: 0; right: 0;
+  background: var(--bg2); border-top: 1px solid var(--border);
+  z-index: 200;
+}
+.bnav-btn {
+  flex: 1; padding: 10px 4px; font-size: .72rem; color: var(--muted);
+  border: none; background: none; cursor: pointer; text-align: center; font-weight: 500;
+}
+.bnav-btn.active { color: var(--accent); }
+</style>
+</head>
+<body>
+
+<div id="header">
+  <div class="header-title">📈 Stock Hub</div>
+  <div class="phase-badge"><div class="phase-dot"></div>Regular Hours</div>
+  <span class="run-mode-tag">FULL</span>
+  <div class="header-time" id="live-clock">2026-06-14 23:54 TW &nbsp;|&nbsp; 2026-06-14 15:54 UTC</div>
+  <button class="theme-btn" onclick="toggleTheme()">☀ / ☾</button>
+</div>
+
+<div id="tabs">
+  <button class="tab-btn active" onclick="showTab('screener',this)">📊 Screener</button>
+  <button class="tab-btn" onclick="showTab('monitor',this)">👁 Monitor</button>
+  <button class="tab-btn" onclick="showTab('news',this)">📰 News</button>
+  <button class="tab-btn" onclick="showTab('llm',this)">🤖 LLM Log</button>
+</div>
+
+<div id="screener" class="tab-pane active">
+        <div class="updated-note">Run: 2026-06-14 15:53 &nbsp;·&nbsp; 132 stocks scored &nbsp;·&nbsp; Top sector: <strong style="color:var(--accent)">Materials</strong></div>
+        <div class="sentiment-strip">
+          <div class="sent-seg sent-g" style="width:7.6%">8% Strong</div>
+          <div class="sent-seg sent-y" style="width:3.0%">3%</div>
+          <div class="sent-seg sent-r" style="width:89.4%">89%</div>
+        </div>
+        <div class="two-col">
+          <div>
+            <div class="section-title">Top Picks</div>
+            
+    <div class="card screener-card tl-strong">
+      <div class="card-header">
+        <div class="card-title-row">
+          <span class="ticker">AMAT</span>
+          <span class="tl-badge tl-strong">Strong</span>
+        </div>
+        <div class="card-price-row">
+          <span class="price">$567.25</span>
+          <span class="chg pos">+3.40%</span>
+          <span class="sector-tag">Technology</span>
+        </div>
+      </div>
+      <div class="score-bar-wrap">
+        <div class="score-bar-track">
+          <div class="score-bar-fill tl-strong" style="width:82%"></div>
+        </div>
+        <span class="score-label">14/17</span>
+      </div>
+      <div class="factor-pills"><span class="pill fr">Vol</span><span class="pill fg">Breakout</span><span class="pill fg">MA200</span><span class="pill fg">Inst</span><span class="pill fg">MFI</span><span class="pill fg">Sector</span><span class="pill fg">History</span><span class="pill fg">IV</span></div>
+      <div class="card-meta">
+        <span>Vol: <strong>1.1x</strong></span>
+        <span>MA200: <strong class="pos">$308.59</strong></span>
+        <span>Inst: <strong>85.1%</strong></span>
+        <span>MFI: <strong>81.4</strong></span>
+        <span>IV: <strong>80.8%</strong></span>
+        <span>Last breakout: <strong>2026-04-02</strong> (+13.9%)</span>
+      </div>
+    </div>
+    <div class="card screener-card tl-strong">
+      <div class="card-header">
+        <div class="card-title-row">
+          <span class="ticker">JPM</span>
+          <span class="tl-badge tl-strong">Strong</span>
+        </div>
+        <div class="card-price-row">
+          <span class="price">$320.72</span>
+          <span class="chg pos">+1.50%</span>
+          <span class="sector-tag">Financials</span>
+        </div>
+      </div>
+      <div class="score-bar-wrap">
+        <div class="score-bar-track">
+          <div class="score-bar-fill tl-strong" style="width:76%"></div>
+        </div>
+        <span class="score-label">13/17</span>
+      </div>
+      <div class="factor-pills"><span class="pill fr">Vol</span><span class="pill fr">Breakout</span><span class="pill fg">MA200</span><span class="pill fg">Inst</span><span class="pill fg">MFI</span><span class="pill fg">Sector</span><span class="pill fg">History</span><span class="pill fg">IV</span></div>
+      <div class="card-meta">
+        <span>Vol: <strong>0.8x</strong></span>
+        <span>MA200: <strong class="pos">$304.56</strong></span>
+        <span>Inst: <strong>75.6%</strong></span>
+        <span>MFI: <strong>62.5</strong></span>
+        <span>IV: <strong>29.0%</strong></span>
+        <span>Last breakout: <strong>2025-12-10</strong> (+6.1%)</span>
+      </div>
+    </div>
+    <div class="card screener-card tl-strong">
+      <div class="card-header">
+        <div class="card-title-row">
+          <span class="ticker">INTC</span>
+          <span class="tl-badge tl-strong">Strong</span>
+        </div>
+        <div class="card-price-row">
+          <span class="price">$124.57</span>
+          <span class="chg pos">+6.09%</span>
+          <span class="sector-tag">Technology</span>
+        </div>
+      </div>
+      <div class="score-bar-wrap">
+        <div class="score-bar-track">
+          <div class="score-bar-fill tl-strong" style="width:76%"></div>
+        </div>
+        <span class="score-label">13/17</span>
+      </div>
+      <div class="factor-pills"><span class="pill fy">Vol</span><span class="pill fg">Breakout</span><span class="pill fg">MA200</span><span class="pill fg">Inst</span><span class="pill fr">MFI</span><span class="pill fg">Sector</span><span class="pill fg">History</span><span class="pill fg">IV</span></div>
+      <div class="card-meta">
+        <span>Vol: <strong>1.4x</strong></span>
+        <span>MA200: <strong class="pos">$53.5</strong></span>
+        <span>Inst: <strong>64.0%</strong></span>
+        <span>MFI: <strong>46.2</strong></span>
+        <span>IV: <strong>102.0%</strong></span>
+        <span>Last breakout: <strong>2026-05-01</strong> (+9.2%)</span>
+      </div>
+    </div>
+    <div class="card screener-card tl-strong">
+      <div class="card-header">
+        <div class="card-title-row">
+          <span class="ticker">QCOM</span>
+          <span class="tl-badge tl-strong">Strong</span>
+        </div>
+        <div class="card-price-row">
+          <span class="price">$211.72</span>
+          <span class="chg pos">+4.89%</span>
+          <span class="sector-tag">Technology</span>
+        </div>
+      </div>
+      <div class="score-bar-wrap">
+        <div class="score-bar-track">
+          <div class="score-bar-fill tl-strong" style="width:76%"></div>
+        </div>
+        <span class="score-label">13/17</span>
+      </div>
+      <div class="factor-pills"><span class="pill fr">Vol</span><span class="pill fg">Breakout</span><span class="pill fg">MA200</span><span class="pill fg">Inst</span><span class="pill fy">MFI</span><span class="pill fg">Sector</span><span class="pill fg">History</span><span class="pill fg">IV</span></div>
+      <div class="card-meta">
+        <span>Vol: <strong>1.2x</strong></span>
+        <span>MA200: <strong class="pos">$164.07</strong></span>
+        <span>Inst: <strong>84.8%</strong></span>
+        <span>MFI: <strong>51.8</strong></span>
+        <span>IV: <strong>84.7%</strong></span>
+        <span>Last breakout: <strong>2026-05-07</strong> (+5.4%)</span>
+      </div>
+    </div>
+    <div class="card screener-card tl-strong">
+      <div class="card-header">
+        <div class="card-title-row">
+          <span class="ticker">C</span>
+          <span class="tl-badge tl-strong">Strong</span>
+        </div>
+        <div class="card-price-row">
+          <span class="price">$139.83</span>
+          <span class="chg pos">+0.06%</span>
+          <span class="sector-tag">Financials</span>
+        </div>
+      </div>
+      <div class="score-bar-wrap">
+        <div class="score-bar-track">
+          <div class="score-bar-fill tl-strong" style="width:76%"></div>
+        </div>
+        <span class="score-label">13/17</span>
+      </div>
+      <div class="factor-pills"><span class="pill fr">Vol</span><span class="pill fr">Breakout</span><span class="pill fg">MA200</span><span class="pill fg">Inst</span><span class="pill fg">MFI</span><span class="pill fg">Sector</span><span class="pill fg">History</span><span class="pill fg">IV</span></div>
+      <div class="card-meta">
+        <span>Vol: <strong>0.8x</strong></span>
+        <span>MA200: <strong class="pos">$111.51</strong></span>
+        <span>Inst: <strong>81.6%</strong></span>
+        <span>MFI: <strong>76.2</strong></span>
+        <span>IV: <strong>34.8%</strong></span>
+        <span>Last breakout: <strong>2026-05-20</strong> (+8.3%)</span>
+      </div>
+    </div>
+          </div>
+          <div>
+            <div class="section-title">Sector Performance</div>
+            <div class="card"><div class="sector-bars">
+        <div class="sector-row">
+          <span class="sector-name">Materials</span>
+          <div class="bar-track">
+            <div class="bar-fill pos" style="width:100.0%"></div>
+          </div>
+          <span class="sector-chg pos">+1.87%</span>
+        </div>
+        <div class="sector-row">
+          <span class="sector-name">Financials</span>
+          <div class="bar-track">
+            <div class="bar-fill pos" style="width:73.3%"></div>
+          </div>
+          <span class="sector-chg pos">+1.37%</span>
+        </div>
+        <div class="sector-row">
+          <span class="sector-name">Utilities</span>
+          <div class="bar-track">
+            <div class="bar-fill pos" style="width:58.3%"></div>
+          </div>
+          <span class="sector-chg pos">+1.09%</span>
+        </div>
+        <div class="sector-row">
+          <span class="sector-name">Real Estate</span>
+          <div class="bar-track">
+            <div class="bar-fill pos" style="width:52.4%"></div>
+          </div>
+          <span class="sector-chg pos">+0.98%</span>
+        </div>
+        <div class="sector-row">
+          <span class="sector-name">Technology</span>
+          <div class="bar-track">
+            <div class="bar-fill pos" style="width:46.5%"></div>
+          </div>
+          <span class="sector-chg pos">+0.87%</span>
+        </div>
+        <div class="sector-row">
+          <span class="sector-name">Energy</span>
+          <div class="bar-track">
+            <div class="bar-fill pos" style="width:40.1%"></div>
+          </div>
+          <span class="sector-chg pos">+0.75%</span>
+        </div>
+        <div class="sector-row">
+          <span class="sector-name">Consumer Stpl</span>
+          <div class="bar-track">
+            <div class="bar-fill pos" style="width:34.8%"></div>
+          </div>
+          <span class="sector-chg pos">+0.65%</span>
+        </div>
+        <div class="sector-row">
+          <span class="sector-name">Industrials</span>
+          <div class="bar-track">
+            <div class="bar-fill pos" style="width:31.6%"></div>
+          </div>
+          <span class="sector-chg pos">+0.59%</span>
+        </div>
+        <div class="sector-row">
+          <span class="sector-name">Consumer Disc</span>
+          <div class="bar-track">
+            <div class="bar-fill pos" style="width:13.9%"></div>
+          </div>
+          <span class="sector-chg pos">+0.26%</span>
+        </div>
+        <div class="sector-row">
+          <span class="sector-name">Healthcare</span>
+          <div class="bar-track">
+            <div class="bar-fill neg" style="width:9.6%"></div>
+          </div>
+          <span class="sector-chg neg">-0.18%</span>
+        </div>
+        <div class="sector-row">
+          <span class="sector-name">Comm. Services</span>
+          <div class="bar-track">
+            <div class="bar-fill neg" style="width:22.5%"></div>
+          </div>
+          <span class="sector-chg neg">-0.42%</span>
+        </div></div></div>
+            <div class="section-title">LLM Supervision</div>
+            <div class="llm-panel">
+              <div class="llm-note">⚠️ LLM supervision disabled — add ANTHROPIC_API_KEY as GitHub Secret to enable.</div>
+            </div>
+          </div>
+        </div></div>
+<div id="monitor"  class="tab-pane"><div class="updated-note">Updated: 2026-06-14 23:54 TW</div><div class="two-col"><div>
+    <div class="card monitor-card">
+      <div class="card-header">
+        <div class="card-title-row">
+          <span class="ticker">GOOG</span>
+          
+        </div>
+        <div class="card-name">Alphabet Inc.</div>
+        <div class="card-price-row">
+          <span class="price">$358.16</span>
+          <span class="chg pos">+0.45%</span>
+          <span class="sector-tag">Communication Services</span>
+        </div>
+        <div class="range-row">
+          52w: <span class="neg">$163.33</span> – <span class="pos">$404.47</span>
+           <span class="muted">(-11.4% from high)</span>
+        </div>
+      </div>
+      <div class="signals-wrap"><div class="signal sig-pos">✅ Above 200-day MA ($307.13)</div></div>
+      <div class="tech-row">
+        <div class="tech-item">
+          <div class="tech-label">RSI (14)</div>
+          <div class="tech-val ">36.0</div>
+        </div>
+        <div class="tech-item">
+          <div class="tech-label">MACD</div>
+          <div class="tech-val">Neutral</div>
+        </div>
+        <div class="tech-item">
+          <div class="tech-label">Volume</div>
+          <div class="tech-val ">0.75x</div>
+        </div>
+      </div>
+      <div class="ma-pills"><span class="ma-pill neg">SMA20 -4.0%</span><span class="ma-pill neg">SMA50 -0.3%</span><span class="ma-pill pos">SMA200 +16.6%</span></div>
+      <div class="fund-grid"><div class="fund-row"><span>PE</span><strong>27.32</strong></div><div class="fund-row"><span>Fwd PE</span><strong>24.73</strong></div><div class="fund-row"><span>PEG</span><strong>1.41</strong></div><div class="fund-row"><span>P/B</span><strong>9.06</strong></div><div class="fund-row"><span>ROE</span><strong>38.9%</strong></div><div class="fund-row"><span>Margin</span><strong>37.9%</strong></div><div class="fund-row"><span>Rev Growth</span><strong>21.8%</strong></div><div class="fund-row"><span>D/E</span><strong>20.03</strong></div><div class="fund-row"><span>Beta</span><strong>1.24</strong></div><div class="fund-row"><span>Inst Own</span><strong>61.1%</strong></div><div class="fund-row"><span>Mkt Cap</span><strong>4.37T</strong></div></div>
+      
+        <div class="opts-section">
+          <div class="section-label">Options (exp 2026-06-18)</div>
+          <div class="opts-row">
+            <span>IV: <strong>36.9%</strong></span>
+            <span>Delta: <strong>None</strong></span>
+            <span>Theta: <strong>None</strong></span>
+          </div><div class="csp-row">CSP: $357.5 @ $5.56 IV 35.8%</div></div>
+    </div>
+    <div class="card monitor-card">
+      <div class="card-header">
+        <div class="card-title-row">
+          <span class="ticker">SOFI</span>
+          
+        </div>
+        <div class="card-name">SoFi Technologies, Inc.</div>
+        <div class="card-price-row">
+          <span class="price">$16.58</span>
+          <span class="chg neg">-0.54%</span>
+          <span class="sector-tag">Financial Services</span>
+        </div>
+        <div class="range-row">
+          52w: <span class="neg">$14.23</span> – <span class="pos">$32.73</span>
+           <span class="muted">(-49.3% from high)</span>
+        </div>
+      </div>
+      <div class="signals-wrap"><div class="signal sig-neg">⛔ Below 200-day MA ($22.85)</div></div>
+      <div class="tech-row">
+        <div class="tech-item">
+          <div class="tech-label">RSI (14)</div>
+          <div class="tech-val ">56.0</div>
+        </div>
+        <div class="tech-item">
+          <div class="tech-label">MACD</div>
+          <div class="tech-val">Neutral</div>
+        </div>
+        <div class="tech-item">
+          <div class="tech-label">Volume</div>
+          <div class="tech-val ">0.69x</div>
+        </div>
+      </div>
+      <div class="ma-pills"><span class="ma-pill pos">SMA20 +0.8%</span><span class="ma-pill neg">SMA50 -1.5%</span><span class="ma-pill neg">SMA200 -27.4%</span></div>
+      <div class="fund-grid"><div class="fund-row"><span>PE</span><strong>36.84</strong></div><div class="fund-row"><span>Fwd PE</span><strong>21.25</strong></div><div class="fund-row"><span>PEG</span><strong>1.07</strong></div><div class="fund-row"><span>P/B</span><strong>1.97</strong></div><div class="fund-row"><span>ROE</span><strong>6.6%</strong></div><div class="fund-row"><span>Margin</span><strong>14.8%</strong></div><div class="fund-row"><span>Rev Growth</span><strong>42.5%</strong></div><div class="fund-row"><span>D/E</span><strong>17.72</strong></div><div class="fund-row"><span>Beta</span><strong>2.15</strong></div><div class="fund-row"><span>Inst Own</span><strong>56.7%</strong></div><div class="fund-row"><span>Short %</span><strong>14.7%</strong></div><div class="fund-row"><span>Mkt Cap</span><strong>21.27B</strong></div></div>
+      
+        <div class="opts-section">
+          <div class="section-label">Options (exp 2026-06-18)</div>
+          <div class="opts-row">
+            <span>IV: <strong>63.3%</strong></span>
+            <span>Delta: <strong>None</strong></span>
+            <span>Theta: <strong>None</strong></span>
+          </div><div class="csp-row">CSP: $16.5 @ $0.43 IV 60.2%</div></div>
+    </div>
+    <div class="card monitor-card">
+      <div class="card-header">
+        <div class="card-title-row">
+          <span class="ticker">SCO</span>
+          
+        </div>
+        <div class="card-name">ProShares UltraShort Bloomberg Crude Oil</div>
+        <div class="card-price-row">
+          <span class="price">$28.03</span>
+          <span class="chg pos">+5.46%</span>
+          <span class="sector-tag">—</span>
+        </div>
+        <div class="range-row">
+          52w: <span class="neg">$22.84</span> – <span class="pos">$84.16</span>
+           <span class="muted">(-66.7% from high)</span>
+        </div>
+      </div>
+      <div class="signals-wrap"><div class="signal sig-pos">📈 MACD bullish crossover</div><div class="signal sig-neg">⛔ Below 200-day MA ($56.49)</div></div>
+      <div class="tech-row">
+        <div class="tech-item">
+          <div class="tech-label">RSI (14)</div>
+          <div class="tech-val ">60.0</div>
+        </div>
+        <div class="tech-item">
+          <div class="tech-label">MACD</div>
+          <div class="tech-val">Bullish</div>
+        </div>
+        <div class="tech-item">
+          <div class="tech-label">Volume</div>
+          <div class="tech-val ">0.85x</div>
+        </div>
+      </div>
+      <div class="ma-pills"><span class="ma-pill pos">SMA20 +8.9%</span><span class="ma-pill pos">SMA50 +1.0%</span><span class="ma-pill neg">SMA200 -50.4%</span></div>
+      <div class="fund-grid"><div class="fund-row"><span>Mkt Cap</span><strong>—</strong></div></div>
+      
+        <div class="opts-section">
+          <div class="section-label">Options (exp 2026-06-18)</div>
+          <div class="opts-row">
+            <span>IV: <strong>79.1%</strong></span>
+            <span>Delta: <strong>None</strong></span>
+            <span>Theta: <strong>None</strong></span>
+          </div><div class="csp-row">CSP: $28.0 @ $1.0 IV 69.9%</div></div>
+    </div>
+    <div class="card monitor-card">
+      <div class="card-header">
+        <div class="card-title-row">
+          <span class="ticker">PLTR</span>
+          
+        </div>
+        <div class="card-name">Palantir Technologies Inc.</div>
+        <div class="card-price-row">
+          <span class="price">$127.99</span>
+          <span class="chg neg">-2.36%</span>
+          <span class="sector-tag">Technology</span>
+        </div>
+        <div class="range-row">
+          52w: <span class="neg">$122.68</span> – <span class="pos">$207.52</span>
+           <span class="muted">(-38.3% from high)</span>
+        </div>
+      </div>
+      <div class="signals-wrap"><div class="signal sig-neg">📉 MACD bearish crossover</div><div class="signal sig-neg">⛔ Below 200-day MA ($160.42)</div></div>
+      <div class="tech-row">
+        <div class="tech-item">
+          <div class="tech-label">RSI (14)</div>
+          <div class="tech-val ">44.0</div>
+        </div>
+        <div class="tech-item">
+          <div class="tech-label">MACD</div>
+          <div class="tech-val">Bearish</div>
+        </div>
+        <div class="tech-item">
+          <div class="tech-label">Volume</div>
+          <div class="tech-val ">0.92x</div>
+        </div>
+      </div>
+      <div class="ma-pills"><span class="ma-pill neg">SMA20 -7.8%</span><span class="ma-pill neg">SMA50 -8.3%</span><span class="ma-pill neg">SMA200 -20.2%</span></div>
+      <div class="fund-grid"><div class="fund-row"><span>PE</span><strong>142.21</strong></div><div class="fund-row"><span>Fwd PE</span><strong>61.7</strong></div><div class="fund-row"><span>PEG</span><strong>1.84</strong></div><div class="fund-row"><span>P/B</span><strong>36.31</strong></div><div class="fund-row"><span>ROE</span><strong>32.6%</strong></div><div class="fund-row"><span>Margin</span><strong>43.7%</strong></div><div class="fund-row"><span>Rev Growth</span><strong>84.7%</strong></div><div class="fund-row"><span>D/E</span><strong>2.48</strong></div><div class="fund-row"><span>Beta</span><strong>1.51</strong></div><div class="fund-row"><span>Inst Own</span><strong>62.4%</strong></div><div class="fund-row"><span>Short %</span><strong>3.2%</strong></div><div class="fund-row"><span>Mkt Cap</span><strong>306.83B</strong></div></div>
+      
+        <div class="opts-section">
+          <div class="section-label">Options (exp 2026-06-18)</div>
+          <div class="opts-row">
+            <span>IV: <strong>54.1%</strong></span>
+            <span>Delta: <strong>None</strong></span>
+            <span>Theta: <strong>None</strong></span>
+          </div><div class="csp-row">CSP: $127.0 @ $2.66 IV 52.8%</div></div>
+    </div>
+    <div class="card monitor-card">
+      <div class="card-header">
+        <div class="card-title-row">
+          <span class="ticker">LULU</span>
+          
+        </div>
+        <div class="card-name">lululemon athletica inc.</div>
+        <div class="card-price-row">
+          <span class="price">$118.77</span>
+          <span class="chg neg">-2.52%</span>
+          <span class="sector-tag">Consumer Cyclical</span>
+        </div>
+        <div class="range-row">
+          52w: <span class="neg">$109.36</span> – <span class="pos">$252.24</span>
+           <span class="muted">(-52.9% from high)</span>
+        </div>
+      </div>
+      <div class="signals-wrap"><div class="signal sig-neg">⛔ Below 200-day MA ($169.18)</div></div>
+      <div class="tech-row">
+        <div class="tech-item">
+          <div class="tech-label">RSI (14)</div>
+          <div class="tech-val ">39.0</div>
+        </div>
+        <div class="tech-item">
+          <div class="tech-label">MACD</div>
+          <div class="tech-val">Neutral</div>
+        </div>
+        <div class="tech-item">
+          <div class="tech-label">Volume</div>
+          <div class="tech-val ">0.65x</div>
+        </div>
+      </div>
+      <div class="ma-pills"><span class="ma-pill neg">SMA20 -4.3%</span><span class="ma-pill neg">SMA50 -13.7%</span><span class="ma-pill neg">SMA200 -29.8%</span></div>
+      <div class="fund-grid"><div class="fund-row"><span>PE</span><strong>9.62</strong></div><div class="fund-row"><span>Fwd PE</span><strong>10.28</strong></div><div class="fund-row"><span>PEG</span><strong>0.58</strong></div><div class="fund-row"><span>P/B</span><strong>2.79</strong></div><div class="fund-row"><span>ROE</span><strong>32.0%</strong></div><div class="fund-row"><span>Margin</span><strong>13.0%</strong></div><div class="fund-row"><span>Rev Growth</span><strong>4.3%</strong></div><div class="fund-row"><span>D/E</span><strong>44.26</strong></div><div class="fund-row"><span>Beta</span><strong>0.86</strong></div><div class="fund-row"><span>Inst Own</span><strong>82.6%</strong></div><div class="fund-row"><span>Short %</span><strong>6.7%</strong></div><div class="fund-row"><span>Mkt Cap</span><strong>13.49B</strong></div></div>
+      
+        <div class="opts-section">
+          <div class="section-label">Options (exp 2026-06-18)</div>
+          <div class="opts-row">
+            <span>IV: <strong>50.7%</strong></span>
+            <span>Delta: <strong>None</strong></span>
+            <span>Theta: <strong>None</strong></span>
+          </div><div class="csp-row">CSP: $118.0 @ $2.15 IV 47.2%</div></div>
+    </div></div><div>
+    <div class="card monitor-card">
+      <div class="card-header">
+        <div class="card-title-row">
+          <span class="ticker">NOW</span>
+          
+        </div>
+        <div class="card-name">ServiceNow, Inc.</div>
+        <div class="card-price-row">
+          <span class="price">$102.15</span>
+          <span class="chg neg">-0.90%</span>
+          <span class="sector-tag">Technology</span>
+        </div>
+        <div class="range-row">
+          52w: <span class="neg">$81.24</span> – <span class="pos">$211.48</span>
+           <span class="muted">(-51.7% from high)</span>
+        </div>
+      </div>
+      <div class="signals-wrap"><div class="signal sig-neg">📉 MACD bearish crossover</div><div class="signal sig-neg">⛔ Below 200-day MA ($138.44)</div></div>
+      <div class="tech-row">
+        <div class="tech-item">
+          <div class="tech-label">RSI (14)</div>
+          <div class="tech-val ">50.0</div>
+        </div>
+        <div class="tech-item">
+          <div class="tech-label">MACD</div>
+          <div class="tech-val">Bearish</div>
+        </div>
+        <div class="tech-item">
+          <div class="tech-label">Volume</div>
+          <div class="tech-val ">0.73x</div>
+        </div>
+      </div>
+      <div class="ma-pills"><span class="ma-pill neg">SMA20 -6.6%</span><span class="ma-pill pos">SMA50 +2.8%</span><span class="ma-pill neg">SMA200 -26.2%</span></div>
+      <div class="fund-grid"><div class="fund-row"><span>PE</span><strong>60.8</strong></div><div class="fund-row"><span>Fwd PE</span><strong>20.32</strong></div><div class="fund-row"><span>PEG</span><strong>0.99</strong></div><div class="fund-row"><span>P/B</span><strong>8.98</strong></div><div class="fund-row"><span>ROE</span><strong>16.1%</strong></div><div class="fund-row"><span>Margin</span><strong>12.6%</strong></div><div class="fund-row"><span>Rev Growth</span><strong>22.1%</strong></div><div class="fund-row"><span>D/E</span><strong>20.73</strong></div><div class="fund-row"><span>Beta</span><strong>0.93</strong></div><div class="fund-row"><span>Inst Own</span><strong>88.6%</strong></div><div class="fund-row"><span>Short %</span><strong>5.9%</strong></div><div class="fund-row"><span>Mkt Cap</span><strong>105.35B</strong></div></div>
+      
+        <div class="opts-section">
+          <div class="section-label">Options (exp 2026-06-18)</div>
+          <div class="opts-row">
+            <span>IV: <strong>69.8%</strong></span>
+            <span>Delta: <strong>None</strong></span>
+            <span>Theta: <strong>None</strong></span>
+          </div><div class="csp-row">CSP: $102.0 @ $3.01 IV 65.0%</div></div>
+    </div>
+    <div class="card monitor-card">
+      <div class="card-header">
+        <div class="card-title-row">
+          <span class="ticker">QCOM</span>
+          
+        </div>
+        <div class="card-name">QUALCOMM Incorporated</div>
+        <div class="card-price-row">
+          <span class="price">$211.72</span>
+          <span class="chg pos">+4.32%</span>
+          <span class="sector-tag">Technology</span>
+        </div>
+        <div class="range-row">
+          52w: <span class="neg">$121.99</span> – <span class="pos">$259.92</span>
+           <span class="muted">(-18.5% from high)</span>
+        </div>
+      </div>
+      <div class="signals-wrap"><div class="signal sig-pos">✅ Above 200-day MA ($164.07)</div></div>
+      <div class="tech-row">
+        <div class="tech-item">
+          <div class="tech-label">RSI (14)</div>
+          <div class="tech-val ">42.0</div>
+        </div>
+        <div class="tech-item">
+          <div class="tech-label">MACD</div>
+          <div class="tech-val">Neutral</div>
+        </div>
+        <div class="tech-item">
+          <div class="tech-label">Volume</div>
+          <div class="tech-val ">0.63x</div>
+        </div>
+      </div>
+      <div class="ma-pills"><span class="ma-pill neg">SMA20 -4.4%</span><span class="ma-pill pos">SMA50 +15.4%</span><span class="ma-pill pos">SMA200 +29.0%</span></div>
+      <div class="fund-grid"><div class="fund-row"><span>PE</span><strong>22.79</strong></div><div class="fund-row"><span>Fwd PE</span><strong>19.85</strong></div><div class="fund-row"><span>PEG</span><strong>0.9</strong></div><div class="fund-row"><span>P/B</span><strong>8.22</strong></div><div class="fund-row"><span>ROE</span><strong>36.1%</strong></div><div class="fund-row"><span>Margin</span><strong>22.3%</strong></div><div class="fund-row"><span>Rev Growth</span><strong>-3.5%</strong></div><div class="fund-row"><span>D/E</span><strong>55.98</strong></div><div class="fund-row"><span>Beta</span><strong>1.6</strong></div><div class="fund-row"><span>Inst Own</span><strong>84.8%</strong></div><div class="fund-row"><span>Short %</span><strong>4.8%</strong></div><div class="fund-row"><span>Mkt Cap</span><strong>223.15B</strong></div></div>
+      
+        <div class="opts-section">
+          <div class="section-label">Options (exp 2026-06-18)</div>
+          <div class="opts-row">
+            <span>IV: <strong>84.7%</strong></span>
+            <span>Delta: <strong>None</strong></span>
+            <span>Theta: <strong>None</strong></span>
+          </div><div class="csp-row">CSP: $210.0 @ $7.4 IV 83.6%</div></div>
+    </div>
+    <div class="card monitor-card">
+      <div class="card-header">
+        <div class="card-title-row">
+          <span class="ticker">NFLX</span>
+          
+        </div>
+        <div class="card-name">Netflix, Inc.</div>
+        <div class="card-price-row">
+          <span class="price">$80.34</span>
+          <span class="chg neg">-1.14%</span>
+          <span class="sector-tag">Communication Services</span>
+        </div>
+        <div class="range-row">
+          52w: <span class="neg">$75.01</span> – <span class="pos">$134.12</span>
+           <span class="muted">(-40.1% from high)</span>
+        </div>
+      </div>
+      <div class="signals-wrap"><div class="signal sig-opp">🟢 Oversold — RSI 15</div><div class="signal sig-neg">📉 MACD bearish crossover</div><div class="signal sig-neg">⛔ Below 200-day MA ($99.21)</div></div>
+      <div class="tech-row">
+        <div class="tech-item">
+          <div class="tech-label">RSI (14)</div>
+          <div class="tech-val rsi-os">15.0</div>
+        </div>
+        <div class="tech-item">
+          <div class="tech-label">MACD</div>
+          <div class="tech-val">Bearish</div>
+        </div>
+        <div class="tech-item">
+          <div class="tech-label">Volume</div>
+          <div class="tech-val ">1.05x</div>
+        </div>
+      </div>
+      <div class="ma-pills"><span class="ma-pill neg">SMA20 -5.6%</span><span class="ma-pill neg">SMA50 -11.6%</span><span class="ma-pill neg">SMA200 -19.0%</span></div>
+      <div class="fund-grid"><div class="fund-row"><span>PE</span><strong>25.92</strong></div><div class="fund-row"><span>Fwd PE</span><strong>20.91</strong></div><div class="fund-row"><span>PEG</span><strong>1.58</strong></div><div class="fund-row"><span>P/B</span><strong>10.87</strong></div><div class="fund-row"><span>ROE</span><strong>48.5%</strong></div><div class="fund-row"><span>Margin</span><strong>28.5%</strong></div><div class="fund-row"><span>Rev Growth</span><strong>16.2%</strong></div><div class="fund-row"><span>D/E</span><strong>53.79</strong></div><div class="fund-row"><span>Beta</span><strong>1.49</strong></div><div class="fund-row"><span>Inst Own</span><strong>85.1%</strong></div><div class="fund-row"><span>Short %</span><strong>2.4%</strong></div><div class="fund-row"><span>Mkt Cap</span><strong>338.3B</strong></div></div>
+      
+        <div class="opts-section">
+          <div class="section-label">Options (exp 2026-06-18)</div>
+          <div class="opts-row">
+            <span>IV: <strong>34.8%</strong></span>
+            <span>Delta: <strong>None</strong></span>
+            <span>Theta: <strong>None</strong></span>
+          </div><div class="csp-row">CSP: $80.0 @ $1.05 IV 32.1%</div></div>
+    </div>
+    <div class="card monitor-card">
+      <div class="card-header">
+        <div class="card-title-row">
+          <span class="ticker">MCD</span>
+          
+        </div>
+        <div class="card-name">McDonald's Corporation</div>
+        <div class="card-price-row">
+          <span class="price">$284.81</span>
+          <span class="chg pos">+0.01%</span>
+          <span class="sector-tag">Consumer Cyclical</span>
+        </div>
+        <div class="range-row">
+          52w: <span class="neg">$271.85</span> – <span class="pos">$341.75</span>
+           <span class="muted">(-16.7% from high)</span>
+        </div>
+      </div>
+      <div class="signals-wrap"><div class="signal sig-pos">📈 MACD bullish crossover</div><div class="signal sig-neg">⛔ Below 200-day MA ($302.18)</div></div>
+      <div class="tech-row">
+        <div class="tech-item">
+          <div class="tech-label">RSI (14)</div>
+          <div class="tech-val ">57.0</div>
+        </div>
+        <div class="tech-item">
+          <div class="tech-label">MACD</div>
+          <div class="tech-val">Bullish</div>
+        </div>
+        <div class="tech-item">
+          <div class="tech-label">Volume</div>
+          <div class="tech-val ">0.94x</div>
+        </div>
+      </div>
+      <div class="ma-pills"><span class="ma-pill pos">SMA20 +2.2%</span><span class="ma-pill neg">SMA50 -0.9%</span><span class="ma-pill neg">SMA200 -5.7%</span></div>
+      <div class="fund-grid"><div class="fund-row"><span>PE</span><strong>23.48</strong></div><div class="fund-row"><span>Fwd PE</span><strong>20.03</strong></div><div class="fund-row"><span>PEG</span><strong>2.61</strong></div><div class="fund-row"><span>P/B</span><strong>-157.35</strong></div><div class="fund-row"><span>Margin</span><strong>31.6%</strong></div><div class="fund-row"><span>Rev Growth</span><strong>9.4%</strong></div><div class="fund-row"><span>Beta</span><strong>0.41</strong></div><div class="fund-row"><span>Inst Own</span><strong>77.2%</strong></div><div class="fund-row"><span>Short %</span><strong>1.5%</strong></div><div class="fund-row"><span>Mkt Cap</span><strong>202.36B</strong></div></div>
+      
+        <div class="opts-section">
+          <div class="section-label">Options (exp 2026-06-18)</div>
+          <div class="opts-row">
+            <span>IV: <strong>24.4%</strong></span>
+            <span>Delta: <strong>None</strong></span>
+            <span>Theta: <strong>None</strong></span>
+          </div><div class="csp-row">CSP: $282.5 @ $1.79 IV 22.9%</div></div>
+    </div>
+    <div class="card monitor-card">
+      <div class="card-header">
+        <div class="card-title-row">
+          <span class="ticker">2884.TW</span>
+          
+        </div>
+        <div class="card-name">E.SUN Financial Holding Company, Ltd.</div>
+        <div class="card-price-row">
+          <span class="price">TWD 34.35</span>
+          <span class="chg pos">+1.48%</span>
+          <span class="sector-tag">Financial Services</span>
+        </div>
+        <div class="range-row">
+          52w: <span class="neg">$29.4</span> – <span class="pos">$35.5</span>
+           <span class="muted">(-3.2% from high)</span>
+        </div>
+      </div>
+      <div class="signals-wrap"><div class="signal sig-warn">🔴 Overbought — RSI 76</div><div class="signal sig-pos">📈 MACD bullish crossover</div><div class="signal sig-pos">✅ Above 200-day MA ($32.57)</div></div>
+      <div class="tech-row">
+        <div class="tech-item">
+          <div class="tech-label">RSI (14)</div>
+          <div class="tech-val rsi-ob">76.0</div>
+        </div>
+        <div class="tech-item">
+          <div class="tech-label">MACD</div>
+          <div class="tech-val">Bullish</div>
+        </div>
+        <div class="tech-item">
+          <div class="tech-label">Volume</div>
+          <div class="tech-val ">0.87x</div>
+        </div>
+      </div>
+      <div class="ma-pills"><span class="ma-pill pos">SMA20 +6.4%</span><span class="ma-pill pos">SMA50 +6.3%</span><span class="ma-pill pos">SMA200 +5.5%</span></div>
+      <div class="fund-grid"><div class="fund-row"><span>PE</span><strong>16.2</strong></div><div class="fund-row"><span>Fwd PE</span><strong>13.54</strong></div><div class="fund-row"><span>PEG</span><strong>2.48</strong></div><div class="fund-row"><span>P/B</span><strong>1.95</strong></div><div class="fund-row"><span>ROE</span><strong>13.0%</strong></div><div class="fund-row"><span>Margin</span><strong>40.2%</strong></div><div class="fund-row"><span>Rev Growth</span><strong>14.6%</strong></div><div class="fund-row"><span>Beta</span><strong>0.35</strong></div><div class="fund-row"><span>Inst Own</span><strong>31.3%</strong></div><div class="fund-row"><span>Mkt Cap</span><strong>555.58B</strong></div></div>
+      
+    </div></div></div></div>
+<div id="news"     class="tab-pane"><div class="updated-note">Updated: 2026-06-14 23:54 TW</div><div class="news-section"><div class="section-label">🌍 General Market</div><div class="article">
+          <a href="https://news.google.com/rss/articles/CBMid0FVX3lxTE5QZnQ4UTR5MV9DTmdtZkxkWFJqdmdxR0xaZGZ4THB2U1UyN2hOaWQ5RFZaUzl2bkxqU05LQmowd1UwTUVOUDFaMV92VTV6ZUdoSDA4RlNzNW5aUHNsWWNoU054dHRuaWtEZ1lJM29URk9oTHZvTlBr0gF8QVVfeXFMTTRkVTZ0MFNFX1dGeWIwbEpWNmN4dkoyNnhyZVlxQjF5N252YURGUnpBbTVWSXhoVUlDMkhUdEhZbnJ3MzBCOFBPNWhjS251ZWctVnlYUEtINmlPLUlGd1FMbE9UckNqcXdKM0ZqQ3BvR20xaU5PODY2TXlNMg?oc=5" target="_blank" rel="noopener">Stocks end higher as SpaceX soars in debut, U.S.-Iran deal nears - CNBC</a>
+          <div class="article-meta"><span class="src-badge">Google News</span> <span class="muted">Fri, 12 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://news.google.com/rss/articles/CBMi3AFBVV95cUxOd3l3TzhHNXd3QUYxU2JCZ29kT216ejQxVTBQandnQ1ZXcWR0MzI1eF93UHdLWmJtdFJFYlpBbHFmbDlReWhiQ2x1RVV4dzV5ZlBJc3l5dTVmWWVKcjRZSjNkQjJabW8yb1FaRGw3dGJVaDhtcjJyZUkwRE1ENC04bDFNSTQxamdBdjJWeXF5Rk5vNldCYWt3QWRvSGpIWDNWZGRHaHhGWUtBNnN1d3pzMENtRHE5YXJvcWZVSHJSbzhyU1BFaUpJNVFaUFkteW5MUmZGWEVTOWxGVC1N?oc=5" target="_blank" rel="noopener">This market is at 'a 10': Wall Street weighs record SpaceX IPO amid AI-driven stock market - Yahoo Finance</a>
+          <div class="article-meta"><span class="src-badge">Google News</span> <span class="muted">Sun, 14 Jun 2026</span></div>
+        </div></div><div class="news-section"><div class="section-label">📰 QCOM</div><div class="article">
+          <a href="https://finance.yahoo.com/sectors/technology/articles/jack-ma-backed-ant-group-080000852.html?.tsrc=rss" target="_blank" rel="noopener">Jack Ma-Backed Ant Group Set for High-Stakes Overhaul of Billion-User App</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Sun, 14 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://finance.yahoo.com/markets/stocks/articles/wells-fargo-sees-greater-upside-042658666.html?.tsrc=rss" target="_blank" rel="noopener">Wells Fargo Sees Greater Upside in Qualcomm (QCOM) Ahead of Investor Day</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Sun, 14 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://finance.yahoo.com/markets/stocks/articles/taiwan-semiconductor-tsm-famous-billionaire-154237082.html?.tsrc=rss" target="_blank" rel="noopener">Taiwan Semiconductor (TSM) is This Famous Billionaire’s Biggest AI Stock Holding</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Sat, 13 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://finance.yahoo.com/markets/stocks/articles/why-qualcomm-qcom-stock-trading-220520438.html?.tsrc=rss" target="_blank" rel="noopener">Why Qualcomm (QCOM) Stock Is Trading Up Today</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Fri, 12 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://www.barchart.com/story/news/2447851/stocks-rally-on-hopes-for-a-near-term-us-iran-interim-peace-agreement?.tsrc=rss" target="_blank" rel="noopener">Stocks Rally on Hopes for a Near-term US-Iran Interim Peace Agreement</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Fri, 12 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxOSENGQWhtQVZtTWVkVUZyMUdvUW5SM0UxaVFTalJNZE5FR3JaaHl5S3NYa0lYZzV2dy04UFU2R1dtTW9CX0QxbTMxcmQ2eE41a3g5R0hYZXpudS1zaVB4OGRPNEsyNlJlc2kxNUc3bDRBaFVDZGxxWlRZZGdHTWMyLVNzeTZ4LXA3UWxxOHNJYkJRSi11elhCQVh4MnU?oc=5" target="_blank" rel="noopener">Why Qualcomm (QCOM) Stock Is Trading Up Today - Yahoo Finance</a>
+          <div class="article-meta"><span class="src-badge">Google News</span> <span class="muted">Fri, 12 Jun 2026</span></div>
+        </div></div><div class="news-section"><div class="section-label">📰 SCO</div><div class="article">
+          <a href="https://finance.yahoo.com/markets/options/articles/proshares-announces-etf-share-splits-223000629.html?.tsrc=rss" target="_blank" rel="noopener">ProShares Announces ETF Share Splits</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Mon, 11 May 2026</span></div>
+        </div><div class="article">
+          <a href="https://247wallst.com/investing/2026/05/05/oils-decline-opens-the-door-on-these-4-sub-30-buys/?.tsrc=rss" target="_blank" rel="noopener">Oil’s Decline Opens the Door on These 4 Sub-$30 Buys</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Tue, 05 May 2026</span></div>
+        </div><div class="article">
+          <a href="https://247wallst.com/investing/2026/04/02/here-are-thursdays-top-wall-street-analyst-research-calls/?.tsrc=rss" target="_blank" rel="noopener">Here Are Thursday’s Top Wall Street Analyst Research Calls: Akamai Technologies, Astra-Zeneca, Brinker, e.l.f. Beauty, F</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 02 Apr 2026</span></div>
+        </div><div class="article">
+          <a href="https://247wallst.com/investing/2026/03/10/with-oil-skyrocketing-gold-at-5100-per-ounce-and-the-dow-and-nasdaq-down-take-advantage-of-great-opportunities/?.tsrc=rss" target="_blank" rel="noopener">With oil skyrocketing, Gold at $5100 per ounce, and the Dow, and NASDAQ down, Take advantage of Great Opportunities!</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Tue, 10 Mar 2026</span></div>
+        </div><div class="article">
+          <a href="https://finance.yahoo.com/news/oil-prices-rally-2026-etfs-150000589.html?.tsrc=rss" target="_blank" rel="noopener">Can Oil Prices Rally in 2026? ETFs in Focus</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Wed, 17 Dec 2025</span></div>
+        </div><div class="article">
+          <a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTE5aYWlXV001SjRRcTRndjNNY3JlM3ZoYWIwTlVQUDQwRXJCTmhtNDBHWDdZODM4cGx5RlhLMWgyem5sYmxZUG5ycWRuUEtvSV9NNmxEaDhaeU1DTVNR?oc=5" target="_blank" rel="noopener">SCO 260612 4.50P (SCO260612P4500) Stock Options Chain | Quotes & News - Moomoo</a>
+          <div class="article-meta"><span class="src-badge">Google News</span> <span class="muted">Sat, 13 Jun 2026</span></div>
+        </div></div><div class="news-section"><div class="section-label">📰 MCD</div><div class="article">
+          <a href="https://www.barchart.com/story/news/2443086/mcdonalds-is-letting-ai-take-your-orders-again-a-million-orders-later-the-results-look-promising?.tsrc=rss" target="_blank" rel="noopener">McDonald’s Is Letting AI Take Your Orders Again. A Million Orders Later, the Results Look Promising.</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Fri, 12 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://247wallst.com/investing/2026/06/12/mcdonalds-will-trade-at-this-price-in-2028/?.tsrc=rss" target="_blank" rel="noopener">McDonald’s Will Trade at This Price in 2028</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Fri, 12 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://247wallst.com/personal-finance/2026/06/12/the-dividend-growth-strategy-that-turns-50000-a-year-into-125000-without-investing-another-dollar/?.tsrc=rss" target="_blank" rel="noopener">The Dividend Growth Strategy That Turns $50,000 a Year Into $125,000 Without Investing Another Dollar</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Fri, 12 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://www.thestreet.com/retail/pepsi-makes-a-bold-move-to-take-on-coca-cola-house-of-treats?.tsrc=rss" target="_blank" rel="noopener">Pepsi makes bold move to take on Coca-Cola</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 11 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://247wallst.com/investing/2026/06/11/3-no-brainer-dividend-growth-stocks-to-buy-in-june/?.tsrc=rss" target="_blank" rel="noopener">3 No-Brainer Dividend Growth Stocks to Buy in June</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 11 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbGp1am1rSkpFQVF6MFdvUGZoZlU4OTFVOGppOUtjTVdGMGJLUW44ODBnNmFLZ0ZWQnJrVU11Q21EZEpUdEhJcWZaeXFRTHplTjRhYW41YWw0czlhMUk4VnJmVDI0czd4RXhybFdMVnhYb3B5dzlPMTRENUhsM2V1akVfNTBucFpidy1SczdISHBla1BPM2JNajhsT212VHEyLVZwS20wdHM?oc=5" target="_blank" rel="noopener">McDonald’s looks beyond Coca-Cola as it chases specialty drink boom (MCD:NYSE) - Seeking Alpha</a>
+          <div class="article-meta"><span class="src-badge">Google News</span> <span class="muted">Sun, 14 Jun 2026</span></div>
+        </div></div><div class="news-section"><div class="section-label">📰 GOOG</div><div class="article">
+          <a href="https://finance.yahoo.com/markets/stocks/articles/bill-ackman-likes-indirect-ai-134946464.html?.tsrc=rss" target="_blank" rel="noopener">Bill Ackman Likes This Indirect AI Play Everyone’s Ignoring</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Sun, 14 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://247wallst.com/investing/2026/06/14/3-cloud-computing-stocks-to-load-up-on-in-june/?.tsrc=rss" target="_blank" rel="noopener">3 Cloud Computing Stocks to Load up on in June</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Sun, 14 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://www.fool.com/investing/2026/06/14/3-under-the-radar-ways-to-play-goldmans-1-trillion/?.tsrc=rss" target="_blank" rel="noopener">3 Under-the-Radar Ways to Play Goldman's $1 Trillion AI Spending 2027 Forecast</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Sun, 14 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://www.thestreet.com/investing/goldman-sachs-resets-apple-stock-forecast-after-wwdc?.tsrc=rss" target="_blank" rel="noopener">Goldman Sachs resets Apple stock forecast after WWDC</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Sun, 14 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://finance.yahoo.com/markets/article/this-market-is-at-a-10-wall-street-weighs-record-spacex-ipo-amid-ai-driven-stock-market-113207472.html?.tsrc=rss" target="_blank" rel="noopener">This market is at 'a 10': Wall Street weighs record SpaceX IPO amid AI-driven stock market</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Sun, 14 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://news.google.com/rss/articles/CBMivwFBVV95cUxNNGQ0bGhKcUMtTEg5MmVrSWVUWDYxa0dhSF85S2xSREtIVmI1REl0OXdLUmJrMVJFRW9ySDloMzFtYzlndUVEVkd1SU9YMXdvZlBjaEJwNWtQdXFtX2ZKRDJZemhtTGd5V1pZMUpaOXBmR3NmenU3NFcxODhTd25KZnp4UkhRd0NCeXlJMUpubE9hbU01NWp1VzN6SUVzdE85NWxVSm5NUjdwVlNXMGR5UXI3MHF6MzVOcGluQ2pPWQ?oc=5" target="_blank" rel="noopener">Alphabet Inc. $GOOG Stock Position Trimmed by Bollard Group LLC - MarketBeat</a>
+          <div class="article-meta"><span class="src-badge">Google News</span> <span class="muted">Sun, 14 Jun 2026</span></div>
+        </div></div><div class="news-section"><div class="section-label">📰 LULU</div><div class="article">
+          <a href="https://finance.yahoo.com/markets/stocks/articles/birkenstock-holding-plc-birk-good-133856510.html?.tsrc=rss" target="_blank" rel="noopener">Is Birkenstock Holding plc (BIRK) A Good Stock To Buy Now?</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Sat, 13 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://finance.yahoo.com/sectors/energy/articles/lululemon-china-renewable-push-means-071901566.html?.tsrc=rss" target="_blank" rel="noopener">Lululemon’s China Renewable Push And What It Means For Weak Shares</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Sat, 13 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://finance.yahoo.com/markets/stocks/articles/quanta-services-lululemon-athletica-highlighted-131600031.html?.tsrc=rss" target="_blank" rel="noopener">Quanta Services and lululemon athletica have been highlighted as Zacks Bull and Bear of the Day</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Fri, 12 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://finance.yahoo.com/markets/stocks/articles/bear-day-lululemon-athletica-inc-080000234.html?.tsrc=rss" target="_blank" rel="noopener">Bear of the Day: lululemon athletica inc. (LULU)</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Fri, 12 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://wwd.com/sourcing-journal/sustainability/lululemon-accelerates-renewable-energy-china-1239007372/?.tsrc=rss" target="_blank" rel="noopener">Lululemon Accelerates Renewable Energy Across Its Chinese Supply Chain</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 11 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxOdm5RRWlpT052WVFSN3FpYU1Ya3l3RWh5U0M3a3FHai1TY0xmUVVQYlprTnNhS3FqRU1vVV8yZWh5bXNBNV9aaTVLTU94UVY3d3Vpckd0MXV2aGhrNHg3MWJhZ3F5UTE5VXo4M2hYVGF2Zk9WZm9FT2tydnA1ZUo4Q2RMZW5RSHR5TWpEUE1NMnpLQ3FvckE?oc=5" target="_blank" rel="noopener">Michael Burry delivers contrary Lululemon stock verdict - thestreet.com</a>
+          <div class="article-meta"><span class="src-badge">Google News</span> <span class="muted">Wed, 10 Jun 2026</span></div>
+        </div></div><div class="news-section"><div class="section-label">📰 2884.TW</div><div class="article">
+          <a href="https://finance.yahoo.com/markets/stocks/articles/e-sun-financial-holding-earns-010000324.html?.tsrc=rss" target="_blank" rel="noopener">E.SUN Financial Holding Earns 12th Consecutive Inclusion in Dow Jones Best-in-Class Indices</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Wed, 06 May 2026</span></div>
+        </div><div class="article">
+          <a href="https://finance.yahoo.com/news/e-sun-financial-holding-named-060600313.html?.tsrc=rss" target="_blank" rel="noopener">E.SUN Financial Holding Named to S&P Global Sustainability Yearbook for 12 Consecutive Years</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Tue, 10 Mar 2026</span></div>
+        </div><div class="article">
+          <a href="https://finance.yahoo.com/news/yoshimura-food-holdings-tse-2884-091308151.html?.tsrc=rss" target="_blank" rel="noopener">Yoshimura Food Holdings (TSE:2884) Margin Improvement Reinforces Bullish Narrative on Earnings Quality</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 16 Oct 2025</span></div>
+        </div><div class="article">
+          <a href="https://news.google.com/rss/articles/CBMiygFBVV95cUxNMWRkNlZ0M1hNX1ZUNFZCVmZ2MmExcGR2RXE3R19XSGQ1YnNDMUFoSkJKQXNpWlZkZFp5QlZXN1liRHB1OFhCVUNJSWxDM19ZRklGYkotTTRwUWloNGkta1NCeUNxQzZVMldMc29PeHdOdFFDYTczUlZLYmVBb1ZmR05ITGtmZ190ZTI3TFBRNDJjazlZcExlaG1USlNGbi1XWnUyTGVLXzloWVpBSlpOazZoakRQZ194VzVqa19ITzUtRGtVWUx3M0NB?oc=5" target="_blank" rel="noopener">E.Sun Financial Holding stock (TW0002884004): Taiwan lender in focus after recent earnings and capit - AD HOC NEWS</a>
+          <div class="article-meta"><span class="src-badge">Google News</span> <span class="muted">Wed, 10 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://news.google.com/rss/articles/CBMixwFBVV95cUxPajkzVS1rU2tTMTNVaW5RSEFBakhqU1REbFpteG4tR3BGT1pMTW4wMkN6R2JqVWIwTm81V1J5ZjBMZGxfZWQ2dG10UnIwZTYtdXVjWFRnUVpJYXdfQ0ZjSWhBelVuU3IzOGNmX2M5MUZkVldwc1BJQzZlSFZ4amcwYVJPQUVWa2dWdUdBaC1tUFRqcjdkeVRlcnRBQ3B4ejVURHlmblBsLVU2RUVWSDNWdWZZaDYteXZBZmxTWWc4Uy1TNXdPbmNZ?oc=5" target="_blank" rel="noopener">E.Sun Financial Holding Co stock (TW0002884004): shares steady as Taiwan financial group updates inv - AD HOC NEWS</a>
+          <div class="article-meta"><span class="src-badge">Google News</span> <span class="muted">Tue, 02 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://news.google.com/rss/articles/CBMisAFBVV95cUxQck9KN25qSUcySjBua2ZYZGtoeWxNaUhZUE9odllrV1lsT1p4WkdRa25pR3ZTSzNZVXhiSDBiTVNIczZwTDB6WEZ3NXd6MW9PQ0lfUGZtdzRJbzJQaU94alFDdjVnTlBsVVFEWmdkSDFkLWtMSWk0N1NVNXNpVmpVTU9hTHNXSENRQzUzQnhxaVBGUXZvSmdxLWRCX0hSQ3JYaFhuVk15VW10aTBnNkNhNw?oc=5" target="_blank" rel="noopener">E. Sun Financial to acquire Mercuries Life - TradingView</a>
+          <div class="article-meta"><span class="src-badge">Google News</span> <span class="muted">Wed, 05 Nov 2025</span></div>
+        </div></div><div class="news-section"><div class="section-label">📰 NOW</div><div class="article">
+          <a href="https://finance.yahoo.com/markets/stocks/articles/cognizant-ties-physical-ai-platform-051019639.html?.tsrc=rss" target="_blank" rel="noopener">Cognizant Ties Physical AI Platform To Partnerships And Undervalued Shares</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Sun, 14 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://finance.yahoo.com/markets/stocks/articles/servicenow-inc-now-good-stock-165611597.html?.tsrc=rss" target="_blank" rel="noopener">Is ServiceNow, Inc. (NOW) A Good Stock To Buy Now?</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Sat, 13 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://finance.yahoo.com/markets/stocks/articles/servicenow-ibm-ai-alliance-targets-091129565.html?.tsrc=rss" target="_blank" rel="noopener">ServiceNow IBM AI Alliance Targets Legacy Bottlenecks And Valuation Expectations</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Sat, 13 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://finance.yahoo.com/m/db6799e2-0429-3819-a5c5-563cef7b3b34/zscaler%2C-servicenow%2C-and.html?.tsrc=rss" target="_blank" rel="noopener">Zscaler, ServiceNow, and Three More Stocks Get Analyst Attention</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Fri, 12 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://www.barchart.com/story/news/2442017/stocks-see-support-from-hopes-for-a-near-term-us-iran-agreement?.tsrc=rss" target="_blank" rel="noopener">Stocks See Support from Hopes for a Near-term US-Iran Agreement</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Fri, 12 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxPeEkxV3hKZ2NQOXhsN3FJQjFNSGpOX3RJcXFCWDBJcGlYSW5yWGFaVHRUMXF1ZDNRYW9ydlJwUmdtTHNvRzdpbnZsVlNuaDNlRjlHSFk5ZENlMTNwMGd1alNJcWJBN1BHY3VBRm9fYmc0WldsdGpQTW1PaWR0S1BNRG1vVUVWWjU4b0FqNW5xRG5UZ2ZsX0FBWDFn?oc=5" target="_blank" rel="noopener">Is ServiceNow, Inc. (NOW) A Good Stock To Buy Now? - Yahoo Finance</a>
+          <div class="article-meta"><span class="src-badge">Google News</span> <span class="muted">Sat, 13 Jun 2026</span></div>
+        </div></div><div class="news-section"><div class="section-label">📰 PLTR</div><div class="article">
+          <a href="https://www.fool.com/investing/2026/06/13/is-palantir-stock-ripe-for-a-rebound/?.tsrc=rss" target="_blank" rel="noopener">Is Palantir Stock Ripe for a Rebound?</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Sat, 13 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://finance.yahoo.com/sectors/technology/articles/palantir-ceo-alex-karp-rooting-153125935.html?.tsrc=rss" target="_blank" rel="noopener">Palantir CEO Alex Karp Is 'Rooting For Elon'—And Has Clients 'Screaming' About OpenAI, Anthropic</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Sat, 13 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://finance.yahoo.com/markets/stocks/articles/rackspace-technology-inc-rxt-good-134040954.html?.tsrc=rss" target="_blank" rel="noopener">Is Rackspace Technology, Inc. (RXT) A Good Stock To Buy Now?</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Sat, 13 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://finance.yahoo.com/markets/stocks/articles/palantir-faces-investor-human-rights-130905014.html?.tsrc=rss" target="_blank" rel="noopener">Palantir Faces Investor Human Rights Push And UK NHS Contract Scrutiny</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Sat, 13 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://www.barchart.com/story/news/2447851/stocks-rally-on-hopes-for-a-near-term-us-iran-interim-peace-agreement?.tsrc=rss" target="_blank" rel="noopener">Stocks Rally on Hopes for a Near-term US-Iran Interim Peace Agreement</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Fri, 12 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxNb1FhT2FLemt1eDRzOHhWUTJNLUhIWUlhUkwzcC1QZU1GVXFub2RKdHVkYXhFZ1dTQjdhY1o5Sm96ZUJreG1LZGR5cG51amV4cWowaE40NVBnWUdPTzA5Z2x3RDhOMDNyUlJVX2h6NXA2b05kUFBJRzhiemMzSnZtUmJLdkRvbmdtOC1jNWlEMGJSNlQ5UWpF?oc=5" target="_blank" rel="noopener">Is Palantir Stock Ripe for a Rebound? - Yahoo Finance</a>
+          <div class="article-meta"><span class="src-badge">Google News</span> <span class="muted">Sat, 13 Jun 2026</span></div>
+        </div></div><div class="news-section"><div class="section-label">📰 NFLX</div><div class="article">
+          <a href="https://www.trefis.com/articles/602686/does-google-stock-have-more-upside/2026-06-12?.tsrc=rss" target="_blank" rel="noopener">Does Google Stock Have More Upside?</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Fri, 12 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://finance.yahoo.com/markets/stocks/articles/paramount-deal-warner-bros-cleared-210700912.html?.tsrc=rss" target="_blank" rel="noopener">Paramount’s Deal for Warner Bros. Is Cleared by US DOJ</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Fri, 12 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://finance.yahoo.com/m/e02d0a1b-95e0-35a7-9976-296b1558213e/roku-stock-soars-20%25.-the.html?.tsrc=rss" target="_blank" rel="noopener">Roku Stock Soars 20%. The Streaming Play Could Be for Sale.</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Fri, 12 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://finance.yahoo.com/markets/stocks/articles/1-insider-signal-every-trader-174600290.html?.tsrc=rss" target="_blank" rel="noopener">The #1 Insider Signal Every Trader Should Know</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Fri, 12 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://finance.yahoo.com/markets/stocks/articles/top-midday-stories-spacex-shares-154231404.html?.tsrc=rss" target="_blank" rel="noopener">Top Midday Stories: SpaceX Shares Indicated to Open 29% Above IPO Price at $174 Each; Adobe CFO Leaves Company</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Fri, 12 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxQSjBMeVNZMXJGZlBOSTFpcnJXbHRFaUpIR080RUliUm42MGhOQkpmRzd6MzdfUGMtVGhVTktZY1B2NkFRYnRQdVpPUlVSb0ZVT2Y3NmQzMUtvRTV4MnRoRXBCMnNBcU9BNDlmZ3pBZkNuemxjSTVDUS0yelowdGlFVndPNUlrWC1YVFhNbTFBVDRPQ0Zic0E?oc=5" target="_blank" rel="noopener">Here’s What Dragging Netflix (NFLX) Down - Yahoo Finance</a>
+          <div class="article-meta"><span class="src-badge">Google News</span> <span class="muted">Fri, 12 Jun 2026</span></div>
+        </div></div><div class="news-section"><div class="section-label">📰 SOFI</div><div class="article">
+          <a href="https://www.fool.com/investing/2026/06/13/prediction-sofi-technologies-stock-will-double-wit/?.tsrc=rss" target="_blank" rel="noopener">Prediction: SoFi Technologies Stock Will Double Within 1 Year</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Sat, 13 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://247wallst.com/investing/cryptocurrency/2026/06/12/is-xrp-about-to-bounce-xrp-fud-just-hit-the-same-low-that-sparked-a-50-rally/?.tsrc=rss" target="_blank" rel="noopener">Is XRP About to Bounce? XRP FUD Just Hit the Same Low That Sparked a 50% Rally</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Fri, 12 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://247wallst.com/investing/2026/06/12/the-fed-just-triggered-a-sharp-tech-sector-sell-off-here-is-the-1-dirt-cheap-financial-disruptor-im-buying-hand-over-fist/?.tsrc=rss" target="_blank" rel="noopener">The Fed Just Triggered a Sharp Tech-Sector Sell-Off: Here Is the 1 Dirt-Cheap Financial Disruptor I’m Buying Hand Over F</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Fri, 12 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://finance.yahoo.com/markets/stocks/articles/robinhood-clients-face-issues-early-164921810.html?.tsrc=rss" target="_blank" rel="noopener">Robinhood Clients Face Issues in Early Moments of SpaceX Trading</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Fri, 12 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://finance.yahoo.com/markets/stocks/articles/sofis-growing-brand-strength-continues-153000190.html?.tsrc=rss" target="_blank" rel="noopener">SoFi's Growing Brand Strength Continues to Drive Member Expansion</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Fri, 12 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWVY4SGdLV0hQOGJUVEhjeEUwelBtaElfUTR0RXVqQmNzNEtTNFl5YlRHZE9QV1pSLXVhYmpta2pnNi1PMDl6NG81Q0YzZlBxaGdVYmgweEJsZThyb0l2VUlEcTQtbzQ3clFabFkxekV5dHU1VjBxdWpmOG9kMTdzNnB4WUJHaXp0ZEQ3NDF1azlSTGU3YnJobFpTUnNHcVRqRDNoaTJoOUZaUQ?oc=5" target="_blank" rel="noopener">Prediction: SoFi Technologies Stock Will Double Within 1 Year - Yahoo Finance</a>
+          <div class="article-meta"><span class="src-badge">Google News</span> <span class="muted">Sat, 13 Jun 2026</span></div>
+        </div></div><div class="news-section"><div class="section-label">📰 AMAT</div><div class="article">
+          <a href="https://finance.yahoo.com/markets/stocks/articles/cantor-fitzgerald-raises-price-target-171342746.html?.tsrc=rss" target="_blank" rel="noopener">Cantor Fitzgerald Raises its Price Target on Applied Materials (AMAT)</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Sat, 13 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://finance.yahoo.com/markets/stocks/articles/lam-research-applied-materials-shares-000520752.html?.tsrc=rss" target="_blank" rel="noopener">Lam Research and Applied Materials Shares Skyrocket, What You Need To Know</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Sat, 13 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://finance.yahoo.com/markets/stocks/articles/applied-materials-amat-stock-valuation-191108054.html?.tsrc=rss" target="_blank" rel="noopener">Applied Materials (AMAT) Stock Valuation Check After Powerful 1-Year Run</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Fri, 12 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://finance.yahoo.com/markets/stocks/articles/applied-materials-amat-great-momentum-160002670.html?.tsrc=rss" target="_blank" rel="noopener">Applied Materials (AMAT) is a Great Momentum Stock: Should You Buy?</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Fri, 12 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://finance.yahoo.com/markets/stocks/articles/applied-materials-amat-good-stock-131122269.html?.tsrc=rss" target="_blank" rel="noopener">Is Applied Materials (AMAT) A Good Stock to Buy Now?</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Fri, 12 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://news.google.com/rss/articles/CBMipgFBVV95cUxQQTI5X1U3N2xpZXlsS1Vfem9wNGxJY2sybFRaenBjMjg4NG8zUkhGak5Pa3dOcjZJdk9YOWctaDNXMVh0VEN0LWdHVUJFNlZfYmMxV0ZHTmtNQkdodDdnWlhPTUhCaWV5ZlloWk9XY09UQVJHR2I0czJMcU1KejcwVVQ0Ymk5c2VhWDd4Z2VTNU5SNVJKaUVBamhkbFgtUUJxMDYzcWZR?oc=5" target="_blank" rel="noopener">Applied Materials (AMAT) Stock Valuation Check After Powerful 1-Year Run - Yahoo Finance</a>
+          <div class="article-meta"><span class="src-badge">Google News</span> <span class="muted">Fri, 12 Jun 2026</span></div>
+        </div></div><div class="news-section"><div class="section-label">📰 JPM</div><div class="article">
+          <a href="https://finance.yahoo.com/markets/stocks/articles/why-cheesecake-factory-cake-13-101010493.html?.tsrc=rss" target="_blank" rel="noopener">Why Cheesecake Factory (CAKE) Is Up 13.8% After Q1 Beat And JPMorgan Upgrade - And What's Next</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Sun, 14 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://finance.yahoo.com/markets/stocks/articles/jpmorgan-chase-co-jpm-ceo-175953605.html?.tsrc=rss" target="_blank" rel="noopener">JPMorgan Chase & Co. (JPM) CEO Marianne Lake Expects 2026 Loan Growth To Exceed The Industry Average</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Sat, 13 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://finance.yahoo.com/economy/policy/articles/cnbc-anchor-stunned-107b-us-120000399.html?.tsrc=rss" target="_blank" rel="noopener">CNBC anchor stunned by $107B US trade deficit drop: ‘Buckle up, this is unreal!’ Are Trump’s tariffs a triumph?</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Sat, 13 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://finance.yahoo.com/markets/stocks/articles/jpmorgan-backs-bezos-ai-startup-071837184.html?.tsrc=rss" target="_blank" rel="noopener">JPMorgan Backs Bezos AI Startup Prometheus To Expand Industrial AI Reach</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Sat, 13 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://www.fool.com/investing/2026/06/13/jpmorgan-chase-is-eyeing-7-net-interest-income-gro/?.tsrc=rss" target="_blank" rel="noopener">JPMorgan Chase Is Eyeing 7% Net Interest Income Growth. Why That Goal Just Got Easier to Believe.</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Sat, 13 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxPTThDUkVJdk1tSEEyY1JoUHJsQ2ZEOFlaOW96TkxKYjdWLVFya1dfcWdxSV9XV0w1Z0VKMlFCUWZPTDF2TEJRZjk4aG1ydGI0VUIyVWRfMktzVHRXcV9xNUl6dW03ZkZ5UFNiRXB1bVBwOEFWeDloWWFpNkJadHhWajV5YzNYUWs4TG1ETm1SaDN4cllnYjJN?oc=5" target="_blank" rel="noopener">JPMorgan Chase & Co. (JPM) Stock Moves -1.12%: What You Should Know - Yahoo Finance</a>
+          <div class="article-meta"><span class="src-badge">Google News</span> <span class="muted">Wed, 10 Jun 2026</span></div>
+        </div></div><div class="news-section"><div class="section-label">📰 INTC</div><div class="article">
+          <a href="https://www.fool.com/investing/2026/06/14/nasa-hires-firefly-to-fly-drones-to-the-moon/?.tsrc=rss" target="_blank" rel="noopener">NASA Hires Firefly Aerospace to Build a Drone Aircraft Carrier -- to the Moon</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Sun, 14 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://www.fool.com/investing/2026/06/14/up-18-in-2026-is-coca-cola-a-buy-at-an-all-time-hi/?.tsrc=rss" target="_blank" rel="noopener">Up 18% in 2026, Is Coca-Cola a Buy at an All-Time High?</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Sun, 14 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://www.fool.com/investing/2026/06/14/2-best-stocks-to-buy-in-the-market-right-now/?.tsrc=rss" target="_blank" rel="noopener">2 Best Stocks to Buy in the Market Right Now</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Sun, 14 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://www.fool.com/investing/2026/06/14/prediction-this-will-be-the-next-1-trillion-artifi/?.tsrc=rss" target="_blank" rel="noopener">Prediction: This Will Be the Next $1 Trillion Artificial Intelligence (AI) Chip Stock, According to Jensen Huang</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Sun, 14 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://www.fool.com/investing/2026/06/14/goldman-sachs-predicts-ai-infrastructure-spending/?.tsrc=rss" target="_blank" rel="noopener">Goldman Sachs Predicts AI Infrastructure Spending Could Hit More Than $1 Trillion in 2027. 3 AI Stocks to Buy.</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Sun, 14 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://news.google.com/rss/articles/CBMikgFBVV95cUxNcVRLWkkwTUhzWGRudUlYNXRHNE8xYkJXS0FuUEh6azVNNDYzUGZmNnI1VWc0YTlsM29PXzFyNGk1X19hd1VxYjNoYW5YQ2NLamNBT3Vfb291RTZHbTZTY1VlVHlZLWluVWdsVDJQazdVUVBMLTY1a0c3UG9BUG1jOGc0WXd4ZzhXVmpFVW1WMmJ0UQ?oc=5" target="_blank" rel="noopener">Intel Bear Turns Bull. Here's Why. - Investor's Business Daily</a>
+          <div class="article-meta"><span class="src-badge">Google News</span> <span class="muted">Thu, 11 Jun 2026</span></div>
+        </div></div><div class="news-section"><div class="section-label">📰 C</div><div class="article">
+          <a href="https://finance.yahoo.com/economy/policy/articles/wall-street-gaining-access-catastrophe-090000532.html?.tsrc=rss" target="_blank" rel="noopener">Wall Street Is Gaining Access to New Catastrophe Models to Help Predict Wars</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Sun, 14 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://www.thestreet.com/investing/stocks/citi-resets-amd-stock-price-target-on-key-move?.tsrc=rss" target="_blank" rel="noopener">Citi resets AMD stock price target on key move</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Sat, 13 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://investorshub.advfn.com/market-news/article/30363/citi-expects-lithium-market-to-stabilise-before-recovery-driven-by-restocking-demand?.tsrc=rss" target="_blank" rel="noopener">Citi Expects Lithium Market to Stabilise Before Recovery Driven by Restocking Demand</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Sat, 13 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://finance.yahoo.com/m/f3575c70-9280-3535-ba58-0f66dd6cc4b1/the-index-says-euphoria.-but.html?.tsrc=rss" target="_blank" rel="noopener">The Index Says Euphoria. But Don’t Panic.</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Sat, 13 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://finance.yahoo.com/markets/stocks/articles/citigroup-c-5-6-launching-221341063.html?.tsrc=rss" target="_blank" rel="noopener">Citigroup (C) Is Up 5.6% After Launching Blockchain Platform For Tokenized Private Equity Access</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Fri, 12 Jun 2026</span></div>
+        </div><div class="article">
+          <a href="https://news.google.com/rss/articles/CBMikwFBVV95cUxOUjN0M2FZUXpaRGcxWDZQU1M2b3ZYNXJXWnI3cEkzc3pIb01zNDlaaGM3Yzg1VzJmNUpPOHpzRWRSbWpTM0NSSjhMYkNRZ3FVbC03MVZvbFJDZWpkcjRhajNpbjRUZHhpb3JsWUtUazUwbTdBeWliYk9yRTRTd01uSjNJajdmMGdNQUQwaGVydldZaGM?oc=5" target="_blank" rel="noopener">Citigroup (C) Stock After 80% One Year Surge Are Valuation Models Too Cautious? - Yahoo Finance</a>
+          <div class="article-meta"><span class="src-badge">Google News</span> <span class="muted">Fri, 12 Jun 2026</span></div>
+        </div></div></div>
+<div id="llm"      class="tab-pane">
+    <div class="section-title">LLM Supervision Log (last 0 runs)</div>
+    <div class="llm-panel"><p class='muted'>No LLM supervision history yet.</p></div></div>
+
+<nav id="bottom-nav">
+  <button class="bnav-btn active" onclick="showTab('screener',this)">📊<br>Screener</button>
+  <button class="bnav-btn" onclick="showTab('monitor',this)">👁<br>Monitor</button>
+  <button class="bnav-btn" onclick="showTab('news',this)">📰<br>News</button>
+  <button class="bnav-btn" onclick="showTab('llm',this)">🤖<br>LLM</button>
+</nav>
+
+<script>
+function showTab(id, btn) {
+  document.querySelectorAll('.tab-pane').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.tab-btn, .bnav-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  btn.classList.add('active');
+  // sync both nav bars
+  const idx = ['screener','monitor','news','llm'].indexOf(id);
+  const allBtns = [...document.querySelectorAll('.tab-btn'), ...document.querySelectorAll('.bnav-btn')];
+  allBtns.forEach(b => { if(b.textContent.includes(btn.textContent.trim().split('\n')[0].trim().slice(-6,-1)||'NOPE')) b.classList.add('active'); });
+}
+
+function toggleTheme() {
+  const html = document.documentElement;
+  html.dataset.theme = html.dataset.theme === 'dark' ? 'light' : 'dark';
+  localStorage.setItem('theme', html.dataset.theme);
+}
+
+// Restore theme
+const saved = localStorage.getItem('theme');
+if(saved) document.documentElement.dataset.theme = saved;
+
+// Live clock
+function updateClock() {
+  const now = new Date();
+  const tw = now.toLocaleString('en-US', {timeZone:'Asia/Taipei', hour:'2-digit', minute:'2-digit', hour12:false, month:'short', day:'numeric'});
+  const et = now.toLocaleString('en-US', {timeZone:'America/New_York', hour:'2-digit', minute:'2-digit', hour12:false});
+  document.getElementById('live-clock').textContent = tw + ' TW  |  ' + et + ' ET';
+}
+updateClock();
+setInterval(updateClock, 30000);
+</script>
+</body>
+</html>
