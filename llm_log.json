@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-06-15 22:20 UTC",
+    "ts_utc": "2026-06-15 23:51 UTC",
     "phase": "After-Hours",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top picks in the Technology sector (AMAT, CSCO, AMD) show strong momentum with high scores and high MFI values, indicating a strong trend in the sector.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nThere is a contradiction between the high MFI value of TGT (Consumer Disc) and its relatively low score, indicating a potential discrepancy in the screener's assessment.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: AMAT (Technology) - High score and high MFI value indicate a strong trend.\nWeakest pick: AMD (Technology) - Low MFI value suggests a weakening trend.\n\n\u2022 Overall confidence: HIGH - The strong momentum in the Technology sector and high scores of top picks indicate a high level of confidence in the screener's picks.",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top screener picks (AMAT, CSCO, AMD) align with the sector momentum in Technology, which is strong.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nThere is a contradiction between the screener and monitor signals for AMD, as its volume is below average and its MFI is below 70.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: AMAT, due to its high score (15/17) and high institutional ownership (85.1%).\nWeakest pick: AMD, due to its low volume (0.7x MA200) and low MFI (61.3).\n\n\u2022 Overall confidence: MEDIUM\nThe strong sector momentum and high scores of top picks contribute to moderate confidence, but the contradictions and weaker signals for AMD temper overall confidence.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
