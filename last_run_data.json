@@ -15,16 +15,16 @@
           "history": "green",
           "iv": "green"
         },
-        "close": 120.80000305175781,
+        "close": 121.13999938964844,
         "open": 122.58999633789062,
-        "change_pct": -1.46,
-        "vol_ratio": 0.44,
+        "change_pct": -1.18,
+        "vol_ratio": 0.49,
         "ma200": 81.38,
-        "mcap": 476066185216.0,
+        "mcap": 477504798720.0,
         "inst_pct": 82.9,
-        "mfi_val": 75.1,
+        "mfi_val": 74.9,
         "sector": "Technology",
-        "iv_val": 35.4,
+        "iv_val": 34.2,
         "hist_date": "2026-05-08",
         "hist_ret": 24.7
       },
@@ -42,16 +42,16 @@
           "history": "green",
           "iv": "green"
         },
-        "close": 549.0599975585938,
+        "close": 548.4299926757812,
         "open": 535.75,
-        "change_pct": 2.48,
-        "vol_ratio": 0.41,
+        "change_pct": 2.37,
+        "vol_ratio": 0.44,
         "ma200": 255.84,
-        "mcap": 895297519616.0,
+        "mcap": 894441422848.0,
         "inst_pct": 72.2,
-        "mfi_val": 60.0,
+        "mfi_val": 60.2,
         "sector": "Technology",
-        "iv_val": 81.5,
+        "iv_val": 76.9,
         "hist_date": "2026-05-20",
         "hist_ret": 16.9
       },
@@ -69,18 +69,18 @@
           "history": "green",
           "iv": "green"
         },
-        "close": 589.7039794921875,
+        "close": 588.4000244140625,
         "open": 589.989990234375,
-        "change_pct": -0.05,
-        "vol_ratio": 0.8,
+        "change_pct": -0.27,
+        "vol_ratio": 0.85,
         "ma200": 310.72,
-        "mcap": 468126400512.0,
+        "mcap": 467237175296.0,
         "inst_pct": 85.1,
         "mfi_val": 81.4,
         "sector": "Technology",
-        "iv_val": 76.5,
+        "iv_val": 72.4,
         "hist_date": "2026-06-01",
-        "hist_ret": 28.7
+        "hist_ret": 28.4
       },
       {
         "symbol": "TGT",
@@ -96,16 +96,16 @@
           "history": "green",
           "iv": "green"
         },
-        "close": 134.60000610351562,
+        "close": 134.11000061035156,
         "open": 136.0,
-        "change_pct": -1.03,
-        "vol_ratio": 0.4,
+        "change_pct": -1.39,
+        "vol_ratio": 0.44,
         "ma200": 105.25,
-        "mcap": 61138665472.0,
+        "mcap": 60911570944.0,
         "inst_pct": 87.6,
-        "mfi_val": 69.5,
+        "mfi_val": 69.6,
         "sector": "Consumer Disc",
-        "iv_val": 36.2,
+        "iv_val": 36.3,
         "hist_date": "2026-02-02",
         "hist_ret": 7.5
       },
@@ -123,66 +123,66 @@
           "history": "green",
           "iv": "green"
         },
-        "close": 344.5299987792969,
+        "close": 344.8699951171875,
         "open": 343.45001220703125,
-        "change_pct": 0.31,
-        "vol_ratio": 0.43,
+        "change_pct": 0.41,
+        "vol_ratio": 0.47,
         "ma200": 303.78,
-        "mcap": 359975157760.0,
+        "mcap": 360335605760.0,
         "inst_pct": 81.0,
-        "mfi_val": 68.2,
+        "mfi_val": 68.3,
         "sector": "Industrials",
-        "iv_val": 39.5,
+        "iv_val": 37.6,
         "hist_date": "2026-05-20",
         "hist_ret": 9.2
       }
     ],
     "all_results_count": 132,
     "sector_data": {
-      "Technology": 3.59,
+      "Technology": 3.82,
       "Healthcare": -0.6,
-      "Financials": 0.7,
-      "Industrials": 1.95,
-      "Energy": -3.21,
-      "Consumer Disc": 1.7,
-      "Consumer Stpl": -0.29,
-      "Materials": 1.22,
-      "Real Estate": -0.67,
-      "Utilities": 0.79,
-      "Comm. Services": 0.38
+      "Financials": 0.68,
+      "Industrials": 1.94,
+      "Energy": -2.88,
+      "Consumer Disc": 1.58,
+      "Consumer Stpl": -0.43,
+      "Materials": 1.25,
+      "Real Estate": -0.97,
+      "Utilities": 0.91,
+      "Comm. Services": 0.32
     },
     "sorted_sectors": [
       [
         "Technology",
-        3.59
+        3.82
       ],
       [
         "Industrials",
-        1.95
+        1.94
       ],
       [
         "Consumer Disc",
-        1.7
+        1.58
       ],
       [
         "Materials",
-        1.22
+        1.25
       ],
       [
         "Utilities",
-        0.79
+        0.91
       ],
       [
         "Financials",
-        0.7
+        0.68
       ],
       [
         "Comm. Services",
-        0.38
+        0.32
       ],
       [
         "Consumer Stpl",
-        -0.29
+        -0.43
       ],
       [
         "Healthcare",
@@ -190,22 +190,22 @@
       ],
       [
         "Real Estate",
-        -0.67
+        -0.97
       ],
       [
         "Energy",
-        -3.21
+        -2.88
       ]
     ],
     "top_sector": "Technology",
     "sentiment": {
       "green": 7.6,
-      "yellow": 6.8,
-      "red": 85.6
+      "yellow": 6.1,
+      "red": 86.4
     },
-    "run_time": "2026-06-15 18:09",
+    "run_time": "2026-06-15 18:49",
     "phase": "Regular Hours",
     "max_score": 17
   },
-  "llm_note": "\u2022 Validate top screener picks vs sector momentum: \nThe top picks in the Technology sector are CSCO, AMD, and AMAT, all with high scores and above-average volume. This aligns with sector momentum, as Technology is the top sector.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nThere is no clear contradiction between screener and monitor signals for the top picks. However, TGT from the Consumer Disc sector has a high score, but it's not in the top sector.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: AMAT, due to its high institutional ownership (85.1%).\nWeakest pick: AMD, due to its lower MFI (60.0) compared to the other top picks.\n\n\u2022 Overall confidence: HIGH\nThe top picks in the Technology sector have strong scores and above-average volume, indicating a high level of confidence in their potential performance."
+  "llm_note": "\u2022 Validate top screener picks vs sector momentum: \nThe top picks in the Technology sector (CSCO, AMD, AMAT) show strong momentum, with all three stocks above their 200-day moving averages and high institutional ownership.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nNo contradictions found between screener signals and monitor data (MA200, volume, and MFI).\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: AMAT (85.1% institutional ownership, indicating strong investor confidence).\nWeakest pick: AMD (60.2 MFI, indicating a potential sell signal).\n\n\u2022 Overall confidence: HIGH\nThe top picks in the Technology sector show strong momentum and high institutional ownership, indicating a high level of confidence in the screener results."
 }
