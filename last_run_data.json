@@ -3,11 +3,11 @@
     "top_picks": [
       {
         "symbol": "AMAT",
-        "score": 14,
+        "score": 15,
         "tl": "strong",
         "factors": {
           "volume": "yellow",
-          "breakout": "red",
+          "breakout": "yellow",
           "ma200": "green",
           "inst_own": "green",
           "mfi": "green",
@@ -16,15 +16,15 @@
           "iv": "green"
         },
         "close": 585.780029296875,
-        "open": 589.97998046875,
+        "open": 589.989990234375,
         "change_pct": -0.71,
-        "vol_ratio": 1.4,
+        "vol_ratio": 1.53,
         "ma200": 310.7,
         "mcap": 465085562880.0,
         "inst_pct": 85.1,
-        "mfi_val": 82.2,
+        "mfi_val": 82.3,
         "sector": "Technology",
-        "iv_val": 69.8,
+        "iv_val": 70.5,
         "hist_date": "2026-06-01",
         "hist_ret": 27.9
       },
@@ -43,15 +43,15 @@
           "iv": "green"
         },
         "close": 120.16999816894531,
-        "open": 122.55999755859375,
-        "change_pct": -1.95,
+        "open": 122.58999633789062,
+        "change_pct": -1.97,
         "vol_ratio": 1.03,
         "ma200": 81.38,
         "mcap": 473642205184.0,
         "inst_pct": 82.9,
         "mfi_val": 72.4,
         "sector": "Technology",
-        "iv_val": 46.7,
+        "iv_val": 39.2,
         "hist_date": "2026-05-08",
         "hist_ret": 24.7
       },
@@ -78,7 +78,7 @@
         "inst_pct": 72.2,
         "mfi_val": 61.3,
         "sector": "Technology",
-        "iv_val": 76.9,
+        "iv_val": 75.6,
         "hist_date": "2026-05-20",
         "hist_ret": 16.9
       },
@@ -105,36 +105,36 @@
         "inst_pct": 87.6,
         "mfi_val": 63.0,
         "sector": "Consumer Disc",
-        "iv_val": 42.4,
+        "iv_val": 32.8,
         "hist_date": "2026-02-02",
         "hist_ret": 7.5
       },
       {
-        "symbol": "HON",
+        "symbol": "DE",
         "score": 13,
         "tl": "strong",
         "factors": {
-          "volume": "yellow",
-          "breakout": "yellow",
+          "volume": "red",
+          "breakout": "red",
           "ma200": "green",
           "inst_own": "green",
-          "mfi": "red",
+          "mfi": "green",
           "sector": "green",
           "history": "green",
           "iv": "green"
         },
-        "close": 227.41000366210938,
-        "open": 227.0,
-        "change_pct": 0.18,
-        "vol_ratio": 1.88,
-        "ma200": 211.09,
-        "mcap": 144099065856.0,
-        "inst_pct": 81.8,
-        "mfi_val": 39.4,
+        "close": 575.469970703125,
+        "open": 583.9099731445312,
+        "change_pct": -1.45,
+        "vol_ratio": 1.1,
+        "ma200": 523.82,
+        "mcap": 155340898304.0,
+        "inst_pct": 82.8,
+        "mfi_val": 60.3,
         "sector": "Industrials",
-        "iv_val": 56.3,
-        "hist_date": "2026-01-08",
-        "hist_ret": 7.9
+        "iv_val": 37.3,
+        "hist_date": "2026-02-04",
+        "hist_ret": 16.7
       }
     ],
     "all_results_count": 132,
@@ -203,9 +203,9 @@
       "yellow": 6.8,
       "red": 85.6
     },
-    "run_time": "2026-06-15 20:19",
+    "run_time": "2026-06-15 21:41",
     "phase": "After-Hours",
     "max_score": 17
   },
-  "llm_note": "\u2022 Validate top screener picks vs sector momentum: \nThe top picks in the Technology sector are AMAT, CSCO, and AMD, all showing strong momentum with above MA200 and high institutional ownership.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nTGT, a Consumer Discretionary stock, is listed in the screener but does not align with the sector momentum, potentially indicating a contradiction.\n\n\u2022 Name the strongest and weakest pick with one reason each:\n Strongest pick: AMAT, due to its high institutional ownership (85.1%).\n Weakest pick: AMD, due to its low volume (0.7x).\n\n\u2022 Overall confidence: HIGH\nThe strong momentum and high institutional ownership of the top picks in the Technology sector indicate a high level of confidence in the screener's accuracy."
+  "llm_note": "\u2022 Top screener picks align with sector momentum in Technology, as all three picks (AMAT, CSCO, AMD) have above MA200 and high institutional ownership.\n\u2022 No contradictions between screener and monitor signals are found.\n\u2022 The strongest pick is AMAT (Technology) due to its high score (15/17) and above-average MFI (82.3).\n\u2022 The weakest pick is AMD (Technology) due to its low volume (0.7x MA200) compared to other picks.\n\u2022 Overall confidence: HIGH, as all top picks have strong fundamentals and are above their MA200."
 }
