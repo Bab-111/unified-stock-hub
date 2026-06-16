@@ -62,6 +62,7 @@ def render_screener_card(r, max_score):
     score   = r.get("score", 0)
     tl      = r.get("tl", "weak")
     close   = r.get("close", 0)
+    open_   = r.get("open", 0)
     chg     = r.get("change_pct", 0)
     sector  = r.get("sector", "—")
     vol_r   = r.get("vol_ratio", 0)
@@ -72,9 +73,21 @@ def render_screener_card(r, max_score):
     hist_d  = r.get("hist_date", "")
     hist_r  = r.get("hist_ret", 0)
     factors = r.get("factors", {})
+    mcap    = r.get("mcap_fmt", "—")
+    opts    = r.get("options") or {}
+    atm     = opts.get("atm_call") or {}
+    csp     = opts.get("csp") or {}
+    opt_exp = opts.get("exp", "")
+
     score_pct = round(score / max_score * 100)
-    chg_sign = "+" if chg >= 0 else ""
-    above_ma = close > (ma200 or 0)
+    chg_sign  = "+" if chg >= 0 else ""
+    above_ma  = close > (ma200 or 0)
+
+    candle_desc = ""
+    if open_ and close:
+        diff = close - open_
+        pct  = (diff / open_) * 100
+        candle_desc = f"close ${close:.2f} vs open ${open_:.2f} ({pct:+.1f}%)"
 
     factor_pills = ""
     factor_labels = {
@@ -85,17 +98,49 @@ def render_screener_card(r, max_score):
         cls = _factor_class(factors.get(k, "red"))
         factor_pills += f'<span class="pill {cls}">{label}</span>'
 
+    # Options section
+    opts_html = ""
+    if atm:
+        delta_str = f"Delta: <strong>{atm.get('delta','—')}</strong>" if atm.get("delta") else ""
+        theta_str = f"Theta: <strong>{atm.get('theta','—')}</strong>" if atm.get("theta") else ""
+        vol_str   = f"Vol: <strong>{atm.get('volume','—')}</strong>" if atm.get("volume") else ""
+        opts_html += f'''
+        <div class="opts-section">
+          <div class="section-label">📈 ATM Call (exp {opt_exp})</div>
+          <div class="opts-row">
+            <span>Strike: <strong>${atm.get("strike","—")}</strong></span>
+            <span>Premium: <strong>${atm.get("premium","—")}</strong></span>
+            <span>IV: <strong>{atm.get("iv","—")}%</strong></span>
+            {f'<span>{delta_str}</span>' if delta_str else ""}
+            {f'<span>{theta_str}</span>' if theta_str else ""}
+            {f'<span>{vol_str}</span>' if vol_str else ""}
+          </div>
+        </div>'''
+    if csp:
+        opts_html += f'''
+        <div class="opts-section" style="margin-top:4px">
+          <div class="section-label">💰 CSP Suggestion (exp {csp.get("exp","")})</div>
+          <div class="opts-row">
+            <span>Strike: <strong>${csp.get("strike","—")}</strong></span>
+            <span>Premium: <strong>${csp.get("premium","—")}</strong></span>
+            <span>IV: <strong>{csp.get("iv","—")}%</strong></span>
+            <span>OTM: <strong>{csp.get("pct_otm","—")}%</strong></span>
+          </div>
+        </div>'''
+
     return f'''
     <div class="card screener-card {_tl_class(tl)}">
       <div class="card-header">
         <div class="card-title-row">
           <span class="ticker">{sym}</span>
           <span class="tl-badge {_tl_class(tl)}">{_tl_label(tl)}</span>
+          <span class="sector-tag">{sector}</span>
+          <span class="sector-tag" style="color:var(--muted)">{mcap}</span>
         </div>
         <div class="card-price-row">
           <span class="price">${close:.2f}</span>
           <span class="chg {_chg_class(chg)}">{chg_sign}{chg:.2f}%</span>
-          <span class="sector-tag">{sector}</span>
+          {f'<span class="muted" style="font-size:.8rem">{candle_desc}</span>' if candle_desc else ""}
         </div>
       </div>
       <div class="score-bar-wrap">
@@ -107,15 +152,14 @@ def render_screener_card(r, max_score):
       <div class="factor-pills">{factor_pills}</div>
       <div class="card-meta">
         <span>Vol: <strong>{vol_r:.1f}x</strong></span>
-        <span>MA200: <strong class="{'pos' if above_ma else 'neg'}">${ma200 or '—'}</strong></span>
-        <span>Inst: <strong>{inst or '—'}{'%' if inst else ''}</strong></span>
-        <span>MFI: <strong>{mfi or '—'}</strong></span>
-        <span>IV: <strong>{iv or '—'}{'%' if iv else ''}</strong></span>
-        {f'<span>Last breakout: <strong>{hist_d}</strong> ({hist_r:+.1f}%)</span>' if hist_d else ''}
+        <span>MA200: <strong class="{"pos" if above_ma else "neg"}">${ma200 or "—"}</strong></span>
+        <span>Inst: <strong>{inst or "—"}{"%" if inst else ""}</strong></span>
+        <span>MFI: <strong>{mfi or "—"}</strong></span>
+        <span>IV(mean): <strong>{iv or "—"}{"%" if iv else ""}</strong></span>
+        {f'<span>Last breakout: <strong>{hist_d}</strong> ({hist_r:+.1f}%)</span>' if hist_d else ""}
       </div>
+      {opts_html}
     </div>'''
-
-
 def render_monitor_card(s):
     ticker = s.get("ticker", "")
     name   = s.get("name", ticker)
