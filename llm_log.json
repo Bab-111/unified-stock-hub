@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-06-15 23:51 UTC",
-    "phase": "After-Hours",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top screener picks (AMAT, CSCO, AMD) align with the sector momentum in Technology, which is strong.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nThere is a contradiction between the screener and monitor signals for AMD, as its volume is below average and its MFI is below 70.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: AMAT, due to its high score (15/17) and high institutional ownership (85.1%).\nWeakest pick: AMD, due to its low volume (0.7x MA200) and low MFI (61.3).\n\n\u2022 Overall confidence: MEDIUM\nThe strong sector momentum and high scores of top picks contribute to moderate confidence, but the contradictions and weaker signals for AMD temper overall confidence.",
+    "ts_utc": "2026-06-16 02:18 UTC",
+    "phase": "Overnight",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top sector is Technology, with AMAT and CSCO as top picks. Both stocks have high scores and strong momentum indicators, supporting the sector's trend.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nThere are no direct contradictions between the screener and monitor signals. However, SOFI and SCO are below their 200-day MA, which may indicate a potential sector-wide correction.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: AMAT (score=15/17) due to its high score and strong momentum indicators.\nWeakest pick: AMD (score=13/17) due to its low volume (0.7x MA200).\n\n\u2022 Overall confidence: HIGH\nThe Technology sector's strong momentum and top screener picks indicate a high level of confidence in the market's direction.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
