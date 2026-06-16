@@ -1,12 +1,19 @@
 """
 module_screener.py — Unified breakout screener.
-Matches original stock-screener scoring exactly, plus options enrichment.
+EXACT PARITY with original stock-screener/scripts/daily_report.py
 
-Key fixes vs previous version:
-  1. IV uses MEAN of all calls (not ATM only) — matches original
-  2. Options detail added: ATM call IV, delta, theta + CSP suggestion
-  3. Candle description added (open vs close context)
-  4. All 8 scoring factors unchanged (weights identical to original)
+6 fixes applied vs previous version:
+  FIX 1: Price period = "6mo" (was "1y")
+  FIX 2: Sector ETF period = "5d" interval="1d" (was "2d")
+  FIX 3: Sector scoring: ONLY rank-1 = green+3pts; rank2-3 = yellow+1pt (was rank1-3=green)
+  FIX 4: History lookback = 90 days (was 252)
+  FIX 5: History conditions = vol>=2x AND breakout AND above_ma (was breakout only)
+  FIX 6: History yellow band = hist_ret > 0 = yellow+1pt (was only green/red)
+
+KEPT from unified (not in original, added as improvements):
+  + Options enrichment: ATM call details + CSP suggestion displayed in cards
+  + Candle description text in cards
+  + Market cap display in cards
 """
 import warnings
 import pandas as pd
@@ -16,7 +23,6 @@ from datetime import datetime, timezone
 
 warnings.filterwarnings("ignore")
 
-# ── Static sector map ──────────────────────────────────────────────────────────
 SECTOR_MAP = {
     "AAPL":"Technology","MSFT":"Technology","NVDA":"Technology",
     "GOOGL":"Comm. Services","AMZN":"Consumer Disc","META":"Comm. Services",
@@ -83,6 +89,13 @@ def safe_float(val, default=None):
     except: return default
 
 
+def classify(value, high_t, mod_t):
+    """Exact copy of original classify() helper."""
+    v = safe_float(value)
+    if v is None: return "red"
+    return "green" if v >= high_t else ("yellow" if v >= mod_t else "red")
+
+
 def flatten_df(df):
     if isinstance(df.columns, pd.MultiIndex):
         df = df.copy()
@@ -91,7 +104,7 @@ def flatten_df(df):
 
 
 def get_regular_close_bar(df):
-    """Skip low-volume after-hours bar; use previous bar instead."""
+    """Lock to regular market close bar — skip low-volume incomplete bars."""
     df = df.copy().dropna(how="all")
     if len(df) < 2:
         return df.iloc[-1]
@@ -107,102 +120,127 @@ def get_market_phase(utc_hour, utc_minute):
     t  = utc_hour * 60 + utc_minute
     et = t - 240
     if et < 0: et += 1440
-    if   et <  570: return "Pre-Market"
-    elif et <  960: return "Regular Hours"
-    elif et < 1200: return "After-Hours"
+    if   et <  570: return "Pre-Market (before 9:30 AM ET)"
+    elif et <  960: return "Regular Market Hours"
+    elif et < 1200: return "After-Hours (4:00-8:00 PM ET)"
     else:           return "Overnight"
 
 
-def calc_mfi(df, period=14):
+def calc_ma200(data):
+    """Rolling MA using min(200, available bars) — matches original."""
+    cl  = flatten_df(data)["Close"].squeeze().astype(float)
+    win = min(200, len(cl))
+    return float(cl.rolling(win).mean().iloc[-1])
+
+
+def calc_mfi(data, period=14):
+    """14-period Money Flow Index — exact original formula."""
     try:
-        df  = flatten_df(df.copy())
-        tp  = (df["High"] + df["Low"] + df["Close"]) / 3
-        mf  = tp * df["Volume"]
-        pos = mf.where(tp > tp.shift(1), 0).rolling(period).sum()
-        neg = mf.where(tp < tp.shift(1), 0).rolling(period).sum()
-        mfi = 100 - (100 / (1 + pos / neg.replace(0, np.nan)))
-        val = float(mfi.iloc[-1])
-        return round(val, 1) if not np.isnan(val) else None
+        hi  = flatten_df(data)["High"].squeeze().astype(float)
+        lo  = flatten_df(data)["Low"].squeeze().astype(float)
+        cl  = flatten_df(data)["Close"].squeeze().astype(float)
+        vol = flatten_df(data)["Volume"].squeeze().astype(float)
+        tp  = (hi + lo + cl) / 3
+        rmf = tp * vol
+        pos = rmf.where(tp > tp.shift(1), 0.0)
+        neg = rmf.where(tp < tp.shift(1), 0.0)
+        mfr = (pos.rolling(period).sum() /
+               neg.rolling(period).sum().replace(0, 1e-9))
+        v   = float((100 - (100 / (1 + mfr))).iloc[-1])
+        return round(v, 1) if not np.isnan(v) else None
     except Exception:
         return None
 
 
-def calc_ma200(df):
+def last_breakout(data, vol_threshold=2.0, brk_threshold=1.03, fwd_days=10, ret_threshold=5):
+    """
+    FIX 4: lookback = 90 days (was 252)
+    FIX 5: requires vol>=2x AND breakout candle AND above MA (was breakout only)
+    FIX 6: returns (date, ret, 'yellow') if ret > 0 but < threshold (was ignored)
+    Exact logic from original last_breakout().
+    """
     try:
-        close = flatten_df(df)["Close"].squeeze()
-        if len(close) >= 200:
-            return round(float(close.rolling(200).mean().iloc[-1]), 2)
-    except Exception:
-        pass
-    return None
-
-
-def last_breakout(df, threshold=1.03, lookback=252, fwd_days=10, ret_threshold=5):
-    try:
-        df    = flatten_df(df.copy())
-        close = df["Close"].squeeze()
-        op    = df["Open"].squeeze()
-        for i in range(min(lookback, len(df) - fwd_days - 1), 0, -1):
-            if float(close.iloc[i]) > float(op.iloc[i]) * threshold:
-                fwd_end = min(i + fwd_days, len(close) - 1)
-                ret = (float(close.iloc[fwd_end]) - float(close.iloc[i])) / float(close.iloc[i]) * 100
+        df      = flatten_df(data.copy())
+        closes  = df["Close"].squeeze().astype(float).values
+        opens   = df["Open"].squeeze().astype(float).values
+        volumes = df["Volume"].squeeze().astype(float).values
+        avg_vol = float(np.nanmean(volumes))
+        win     = min(200, len(closes))
+        # Rolling MA array — matches original exactly
+        ma_vals = np.array([
+            np.mean(closes[max(0, i - win):i]) if i >= 20 else np.nan
+            for i in range(len(closes))
+        ])
+        # FIX 4: lookback 90 days only
+        lookback = min(90, len(df) - fwd_days - 1)
+        for i in range(len(data) - 2, max(0, len(data) - lookback), -1):
+            # FIX 5: all three conditions required
+            if (volumes[i] >= vol_threshold * avg_vol and
+                    closes[i] > opens[i] * brk_threshold and
+                    not np.isnan(ma_vals[i]) and closes[i] > ma_vals[i]):
+                fwd = min(i + fwd_days, len(closes) - 1)
+                ret = round((closes[fwd] - closes[i]) / closes[i] * 100, 1)
+                date_str = df.index[i].strftime("%b %d, %Y")
+                # FIX 6: yellow band for positive but below threshold
                 if ret >= ret_threshold:
-                    return df.index[i].strftime("%Y-%m-%d"), round(ret, 1)
+                    return date_str, ret, "green"
+                elif ret > 0:
+                    return date_str, ret, "yellow"
     except Exception:
         pass
-    return None, 0.0
+    return None, None, None
 
 
 def score_stock(vol_ratio, breakout, above_ma, inst_pct, mfi_val,
-                sec_rank, iv_val, hist_ret,
+                sec_rank, iv_val, hist_ret, hist_color,
                 vol_thresh=2.0, inst_high=60, inst_mod=40,
-                mfi_thresh=50, iv_high=25, iv_mod=15, hist_thresh=5):
+                mfi_thresh=50, iv_high=25, iv_mod=15):
+    """
+    Scoring — EXACT match to original score_stock().
+    FIX 3: sector rank scoring (only rank-1=green, rank2-3=yellow)
+    FIX 6: history uses hist_color (green/yellow/red)
+    """
     f = {}
     s = 0
 
     # Volume (w:2)
-    if   vol_ratio >= vol_thresh: f["volume"]="green";  s+=2
-    elif vol_ratio >= 1.3:        f["volume"]="yellow"; s+=1
-    else:                         f["volume"]="red"
+    if   vol_ratio >= vol_thresh: f["volume"] = "green";  s += 2
+    elif vol_ratio >= 1.3:        f["volume"] = "yellow"; s += 1
+    else:                         f["volume"] = "red"
 
     # Breakout candle (w:2)
-    if   breakout:           f["breakout"]="green"; s+=2
-    elif vol_ratio >= 1.5:   f["breakout"]="yellow"; s+=1
-    else:                    f["breakout"]="red"
+    if   breakout:           f["breakout"] = "green";  s += 2
+    elif vol_ratio >= 1.5:   f["breakout"] = "yellow"; s += 1
+    else:                    f["breakout"] = "red"
 
     # MA200 (w:2)
     f["ma200"] = "green" if above_ma else "red"
     s += 2 if above_ma else 0
 
-    # Inst ownership (w:3)
-    def classify(val, hi, mo):
-        v = safe_float(val)
-        if v is None: return "red"
-        return "green" if v >= hi else ("yellow" if v >= mo else "red")
-
+    # Institutional ownership (w:3)
     ic = classify(inst_pct, inst_high, inst_mod)
     f["inst_own"] = ic
-    s += 3 if ic=="green" else (1 if ic=="yellow" else 0)
+    s += 3 if ic == "green" else (1 if ic == "yellow" else 0)
 
     # MFI (w:2)
-    mc = classify(mfi_val, mfi_thresh+10, mfi_thresh)
+    mc = classify(mfi_val, mfi_thresh + 10, mfi_thresh)
     f["mfi"] = mc
-    s += 2 if mc=="green" else (1 if mc=="yellow" else 0)
+    s += 2 if mc == "green" else (1 if mc == "yellow" else 0)
 
-    # Sector momentum (w:3)
-    sec_score = 3 if sec_rank<=3 else (2 if sec_rank<=5 else (1 if sec_rank<=7 else 0))
-    f["sector"] = "green" if sec_score>=2 else ("yellow" if sec_score==1 else "red")
-    s += sec_score
+    # FIX 3: Sector (w:3) — ONLY rank-1 = full green
+    if   sec_rank == 1: f["sector"] = "green";  s += 3
+    elif sec_rank <= 3: f["sector"] = "yellow"; s += 1
+    else:               f["sector"] = "red"
 
-    # Historical breakout return (w:2)
-    hc = "green" if (hist_ret or 0) >= hist_thresh else "red"
-    f["history"] = hc
-    s += 2 if hc=="green" else 0
-
-    # IV (w:1) — using MEAN of all calls (matches original)
+    # IV (w:1)
     ivc = classify(iv_val, iv_high, iv_mod) if iv_val is not None else "red"
     f["iv"] = ivc
-    s += 1 if ivc in ("green","yellow") else 0
+    s += 1 if ivc == "green" else 0
+
+    # FIX 6: History (w:2) — yellow band preserved
+    if   hist_color == "green":  f["history"] = "green";  s += 2
+    elif hist_color == "yellow": f["history"] = "yellow"; s += 1
+    else:                        f["history"] = "red"
 
     return s, f
 
@@ -210,120 +248,6 @@ def score_stock(vol_ratio, breakout, above_ma, inst_pct, mfi_val,
 def traffic_light(score):
     p = score / MAX_SCORE
     return "strong" if p >= 0.70 else ("moderate" if p >= 0.45 else "weak")
-
-
-# ── Options enrichment ─────────────────────────────────────────────────────────
-
-def get_options_detail(ticker_sym, price):
-    """
-    Fetch options chain for a ticker.
-    Returns dict with:
-      - iv_mean: mean IV of all calls (used for scoring — matches original)
-      - atm_call: ATM call details (strike, iv, delta, theta, gamma, premium)
-      - csp: best cash-secured put suggestion (nearest OTM put)
-      - exp: expiration date used
-    """
-    result = {"iv_mean": None, "atm_call": None, "csp": None, "exp": None}
-    try:
-        t    = yf.Ticker(ticker_sym)
-        exps = t.options
-        if not exps:
-            return result
-        result["exp"] = str(exps[0])
-        chain = t.option_chain(exps[0])
-        calls = chain.calls.dropna(subset=["impliedVolatility"])
-        puts  = chain.puts.dropna(subset=["impliedVolatility"])
-
-        # Mean IV of all calls — MATCHES ORIGINAL scoring
-        if len(calls) > 0:
-            result["iv_mean"] = round(float(calls["impliedVolatility"].mean()) * 100, 1)
-
-        # ATM call detail
-        if len(calls) > 0 and price:
-            atm = calls.iloc[(calls["strike"] - price).abs().argsort().iloc[:1]]
-            row = atm.iloc[0]
-            result["atm_call"] = {
-                "strike":  round(float(row["strike"]), 2),
-                "premium": round(float(row["lastPrice"]), 2),
-                "iv":      round(float(row["impliedVolatility"]) * 100, 1),
-                "delta":   round(float(row["delta"]), 3) if "delta" in row and pd.notna(row.get("delta")) else None,
-                "theta":   round(float(row["theta"]), 4) if "theta" in row and pd.notna(row.get("theta")) else None,
-                "gamma":   round(float(row["gamma"]), 4) if "gamma" in row and pd.notna(row.get("gamma")) else None,
-                "volume":  int(row["volume"]) if pd.notna(row.get("volume")) else None,
-                "oi":      int(row["openInterest"]) if pd.notna(row.get("openInterest")) else None,
-            }
-
-        # Best CSP: highest premium OTM put within 5% of price
-        if len(puts) > 0 and price:
-            otm_puts = puts[puts["strike"] <= price * 0.95].copy()
-            if len(otm_puts) > 0:
-                otm_puts = otm_puts.sort_values("lastPrice", ascending=False)
-                row = otm_puts.iloc[0]
-                result["csp"] = {
-                    "strike":  round(float(row["strike"]), 2),
-                    "premium": round(float(row["lastPrice"]), 2),
-                    "iv":      round(float(row["impliedVolatility"]) * 100, 1),
-                    "pct_otm": round((price - float(row["strike"])) / price * 100, 1),
-                    "exp":     str(exps[0]),
-                }
-    except Exception as e:
-        pass
-    return result
-
-
-# ── Batch fetchers ─────────────────────────────────────────────────────────────
-
-def batch_sector():
-    etf_list = list(SECTOR_ETFS.values())
-    try:
-        raw   = yf.download(etf_list, period="2d", auto_adjust=True, progress=False)
-        close = flatten_df(raw["Close"] if "Close" in raw.columns.get_level_values(0) else raw)
-        perf  = {}
-        for sector, etf in SECTOR_ETFS.items():
-            if etf in close.columns and len(close[etf].dropna()) >= 2:
-                vals = close[etf].dropna()
-                perf[sector] = round((float(vals.iloc[-1]) - float(vals.iloc[-2])) / float(vals.iloc[-2]) * 100, 2)
-        return perf
-    except Exception as e:
-        print(f"  [Screener] sector batch error: {e}")
-        return {}
-
-
-def batch_price(symbols):
-    try:
-        raw = yf.download(
-            symbols, period="1y", auto_adjust=True,
-            group_by="ticker", progress=False, threads=True
-        )
-        result = {}
-        for sym in symbols:
-            try:
-                df = raw[sym].dropna(how="all") if sym in raw.columns.get_level_values(0) else raw.dropna(how="all")
-                if len(df) >= 20:
-                    result[sym] = flatten_df(df)
-            except Exception:
-                pass
-        return result
-    except Exception as e:
-        print(f"  [Screener] price batch error: {e}")
-        return {}
-
-
-def enrich_candidate(sym, price, cfg):
-    """Enrich a top-10 candidate with inst%, options data, mcap."""
-    inst_pct = mcap = None
-    opts     = {"iv_mean": None, "atm_call": None, "csp": None, "exp": None}
-    try:
-        info     = yf.Ticker(sym).info
-        raw      = info.get("heldPercentInstitutions")
-        if raw:  inst_pct = round(float(raw) * 100, 1)
-        mcap_raw = info.get("marketCap")
-        if mcap_raw: mcap = float(mcap_raw)
-    except Exception:
-        pass
-    # Options detail (IV mean for scoring + ATM call + CSP)
-    opts = get_options_detail(sym, price)
-    return inst_pct, opts, mcap
 
 
 def fmt_mcap(n):
@@ -337,10 +261,136 @@ def fmt_mcap(n):
         return "N/A"
 
 
+# ── Options enrichment (unified addition — not in original) ────────────────────
+
+def get_options_detail(ticker_sym, price):
+    result = {"iv_mean": None, "atm_call": None, "csp": None, "exp": None}
+    try:
+        t     = yf.Ticker(ticker_sym)
+        exps  = t.options
+        if not exps:
+            return result
+        result["exp"] = str(exps[0])
+        chain = t.option_chain(exps[0])
+        calls = chain.calls.dropna(subset=["impliedVolatility"])
+        puts  = chain.puts.dropna(subset=["impliedVolatility"])
+
+        # IV mean of ALL calls — matches original scoring
+        if len(calls) > 0:
+            result["iv_mean"] = round(float(calls["impliedVolatility"].mean()) * 100, 1)
+
+        # ATM call detail
+        if len(calls) > 0 and price:
+            atm = calls.iloc[(calls["strike"] - price).abs().argsort().iloc[:1]]
+            row = atm.iloc[0]
+            result["atm_call"] = {
+                "strike":  round(float(row["strike"]), 2),
+                "premium": round(float(row["lastPrice"]), 2),
+                "iv":      round(float(row["impliedVolatility"]) * 100, 1),
+                "delta":   round(float(row["delta"]), 3) if "delta" in row and pd.notna(row.get("delta")) else None,
+                "theta":   round(float(row["theta"]), 4) if "theta" in row and pd.notna(row.get("theta")) else None,
+                "volume":  int(row["volume"]) if pd.notna(row.get("volume")) else None,
+                "oi":      int(row["openInterest"]) if pd.notna(row.get("openInterest")) else None,
+            }
+
+        # Best CSP: OTM put within 5% of price with highest premium
+        if len(puts) > 0 and price:
+            otm = puts[puts["strike"] <= price * 0.95].copy()
+            if len(otm) > 0:
+                row = otm.sort_values("lastPrice", ascending=False).iloc[0]
+                result["csp"] = {
+                    "strike":  round(float(row["strike"]), 2),
+                    "premium": round(float(row["lastPrice"]), 2),
+                    "iv":      round(float(row["impliedVolatility"]) * 100, 1),
+                    "pct_otm": round((price - float(row["strike"])) / price * 100, 1),
+                    "exp":     str(exps[0]),
+                }
+    except Exception:
+        pass
+    return result
+
+
+# ── Batch fetchers ─────────────────────────────────────────────────────────────
+
+def batch_sector():
+    """FIX 2: period=5d, interval=1d — matches original."""
+    etf_list = list(SECTOR_ETFS.values())
+    try:
+        raw = yf.download(etf_list, period="5d", interval="1d",
+                          group_by="ticker", auto_adjust=True,
+                          progress=False, threads=True)
+        result = {}
+        for sector, etf in SECTOR_ETFS.items():
+            try:
+                cl = raw[etf]["Close"].squeeze() if len(etf_list) > 1 else flatten_df(raw)["Close"]
+                if len(cl) >= 2:
+                    result[sector] = round(
+                        float((cl.iloc[-1] - cl.iloc[-2]) / cl.iloc[-2] * 100), 2)
+            except Exception:
+                pass
+        print(f"  Got {len(result)} sectors")
+        return result
+    except Exception as e:
+        print(f"  [Screener] sector batch error: {e}")
+        return {}
+
+
+def batch_price(symbols):
+    """FIX 1: period=6mo, interval=1d — matches original."""
+    print(f"  [2/3] Price data ({len(symbols)} tickers)...", flush=True)
+    needed = ["Open", "High", "Low", "Close", "Volume"]
+    try:
+        raw = yf.download(symbols, period="6mo", interval="1d",
+                          group_by="ticker", auto_adjust=True,
+                          progress=False, threads=True)
+        result = {}
+        if len(symbols) == 1:
+            sym = symbols[0]
+            df  = flatten_df(raw)
+            if len(df) >= 20 and all(c in df.columns for c in needed):
+                result[sym] = df[needed].dropna(how="all")
+            return result
+        for sym in symbols:
+            try:
+                if sym not in raw.columns.get_level_values(0):
+                    continue
+                df = flatten_df(raw[sym])
+                if len(df) < 20:
+                    continue
+                if not all(c in df.columns for c in needed):
+                    continue
+                result[sym] = df[needed].dropna(how="all")
+            except Exception:
+                pass
+        print(f"  Got data for {len(result)} tickers")
+        return result
+    except Exception as e:
+        print(f"  [Screener] price batch error: {e}")
+        return {}
+
+
+def enrich_candidate(sym, price):
+    """Fetch inst%, options (iv_mean + ATM + CSP), mcap for top-10 only."""
+    inst_pct = mcap = None
+    opts = {"iv_mean": None, "atm_call": None, "csp": None, "exp": None}
+    try:
+        info = yf.Ticker(sym).info
+        raw  = info.get("heldPercentInstitutions")
+        if raw is not None:
+            inst_pct = round(float(raw) * 100, 1)
+        mcap_raw = info.get("marketCap")
+        if mcap_raw:
+            mcap = float(mcap_raw)
+    except Exception:
+        pass
+    opts = get_options_detail(sym, price)
+    return inst_pct, opts, mcap
+
+
 # ── Main runner ────────────────────────────────────────────────────────────────
 
 def run(universe_file: str, cfg: dict) -> dict:
-    now_utc = datetime.now(timezone.utc).replace(tzinfo=None)
+    now_utc  = datetime.now(timezone.utc).replace(tzinfo=None)
     run_time = now_utc.strftime("%Y-%m-%d %H:%M")
     phase    = get_market_phase(now_utc.hour, now_utc.minute)
     print(f"[Screener] {run_time} — {phase}")
@@ -353,23 +403,20 @@ def run(universe_file: str, cfg: dict) -> dict:
     mfi_thresh  = float(cfg.get("mfi_threshold", 50))
     iv_high     = float(cfg.get("iv_high_threshold", 25))
     iv_mod      = float(cfg.get("iv_moderate_threshold", 15))
-    hist_thresh = float(cfg.get("history_return_threshold", 5))
     fwd_days    = int(cfg.get("forward_return_days", 10))
 
     symbols = pd.read_csv(universe_file)["Symbol"].dropna().tolist()
     print(f"  Universe: {len(symbols)} tickers")
 
-    # Batch 1: Sector ETFs
-    print("  [1/3] Sector ETFs...", flush=True)
+    # Batch 1: Sector ETFs (FIX 2: 5d period)
+    print("  [1/3] Sector rotation...", flush=True)
     sector_data    = batch_sector()
     sorted_sectors = sorted(sector_data.items(), key=lambda x: x[1], reverse=True)
-    sector_rank    = {s: i+1 for i, (s, _) in enumerate(sorted_sectors)}
+    sector_rank    = {s: i + 1 for i, (s, _) in enumerate(sorted_sectors)}
 
-    # Batch 2: All prices
-    print("  [2/3] Price data...", flush=True)
-    price_data  = batch_price(symbols)
-    valid_syms  = list(price_data.keys())
-    print(f"  Downloaded {len(valid_syms)} symbols")
+    # Batch 2: All prices (FIX 1: 6mo period)
+    price_data = batch_price(symbols)
+    valid_syms = list(price_data.keys())
 
     # Score all stocks
     print(f"  [3/3] Scoring {len(valid_syms)} stocks...", flush=True)
@@ -385,29 +432,31 @@ def run(universe_file: str, cfg: dict) -> dict:
             vol_ratio = round(vol / avg_v, 2) if avg_v > 0 else 0.0
             breakout  = close > open_ * brk_thresh
             ma200     = calc_ma200(data)
-            above_ma  = close > ma200 if ma200 else False
+            above_ma  = close > ma200
             mfi_val   = calc_mfi(data)
             sec       = SECTOR_MAP.get(sym, "Unknown")
             sec_rank  = sector_rank.get(sec, 99)
-            hist_date, hist_ret = last_breakout(data, brk_thresh, fwd_days=fwd_days, ret_threshold=hist_thresh)
             chg_pct   = round((close - open_) / open_ * 100, 2) if open_ else 0
+
+            # FIX 4+5+6: history with 90-day lookback + all conditions + yellow band
+            hist_date, hist_ret, hist_color = last_breakout(
+                data, vol_thresh, brk_thresh, fwd_days)
 
             score, factors = score_stock(
                 vol_ratio, breakout, above_ma, None, mfi_val,
-                sec_rank, None, hist_ret,
+                sec_rank, None, hist_ret, hist_color,
                 vol_thresh=vol_thresh, inst_high=inst_high, inst_mod=inst_mod,
                 mfi_thresh=mfi_thresh, iv_high=iv_high, iv_mod=iv_mod,
-                hist_thresh=hist_thresh,
             )
             all_results.append({
                 "symbol": sym, "score": score, "tl": traffic_light(score),
                 "factors": factors, "close": close, "open": open_,
                 "change_pct": chg_pct, "vol_ratio": vol_ratio,
-                "ma200": ma200, "mcap": None,
+                "ma200": ma200, "mcap": None, "mcap_fmt": "—",
                 "inst_pct": None, "mfi_val": mfi_val,
                 "sector": sec, "iv_val": None,
                 "hist_date": hist_date, "hist_ret": hist_ret,
-                "options": None,
+                "hist_color": hist_color, "options": None,
             })
         except Exception:
             pass
@@ -415,48 +464,48 @@ def run(universe_file: str, cfg: dict) -> dict:
     all_results.sort(key=lambda x: x["score"], reverse=True)
     top10 = all_results[:10]
 
-    # Enrich top-10 with inst%, options (IV mean + ATM call + CSP), mcap
+    # Enrich top-10 with inst%, IV, options, mcap
     print("  Enriching top 10...", flush=True)
     for r in top10:
         sym   = r["symbol"]
         price = r["close"]
-        inst_pct, opts, mcap = enrich_candidate(sym, price, cfg)
+        inst_pct, opts, mcap = enrich_candidate(sym, price)
         r["inst_pct"] = inst_pct
-        r["iv_val"]   = opts["iv_mean"]   # MEAN of all calls — matches original
+        r["iv_val"]   = opts["iv_mean"]  # mean of ALL calls — matches original
         r["options"]  = opts
         r["mcap"]     = mcap
         r["mcap_fmt"] = fmt_mcap(mcap)
 
-        # Re-score with enriched data
         new_score, new_factors = score_stock(
             r["vol_ratio"], r["close"] > r["open"] * brk_thresh,
-            r["close"] > (r["ma200"] or 0), inst_pct, r["mfi_val"],
-            sector_rank.get(r["sector"], 99), opts["iv_mean"], r["hist_ret"],
+            r["close"] > r["ma200"], inst_pct, r["mfi_val"],
+            sector_rank.get(r["sector"], 99), opts["iv_mean"],
+            r["hist_ret"], r["hist_color"],
             vol_thresh=vol_thresh, inst_high=inst_high, inst_mod=inst_mod,
             mfi_thresh=mfi_thresh, iv_high=iv_high, iv_mod=iv_mod,
-            hist_thresh=hist_thresh,
         )
         r["score"]   = new_score
         r["factors"] = new_factors
         r["tl"]      = traffic_light(new_score)
-        print(f"    {sym}: {new_score}/{MAX_SCORE} inst={inst_pct}% iv_mean={opts['iv_mean']}%")
+        print(f"    {sym}: {new_score}/{MAX_SCORE} inst={inst_pct}% iv={opts['iv_mean']}%")
 
     top10.sort(key=lambda x: x["score"], reverse=True)
     top_results = top10[:top_n]
 
     total      = max(len(all_results), 1)
-    green_pct  = sum(1 for r in all_results if r["tl"]=="strong")  / total * 100
-    yellow_pct = sum(1 for r in all_results if r["tl"]=="moderate") / total * 100
-    red_pct    = sum(1 for r in all_results if r["tl"]=="weak")    / total * 100
-    top_sector = sorted_sectors[0][0] if sorted_sectors else "Unknown"
+    green_pct  = sum(1 for r in all_results if r["tl"] == "strong")  / total * 100
+    yellow_pct = sum(1 for r in all_results if r["tl"] == "moderate") / total * 100
+    red_pct    = sum(1 for r in all_results if r["tl"] == "weak")    / total * 100
 
     return {
         "top_picks":         top_results,
         "all_results_count": len(all_results),
         "sector_data":       sector_data,
         "sorted_sectors":    sorted_sectors,
-        "top_sector":        top_sector,
-        "sentiment":         {"green": round(green_pct,1), "yellow": round(yellow_pct,1), "red": round(red_pct,1)},
+        "top_sector":        sorted_sectors[0][0] if sorted_sectors else "Unknown",
+        "sentiment":         {"green": round(green_pct, 1),
+                              "yellow": round(yellow_pct, 1),
+                              "red": round(red_pct, 1)},
         "run_time":          run_time,
         "phase":             phase,
         "max_score":         MAX_SCORE,
