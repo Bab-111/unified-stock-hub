@@ -4,18 +4,23 @@ Reads RUN_MODE env var to decide which modules to run.
   RUN_MODE=full     -> all three modules (pre-market + close)
   RUN_MODE=screener -> screener only (market hours)
   RUN_MODE=partial  -> screener + news (after-hours)
+
+Cache strategy: monitor + news data saved to cache/ folder in repo,
+committed back after each run so it persists across GitHub Actions runs.
 """
 import os
 import json
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).parent.parent
-CONFIG_DIR  = ROOT / "config"
-OUTPUT_DIR  = ROOT / "output"
-OUTPUT_DIR.mkdir(exist_ok=True)
+ROOT       = Path(__file__).parent.parent
+CONFIG_DIR = ROOT / "config"
+OUTPUT_DIR = ROOT / "output"
+CACHE_DIR  = ROOT / "cache"   # committed to repo — survives between runs
 
-# Add scripts dir to path
+OUTPUT_DIR.mkdir(exist_ok=True)
+CACHE_DIR.mkdir(exist_ok=True)
+
 sys.path.insert(0, str(ROOT / "scripts"))
 
 import module_screener
@@ -32,33 +37,42 @@ def load_config():
 
 def load_watchlist():
     with open(CONFIG_DIR / "watchlist.json") as f:
-        data = json.load(f)
-    return data.get("tickers", [])
+        return json.load(f).get("tickers", [])
 
 
-def load_existing_data():
-    """Load previously generated module data to preserve non-run modules."""
-    data_file = OUTPUT_DIR / "last_run_data.json"
-    if data_file.exists():
+def load_cache(key):
+    """Load cached module data from repo cache/ folder."""
+    cache_file = CACHE_DIR / f"{key}.json"
+    if cache_file.exists():
         try:
-            return json.loads(data_file.read_text())
-        except Exception:
-            pass
-    return {}
+            data = json.loads(cache_file.read_text())
+            print(f"  [Cache] Loaded {key} from cache ({cache_file.stat().st_size // 1024}KB)")
+            return data
+        except Exception as e:
+            print(f"  [Cache] Failed to load {key}: {e}")
+    else:
+        print(f"  [Cache] No cache found for {key}")
+    return None
 
 
-def save_run_data(data):
-    """Persist module outputs so partial runs can merge with last full run."""
-    data_file = OUTPUT_DIR / "last_run_data.json"
-    # Remove news per_ticker to keep file size small
-    slim = {k: v for k, v in data.items() if k != "news"}
-    if "news" in data:
-        slim["news"] = {
-            "general": data["news"].get("general", []),
-            "generated_at_utc": data["news"].get("generated_at_utc", ""),
-            "generated_at_tw": data["news"].get("generated_at_tw", ""),
-        }
-    data_file.write_text(json.dumps(slim, indent=2, default=str))
+def save_cache(key, data):
+    """Save module data to repo cache/ folder so next run can use it."""
+    cache_file = CACHE_DIR / f"{key}.json"
+    try:
+        # For news: save general + metadata only (skip per_ticker to keep size small)
+        if key == "news" and data:
+            slim = {
+                "general":          data.get("general", []),
+                "per_ticker":       data.get("per_ticker", {}),
+                "generated_at_utc": data.get("generated_at_utc", ""),
+                "generated_at_tw":  data.get("generated_at_tw", ""),
+            }
+            cache_file.write_text(json.dumps(slim, indent=2, default=str))
+        else:
+            cache_file.write_text(json.dumps(data, indent=2, default=str))
+        print(f"  [Cache] Saved {key} ({cache_file.stat().st_size // 1024}KB)")
+    except Exception as e:
+        print(f"  [Cache] Failed to save {key}: {e}")
 
 
 def main():
@@ -67,15 +81,11 @@ def main():
     print(f"Unified Stock Hub — RUN_MODE={run_mode}")
     print(f"{'='*50}")
 
-    cfg = load_config()
-    tickers = load_watchlist()
+    cfg           = load_config()
+    tickers       = load_watchlist()
     universe_file = str(CONFIG_DIR / cfg.get("universe", "universe.csv"))
 
-    # Load previous run data for modules we're skipping this run
-    existing = load_existing_data()
-    run_data = dict(existing)  # start with existing, overwrite what we run
-
-    # ── Run modules based on mode ─────────────────────────────────────
+    # ── Run modules ───────────────────────────────────────────────────
     screener_data = None
     monitor_data  = None
     news_data     = None
@@ -83,46 +93,39 @@ def main():
     # Screener: always runs
     print("\n[1/3] Running screener...")
     screener_data = module_screener.run(universe_file, cfg)
-    run_data["screener"] = screener_data
 
-    # Monitor: full mode only
+    # Monitor: full mode only — otherwise load from cache
     if run_mode == "full":
         print("\n[2/3] Running monitor...")
         monitor_data = module_monitor.run(tickers, cfg)
-        run_data["monitor"] = monitor_data
+        save_cache("monitor", monitor_data)
     else:
-        print("\n[2/3] Monitor skipped (using cached data)")
-        monitor_data = existing.get("monitor")
+        print("\n[2/3] Monitor skipped — loading cached data...")
+        monitor_data = load_cache("monitor")
 
-    # News: full or partial mode
+    # News: full or partial — otherwise load from cache
     if run_mode in ("full", "partial"):
         print("\n[3/3] Running news...")
         all_tickers = list(set(tickers))
-        # Also add screener top picks to news fetch
         if screener_data:
             for r in screener_data.get("top_picks", []):
                 t = r.get("symbol", "")
                 if t and t not in all_tickers:
                     all_tickers.append(t)
         news_data = module_news.run(all_tickers, cfg)
-        run_data["news"] = news_data
+        save_cache("news", news_data)
     else:
-        print("\n[3/3] News skipped (using cached data)")
-        news_data = existing.get("news")
+        print("\n[3/3] News skipped — loading cached data...")
+        news_data = load_cache("news")
 
     # ── LLM supervision ───────────────────────────────────────────────
     print("\n[LLM] Running supervisor...")
-    # Only call LLM when screener has fresh data (always) and at least one other module ran
     llm_note = llm_supervisor.run(
         screener_data, monitor_data, news_data, cfg, OUTPUT_DIR
     )
     print(f"  LLM: {str(llm_note)[:80]}...")
-    run_data["llm_note"] = llm_note
 
-    # ── Persist run data ──────────────────────────────────────────────
-    save_run_data(run_data)
-
-    # ── Build HTML report ─────────────────────────────────────────────
+    # ── Build HTML ────────────────────────────────────────────────────
     print("\n[Build] Generating HTML report...")
     llm_log = []
     llm_log_file = OUTPUT_DIR / "llm_log.json"
