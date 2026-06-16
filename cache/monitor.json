@@ -61,14 +61,14 @@
       "earnings": null,
       "options": {
         "exp": "2026-06-18",
-        "iv": 37.2,
+        "iv": 0.4,
         "delta": null,
         "theta": null,
         "gamma": null,
         "csp": {
           "strike": 365.0,
           "premium": 3.7,
-          "iv": 36.1,
+          "iv": 1.6,
           "exp": "2026-06-18"
         }
       },
@@ -142,14 +142,14 @@
       "earnings": null,
       "options": {
         "exp": "2026-06-18",
-        "iv": 65.2,
+        "iv": 0.0,
         "delta": null,
         "theta": null,
         "gamma": null,
         "csp": {
           "strike": 17.0,
           "premium": 0.36,
-          "iv": 66.8,
+          "iv": 3.1,
           "exp": "2026-06-18"
         }
       },
@@ -297,14 +297,14 @@
       "earnings": null,
       "options": {
         "exp": "2026-06-18",
-        "iv": 54.5,
+        "iv": 0.8,
         "delta": null,
         "theta": null,
         "gamma": null,
         "csp": {
           "strike": 134.0,
           "premium": 2.29,
-          "iv": 53.3,
+          "iv": 1.6,
           "exp": "2026-06-18"
         }
       },
@@ -353,7 +353,7 @@
         "spike": false
       },
       "fundamentals": {
-        "pe": 9.61,
+        "pe": 9.41,
         "fpe": 10.06,
         "peg": 0.58,
         "pb": 2.73,
@@ -367,7 +367,7 @@
         "debt_equity": 44.26,
         "current_ratio": 2.23,
         "fcf": "1.13B",
-        "eps": 12.09,
+        "eps": 12.35,
         "beta": 0.86,
         "short_ratio": 2.23,
         "inst_own": 82.6,
@@ -378,7 +378,7 @@
       "earnings": null,
       "options": {
         "exp": "2026-06-18",
-        "iv": 271.5,
+        "iv": 0.0,
         "delta": null,
         "theta": null,
         "gamma": null
@@ -447,14 +447,14 @@
       "earnings": null,
       "options": {
         "exp": "2026-06-18",
-        "iv": 72.4,
+        "iv": 0.0,
         "delta": null,
         "theta": null,
         "gamma": null,
         "csp": {
           "strike": 104.0,
           "premium": 2.53,
-          "iv": 69.0,
+          "iv": 0.8,
           "exp": "2026-06-18"
         }
       },
@@ -533,7 +533,7 @@
       "earnings": null,
       "options": {
         "exp": "2026-06-18",
-        "iv": 713.1,
+        "iv": 0.0,
         "delta": null,
         "theta": null,
         "gamma": null
@@ -677,7 +677,7 @@
       "earnings": null,
       "options": {
         "exp": "2026-06-18",
-        "iv": 402.1,
+        "iv": 0.0,
         "delta": null,
         "theta": null,
         "gamma": null
@@ -688,44 +688,44 @@
     {
       "ticker": "2884.TW",
       "name": "E.SUN Financial Holding Company, Ltd.",
-      "price": 35.25,
+      "price": 35.2,
       "prev_price": 34.65,
-      "change_pct": 1.73,
+      "change_pct": 1.59,
       "h52": 35.5,
       "l52": 29.4,
-      "pct_from_high": -0.7,
-      "pct_from_low": 19.9,
+      "pct_from_high": -0.8,
+      "pct_from_low": 19.7,
       "sector": "Financial Services",
       "industry": "Banks - Regional",
       "technicals": {
         "rsi": 78.0,
         "macd": {
-          "macd": 0.719,
+          "macd": 0.715,
           "signal": 0.396,
-          "histogram": 0.323,
+          "histogram": 0.319,
           "trend": "Bullish"
         }
       },
       "moving_averages": {
-        "sma20": 32.59,
-        "vs_sma20": 8.2,
-        "sma50": 32.42,
-        "vs_sma50": 8.7,
+        "sma20": 32.58,
+        "vs_sma20": 8.0,
+        "sma50": 32.41,
+        "vs_sma50": 8.6,
         "sma200": 32.58,
-        "vs_sma200": 8.2
+        "vs_sma200": 8.0
       },
       "volume": {
-        "volume": 39139316,
-        "avg_volume": 57453523,
-        "ratio": 0.68,
+        "volume": 59482551,
+        "avg_volume": 58470685,
+        "ratio": 1.02,
         "spike": false
       },
       "fundamentals": {
-        "pe": 16.63,
-        "fpe": 13.89,
+        "pe": 16.6,
+        "fpe": 13.87,
         "peg": 2.48,
         "pb": 2.0,
-        "ps": 6.45,
+        "ps": 6.44,
         "ev_ebitda": null,
         "roe": 13.0,
         "roa": 0.8,
@@ -741,7 +741,7 @@
         "inst_own": 31.3,
         "insider_own": 6.4,
         "short_float": 0.0,
-        "market_cap": "570.13B"
+        "market_cap": "569.32B"
       },
       "earnings": null,
       "options": null,
@@ -765,7 +765,7 @@
       ]
     }
   ],
-  "generated_at_utc": "2026-06-16 04:03 UTC",
-  "generated_at_tw": "2026-06-16 12:03 TW",
+  "generated_at_utc": "2026-06-16 08:02 UTC",
+  "generated_at_tw": "2026-06-16 16:02 TW",
   "ticker_count": 10
 }
