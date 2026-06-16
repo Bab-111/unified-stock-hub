@@ -1,21 +1,18 @@
 name: Unified Stock Hub
 
-# ── Schedule strategy (UTC, ET = UTC-4 summer) ────────────────────────────
+# Phase              UTC      TW      RUN_MODE    Modules
+# ─────────────────────────────────────────────────────────────────────────
+# Pre-market         13:00    21:00   full        Screener+Monitor+News
+# Open bell          13:30    21:30   screener    Screener only
+# Morning            14:30    22:30   screener    Screener only
+# Midday             17:00    01:00   screener    Screener only
+# Power hour         19:00    03:00   screener    Screener only
+# Market close       20:00    04:00   full        Screener+Monitor+News
+# After-hours        22:00    06:00   partial     Screener+News
+# Late after-hours   00:00    08:00   partial     Screener+News
 #
-# Phase              UTC      ET         RUN_MODE    Modules
-# ─────────────────────────────────────────────────────────────────
-# Pre-market         13:00    9:00 AM    full        Screener + Monitor + News
-# Open bell          13:30    9:30 AM    screener    Screener only
-# Morning            14:30    10:30 AM   screener    Screener only
-# Midday             17:00    1:00 PM    screener    Screener only
-# Power hour         19:00    3:00 PM    screener    Screener only
-# Market close       20:00    4:00 PM    full        Screener + Monitor + News
-# After-hours        22:00    6:00 PM    partial     Screener + News
-# Late after-hours   00:00    8:00 PM    partial     Screener + News
-#
-# Total: 8 runs/day × 20 trading days = 160 runs/month
-# Full runs (LLM ~280 tok): 40/month. Screener-only (LLM ~150 tok): 100/month.
-# GitHub Actions free tier: 2000 min/month. ~4 min/run = 640 min = 32%.
+# Monitor+News data cached to cache/ folder and committed back to repo
+# so screener-only runs can still display last known Monitor/News data.
 
 on:
   workflow_dispatch:
@@ -29,22 +26,21 @@ on:
           - full
           - screener
           - partial
+
+  repository_dispatch:
+    types:
+      - run-full
+      - run-screener
+      - run-partial
+
   schedule:
-    # Pre-market — full run
     - cron: "0 13 * * 1-5"
-    # Open bell — screener only
     - cron: "30 13 * * 1-5"
-    # Morning — screener only
     - cron: "30 14 * * 1-5"
-    # Midday — screener only
     - cron: "0 17 * * 1-5"
-    # Power hour — screener only
     - cron: "0 19 * * 1-5"
-    # Market close — full run
     - cron: "0 20 * * 1-5"
-    # After-hours — screener + news
     - cron: "0 22 * * 1-5"
-    # Late after-hours — screener + news
     - cron: "0 0 * * 2-6"
 
 permissions:
@@ -77,30 +73,45 @@ jobs:
       - name: Determine run mode
         id: mode
         run: |
-          # workflow_dispatch can override with input
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+          EVENT="${{ github.event_name }}"
+
+          if [ "$EVENT" = "workflow_dispatch" ]; then
             MODE="${{ github.event.inputs.run_mode }}"
             echo "RUN_MODE=${MODE:-full}" >> $GITHUB_ENV
+
+          elif [ "$EVENT" = "repository_dispatch" ]; then
+            TYPE="${{ github.event.action }}"
+            case "$TYPE" in
+              run-full)    echo "RUN_MODE=full"     >> $GITHUB_ENV ;;
+              run-partial) echo "RUN_MODE=partial"  >> $GITHUB_ENV ;;
+              *)           echo "RUN_MODE=screener" >> $GITHUB_ENV ;;
+            esac
+
           else
             HOUR=$(date -u +"%H")
             MIN=$(date -u +"%M")
-            # 13:00 and 20:00 = full; 22:00 and 00:00 = partial; others = screener
-            if [ "$HOUR" = "13" ] && [ "$MIN" = "00" ]; then
-              echo "RUN_MODE=full" >> $GITHUB_ENV
-            elif [ "$HOUR" = "20" ] && [ "$MIN" = "00" ]; then
-              echo "RUN_MODE=full" >> $GITHUB_ENV
-            elif [ "$HOUR" = "22" ] || [ "$HOUR" = "00" ]; then
-              echo "RUN_MODE=partial" >> $GITHUB_ENV
-            else
-              echo "RUN_MODE=screener" >> $GITHUB_ENV
+            if   [ "$HOUR" = "13" ] && [ "$MIN" = "00" ]; then echo "RUN_MODE=full"     >> $GITHUB_ENV
+            elif [ "$HOUR" = "20" ] && [ "$MIN" = "00" ]; then echo "RUN_MODE=full"     >> $GITHUB_ENV
+            elif [ "$HOUR" = "22" ] || [ "$HOUR" = "00" ];then echo "RUN_MODE=partial"  >> $GITHUB_ENV
+            else                                                 echo "RUN_MODE=screener" >> $GITHUB_ENV
             fi
           fi
+          echo "Event=$EVENT | RUN_MODE=$(grep RUN_MODE $GITHUB_ENV | cut -d= -f2)"
 
       - name: Run Stock Hub
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           RUN_MODE: ${{ env.RUN_MODE }}
         run: python scripts/main.py
+
+      - name: Commit cache back to repo
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add cache/
+          git diff --staged --quiet || git commit -m "cache: update [$(date -u '+%Y-%m-%d %H:%M UTC')] mode=${{ env.RUN_MODE }}"
+          git push
+        continue-on-error: true
 
       - name: Verify output
         run: |
