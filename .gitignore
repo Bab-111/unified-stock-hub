@@ -1,0 +1,25 @@
+# Generated output (deployed via gh-pages branch, not committed to main)
+output/index.html
+# cache/ folder is intentionally tracked (persists monitor+news data between runs)
+output/last_run_data.json
+output/llm_log.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Keep output dir tracked (needed for GitHub Actions artifact)
+!output/.gitkeep
