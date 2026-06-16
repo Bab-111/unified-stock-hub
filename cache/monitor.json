@@ -3,44 +3,44 @@
     {
       "ticker": "GOOG",
       "name": "Alphabet Inc.",
-      "price": 373.18,
+      "price": 371.1,
       "prev_price": 367.11,
-      "change_pct": 1.65,
+      "change_pct": 1.09,
       "h52": 404.47,
       "l52": 163.33,
-      "pct_from_high": -7.7,
-      "pct_from_low": 128.5,
+      "pct_from_high": -8.3,
+      "pct_from_low": 127.2,
       "sector": "Communication Services",
       "industry": "Internet Content & Information",
       "technicals": {
-        "rsi": 43.0,
+        "rsi": 42.0,
         "macd": {
-          "macd": -1.312,
-          "signal": 0.109,
-          "histogram": -1.422,
+          "macd": -1.478,
+          "signal": 0.076,
+          "histogram": -1.554,
           "trend": "Neutral"
         }
       },
       "moving_averages": {
-        "sma20": 370.77,
-        "vs_sma20": 0.6,
-        "sma50": 362.26,
-        "vs_sma50": 3.0,
-        "sma200": 308.74,
-        "vs_sma200": 20.9
+        "sma20": 370.67,
+        "vs_sma20": 0.1,
+        "sma50": 362.22,
+        "vs_sma50": 2.5,
+        "sma200": 308.73,
+        "vs_sma200": 20.2
       },
       "volume": {
-        "volume": 4617784,
-        "avg_volume": 22940464,
-        "ratio": 0.2,
+        "volume": 12825201,
+        "avg_volume": 23352450,
+        "ratio": 0.55,
         "spike": false
       },
       "fundamentals": {
-        "pe": 28.47,
-        "fpe": 25.77,
+        "pe": 28.31,
+        "fpe": 25.63,
         "peg": 1.41,
-        "pb": 9.44,
-        "ps": 10.78,
+        "pb": 9.39,
+        "ps": 10.72,
         "ev_ebitda": 27.38,
         "roe": 38.9,
         "roa": 14.6,
@@ -56,19 +56,19 @@
         "inst_own": 61.1,
         "insider_own": 6.6,
         "short_float": 0.0,
-        "market_cap": "4.55T"
+        "market_cap": "4.53T"
       },
       "earnings": null,
       "options": {
         "exp": "2026-06-18",
-        "iv": 26.0,
+        "iv": 27.4,
         "delta": null,
         "theta": null,
         "gamma": null,
         "csp": {
-          "strike": 372.5,
-          "premium": 4.14,
-          "iv": 36.6,
+          "strike": 370.0,
+          "premium": 3.45,
+          "iv": 30.8,
           "exp": "2026-06-18"
         }
       },
@@ -76,7 +76,7 @@
       "signals": [
         {
           "icon": "\u2705",
-          "text": "Above 200-day MA ($308.74)",
+          "text": "Above 200-day MA ($308.73)",
           "level": "positive"
         }
       ]
@@ -84,44 +84,44 @@
     {
       "ticker": "SOFI",
       "name": "SoFi Technologies, Inc.",
-      "price": 17.48,
+      "price": 17.71,
       "prev_price": 17.13,
-      "change_pct": 2.01,
+      "change_pct": 3.39,
       "h52": 32.73,
       "l52": 14.23,
-      "pct_from_high": -46.6,
-      "pct_from_low": 22.8,
+      "pct_from_high": -45.9,
+      "pct_from_low": 24.5,
       "sector": "Financial Services",
       "industry": "Credit Services",
       "technicals": {
-        "rsi": 57.0,
+        "rsi": 59.0,
         "macd": {
-          "macd": 0.078,
-          "signal": 0.002,
-          "histogram": 0.076,
+          "macd": 0.097,
+          "signal": 0.006,
+          "histogram": 0.091,
           "trend": "Bullish"
         }
       },
       "moving_averages": {
-        "sma20": 16.62,
-        "vs_sma20": 5.1,
-        "sma50": 16.88,
-        "vs_sma50": 3.5,
+        "sma20": 16.63,
+        "vs_sma20": 6.5,
+        "sma50": 16.89,
+        "vs_sma50": 4.9,
         "sma200": 22.77,
-        "vs_sma200": -23.3
+        "vs_sma200": -22.2
       },
       "volume": {
-        "volume": 28659502,
-        "avg_volume": 72146725,
-        "ratio": 0.4,
+        "volume": 104165868,
+        "avg_volume": 75933353,
+        "ratio": 1.37,
         "spike": false
       },
       "fundamentals": {
-        "pe": 38.83,
-        "fpe": 21.4,
+        "pe": 39.36,
+        "fpe": 21.69,
         "peg": 1.07,
-        "pb": 2.07,
-        "ps": 5.74,
+        "pb": 2.1,
+        "ps": 5.81,
         "ev_ebitda": null,
         "roe": 6.6,
         "roa": 1.3,
@@ -137,19 +137,19 @@
         "inst_own": 56.7,
         "insider_own": 1.4,
         "short_float": 14.7,
-        "market_cap": "22.42B"
+        "market_cap": "22.72B"
       },
       "earnings": null,
       "options": {
         "exp": "2026-06-18",
-        "iv": 47.7,
+        "iv": 75.8,
         "delta": null,
         "theta": null,
         "gamma": null,
         "csp": {
-          "strike": 17.0,
+          "strike": 17.5,
           "premium": 0.22,
-          "iv": 72.7,
+          "iv": 50.0,
           "exp": "2026-06-18"
         }
       },
@@ -170,36 +170,36 @@
     {
       "ticker": "SCO",
       "name": "ProShares UltraShort Bloomberg Crude Oil",
-      "price": 31.04,
-      "prev_price": 28.03,
-      "change_pct": 10.74,
+      "price": 31.17,
+      "prev_price": 29.43,
+      "change_pct": 5.9,
       "h52": 84.16,
       "l52": 22.84,
-      "pct_from_high": -63.1,
-      "pct_from_low": 35.9,
+      "pct_from_high": -63.0,
+      "pct_from_low": 36.4,
       "sector": "\u2014",
       "industry": "\u2014",
       "technicals": {
-        "rsi": 64.0,
+        "rsi": 63.0,
         "macd": {
-          "macd": 0.054,
-          "signal": -0.586,
-          "histogram": 0.64,
+          "macd": 0.285,
+          "signal": -0.433,
+          "histogram": 0.717,
           "trend": "Bullish"
         }
       },
       "moving_averages": {
-        "sma20": 26.09,
-        "vs_sma20": 19.0,
-        "sma50": 27.71,
-        "vs_sma50": 12.0,
-        "sma200": 56.31,
-        "vs_sma200": -44.9
+        "sma20": 26.37,
+        "vs_sma20": 18.2,
+        "sma50": 27.67,
+        "vs_sma50": 12.6,
+        "sma200": 56.12,
+        "vs_sma200": -44.5
       },
       "volume": {
-        "volume": 4102443,
-        "avg_volume": 12502150,
-        "ratio": 0.33,
+        "volume": 9012405,
+        "avg_volume": 12270732,
+        "ratio": 0.73,
         "spike": false
       },
       "fundamentals": {
@@ -228,14 +228,14 @@
       "earnings": null,
       "options": {
         "exp": "2026-06-18",
-        "iv": 67.3,
+        "iv": 70.3,
         "delta": null,
         "theta": null,
         "gamma": null,
         "csp": {
-          "strike": 30.0,
-          "premium": 0.39,
-          "iv": 68.8,
+          "strike": 31.0,
+          "premium": 0.58,
+          "iv": 64.8,
           "exp": "2026-06-18"
         }
       },
@@ -247,13 +247,8 @@
           "level": "positive"
         },
         {
-          "icon": "\ud83d\ude80",
-          "text": "Strong rally: +10.74%",
-          "level": "positive"
-        },
-        {
           "icon": "\u26d4",
-          "text": "Below 200-day MA ($56.31)",
+          "text": "Below 200-day MA ($56.12)",
           "level": "negative"
         }
       ]
@@ -261,44 +256,44 @@
     {
       "ticker": "PLTR",
       "name": "Palantir Technologies Inc.",
-      "price": 131.18,
+      "price": 133.25,
       "prev_price": 134.71,
-      "change_pct": -2.62,
+      "change_pct": -1.08,
       "h52": 207.52,
       "l52": 122.68,
-      "pct_from_high": -36.8,
-      "pct_from_low": 6.9,
+      "pct_from_high": -35.8,
+      "pct_from_low": 8.6,
       "sector": "Technology",
       "industry": "Software - Infrastructure",
       "technicals": {
-        "rsi": 49.0,
+        "rsi": 51.0,
         "macd": {
-          "macd": -2.358,
-          "signal": -1.168,
-          "histogram": -1.19,
+          "macd": -2.193,
+          "signal": -1.135,
+          "histogram": -1.058,
           "trend": "Neutral"
         }
       },
       "moving_averages": {
-        "sma20": 138.58,
-        "vs_sma20": -5.3,
-        "sma50": 139.03,
-        "vs_sma50": -5.6,
-        "sma200": 160.17,
-        "vs_sma200": -18.1
+        "sma20": 138.69,
+        "vs_sma20": -3.9,
+        "sma50": 139.07,
+        "vs_sma50": -4.2,
+        "sma200": 160.18,
+        "vs_sma200": -16.8
       },
       "volume": {
-        "volume": 13861723,
-        "avg_volume": 37938541,
-        "ratio": 0.37,
+        "volume": 29119561,
+        "avg_volume": 38710963,
+        "ratio": 0.75,
         "spike": false
       },
       "fundamentals": {
-        "pe": 147.39,
-        "fpe": 63.06,
+        "pe": 149.72,
+        "fpe": 64.05,
         "peg": 1.84,
-        "pb": 37.21,
-        "ps": 60.2,
+        "pb": 37.8,
+        "ps": 61.15,
         "ev_ebitda": 156.19,
         "roe": 32.6,
         "roa": 14.7,
@@ -314,19 +309,19 @@
         "inst_own": 62.4,
         "insider_own": 3.5,
         "short_float": 3.2,
-        "market_cap": "314.48B"
+        "market_cap": "319.44B"
       },
       "earnings": null,
       "options": {
         "exp": "2026-06-18",
-        "iv": 34.8,
+        "iv": 34.1,
         "delta": null,
         "theta": null,
         "gamma": null,
         "csp": {
-          "strike": 131.0,
-          "premium": 2.92,
-          "iv": 62.2,
+          "strike": 133.0,
+          "premium": 2.34,
+          "iv": 50.4,
           "exp": "2026-06-18"
         }
       },
@@ -334,7 +329,7 @@
       "signals": [
         {
           "icon": "\u26d4",
-          "text": "Below 200-day MA ($160.17)",
+          "text": "Below 200-day MA ($160.18)",
           "level": "negative"
         }
       ]
@@ -342,44 +337,44 @@
     {
       "ticker": "LULU",
       "name": "lululemon athletica inc.",
-      "price": 117.72,
-      "prev_price": 118.77,
-      "change_pct": -0.88,
+      "price": 115.5,
+      "prev_price": 116.21,
+      "change_pct": -0.61,
       "h52": 252.24,
       "l52": 109.36,
-      "pct_from_high": -53.3,
-      "pct_from_low": 7.6,
+      "pct_from_high": -54.2,
+      "pct_from_low": 5.6,
       "sector": "Consumer Cyclical",
       "industry": "Apparel Retail",
       "technicals": {
-        "rsi": 38.0,
+        "rsi": 30.0,
         "macd": {
-          "macd": -4.591,
-          "signal": -4.746,
-          "histogram": 0.155,
-          "trend": "Neutral"
+          "macd": -4.83,
+          "signal": -4.782,
+          "histogram": -0.048,
+          "trend": "Bearish"
         }
       },
       "moving_averages": {
-        "sma20": 123.97,
-        "vs_sma20": -5.0,
-        "sma50": 136.89,
-        "vs_sma50": -14.0,
-        "sma200": 168.74,
-        "vs_sma200": -30.2
+        "sma20": 123.66,
+        "vs_sma20": -6.6,
+        "sma50": 136.05,
+        "vs_sma50": -15.1,
+        "sma200": 168.28,
+        "vs_sma200": -31.4
       },
       "volume": {
-        "volume": 709670,
-        "avg_volume": 4281028,
-        "ratio": 0.17,
+        "volume": 2233041,
+        "avg_volume": 4358932,
+        "ratio": 0.51,
         "spike": false
       },
       "fundamentals": {
-        "pe": 9.53,
-        "fpe": 10.19,
+        "pe": 9.35,
+        "fpe": 10.06,
         "peg": 0.58,
-        "pb": 2.76,
-        "ps": 1.19,
+        "pb": 2.71,
+        "ps": 1.17,
         "ev_ebitda": 5.38,
         "roe": 32.0,
         "roa": 16.0,
@@ -395,27 +390,37 @@
         "inst_own": 82.5,
         "insider_own": 4.7,
         "short_float": 6.7,
-        "market_cap": "13.37B"
+        "market_cap": "13.12B"
       },
       "earnings": null,
       "options": {
         "exp": "2026-06-18",
-        "iv": 49.2,
+        "iv": 55.3,
         "delta": null,
         "theta": null,
         "gamma": null,
         "csp": {
-          "strike": 117.0,
-          "premium": 1.47,
-          "iv": 46.1,
+          "strike": 115.0,
+          "premium": 0.93,
+          "iv": 26.2,
           "exp": "2026-06-18"
         }
       },
       "currency": "USD",
       "signals": [
         {
+          "icon": "\ud83d\udfe1",
+          "text": "Near oversold \u2014 RSI 30",
+          "level": "caution"
+        },
+        {
+          "icon": "\ud83d\udcc9",
+          "text": "MACD bearish crossover",
+          "level": "negative"
+        },
+        {
           "icon": "\u26d4",
-          "text": "Below 200-day MA ($168.74)",
+          "text": "Below 200-day MA ($168.28)",
           "level": "negative"
         }
       ]
@@ -423,44 +428,44 @@
     {
       "ticker": "NOW",
       "name": "ServiceNow, Inc.",
-      "price": 102.18,
+      "price": 101.34,
       "prev_price": 104.15,
-      "change_pct": -1.9,
+      "change_pct": -2.7,
       "h52": 211.48,
       "l52": 81.24,
-      "pct_from_high": -51.7,
-      "pct_from_low": 25.8,
+      "pct_from_high": -52.1,
+      "pct_from_low": 24.7,
       "sector": "Technology",
       "industry": "Software - Application",
       "technicals": {
         "rsi": 50.0,
         "macd": {
-          "macd": 1.268,
-          "signal": 3.32,
-          "histogram": -2.052,
+          "macd": 1.201,
+          "signal": 3.307,
+          "histogram": -2.106,
           "trend": "Bearish"
         }
       },
       "moving_averages": {
-        "sma20": 109.7,
-        "vs_sma20": -6.9,
-        "sma50": 99.41,
-        "vs_sma50": 2.8,
-        "sma200": 137.66,
-        "vs_sma200": -25.8
+        "sma20": 109.66,
+        "vs_sma20": -7.6,
+        "sma50": 99.39,
+        "vs_sma50": 2.0,
+        "sma200": 137.65,
+        "vs_sma200": -26.4
       },
       "volume": {
-        "volume": 7431484,
-        "avg_volume": 32989449,
-        "ratio": 0.23,
+        "volume": 15229975,
+        "avg_volume": 33383688,
+        "ratio": 0.46,
         "spike": false
       },
       "fundamentals": {
-        "pe": 60.82,
-        "fpe": 20.33,
+        "pe": 60.32,
+        "fpe": 20.16,
         "peg": 0.99,
-        "pb": 8.98,
-        "ps": 7.55,
+        "pb": 8.91,
+        "ps": 7.49,
         "ev_ebitda": 36.24,
         "roe": 16.1,
         "roa": 5.7,
@@ -476,19 +481,19 @@
         "inst_own": 88.5,
         "insider_own": 0.2,
         "short_float": 5.9,
-        "market_cap": "105.37B"
+        "market_cap": "104.5B"
       },
       "earnings": null,
       "options": {
         "exp": "2026-06-18",
-        "iv": 54.5,
+        "iv": 60.2,
         "delta": null,
         "theta": null,
         "gamma": null,
         "csp": {
-          "strike": 102.0,
-          "premium": 2.59,
-          "iv": 70.8,
+          "strike": 101.0,
+          "premium": 1.9,
+          "iv": 53.7,
           "exp": "2026-06-18"
         }
       },
@@ -501,7 +506,7 @@
         },
         {
           "icon": "\u26d4",
-          "text": "Below 200-day MA ($137.66)",
+          "text": "Below 200-day MA ($137.65)",
           "level": "negative"
         }
       ]
@@ -509,44 +514,44 @@
     {
       "ticker": "QCOM",
       "name": "QUALCOMM Incorporated",
-      "price": 219.35,
-      "prev_price": 211.72,
-      "change_pct": 3.6,
+      "price": 214.07,
+      "prev_price": 220.81,
+      "change_pct": -3.05,
       "h52": 259.92,
       "l52": 121.99,
-      "pct_from_high": -15.6,
-      "pct_from_low": 79.8,
+      "pct_from_high": -17.6,
+      "pct_from_low": 75.5,
       "sector": "Technology",
       "industry": "Semiconductors",
       "technicals": {
-        "rsi": 41.0,
+        "rsi": 44.0,
         "macd": {
-          "macd": 5.567,
-          "signal": 10.837,
-          "histogram": -5.27,
+          "macd": 5.047,
+          "signal": 9.698,
+          "histogram": -4.651,
           "trend": "Neutral"
         }
       },
       "moving_averages": {
-        "sma20": 222.33,
-        "vs_sma20": -1.3,
-        "sma50": 185.32,
-        "vs_sma50": 18.4,
-        "sma200": 164.39,
-        "vs_sma200": 33.4
+        "sma20": 222.96,
+        "vs_sma20": -4.0,
+        "sma50": 187.13,
+        "vs_sma50": 14.4,
+        "sma200": 164.68,
+        "vs_sma200": 30.0
       },
       "volume": {
-        "volume": 7672062,
-        "avg_volume": 21414188,
-        "ratio": 0.36,
+        "volume": 19093912,
+        "avg_volume": 21630845,
+        "ratio": 0.88,
         "spike": false
       },
       "fundamentals": {
-        "pe": 23.59,
-        "fpe": 20.56,
+        "pe": 23.02,
+        "fpe": 20.07,
         "peg": 0.9,
-        "pb": 8.52,
-        "ps": 5.2,
+        "pb": 8.31,
+        "ps": 5.07,
         "ev_ebitda": 18.32,
         "roe": 36.1,
         "roa": 12.7,
@@ -562,19 +567,19 @@
         "inst_own": 84.8,
         "insider_own": 0.1,
         "short_float": 4.8,
-        "market_cap": "231.19B"
+        "market_cap": "225.63B"
       },
       "earnings": null,
       "options": {
         "exp": "2026-06-18",
-        "iv": 105.7,
+        "iv": 100.3,
         "delta": null,
         "theta": null,
         "gamma": null,
         "csp": {
-          "strike": 217.5,
-          "premium": 3.35,
-          "iv": 59.7,
+          "strike": 212.5,
+          "premium": 3.2,
+          "iv": 50.7,
           "exp": "2026-06-18"
         }
       },
@@ -582,7 +587,7 @@
       "signals": [
         {
           "icon": "\u2705",
-          "text": "Above 200-day MA ($164.39)",
+          "text": "Above 200-day MA ($164.68)",
           "level": "positive"
         }
       ]
@@ -590,44 +595,44 @@
     {
       "ticker": "NFLX",
       "name": "Netflix, Inc.",
-      "price": 79.12,
-      "prev_price": 80.34,
-      "change_pct": -1.51,
+      "price": 78.72,
+      "prev_price": 81.67,
+      "change_pct": -3.61,
       "h52": 134.12,
       "l52": 75.01,
-      "pct_from_high": -41.0,
-      "pct_from_low": 5.5,
+      "pct_from_high": -41.3,
+      "pct_from_low": 4.9,
       "sector": "Communication Services",
       "industry": "Entertainment",
       "technicals": {
-        "rsi": 14.0,
+        "rsi": 21.0,
         "macd": {
-          "macd": -2.673,
-          "signal": -2.427,
-          "histogram": -0.246,
+          "macd": -2.605,
+          "signal": -2.43,
+          "histogram": -0.175,
           "trend": "Bearish"
         }
       },
       "moving_averages": {
-        "sma20": 84.68,
+        "sma20": 84.26,
         "vs_sma20": -6.6,
-        "sma50": 90.46,
-        "vs_sma50": -12.5,
-        "sma200": 98.99,
-        "vs_sma200": -20.1
+        "sma50": 90.11,
+        "vs_sma50": -12.6,
+        "sma200": 98.78,
+        "vs_sma200": -20.3
       },
       "volume": {
-        "volume": 21967323,
-        "avg_volume": 33075861,
-        "ratio": 0.66,
+        "volume": 62620382,
+        "avg_volume": 35140029,
+        "ratio": 1.78,
         "spike": false
       },
       "fundamentals": {
-        "pe": 25.53,
-        "fpe": 20.6,
+        "pe": 25.39,
+        "fpe": 20.49,
         "peg": 1.58,
-        "pb": 10.71,
-        "ps": 7.11,
+        "pb": 10.65,
+        "ps": 7.07,
         "ev_ebitda": 24.39,
         "roe": 48.5,
         "roa": 15.4,
@@ -643,19 +648,19 @@
         "inst_own": 85.1,
         "insider_own": 0.6,
         "short_float": 2.4,
-        "market_cap": "333.2B"
+        "market_cap": "331.47B"
       },
       "earnings": null,
       "options": {
         "exp": "2026-06-18",
-        "iv": 27.4,
+        "iv": 29.9,
         "delta": null,
         "theta": null,
         "gamma": null,
         "csp": {
-          "strike": 79.0,
-          "premium": 1.15,
-          "iv": 42.8,
+          "strike": 78.0,
+          "premium": 0.65,
+          "iv": 34.2,
           "exp": "2026-06-18"
         }
       },
@@ -663,7 +668,7 @@
       "signals": [
         {
           "icon": "\ud83d\udfe2",
-          "text": "Oversold \u2014 RSI 14",
+          "text": "Oversold \u2014 RSI 21",
           "level": "opportunity"
         },
         {
@@ -673,7 +678,7 @@
         },
         {
           "icon": "\u26d4",
-          "text": "Below 200-day MA ($98.99)",
+          "text": "Below 200-day MA ($98.78)",
           "level": "negative"
         }
       ]
@@ -681,43 +686,43 @@
     {
       "ticker": "MCD",
       "name": "McDonald's Corporation",
-      "price": 287.6,
-      "prev_price": 284.81,
-      "change_pct": 0.98,
+      "price": 287.88,
+      "prev_price": 286.12,
+      "change_pct": 0.62,
       "h52": 341.75,
       "l52": 271.85,
       "pct_from_high": -15.8,
-      "pct_from_low": 5.8,
+      "pct_from_low": 5.9,
       "sector": "Consumer Cyclical",
       "industry": "Restaurants",
       "technicals": {
-        "rsi": 65.0,
+        "rsi": 64.0,
         "macd": {
-          "macd": -0.318,
-          "signal": -2.3,
-          "histogram": 1.982,
+          "macd": 0.128,
+          "signal": -1.834,
+          "histogram": 1.962,
           "trend": "Bullish"
         }
       },
       "moving_averages": {
-        "sma20": 279.33,
+        "sma20": 279.62,
         "vs_sma20": 3.0,
-        "sma50": 286.98,
-        "vs_sma50": 0.2,
-        "sma200": 302.1,
-        "vs_sma200": -4.8
+        "sma50": 286.56,
+        "vs_sma50": 0.5,
+        "sma200": 302.01,
+        "vs_sma200": -4.7
       },
       "volume": {
-        "volume": 1472572,
-        "avg_volume": 4180958,
-        "ratio": 0.35,
+        "volume": 2863504,
+        "avg_volume": 4271465,
+        "ratio": 0.67,
         "spike": false
       },
       "fundamentals": {
-        "pe": 23.71,
-        "fpe": 20.23,
+        "pe": 23.74,
+        "fpe": 20.25,
         "peg": 2.61,
-        "pb": -158.9,
+        "pb": -159.07,
         "ps": 7.45,
         "ev_ebitda": 17.29,
         "roe": 0.0,
@@ -734,29 +739,24 @@
         "inst_own": 77.2,
         "insider_own": 0.3,
         "short_float": 1.5,
-        "market_cap": "204.34B"
+        "market_cap": "204.56B"
       },
       "earnings": null,
       "options": {
         "exp": "2026-06-18",
-        "iv": 26.1,
+        "iv": 17.7,
         "delta": null,
         "theta": null,
         "gamma": null,
         "csp": {
           "strike": 287.5,
-          "premium": 2.19,
-          "iv": 27.7,
+          "premium": 2.36,
+          "iv": 28.4,
           "exp": "2026-06-18"
         }
       },
       "currency": "USD",
       "signals": [
-        {
-          "icon": "\ud83d\udfe0",
-          "text": "Near overbought \u2014 RSI 65",
-          "level": "caution"
-        },
         {
           "icon": "\ud83d\udcc8",
           "text": "MACD bullish crossover",
@@ -764,7 +764,7 @@
         },
         {
           "icon": "\u26d4",
-          "text": "Below 200-day MA ($302.1)",
+          "text": "Below 200-day MA ($302.01)",
           "level": "negative"
         }
       ]
@@ -799,9 +799,9 @@
         "vs_sma200": 8.0
       },
       "volume": {
-        "volume": 59482551,
-        "avg_volume": 58470685,
-        "ratio": 1.02,
+        "volume": 59025011,
+        "avg_volume": 58447808,
+        "ratio": 1.01,
         "spike": false
       },
       "fundamentals": {
@@ -849,7 +849,7 @@
       ]
     }
   ],
-  "generated_at_utc": "2026-06-16 15:30 UTC",
-  "generated_at_tw": "2026-06-16 23:30 TW",
+  "generated_at_utc": "2026-06-16 20:00 UTC",
+  "generated_at_tw": "2026-06-17 04:00 TW",
   "ticker_count": 10
 }
