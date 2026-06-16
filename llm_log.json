@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-06-16 02:36 UTC",
-    "phase": "Overnight",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nAMAT and CSCO are strong within the Technology sector, with high scores and above-average volume. \nTGT is an outlier in the Consumer Disc sector, which is not the top sector.\n\n\u2022 Flag any contradiction between screener and monitor signals:\nSOFI, SCO, PLTR, LULU, NOW, NFLX, and MCD are all below their 200-day MA, indicating bearish momentum, contradicting the screener's focus on stocks above their MA200.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest: AMAT - high score (15/17) and above-average volume.\nWeakest: AMD - low MFI (61.3) indicating potential bearish momentum.\n\n\u2022 Overall confidence: MEDIUM - the screener picks are strong, but the monitor signals indicate bearish momentum across various sectors.",
+    "ts_utc": "2026-06-16 04:03 UTC",
+    "phase": "Pre-Market",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top sector is Comm. Services, but the strongest screener picks are in Real Estate (SPG, PSA, AMT), indicating a possible sector shift or a strong Real Estate performance in the pre-market.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nNone found, but the monitor signals highlight potential issues with SOFI, PLTR, and NOW, which are not in the top screener picks.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest: SPG (Real Estate) - High institutional ownership (95.1%) indicates strong support.\nWeakest: AMAT (Technology) - Below MA200 and low MFI (80.2) suggest a potential decline.\n\n\u2022 Overall confidence: MEDIUM \nThe mixed sector performance and monitor signals reduce overall confidence, but the top screener picks show potential.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
