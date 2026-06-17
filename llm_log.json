@@ -1,10 +1,12 @@
 [
   {
-    "ts_utc": "2026-06-17 16:35 UTC",
+    "ts_utc": "2026-06-17 16:46 UTC",
     "phase": "Regular Market Hours",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top screener picks (INTC, CSCO, AMD, QCOM, AMAT) are all in the Technology sector, which is the current top sector. Their scores and metrics align with the sector's momentum, indicating a strong presence in the market.\n\n\u2022 Flag any contradiction between screener and monitor signals:\nSCO, PLTR, LULU, NFLX, and MCD are below their 200-day MAs, but are not in the top screener picks. This indicates a potential contradiction between the screener's momentum and the monitor's signals, suggesting caution.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: CSCO (score=11/17, vol=0.2x, inst=82.9%) - its low volatility suggests stability.\nWeakest pick: AMAT (score=11/17, vol=0.7x, inst=85.1%) - its high volatility indicates potential market sensitivity.\n\n\u2022 Overall confidence: HIGH\nThe screener's top picks align with the sector's momentum, and the majority of their metrics are strong, indicating a high confidence in the top picks' performance.",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top screener picks (INTC, CSCO, AMD, QCOM, AMAT) are all in the Technology sector, which is the top sector. All stocks have a score above 10/17 and a MA200 above, indicating strong momentum.\n\n\u2022 Flag any contradiction between screener and monitor signals:\nSCO and PLTR are below their 200-day MA, but not in the top screener picks. LULU, NFLX, and MCD are also below their 200-day MA and have a MACD bearish crossover, but are not in the top picks. 2884.TW is overbought, but not in the top picks.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: CSCO (82.9% institutional ownership), indicating high investor confidence.\nWeakest pick: AMD (MFI=49.8), indicating a potential decline in buying pressure.\n\n\u2022 Overall confidence: MEDIUM\nThe top screener picks have strong momentum, but some monitor signals indicate potential weakness in the sector.\n\u26a0\ufe0f Hallucination check flagged: TW",
     "conflicts": [],
-    "suspicious_tickers": [],
+    "suspicious_tickers": [
+      "TW"
+    ],
     "model": "groq/llama-3.1-8b-instant (free)"
   }
 ]
