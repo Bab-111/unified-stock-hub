@@ -30,18 +30,18 @@
         "vs_sma200": 20.2
       },
       "volume": {
-        "volume": 12825201,
-        "avg_volume": 23352450,
-        "ratio": 0.55,
+        "volume": 16348251,
+        "avg_volume": 23528602,
+        "ratio": 0.69,
         "spike": false
       },
       "fundamentals": {
-        "pe": 28.31,
+        "pe": 28.01,
         "fpe": 25.63,
         "peg": 1.41,
         "pb": 9.39,
         "ps": 10.72,
-        "ev_ebitda": 27.38,
+        "ev_ebitda": 27.69,
         "roe": 38.9,
         "roa": 14.6,
         "profit_margin": 37.9,
@@ -50,7 +50,7 @@
         "debt_equity": 20.03,
         "current_ratio": 1.92,
         "fcf": "27.92B",
-        "eps": 13.11,
+        "eps": 13.25,
         "beta": 1.24,
         "short_ratio": 2.2,
         "inst_own": 61.1,
@@ -61,14 +61,14 @@
       "earnings": null,
       "options": {
         "exp": "2026-06-18",
-        "iv": 27.4,
+        "iv": 36.8,
         "delta": null,
         "theta": null,
         "gamma": null,
         "csp": {
           "strike": 370.0,
-          "premium": 3.45,
-          "iv": 30.8,
+          "premium": 3.1,
+          "iv": 35.0,
           "exp": "2026-06-18"
         }
       },
@@ -88,9 +88,9 @@
       "prev_price": 17.13,
       "change_pct": 3.39,
       "h52": 32.73,
-      "l52": 14.23,
+      "l52": 14.36,
       "pct_from_high": -45.9,
-      "pct_from_low": 24.5,
+      "pct_from_low": 23.3,
       "sector": "Financial Services",
       "industry": "Credit Services",
       "technicals": {
@@ -111,13 +111,13 @@
         "vs_sma200": -22.2
       },
       "volume": {
-        "volume": 104165868,
-        "avg_volume": 75933353,
-        "ratio": 1.37,
+        "volume": 104690458,
+        "avg_volume": 75959582,
+        "ratio": 1.38,
         "spike": false
       },
       "fundamentals": {
-        "pe": 39.36,
+        "pe": 37.68,
         "fpe": 21.69,
         "peg": 1.07,
         "pb": 2.1,
@@ -131,7 +131,7 @@
         "debt_equity": 17.72,
         "current_ratio": 1.12,
         "fcf": "\u2014",
-        "eps": 0.45,
+        "eps": 0.47,
         "beta": 2.15,
         "short_ratio": 2.52,
         "inst_own": 56.7,
@@ -142,14 +142,14 @@
       "earnings": null,
       "options": {
         "exp": "2026-06-18",
-        "iv": 75.8,
+        "iv": 72.3,
         "delta": null,
         "theta": null,
         "gamma": null,
         "csp": {
           "strike": 17.5,
-          "premium": 0.22,
-          "iv": 50.0,
+          "premium": 0.28,
+          "iv": 71.1,
           "exp": "2026-06-18"
         }
       },
@@ -170,9 +170,9 @@
     {
       "ticker": "SCO",
       "name": "ProShares UltraShort Bloomberg Crude Oil",
-      "price": 31.17,
+      "price": 31.15,
       "prev_price": 29.43,
-      "change_pct": 5.9,
+      "change_pct": 5.84,
       "h52": 84.16,
       "l52": 22.84,
       "pct_from_high": -63.0,
@@ -182,24 +182,24 @@
       "technicals": {
         "rsi": 63.0,
         "macd": {
-          "macd": 0.285,
+          "macd": 0.284,
           "signal": -0.433,
-          "histogram": 0.717,
+          "histogram": 0.716,
           "trend": "Bullish"
         }
       },
       "moving_averages": {
         "sma20": 26.37,
-        "vs_sma20": 18.2,
+        "vs_sma20": 18.1,
         "sma50": 27.67,
         "vs_sma50": 12.6,
         "sma200": 56.12,
         "vs_sma200": -44.5
       },
       "volume": {
-        "volume": 9012405,
-        "avg_volume": 12270732,
-        "ratio": 0.73,
+        "volume": 9110883,
+        "avg_volume": 12275656,
+        "ratio": 0.74,
         "spike": false
       },
       "fundamentals": {
@@ -228,14 +228,14 @@
       "earnings": null,
       "options": {
         "exp": "2026-06-18",
-        "iv": 70.3,
+        "iv": 86.9,
         "delta": null,
         "theta": null,
         "gamma": null,
         "csp": {
           "strike": 31.0,
-          "premium": 0.58,
-          "iv": 64.8,
+          "premium": 0.75,
+          "iv": 81.4,
           "exp": "2026-06-18"
         }
       },
@@ -289,12 +289,12 @@
         "spike": false
       },
       "fundamentals": {
-        "pe": 149.72,
+        "pe": 151.42,
         "fpe": 64.05,
         "peg": 1.84,
         "pb": 37.8,
         "ps": 61.15,
-        "ev_ebitda": 156.19,
+        "ev_ebitda": 154.46,
         "roe": 32.6,
         "roa": 14.7,
         "profit_margin": 43.7,
@@ -303,7 +303,7 @@
         "debt_equity": 2.48,
         "current_ratio": 6.91,
         "fcf": "1.75B",
-        "eps": 0.89,
+        "eps": 0.88,
         "beta": 1.51,
         "short_ratio": 1.58,
         "inst_own": 62.4,
@@ -314,14 +314,14 @@
       "earnings": null,
       "options": {
         "exp": "2026-06-18",
-        "iv": 34.1,
+        "iv": 54.6,
         "delta": null,
         "theta": null,
         "gamma": null,
         "csp": {
           "strike": 133.0,
-          "premium": 2.34,
-          "iv": 50.4,
+          "premium": 1.94,
+          "iv": 53.1,
           "exp": "2026-06-18"
         }
       },
@@ -364,9 +364,9 @@
         "vs_sma200": -31.4
       },
       "volume": {
-        "volume": 2233041,
-        "avg_volume": 4358932,
-        "ratio": 0.51,
+        "volume": 2592101,
+        "avg_volume": 4376885,
+        "ratio": 0.59,
         "spike": false
       },
       "fundamentals": {
@@ -375,7 +375,7 @@
         "peg": 0.58,
         "pb": 2.71,
         "ps": 1.17,
-        "ev_ebitda": 5.38,
+        "ev_ebitda": 5.35,
         "roe": 32.0,
         "roa": 16.0,
         "profit_margin": 13.0,
@@ -395,14 +395,14 @@
       "earnings": null,
       "options": {
         "exp": "2026-06-18",
-        "iv": 55.3,
+        "iv": 50.6,
         "delta": null,
         "theta": null,
         "gamma": null,
         "csp": {
           "strike": 115.0,
-          "premium": 0.93,
-          "iv": 26.2,
+          "premium": 1.35,
+          "iv": 50.2,
           "exp": "2026-06-18"
         }
       },
@@ -428,9 +428,9 @@
     {
       "ticker": "NOW",
       "name": "ServiceNow, Inc.",
-      "price": 101.34,
+      "price": 101.33,
       "prev_price": 104.15,
-      "change_pct": -2.7,
+      "change_pct": -2.71,
       "h52": 211.48,
       "l52": 81.24,
       "pct_from_high": -52.1,
@@ -438,7 +438,7 @@
       "sector": "Technology",
       "industry": "Software - Application",
       "technicals": {
-        "rsi": 50.0,
+        "rsi": 49.0,
         "macd": {
           "macd": 1.201,
           "signal": 3.307,
@@ -450,23 +450,23 @@
         "sma20": 109.66,
         "vs_sma20": -7.6,
         "sma50": 99.39,
-        "vs_sma50": 2.0,
+        "vs_sma50": 1.9,
         "sma200": 137.65,
         "vs_sma200": -26.4
       },
       "volume": {
-        "volume": 15229975,
-        "avg_volume": 33383688,
-        "ratio": 0.46,
+        "volume": 17070081,
+        "avg_volume": 33475694,
+        "ratio": 0.51,
         "spike": false
       },
       "fundamentals": {
-        "pe": 60.32,
+        "pe": 62.17,
         "fpe": 20.16,
         "peg": 0.99,
         "pb": 8.91,
         "ps": 7.49,
-        "ev_ebitda": 36.24,
+        "ev_ebitda": 35.23,
         "roe": 16.1,
         "roa": 5.7,
         "profit_margin": 12.6,
@@ -475,7 +475,7 @@
         "debt_equity": 20.73,
         "current_ratio": 0.84,
         "fcf": "5.11B",
-        "eps": 1.68,
+        "eps": 1.63,
         "beta": 0.93,
         "short_ratio": 2.05,
         "inst_own": 88.5,
@@ -486,14 +486,14 @@
       "earnings": null,
       "options": {
         "exp": "2026-06-18",
-        "iv": 60.2,
+        "iv": 71.3,
         "delta": null,
         "theta": null,
         "gamma": null,
         "csp": {
           "strike": 101.0,
           "premium": 1.9,
-          "iv": 53.7,
+          "iv": 67.3,
           "exp": "2026-06-18"
         }
       },
@@ -547,12 +547,12 @@
         "spike": false
       },
       "fundamentals": {
-        "pe": 23.02,
+        "pe": 23.76,
         "fpe": 20.07,
         "peg": 0.9,
         "pb": 8.31,
         "ps": 5.07,
-        "ev_ebitda": 18.32,
+        "ev_ebitda": 17.78,
         "roe": 36.1,
         "roa": 12.7,
         "profit_margin": 22.3,
@@ -561,7 +561,7 @@
         "debt_equity": 55.98,
         "current_ratio": 2.37,
         "fcf": "9.59B",
-        "eps": 9.3,
+        "eps": 9.01,
         "beta": 1.6,
         "short_ratio": 1.45,
         "inst_own": 84.8,
@@ -572,14 +572,14 @@
       "earnings": null,
       "options": {
         "exp": "2026-06-18",
-        "iv": 100.3,
+        "iv": 85.3,
         "delta": null,
         "theta": null,
         "gamma": null,
         "csp": {
           "strike": 212.5,
-          "premium": 3.2,
-          "iv": 50.7,
+          "premium": 4.37,
+          "iv": 85.3,
           "exp": "2026-06-18"
         }
       },
@@ -633,7 +633,7 @@
         "peg": 1.58,
         "pb": 10.65,
         "ps": 7.07,
-        "ev_ebitda": 24.39,
+        "ev_ebitda": 23.52,
         "roe": 48.5,
         "roa": 15.4,
         "profit_margin": 28.5,
@@ -653,14 +653,14 @@
       "earnings": null,
       "options": {
         "exp": "2026-06-18",
-        "iv": 29.9,
+        "iv": 39.2,
         "delta": null,
         "theta": null,
         "gamma": null,
         "csp": {
           "strike": 78.0,
-          "premium": 0.65,
-          "iv": 34.2,
+          "premium": 0.53,
+          "iv": 37.3,
           "exp": "2026-06-18"
         }
       },
@@ -686,21 +686,21 @@
     {
       "ticker": "MCD",
       "name": "McDonald's Corporation",
-      "price": 287.88,
+      "price": 287.93,
       "prev_price": 286.12,
-      "change_pct": 0.62,
+      "change_pct": 0.63,
       "h52": 341.75,
       "l52": 271.85,
-      "pct_from_high": -15.8,
+      "pct_from_high": -15.7,
       "pct_from_low": 5.9,
       "sector": "Consumer Cyclical",
       "industry": "Restaurants",
       "technicals": {
         "rsi": 64.0,
         "macd": {
-          "macd": 0.128,
-          "signal": -1.834,
-          "histogram": 1.962,
+          "macd": 0.132,
+          "signal": -1.833,
+          "histogram": 1.965,
           "trend": "Bullish"
         }
       },
@@ -713,8 +713,8 @@
         "vs_sma200": -4.7
       },
       "volume": {
-        "volume": 2863504,
-        "avg_volume": 4271465,
+        "volume": 2882607,
+        "avg_volume": 4272420,
         "ratio": 0.67,
         "spike": false
       },
@@ -722,9 +722,9 @@
         "pe": 23.74,
         "fpe": 20.25,
         "peg": 2.61,
-        "pb": -159.07,
+        "pb": -159.08,
         "ps": 7.45,
-        "ev_ebitda": 17.29,
+        "ev_ebitda": 17.37,
         "roe": 0.0,
         "roa": 13.6,
         "profit_margin": 31.6,
@@ -739,19 +739,19 @@
         "inst_own": 77.2,
         "insider_own": 0.3,
         "short_float": 1.5,
-        "market_cap": "204.56B"
+        "market_cap": "204.58B"
       },
       "earnings": null,
       "options": {
         "exp": "2026-06-18",
-        "iv": 17.7,
+        "iv": 26.3,
         "delta": null,
         "theta": null,
         "gamma": null,
         "csp": {
           "strike": 287.5,
-          "premium": 2.36,
-          "iv": 28.4,
+          "premium": 2.4,
+          "iv": 37.1,
           "exp": "2026-06-18"
         }
       },
@@ -772,44 +772,44 @@
     {
       "ticker": "2884.TW",
       "name": "E.SUN Financial Holding Company, Ltd.",
-      "price": 35.2,
-      "prev_price": 34.65,
-      "change_pct": 1.59,
-      "h52": 35.5,
+      "price": 35.65,
+      "prev_price": 35.2,
+      "change_pct": 1.28,
+      "h52": 35.9,
       "l52": 29.4,
-      "pct_from_high": -0.8,
-      "pct_from_low": 19.7,
+      "pct_from_high": -0.7,
+      "pct_from_low": 21.3,
       "sector": "Financial Services",
       "industry": "Banks - Regional",
       "technicals": {
-        "rsi": 78.0,
+        "rsi": 85.0,
         "macd": {
-          "macd": 0.715,
-          "signal": 0.396,
-          "histogram": 0.319,
+          "macd": 0.821,
+          "signal": 0.481,
+          "histogram": 0.341,
           "trend": "Bullish"
         }
       },
       "moving_averages": {
-        "sma20": 32.58,
-        "vs_sma20": 8.0,
-        "sma50": 32.41,
-        "vs_sma50": 8.6,
-        "sma200": 32.58,
-        "vs_sma200": 8.0
+        "sma20": 32.78,
+        "vs_sma20": 8.8,
+        "sma50": 32.48,
+        "vs_sma50": 9.8,
+        "sma200": 32.59,
+        "vs_sma200": 9.4
       },
       "volume": {
-        "volume": 59025011,
-        "avg_volume": 58447808,
-        "ratio": 1.01,
+        "volume": 28152043,
+        "avg_volume": 58243100,
+        "ratio": 0.48,
         "spike": false
       },
       "fundamentals": {
-        "pe": 16.6,
-        "fpe": 13.87,
+        "pe": 16.82,
+        "fpe": 14.05,
         "peg": 2.48,
-        "pb": 2.0,
-        "ps": 6.44,
+        "pb": 2.02,
+        "ps": 6.52,
         "ev_ebitda": null,
         "roe": 13.0,
         "roa": 0.8,
@@ -825,7 +825,7 @@
         "inst_own": 31.4,
         "insider_own": 6.4,
         "short_float": 0.0,
-        "market_cap": "569.32B"
+        "market_cap": "576.6B"
       },
       "earnings": null,
       "options": null,
@@ -833,7 +833,7 @@
       "signals": [
         {
           "icon": "\ud83d\udd34",
-          "text": "Overbought \u2014 RSI 78",
+          "text": "Overbought \u2014 RSI 85",
           "level": "warning"
         },
         {
@@ -843,13 +843,13 @@
         },
         {
           "icon": "\u2705",
-          "text": "Above 200-day MA ($32.58)",
+          "text": "Above 200-day MA ($32.59)",
           "level": "positive"
         }
       ]
     }
   ],
-  "generated_at_utc": "2026-06-16 20:00 UTC",
-  "generated_at_tw": "2026-06-17 04:00 TW",
+  "generated_at_utc": "2026-06-17 02:33 UTC",
+  "generated_at_tw": "2026-06-17 10:33 TW",
   "ticker_count": 10
 }
