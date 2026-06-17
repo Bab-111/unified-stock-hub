@@ -1,12 +1,10 @@
 [
   {
-    "ts_utc": "2026-06-17 16:46 UTC",
+    "ts_utc": "2026-06-17 16:47 UTC",
     "phase": "Regular Market Hours",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top screener picks (INTC, CSCO, AMD, QCOM, AMAT) are all in the Technology sector, which is the top sector. All stocks have a score above 10/17 and a MA200 above, indicating strong momentum.\n\n\u2022 Flag any contradiction between screener and monitor signals:\nSCO and PLTR are below their 200-day MA, but not in the top screener picks. LULU, NFLX, and MCD are also below their 200-day MA and have a MACD bearish crossover, but are not in the top picks. 2884.TW is overbought, but not in the top picks.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: CSCO (82.9% institutional ownership), indicating high investor confidence.\nWeakest pick: AMD (MFI=49.8), indicating a potential decline in buying pressure.\n\n\u2022 Overall confidence: MEDIUM\nThe top screener picks have strong momentum, but some monitor signals indicate potential weakness in the sector.\n\u26a0\ufe0f Hallucination check flagged: TW",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nAll top screener picks (INTC, CSCO, AMD, QCOM, AMAT) are in the Technology sector, which is currently the top sector. This aligns with sector momentum.\n\n\u2022 Flag any contradiction between screener and monitor signals:\nThere are no direct contradictions between the screener and monitor signals, but the monitor signals highlight potential issues with other stocks (SCO, PLTR, LULU, NFLX, MCD) that are not among the top screener picks.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: QCOM (84.8% institutional ownership), indicating strong investor support.\nWeakest pick: INTC (score of 12/17), indicating relatively lower scores in various metrics.\n\n\u2022 Overall confidence: HIGH\nThe screener picks are consistent with sector momentum, and there are no direct contradictions with monitor signals, indicating a high level of confidence in the top picks.",
     "conflicts": [],
-    "suspicious_tickers": [
-      "TW"
-    ],
+    "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
   }
 ]
