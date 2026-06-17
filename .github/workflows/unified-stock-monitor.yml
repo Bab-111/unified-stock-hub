@@ -1,19 +1,5 @@
 name: Unified Stock Hub
 
-# Phase              UTC      TW      RUN_MODE    Modules
-# ─────────────────────────────────────────────────────────────────────────
-# Pre-market         13:00    21:00   full        Screener+Monitor+News
-# Open bell          13:30    21:30   screener    Screener only
-# Morning            14:30    22:30   screener    Screener only
-# Midday             17:00    01:00   screener    Screener only
-# Power hour         19:00    03:00   screener    Screener only
-# Market close       20:00    04:00   full        Screener+Monitor+News
-# After-hours        22:00    06:00   partial     Screener+News
-# Late after-hours   00:00    08:00   partial     Screener+News
-#
-# Monitor+News data cached to cache/ folder and committed back to repo
-# so screener-only runs can still display last known Monitor/News data.
-
 on:
   workflow_dispatch:
     inputs:
@@ -71,22 +57,17 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Determine run mode
-        id: mode
         run: |
           EVENT="${{ github.event_name }}"
-
           if [ "$EVENT" = "workflow_dispatch" ]; then
             MODE="${{ github.event.inputs.run_mode }}"
             echo "RUN_MODE=${MODE:-full}" >> $GITHUB_ENV
-
           elif [ "$EVENT" = "repository_dispatch" ]; then
-            TYPE="${{ github.event.action }}"
-            case "$TYPE" in
+            case "${{ github.event.action }}" in
               run-full)    echo "RUN_MODE=full"     >> $GITHUB_ENV ;;
               run-partial) echo "RUN_MODE=partial"  >> $GITHUB_ENV ;;
               *)           echo "RUN_MODE=screener" >> $GITHUB_ENV ;;
             esac
-
           else
             HOUR=$(date -u +"%H")
             MIN=$(date -u +"%M")
@@ -96,7 +77,6 @@ jobs:
             else                                                 echo "RUN_MODE=screener" >> $GITHUB_ENV
             fi
           fi
-          echo "Event=$EVENT | RUN_MODE=$(grep RUN_MODE $GITHUB_ENV | cut -d= -f2)"
 
       - name: Run Stock Hub
         env:
@@ -109,13 +89,12 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add cache/
-          git diff --staged --quiet || git commit -m "cache: update [$(date -u '+%Y-%m-%d %H:%M UTC')] mode=${{ env.RUN_MODE }}"
+          git diff --staged --quiet || git commit -m "cache: $(date -u '+%Y-%m-%d %H:%M') mode=${{ env.RUN_MODE }}"
           git push
         continue-on-error: true
 
       - name: Verify output
         run: |
-          ls -lh output/
           test -f output/index.html
           echo "HTML size: $(du -sh output/index.html | cut -f1)"
 
