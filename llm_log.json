@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-06-17 02:37 UTC",
-    "phase": "Overnight",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top screener picks (JPM, GS, MS, BAC, WFC) are all in the Financials sector, which is currently the top sector. This validates their inclusion in the top picks.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nThere are no direct contradictions between the screener and monitor signals. However, SOFI, SCO, PLTR, LULU, NOW, NFLX, and MCD are below their 200-day MA, which may indicate a potential shift in sector momentum.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: WFC (Financials) - High institutional ownership (78.7%) and strong MFI (82.0).\nWeakest pick: MS (Financials) - Low trading volume (0.6x) compared to its peers.\n\n\u2022 Overall confidence: HIGH\nThe top screener picks are all in the top sector and have strong fundamental signals, indicating a high level of confidence in their potential performance.",
+    "ts_utc": "2026-06-17 08:16 UTC",
+    "phase": "Pre-Market (before 9:30 AM ET)",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top screener picks in the Financials sector are all above their 200-day MA and have strong MFI scores, indicating a strong uptrend within the sector.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nThere are no direct contradictions between the screener and monitor signals, but the monitor signals do not directly relate to the Financials sector.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nThe strongest pick is PNC (Financials) with a high institutional ownership of 85.9%. \nThe weakest pick is AXP (Financials) with a relatively low MFI score of 65.3.\n\n\u2022 Overall confidence: HIGH\nThe sector momentum and screener picks indicate a strong and confident bullish outlook for the Financials sector.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
