@@ -1,0 +1,46 @@
+name: Cron Trigger (keep-alive + self-trigger)
+
+# This workflow runs on GitHub schedule and immediately triggers
+# the main workflow via repository_dispatch.
+# WHY: GitHub's schedule is unreliable. This workflow is simpler
+# (no heavy steps) so it gets picked up faster, then fires the main one.
+
+on:
+  schedule:
+    - cron: "0 13 * * 1-5"
+    - cron: "30 13 * * 1-5"
+    - cron: "30 14 * * 1-5"
+    - cron: "0 17 * * 1-5"
+    - cron: "0 19 * * 1-5"
+    - cron: "0 20 * * 1-5"
+    - cron: "0 22 * * 1-5"
+    - cron: "0 0 * * 2-6"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: Determine mode and trigger main workflow
+        run: |
+          HOUR=$(date -u +"%H")
+          MIN=$(date -u +"%M")
+
+          if   [ "$HOUR" = "13" ] && [ "$MIN" = "00" ]; then EVENT="run-full"
+          elif [ "$HOUR" = "20" ] && [ "$MIN" = "00" ]; then EVENT="run-full"
+          elif [ "$HOUR" = "22" ] || [ "$HOUR" = "00" ];then EVENT="run-partial"
+          else                                                EVENT="run-screener"
+          fi
+
+          echo "Triggering: $EVENT at $(date -u)"
+
+          curl -s -X POST \
+            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            "https://api.github.com/repos/${{ github.repository }}/dispatches" \
+            -d "{\"event_type\":\"$EVENT\"}"
