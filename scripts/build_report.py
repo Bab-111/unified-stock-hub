@@ -578,6 +578,204 @@ a:hover { text-decoration: underline; }
 """
 
 
+
+def render_conviction_dashboard(top_picks, max_score):
+    """Full conviction dashboard table — matches original stock-screener exactly."""
+    if not top_picks:
+        return ""
+
+    BG = {"green": "#1a3a1a", "yellow": "#3a3000", "red": "#3a1a1a"}
+    FG = {"green": "#4ade80", "yellow": "#fde047", "red": "#f87171"}
+
+    def cell(factor_color, text):
+        bg = BG.get(factor_color, BG["red"])
+        fg = FG.get(factor_color, FG["red"])
+        return f'<td style="background:{bg};color:{fg};text-align:center;padding:8px 6px;font-size:.82rem;font-weight:500">{text}</td>'
+
+    rows = ""
+    for r in top_picks:
+        f       = r.get("factors", {})
+        close   = r.get("close", 0)
+        open_   = r.get("open", 0)
+        ma200   = r.get("ma200")
+        inst    = r.get("inst_pct")
+        mfi     = r.get("mfi_val")
+        iv      = r.get("iv_val")
+        hist_r  = r.get("hist_ret")
+        score   = r.get("score", 0)
+        tl      = r.get("tl", "weak")
+        vol_r   = r.get("vol_ratio", 0)
+        sym     = r.get("symbol", "")
+
+        bo_pct  = ((close - open_) / open_ * 100) if open_ else float("nan")
+        bo_str  = f"{bo_pct:+.1f}%" if open_ else "+nan%"
+        ma_str  = "▲ Above" if (ma200 and close > ma200) else "▼ Below"
+        inst_s  = f"{inst}%" if inst is not None else "N/A"
+        mfi_s   = str(mfi) if mfi is not None else "N/A"
+        iv_s    = f"{iv}%" if iv is not None else "N/A"
+        hist_s  = f"{hist_r:+.1f}%" if hist_r is not None else "N/A"
+        vol_s   = f"{vol_r:.1f}×"
+
+        tl_icon = {"strong": "🟢", "moderate": "🟡", "weak": "🔴"}.get(tl, "🔴")
+        name_cell = f'<td style="font-weight:700;text-align:left;padding:8px 10px;font-size:.9rem">{tl_icon} {sym}</td>'
+
+        rows += f"""<tr>
+          {name_cell}
+          {cell(f.get("volume","red"), vol_s)}
+          {cell(f.get("breakout","red"), bo_str)}
+          {cell(f.get("ma200","red"), ma_str)}
+          {cell(f.get("inst_own","red"), inst_s)}
+          {cell(f.get("mfi","red"), mfi_s)}
+          {cell(f.get("sector","red"), r.get("sector","—"))}
+          {cell(f.get("iv","red"), iv_s)}
+          {cell(f.get("history","red"), hist_s)}
+          <td style="font-weight:800;font-size:1rem;text-align:center;padding:8px">{score}/{max_score}</td>
+        </tr>"""
+
+    weights = {"volume":2,"breakout":2,"ma200":2,"inst_own":3,"mfi":2,"sector":3,"history":2,"iv":1}
+    return f"""
+    <div style="overflow-x:auto;margin-top:8px">
+    <table style="width:100%;border-collapse:collapse;background:var(--bg2);
+                  border-radius:10px;overflow:hidden;border:1px solid var(--border);font-size:.82rem">
+      <thead>
+        <tr style="background:#1a237e">
+          <th style="text-align:left;padding:10px;color:#fff;font-size:.82rem">Stock</th>
+          <th style="color:#fff;padding:8px;font-size:.75rem">Vol<br><small style="opacity:.7">(w:{weights["volume"]})</small></th>
+          <th style="color:#fff;padding:8px;font-size:.75rem">Candle<br><small style="opacity:.7">(w:{weights["breakout"]})</small></th>
+          <th style="color:#fff;padding:8px;font-size:.75rem">MA200<br><small style="opacity:.7">(w:{weights["ma200"]})</small></th>
+          <th style="color:#fff;padding:8px;font-size:.75rem">Inst.Own<br><small style="opacity:.7">(w:{weights["inst_own"]})</small></th>
+          <th style="color:#fff;padding:8px;font-size:.75rem">MFI<br><small style="opacity:.7">(w:{weights["mfi"]})</small></th>
+          <th style="color:#fff;padding:8px;font-size:.75rem">Sector<br><small style="opacity:.7">(w:{weights["sector"]})</small></th>
+          <th style="color:#fff;padding:8px;font-size:.75rem">IV<br><small style="opacity:.7">(w:{weights["iv"]})</small></th>
+          <th style="color:#fff;padding:8px;font-size:.75rem">Last BO<br><small style="opacity:.7">(w:{weights["history"]})</small></th>
+          <th style="color:#fff;padding:8px;font-size:.75rem">Score<br><small style="opacity:.7">/{17}</small></th>
+        </tr>
+      </thead>
+      <tbody>{rows}</tbody>
+    </table>
+    </div>"""
+
+
+def render_factor_chart(top_picks, max_score):
+    """Inline SVG factor contribution chart — no matplotlib needed."""
+    if not top_picks:
+        return ""
+
+    COLORS = {"green": "#4ade80", "yellow": "#fde047", "red": "#374151"}
+    order  = ["inst_own","sector","volume","breakout","ma200","mfi","history","iv"]
+    labels = {"inst_own":"Inst.Own","sector":"Sector","volume":"Volume",
+              "breakout":"Breakout","ma200":"MA200","mfi":"MFI",
+              "history":"History","iv":"IV"}
+    weights= {"volume":2,"breakout":2,"ma200":2,"inst_own":3,"mfi":2,"sector":3,"history":2,"iv":1}
+
+    row_h  = 38
+    pad_l  = 110
+    pad_r  = 20
+    chart_w= 500
+    bar_max= chart_w - pad_l - pad_r
+    n      = len(top_picks)
+    svg_h  = n * row_h + 60
+
+    bars = ""
+    for i, r in enumerate(top_picks):
+        f    = r.get("factors", {})
+        tl   = r.get("tl", "weak")
+        sym  = r.get("symbol", "")
+        icon = {"strong":"🟢","moderate":"🟡","weak":"🔴"}.get(tl,"🔴")
+        y    = i * row_h + 30
+        label= f"{icon} {sym}"
+
+        bars += f'<text x="{pad_l-6}" y="{y+row_h*0.6:.0f}" text-anchor="end" font-size="13" fill="var(--text)" font-weight="600">{label}</text>'
+
+        x = pad_l
+        for fk in order:
+            fc  = f.get(fk, "red")
+            pts = weights[fk] if fc == "green" else (1 if fc == "yellow" else 0)
+            if pts > 0:
+                w = pts / max_score * bar_max
+                bars += f'<rect x="{x}" y="{y+4}" width="{w:.1f}" height="{row_h-10}" rx="3" fill="{COLORS[fc]}" opacity="0.85"/>'
+                if w > 24:
+                    bars += f'<text x="{x+w/2:.0f}" y="{y+row_h*0.55:.0f}" text-anchor="middle" font-size="9" fill="#111" font-weight="600">{labels[fk]}</text>'
+                x += w
+
+    # X-axis ticks
+    ticks = ""
+    for v in range(0, max_score+1, 2):
+        xp = pad_l + v / max_score * bar_max
+        ticks += f'<line x1="{xp:.0f}" y1="20" x2="{xp:.0f}" y2="{n*row_h+25}" stroke="var(--border)" stroke-width="0.5"/>'
+        ticks += f'<text x="{xp:.0f}" y="{n*row_h+40}" text-anchor="middle" font-size="10" fill="var(--muted)">{v}</text>'
+
+    legend = f'''
+    <rect x="{pad_l}" y="{n*row_h+46}" width="12" height="10" rx="2" fill="{COLORS["green"]}"/>
+    <text x="{pad_l+16}" y="{n*row_h+56}" font-size="10" fill="var(--muted)">Strong</text>
+    <rect x="{pad_l+70}" y="{n*row_h+46}" width="12" height="10" rx="2" fill="{COLORS["yellow"]}"/>
+    <text x="{pad_l+86}" y="{n*row_h+56}" font-size="10" fill="var(--muted)">Moderate</text>
+    <rect x="{pad_l+160}" y="{n*row_h+46}" width="12" height="10" rx="2" fill="#6b7280"/>
+    <text x="{pad_l+176}" y="{n*row_h+56}" font-size="10" fill="var(--muted)">Weak (0pts)</text>
+    '''
+
+    return f'''
+    <svg viewBox="0 0 {chart_w} {svg_h+20}" style="width:100%;max-width:600px;display:block">
+      <text x="{pad_l + bar_max/2:.0f}" y="14" text-anchor="middle" font-size="12"
+            font-weight="600" fill="var(--text)">Factor Contribution</text>
+      {ticks}{bars}{legend}
+      <text x="{pad_l + bar_max/2:.0f}" y="{n*row_h+42}" text-anchor="middle"
+            font-size="10" fill="var(--muted)">Conviction Points</text>
+    </svg>'''
+
+
+def render_sector_ranking(sorted_sectors):
+    """Sector ranking table."""
+    if not sorted_sectors:
+        return ""
+    rows = ""
+    for rank, (sec, pct) in enumerate(sorted_sectors, 1):
+        clr = "#4ade80" if pct > 0 else "#f87171"
+        bg  = "rgba(74,222,128,.08)" if pct > 0 else "rgba(248,113,113,.08)"
+        rows += f'<tr><td style="padding:7px 10px;font-weight:600;font-size:.82rem">#{rank} {sec}</td>'                 f'<td style="background:{bg};color:{clr};font-weight:700;text-align:center;padding:7px;font-size:.82rem">{pct:+.2f}%</td></tr>'
+    return f"""
+    <table style="width:100%;border-collapse:collapse;background:var(--bg2);
+                  border-radius:10px;overflow:hidden;border:1px solid var(--border)">
+      <thead><tr style="background:#1a237e">
+        <th style="text-align:left;padding:9px 10px;color:#fff;font-size:.8rem">Sector</th>
+        <th style="color:#fff;padding:9px;font-size:.8rem">Daily Δ</th>
+      </tr></thead>
+      <tbody>{rows}</tbody>
+    </table>"""
+
+
+def render_data_sources(screener_data, universe_count):
+    """Data sources & methodology section — matches original exactly."""
+    run_time  = (screener_data or {}).get("run_time", "—")
+    phase     = (screener_data or {}).get("phase", "—")
+    max_score = (screener_data or {}).get("max_score", 17)
+    return f"""
+    <div style="background:var(--bg2);border:1px solid var(--border);border-radius:10px;
+                padding:16px 18px;margin-top:20px;font-size:.82rem;color:var(--muted)">
+      <div style="font-size:.9rem;font-weight:600;color:var(--accent2);margin-bottom:10px">
+        📚 Data Sources &amp; Methodology
+      </div>
+      <ul style="margin:0 0 0 16px;line-height:2.1">
+        <li><strong>Price / OHLCV data:</strong> Yahoo Finance via yfinance library — 6-month daily bars, regular market close only (after-hours excluded)</li>
+        <li><strong>Volume spike:</strong> Today's volume vs 6-month average — threshold ≥2× for green signal</li>
+        <li><strong>Breakout candle:</strong> Close &gt; Open × 1.03 (i.e. +3% intraday gain)</li>
+        <li><strong>200-Day MA:</strong> Rolling 200-day mean of closing prices — calculated locally from downloaded data</li>
+        <li><strong>Money Flow Index (MFI):</strong> Calculated locally using 14-period standard formula (no external API)</li>
+        <li><strong>Institutional ownership:</strong> Yahoo Finance heldPercentInstitutions — fetched for top-10 candidates only</li>
+        <li><strong>Implied Volatility (IV):</strong> Average IV of nearest-expiry call options via Yahoo Finance — top-10 candidates only</li>
+        <li><strong>Sector rotation:</strong> Daily % change of sector ETFs (XLK, XLV, XLF, XLI, XLE, XLY, XLP, XLB, XLRE, XLU, XLC)</li>
+        <li><strong>Historical breakout:</strong> Looks back 90 days for prior similar breakout (vol≥2×, breakout candle, above MA200), measures 10-day forward return</li>
+        <li><strong>Market cap filter:</strong> ≥ $5B (large-cap only — data from Yahoo Finance info)</li>
+        <li><strong>AI supervision:</strong> Groq Llama 3.1 (free) — validates picks against sector context (requires GROQ_API_KEY secret)</li>
+        <li><strong>Universe:</strong> {universe_count} stocks defined in config/universe.csv</li>
+        <li><strong>Scoring weights:</strong> Inst.Own(3) · Sector(3) · Volume(2) · Breakout(2) · MA200(2) · MFI(2) · History(2) · IV(1) = {max_score}pts max</li>
+        <li><strong>Run time:</strong> {run_time} UTC — Market phase: {phase}</li>
+      </ul>
+      <div style="margin-top:10px;font-size:.75rem;color:var(--muted);border-top:1px solid var(--border);padding-top:8px">
+        ⚠️ For informational purposes only — not financial advice. All data from Yahoo Finance (free tier).
+      </div>
+    </div>"""
+
 def build(
     screener_data,
     monitor_data,
@@ -625,7 +823,20 @@ def build(
               <div class="llm-note">{(llm_note or "Not available").replace(chr(10), "<br>")}</div>
             </div>
           </div>
-        </div>'''
+        </div>
+        <div class="section-title" style="margin-top:24px">📊 Full Conviction Dashboard</div>
+        {render_conviction_dashboard(screener_data.get("top_picks",[]), max_score)}
+        <div class="two-col" style="margin-top:20px">
+          <div>
+            <div class="section-title">🎯 Factor Contribution Chart</div>
+            <div class="card" style="overflow-x:auto">{render_factor_chart(screener_data.get("top_picks",[]), max_score)}</div>
+          </div>
+          <div>
+            <div class="section-title">📋 Sector Ranking</div>
+            {render_sector_ranking(screener_data.get("sorted_sectors",[]))}
+          </div>
+        </div>
+        {render_data_sources(screener_data, screener_data.get("all_results_count",0))}'''
     else:
         screener_html = "<p class='muted'>Screener data not available.</p>"
 
@@ -735,3 +946,4 @@ setInterval(updateClock, 30000);
     output_path.write_text(html, encoding="utf-8")
     size_kb = output_path.stat().st_size // 1024
     print(f"  HTML written: {output_path} ({size_kb} KB)")
+# placeholder to check append works
