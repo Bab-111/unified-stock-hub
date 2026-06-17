@@ -799,9 +799,9 @@
         "vs_sma200": 9.4
       },
       "volume": {
-        "volume": 28152043,
-        "avg_volume": 58243100,
-        "ratio": 0.48,
+        "volume": 28610169,
+        "avg_volume": 58266007,
+        "ratio": 0.49,
         "spike": false
       },
       "fundamentals": {
@@ -849,7 +849,7 @@
       ]
     }
   ],
-  "generated_at_utc": "2026-06-17 02:33 UTC",
-  "generated_at_tw": "2026-06-17 10:33 TW",
+  "generated_at_utc": "2026-06-17 02:36 UTC",
+  "generated_at_tw": "2026-06-17 10:36 TW",
   "ticker_count": 10
 }
