@@ -2,7 +2,7 @@
   {
     "ts_utc": "2026-06-18 16:45 UTC",
     "phase": "Regular Market Hours",
-    "note": "\u2022 Validate top screener picks vs sector momentum: The top screener picks (INTC, AMD, QCOM, AMAT, AVGO) are all in the Technology sector, which is currently leading the market. Their scores and metrics suggest they are strong performers with high institutional ownership and above-average moving averages.\n\n\u2022 Flag any contradiction between screener and monitor signals: There are no direct contradictions between the screener picks and monitor signals. However, the monitor signals highlight potential issues with other stocks (SCO, PLTR, LULU, NFLX, MCD) that are not part of the top picks.\n\n\u2022 Name the strongest and weakest pick with one reason each: \n  - Strongest pick: INTC (score=13/17) due to its high score and above-average institutional ownership.\n  - Weakest pick: AVGO (score=10/17) due to its relatively lower score compared to the other picks.\n\n\u2022 Overall confidence: MEDIUM. The screener picks are strong, but the monitor signals highlight potential issues with other stocks, indicating that the market is complex and nuanced.",
+    "note": "\u2022 Top screener picks (INTC, AMD, QCOM, AMAT, AVGO) are all above their 200-day MA, indicating a strong sector momentum. \n\u2022 SCO and MCD are below their 200-day MA, contradicting the screener's signal of a strong sector.\n\u2022 The strongest pick is QCOM due to its high institutional ownership (84.8%). \n\u2022 The weakest pick is AVGO due to its relatively low score (10/17). \n\u2022 Overall confidence: MEDIUM due to mixed signals from the screener and monitor.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
