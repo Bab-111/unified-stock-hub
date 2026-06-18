@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-06-18 19:24 UTC",
-    "phase": "Regular Market Hours",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top screener picks (INTC, AMD, QCOM, AMAT, AVGO) are all in the Technology sector, which is currently the top sector. This validates the sector momentum.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nThere is no direct contradiction between the screener and monitor signals. However, the monitor signals are more focused on individual stock performance, while the screener signals are based on a broader set of criteria.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nThe strongest pick is INTC, with a high institutional ownership percentage (64.0%). \nThe weakest pick is AVGO, with a relatively low score (10/17) compared to the other picks.\n\n\u2022 Overall confidence: HIGH \nThe screener signals are consistent and strong, indicating a high level of confidence in the top picks.",
+    "ts_utc": "2026-06-18 21:22 UTC",
+    "phase": "After-Hours (4:00-8:00 PM ET)",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top screener picks in the Technology sector are aligned with sector momentum, as all picks have a score above 13/17 and are above their 200-day MA.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nThere are no direct contradictions between the screener and monitor signals, but the monitor signals indicate potential weakness in stocks like SCO, PLTR, LULU, NFLX, and MCD.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nThe strongest pick is TXN (score=15/17), due to its high score and high institutional ownership (92.6%).\nThe weakest pick is INTC (score=13/17), due to its relatively low volume (1.8x).\n\n\u2022 Overall confidence: HIGH\nThe screener picks are in line with sector momentum, and the monitor signals do not indicate any major red flags, suggesting a high level of confidence in the top picks.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
