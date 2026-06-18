@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-06-18 03:43 UTC",
-    "phase": "Overnight",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top screener picks in the Industrials sector are all above their 200-day MA, indicating a strong uptrend. However, the sector's momentum is not exceptionally high, with only 81.0% of stocks above the MA200.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nNone of the top screener picks have a bearish MACD crossover or are below their 200-day MA, unlike some of the stocks on the watchlist (PLTR, LULU, NFLX, MCD).\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest: ETN (Industrials) - with the highest institutional ownership at 88.0%.\nWeakest: UPS (Industrials) - with the lowest relative volume at 0.6x.\n\n\u2022 Overall confidence: MEDIUM \nThe top screener picks are strong, but the sector's momentum is not exceptionally high, and there are some contradictory signals from the watchlist.",
+    "ts_utc": "2026-06-18 16:23 UTC",
+    "phase": "Regular Market Hours",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top screener picks (INTC, AMD, QCOM, AMAT, AVGO) are all in the Technology sector, which is currently leading. Their scores and metrics suggest they are strong performers within the sector, with most having above-average volume and institutional ownership.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nThere are no direct contradictions between the screener picks and monitor signals, but some monitor signals (SCO, PLTR, LULU, NFLX, MCD) indicate stocks that are below their 200-day MAs, which could be a concern for investors.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: INTC, due to its high institutional ownership (64.0%) and strong MFI (61.1).\nWeakest pick: AVGO, due to its relatively low score (10/17) compared to the other picks.\n\n\u2022 Overall confidence: HIGH\nThe screener picks are strong performers within the leading Technology sector, and the lack of direct contradictions with monitor signals suggests a high level of confidence in these picks.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
