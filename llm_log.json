@@ -1,10 +1,12 @@
 [
   {
-    "ts_utc": "2026-06-17 23:45 UTC",
-    "phase": "After-Hours (4:00-8:00 PM ET)",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top screener picks (GE, MMM, UPS, EMR, ETN) are all in the Industrials sector, which is currently leading the market. This alignment suggests that the screener picks are well-positioned to benefit from sector momentum.\n\n\u2022 Flag any contradiction between screener and monitor signals:\nSCO, PLTR, LULU, NFLX, and MCD are all below their 200-day MAs, indicating bearish trends. This contradicts the screener picks, which are all above their 200-day MAs, suggesting a bullish trend.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: ETN, due to its high institutional ownership (88.0%) and strong momentum.\nWeakest pick: UPS, due to its relatively low trading volume (0.6x) compared to the other picks.\n\n\u2022 Overall confidence: MEDIUM\nThe screener picks are generally aligned with sector momentum, but the monitor signals indicate potential bearish trends, reducing overall confidence in the picks.",
+    "ts_utc": "2026-06-18 02:31 UTC",
+    "phase": "Overnight",
+    "note": "\u2022 Validate top screener picks vs sector momentum: The top screener picks (GE, MMM, UPS, EMR, ETN) are all in the Industrials sector, which is the top sector for this market phase. This suggests that the screener picks are aligned with the sector momentum.\n\n\u2022 Flag any contradiction between screener and monitor signals: There are no direct contradictions between the screener picks and the watchlist alerts. However, the overbought signal for 2884.TW and the bearish crossover signals for SCO, PLTR, LULU, NFLX, and MCD do not directly contradict the screener picks.\n\n\u2022 Name the strongest and weakest pick with one reason each: \n  - Strongest pick: ETN (Industrials) due to its high institutional ownership (88.0%) and strong momentum.\n  - Weakest pick: UPS (Industrials) due to its relatively low trading volume (0.6x).\n\n\u2022 Overall confidence: MEDIUM. The screener picks are aligned with the sector momentum, but the watchlist alerts suggest potential caution and the need for further monitoring.\n\u26a0\ufe0f Hallucination check flagged: TW",
     "conflicts": [],
-    "suspicious_tickers": [],
+    "suspicious_tickers": [
+      "TW"
+    ],
     "model": "groq/llama-3.1-8b-instant (free)"
   }
 ]
