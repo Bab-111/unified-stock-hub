@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-06-19 02:47 UTC",
-    "phase": "Overnight",
-    "note": "\u2022 Validate top screener picks vs sector momentum: The top screener picks in the Technology sector are all above their 200-day MA, indicating a strong upward trend. This aligns with the sector's overall momentum.\n\u2022 Flag any contradiction between screener and monitor signals: None found.\n\u2022 Name the strongest and weakest pick with one reason each: \n  - Strongest: TXN (score=15/17), due to its high score and high MFI (53.2) indicating strong buying pressure.\n  - Weakest: INTC (score=13/17), due to its low volume (1.8x) compared to the others.\n\u2022 Overall confidence: HIGH, as the top screener picks are all above their 200-day MA and have strong momentum indicators.",
+    "ts_utc": "2026-06-19 04:06 UTC",
+    "phase": "Pre-Market (before 9:30 AM ET)",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top screener picks (TXN, CSCO, QCOM, AMAT, INTC) are all in the Technology sector, which is currently the top sector, indicating a strong sector momentum.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nSCO and PLTR are below their 200-day MAs, but are not on the screener list. LULU and NFLX have MACD bearish crossovers and are below their 200-day MAs, but are not on the screener list.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nThe strongest pick is TXN, due to its high score (15/17) and high institutional ownership (92.6%). \nThe weakest pick is INTC, due to its lower score (13/17) compared to the other picks.\n\n\u2022 Overall confidence: MEDIUM \nThe screener picks are generally strong, but the monitor signals indicate potential weakness in other stocks, which may impact the overall market.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
