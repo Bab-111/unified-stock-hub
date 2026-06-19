@@ -1,10 +1,12 @@
 [
   {
-    "ts_utc": "2026-06-19 04:06 UTC",
-    "phase": "Pre-Market (before 9:30 AM ET)",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top screener picks (TXN, CSCO, QCOM, AMAT, INTC) are all in the Technology sector, which is currently the top sector, indicating a strong sector momentum.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nSCO and PLTR are below their 200-day MAs, but are not on the screener list. LULU and NFLX have MACD bearish crossovers and are below their 200-day MAs, but are not on the screener list.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nThe strongest pick is TXN, due to its high score (15/17) and high institutional ownership (92.6%). \nThe weakest pick is INTC, due to its lower score (13/17) compared to the other picks.\n\n\u2022 Overall confidence: MEDIUM \nThe screener picks are generally strong, but the monitor signals indicate potential weakness in other stocks, which may impact the overall market.",
+    "ts_utc": "2026-06-19 15:58 UTC",
+    "phase": "Regular Market Hours",
+    "note": "\u2022 Validate top screener picks vs sector momentum: The top screener picks in the Technology sector are all below their 200-day MA, indicating a bearish trend. This aligns with the sector momentum, which is also bearish.\n\n\u2022 Flag any contradiction between screener and monitor signals: There are no contradictions between the screener and monitor signals for the top picks. However, the monitor signal for 2884.TW indicates overbought conditions, which may contradict the bearish trend in the sector.\n\n\u2022 Name the strongest and weakest pick with one reason each: \n  - Strongest pick: TXN, due to its high institutional ownership (92.6%).\n  - Weakest pick: CSCO, due to its low Money Flow Index (MFI) at 56.7.\n\n\u2022 Overall confidence: MEDIUM, as the sector momentum is bearish, but the monitor signals do not provide a clear direction.\n\u26a0\ufe0f Hallucination check flagged: TW",
     "conflicts": [],
-    "suspicious_tickers": [],
+    "suspicious_tickers": [
+      "TW"
+    ],
     "model": "groq/llama-3.1-8b-instant (free)"
   }
 ]
