@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Stock Hub — 2026-06-20 02:52 TW</title>
+<title>Stock Hub — 2026-06-20 04:26 TW</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -231,9 +231,9 @@ a:hover { text-decoration: underline; }
 
 <div id="header">
   <div class="header-title">📈 Stock Hub</div>
-  <div class="phase-badge"><div class="phase-dot"></div>Regular Market Hours</div>
+  <div class="phase-badge"><div class="phase-dot"></div>After-Hours (4:00-8:00 PM ET)</div>
   <span class="run-mode-tag">SCREENER</span>
-  <div class="header-time" id="live-clock">2026-06-20 02:52 TW &nbsp;|&nbsp; 2026-06-19 18:52 UTC</div>
+  <div class="header-time" id="live-clock">2026-06-20 04:26 TW &nbsp;|&nbsp; 2026-06-19 20:26 UTC</div>
   <button class="theme-btn" onclick="toggleTheme()">☀ / ☾</button>
 </div>
 
@@ -245,7 +245,7 @@ a:hover { text-decoration: underline; }
 </div>
 
 <div id="screener" class="tab-pane active">
-        <div class="updated-note">Run: 2026-06-19 18:52 &nbsp;·&nbsp; 132 stocks scored &nbsp;·&nbsp; Top sector: <strong style="color:var(--accent)">Technology</strong></div>
+        <div class="updated-note">Run: 2026-06-19 20:25 &nbsp;·&nbsp; 132 stocks scored &nbsp;·&nbsp; Top sector: <strong style="color:var(--accent)">Technology</strong></div>
         <div class="sentiment-strip">
           <div class="sent-seg sent-g" style="width:6.1%">6% Strong</div>
           <div class="sent-seg sent-y" style="width:1.5%">2%</div>
@@ -278,7 +278,7 @@ a:hover { text-decoration: underline; }
       <div class="factor-pills"><span class="pill fg">Vol</span><span class="pill fg">Breakout</span><span class="pill fg">MA200</span><span class="pill fg">Inst</span><span class="pill fy">MFI</span><span class="pill fg">Sector</span><span class="pill fy">History</span><span class="pill fg">IV</span></div>
       <div class="card-meta">
         <span>Vol: <strong>2.8x</strong></span>
-        <span>MA200: <strong class="pos">$231.54109253421908</strong></span>
+        <span>MA200: <strong class="pos">$231.5410921650548</strong></span>
         <span>Inst: <strong>92.6%</strong></span>
         <span>MFI: <strong>54.6</strong></span>
         <span>IV(mean): <strong>75.9%</strong></span>
@@ -593,7 +593,7 @@ a:hover { text-decoration: underline; }
         </div></div></div>
             <div class="section-title">LLM Supervision</div>
             <div class="llm-panel">
-              <div class="llm-note">• Validate top screener picks vs sector momentum: The top screener picks (TXN, CSCO, QCOM, AMAT, INTC) are all in the Technology sector, which is currently leading the market. Their scores and metrics indicate a strong uptrend, aligning with sector momentum.<br>• Flag any contradiction between screener and monitor signals: There are no direct contradictions between the screener and monitor signals, but the monitor signals highlight potential issues with individual stocks (SCO, PLTR, LULU, NFLX, MCD) that may not be reflected in the screener picks.<br>• Name the strongest and weakest pick with one reason each: <br>  - Strongest pick: TXN, due to its high score (15/17) and high institutional ownership (92.6%).<br>  - Weakest pick: INTC, due to its lower score (13/17) compared to the other picks.<br>• Overall confidence: HIGH, as the top screener picks align with sector momentum and have strong metrics.</div>
+              <div class="llm-note">• Validate top screener picks vs sector momentum: <br>The top screener picks (TXN, CSCO, QCOM, AMAT, INTC) are all in the Technology sector, which is the top sector in the After-Hours market phase. This validation supports the sector momentum.<br><br>• Flag any contradiction between screener and monitor signals: <br>SCO is below its 200-day MA, which contradicts the screener's overall positive signals. This may indicate a potential weakness in the stock.<br><br>• Name the strongest and weakest pick with one reason each:<br>Strongest: TXN (score=15/17, high volume and strong institutional support)<br>Weakest: INTC (score=13/17, low institutional support)<br><br>• Overall confidence: HIGH<br>The screener's top picks are all in the top sector, and most have strong institutional support, indicating a high level of confidence in the picks.</div>
             </div>
           </div>
         </div>
@@ -726,7 +726,7 @@ a:hover { text-decoration: underline; }
         <li><strong>AI supervision:</strong> Groq Llama 3.1 (free) — validates picks against sector context (requires GROQ_API_KEY secret)</li>
         <li><strong>Universe:</strong> 132 stocks defined in config/universe.csv</li>
         <li><strong>Scoring weights:</strong> Inst.Own(3) · Sector(3) · Volume(2) · Breakout(2) · MA200(2) · MFI(2) · History(2) · IV(1) = 17pts max</li>
-        <li><strong>Run time:</strong> 2026-06-19 18:52 UTC — Market phase: Regular Market Hours</li>
+        <li><strong>Run time:</strong> 2026-06-19 20:25 UTC — Market phase: After-Hours (4:00-8:00 PM ET)</li>
       </ul>
       <div style="margin-top:10px;font-size:.75rem;color:var(--muted);border-top:1px solid var(--border);padding-top:8px">
         ⚠️ For informational purposes only — not financial advice. All data from Yahoo Finance (free tier).
@@ -1437,9 +1437,9 @@ a:hover { text-decoration: underline; }
     <div class="section-title">LLM Supervision Log (last 1 runs)</div>
     <div class="llm-panel">
         <div class="llm-entry">
-          <div class="llm-meta">2026-06-19 18:52 UTC &nbsp;·&nbsp; Regular Market Hours</div>
+          <div class="llm-meta">2026-06-19 20:26 UTC &nbsp;·&nbsp; After-Hours (4:00-8:00 PM ET)</div>
           
-          <div class="llm-note">• Validate top screener picks vs sector momentum: The top screener picks (TXN, CSCO, QCOM, AMAT, INTC) are all in the Technology sector, which is currently leading the market. Their scores and metrics indicate a strong uptrend, aligning with sector momentum.<br>• Flag any contradiction between screener and monitor signals: There are no direct contradictions between the screener and monitor signals, but the monitor signals highlight potential issues with individual stocks (SCO, PLTR, LULU, NFLX, MCD) that may not be reflected in the screener picks.<br>• Name the strongest and weakest pick with one reason each: <br>  - Strongest pick: TXN, due to its high score (15/17) and high institutional ownership (92.6%).<br>  - Weakest pick: INTC, due to its lower score (13/17) compared to the other picks.<br>• Overall confidence: HIGH, as the top screener picks align with sector momentum and have strong metrics.</div>
+          <div class="llm-note">• Validate top screener picks vs sector momentum: <br>The top screener picks (TXN, CSCO, QCOM, AMAT, INTC) are all in the Technology sector, which is the top sector in the After-Hours market phase. This validation supports the sector momentum.<br><br>• Flag any contradiction between screener and monitor signals: <br>SCO is below its 200-day MA, which contradicts the screener's overall positive signals. This may indicate a potential weakness in the stock.<br><br>• Name the strongest and weakest pick with one reason each:<br>Strongest: TXN (score=15/17, high volume and strong institutional support)<br>Weakest: INTC (score=13/17, low institutional support)<br><br>• Overall confidence: HIGH<br>The screener's top picks are all in the top sector, and most have strong institutional support, indicating a high level of confidence in the picks.</div>
           
         </div></div></div>
 
