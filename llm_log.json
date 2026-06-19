@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-06-18 23:53 UTC",
-    "phase": "After-Hours (4:00-8:00 PM ET)",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top screener picks (TXN, CSCO, QCOM, AMAT, INTC) all belong to the Technology sector, which is currently leading. This validates their selection as top picks.\n\n\u2022 Flag any contradiction between screener and monitor signals:\nNo direct contradictions are found between the screener and monitor signals.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: TXN (score=15/17) due to its high score.\nWeakest pick: INTC (score=13/17) due to its lower score compared to the others.\n\n\u2022 Overall confidence: HIGH\nThe strong sector momentum and high scores of the top picks indicate a high level of confidence in this automated stock report.",
+    "ts_utc": "2026-06-19 02:47 UTC",
+    "phase": "Overnight",
+    "note": "\u2022 Validate top screener picks vs sector momentum: The top screener picks in the Technology sector are all above their 200-day MA, indicating a strong upward trend. This aligns with the sector's overall momentum.\n\u2022 Flag any contradiction between screener and monitor signals: None found.\n\u2022 Name the strongest and weakest pick with one reason each: \n  - Strongest: TXN (score=15/17), due to its high score and high MFI (53.2) indicating strong buying pressure.\n  - Weakest: INTC (score=13/17), due to its low volume (1.8x) compared to the others.\n\u2022 Overall confidence: HIGH, as the top screener picks are all above their 200-day MA and have strong momentum indicators.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
