@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-06-22 21:31 UTC",
+    "ts_utc": "2026-06-22 22:02 UTC",
     "phase": "After-Hours (4:00-8:00 PM ET)",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nEnergy sector momentum is strong, with WMB and KMI showing high institutional investment and above 200-day MA. This validates the top screener picks in the sector.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nSCO and MCD are below 200-day MA, but not in the screener top picks. PLTR, LULU, and NFLX have bearish MACD crossovers, but also below 200-day MA, not contradicting screener signals.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: WMB, due to high institutional investment (89.1%).\nWeakest pick: KMI, due to low trading volume (0.7x).\n\n\u2022 Overall confidence: HIGH\nThe strong sector momentum and high institutional investment in top screener picks give confidence in the report's accuracy.",
+    "note": "\u2022 Validate top screener picks vs sector momentum: Energy sector momentum is strong, with WMB and KMI showing high institutional ownership and above-average MFI. \n\u2022 Flag any contradiction between screener and monitor signals: None found, but watchlist alerts indicate potential weakness in other sectors.\n\u2022 Name the strongest and weakest pick with one reason each: Strongest: WMB, due to high institutional ownership (89.1%). Weakest: KMI, due to low trading volume (0.7x).\n\u2022 Overall confidence: HIGH, as top screener picks align with sector momentum and show strong technical indicators.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
