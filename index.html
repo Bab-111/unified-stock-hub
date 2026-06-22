@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Stock Hub — 2026-06-23 06:11 TW</title>
+<title>Stock Hub — 2026-06-23 07:26 TW</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -232,8 +232,8 @@ a:hover { text-decoration: underline; }
 <div id="header">
   <div class="header-title">📈 Stock Hub</div>
   <div class="phase-badge"><div class="phase-dot"></div>After-Hours (4:00-8:00 PM ET)</div>
-  <span class="run-mode-tag">PARTIAL</span>
-  <div class="header-time" id="live-clock">2026-06-23 06:11 TW &nbsp;|&nbsp; 2026-06-22 22:11 UTC</div>
+  <span class="run-mode-tag">SCREENER</span>
+  <div class="header-time" id="live-clock">2026-06-23 07:26 TW &nbsp;|&nbsp; 2026-06-22 23:26 UTC</div>
   <button class="theme-btn" onclick="toggleTheme()">☀ / ☾</button>
 </div>
 
@@ -245,11 +245,11 @@ a:hover { text-decoration: underline; }
 </div>
 
 <div id="screener" class="tab-pane active">
-        <div class="updated-note">Run: 2026-06-22 22:10 &nbsp;·&nbsp; 132 stocks scored &nbsp;·&nbsp; Top sector: <strong style="color:var(--accent)">Energy</strong></div>
+        <div class="updated-note">Run: 2026-06-22 23:25 &nbsp;·&nbsp; 129 stocks scored &nbsp;·&nbsp; Top sector: <strong style="color:var(--accent)">Energy</strong></div>
         <div class="sentiment-strip">
           <div class="sent-seg sent-g" style="width:0.0%">0% Strong</div>
-          <div class="sent-seg sent-y" style="width:7.6%">8%</div>
-          <div class="sent-seg sent-r" style="width:92.4%">92%</div>
+          <div class="sent-seg sent-y" style="width:7.8%">8%</div>
+          <div class="sent-seg sent-r" style="width:92.2%">92%</div>
         </div>
         <div class="two-col">
           <div>
@@ -482,7 +482,7 @@ a:hover { text-decoration: underline; }
       <div class="factor-pills"><span class="pill fr">Vol</span><span class="pill fg">Breakout</span><span class="pill fg">MA200</span><span class="pill fg">Inst</span><span class="pill fg">MFI</span><span class="pill fr">Sector</span><span class="pill fr">History</span><span class="pill fg">IV</span></div>
       <div class="card-meta">
         <span>Vol: <strong>1.2x</strong></span>
-        <span>MA200: <strong class="pos">$177.93963747102072</strong></span>
+        <span>MA200: <strong class="pos">$177.9396377191311</strong></span>
         <span>Inst: <strong>100.7%</strong></span>
         <span>MFI: <strong>66.0</strong></span>
         <span>IV(mean): <strong>71.0%</strong></span>
@@ -593,7 +593,7 @@ a:hover { text-decoration: underline; }
         </div></div></div>
             <div class="section-title">LLM Supervision</div>
             <div class="llm-panel">
-              <div class="llm-note">• Validate top screener picks vs sector momentum: Energy sector momentum is strong, with WMB and KMI showing high institutional ownership and above-average MFI values, indicating buying pressure. <br>• Flag any contradiction between screener and monitor signals: None found, but monitor signals from SCO, PLTR, LULU, NFLX, and MCD suggest potential weakness in their respective sectors.<br>• Name the strongest and weakest pick with one reason each: <br>  - Strongest: WMB, due to its high institutional ownership (89.1%).<br>  - Weakest: DLR, due to its relatively low volume (1.2x) compared to other picks.<br>• Overall confidence: MEDIUM, due to mixed signals from monitor alerts and relatively low volume in some picks.</div>
+              <div class="llm-note">• Validate top screener picks vs sector momentum: <br>The top sector is Energy, and two out of the top three screener picks (WMB and KMI) belong to this sector, indicating alignment with sector momentum.<br><br>• Flag any contradiction between screener and monitor signals: <br>No contradictions are found between the screener and monitor signals.<br><br>• Name the strongest and weakest pick with one reason each: <br>Strongest pick: WMB (Energy) - highest institutional ownership (89.1%).<br>Weakest pick: CAT (Industrials) - lower volume compared to other picks (1.5x vs 1.1x-1.2x).<br><br>• Overall confidence: MEDIUM <br>The presence of some strong picks and the alignment with sector momentum contribute to moderate confidence, but the lack of clear bearish signals and the absence of major contradictions prevent a higher confidence level.</div>
             </div>
           </div>
         </div>
@@ -724,9 +724,9 @@ a:hover { text-decoration: underline; }
         <li><strong>Historical breakout:</strong> Looks back 90 days for prior similar breakout (vol≥2×, breakout candle, above MA200), measures 10-day forward return</li>
         <li><strong>Market cap filter:</strong> ≥ $5B (large-cap only — data from Yahoo Finance info)</li>
         <li><strong>AI supervision:</strong> Groq Llama 3.1 (free) — validates picks against sector context (requires GROQ_API_KEY secret)</li>
-        <li><strong>Universe:</strong> 132 stocks defined in config/universe.csv</li>
+        <li><strong>Universe:</strong> 129 stocks defined in config/universe.csv</li>
         <li><strong>Scoring weights:</strong> Inst.Own(3) · Sector(3) · Volume(2) · Breakout(2) · MA200(2) · MFI(2) · History(2) · IV(1) = 17pts max</li>
-        <li><strong>Run time:</strong> 2026-06-22 22:10 UTC — Market phase: After-Hours (4:00-8:00 PM ET)</li>
+        <li><strong>Run time:</strong> 2026-06-22 23:25 UTC — Market phase: After-Hours (4:00-8:00 PM ET)</li>
       </ul>
       <div style="margin-top:10px;font-size:.75rem;color:var(--muted);border-top:1px solid var(--border);padding-top:8px">
         ⚠️ For informational purposes only — not financial advice. All data from Yahoo Finance (free tier).
@@ -1455,9 +1455,9 @@ a:hover { text-decoration: underline; }
     <div class="section-title">LLM Supervision Log (last 1 runs)</div>
     <div class="llm-panel">
         <div class="llm-entry">
-          <div class="llm-meta">2026-06-22 22:11 UTC &nbsp;·&nbsp; After-Hours (4:00-8:00 PM ET)</div>
+          <div class="llm-meta">2026-06-22 23:26 UTC &nbsp;·&nbsp; After-Hours (4:00-8:00 PM ET)</div>
           
-          <div class="llm-note">• Validate top screener picks vs sector momentum: Energy sector momentum is strong, with WMB and KMI showing high institutional ownership and above-average MFI values, indicating buying pressure. <br>• Flag any contradiction between screener and monitor signals: None found, but monitor signals from SCO, PLTR, LULU, NFLX, and MCD suggest potential weakness in their respective sectors.<br>• Name the strongest and weakest pick with one reason each: <br>  - Strongest: WMB, due to its high institutional ownership (89.1%).<br>  - Weakest: DLR, due to its relatively low volume (1.2x) compared to other picks.<br>• Overall confidence: MEDIUM, due to mixed signals from monitor alerts and relatively low volume in some picks.</div>
+          <div class="llm-note">• Validate top screener picks vs sector momentum: <br>The top sector is Energy, and two out of the top three screener picks (WMB and KMI) belong to this sector, indicating alignment with sector momentum.<br><br>• Flag any contradiction between screener and monitor signals: <br>No contradictions are found between the screener and monitor signals.<br><br>• Name the strongest and weakest pick with one reason each: <br>Strongest pick: WMB (Energy) - highest institutional ownership (89.1%).<br>Weakest pick: CAT (Industrials) - lower volume compared to other picks (1.5x vs 1.1x-1.2x).<br><br>• Overall confidence: MEDIUM <br>The presence of some strong picks and the alignment with sector momentum contribute to moderate confidence, but the lack of clear bearish signals and the absence of major contradictions prevent a higher confidence level.</div>
           
         </div></div></div>
 
