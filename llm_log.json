@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-06-22 20:08 UTC",
+    "ts_utc": "2026-06-22 21:31 UTC",
     "phase": "After-Hours (4:00-8:00 PM ET)",
-    "note": "\u2022 Validate top screener picks vs sector momentum: Energy sector is strong, with 3 out of 4 top screener picks (WMB, KMI, OKE) belonging to this sector, validating the sector momentum.\n\u2022 Flag any contradiction between screener and monitor signals: None found.\n\u2022 Name the strongest and weakest pick with one reason each: \n  Strongest: WMB (Energy) - highest institutional ownership (89.1%).\n  Weakest: DLR (Real Estate) - lowest volume (0.9x).\n\u2022 Overall confidence: HIGH - strong sector momentum and high institutional ownership in top picks.",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nEnergy sector momentum is strong, with WMB and KMI showing high institutional investment and above 200-day MA. This validates the top screener picks in the sector.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nSCO and MCD are below 200-day MA, but not in the screener top picks. PLTR, LULU, and NFLX have bearish MACD crossovers, but also below 200-day MA, not contradicting screener signals.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: WMB, due to high institutional investment (89.1%).\nWeakest pick: KMI, due to low trading volume (0.7x).\n\n\u2022 Overall confidence: HIGH\nThe strong sector momentum and high institutional investment in top screener picks give confidence in the report's accuracy.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
