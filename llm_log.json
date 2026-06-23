@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-06-23 16:10 UTC",
+    "ts_utc": "2026-06-23 16:45 UTC",
     "phase": "Regular Market Hours",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nPG and CL are top picks in the Consumer Stpl sector, which is currently the top sector, indicating strong sector momentum.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nSCO, PLTR, LULU, NFLX, and MCD are below their 200-day MA, indicating bearish trends, contradicting the bullish screener signals for PG and CL.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: PG, due to its high MFI (64.9) indicating strong buying pressure.\nWeakest pick: INTC, due to its relatively low score (10/17) compared to other picks.\n\n\u2022 Overall confidence: MEDIUM\nThe presence of bearish monitor signals for the sector's top picks and the sector's overall momentum creates uncertainty, reducing overall confidence.",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nPG and EBAY are strong within the Consumer Stpl sector, while AMD and INTC are strong within the Technology sector. CL is also a strong pick within Consumer Stpl.\n\n\u2022 Flag any contradiction between screener and monitor signals:\nSCO, PLTR, LULU, NFLX, and MCD are below their 200-day MA, contradicting the screener's MA200=above signal for PG, EBAY, AMD, and INTC.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest: EBAY, due to its high institutional ownership (96.1%) and strong MA200 signal.\nWeakest: INTC, due to its high volatility (0.6x) and relatively low MFI (71.3).\n\n\u2022 Overall confidence: MEDIUM\nThe screener picks show strong signals, but the monitor signals indicate potential weakness in the market, reducing overall confidence.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
