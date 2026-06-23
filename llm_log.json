@@ -1,10 +1,12 @@
 [
   {
-    "ts_utc": "2026-06-23 15:45 UTC",
+    "ts_utc": "2026-06-23 16:09 UTC",
     "phase": "Regular Market Hours",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \n  PG and CL are strong picks within the Consumer Stpl sector, which is the top sector. \n  INTC is a top pick in the Technology sector, but it's not the top sector.\n\n\u2022 Flag any contradiction between screener and monitor signals:\n  None found, but monitor signals indicate potential weakness in stocks like SCO, PLTR, LULU, NFLX, and MCD.\n\n\u2022 Name the strongest and weakest pick with one reason each:\n  Strongest: CL (Consumer Stpl) due to its high institutional ownership (88.0%).\n  Weakest: INTC (Technology) due to its low volume (0.5x).\n\n\u2022 Overall confidence: MEDIUM\n  The top picks are strong within their sectors, but the monitor signals indicate potential weakness in other stocks.",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nPG and CL are strong picks within the Consumer Stpl sector, which is the top sector. \nAMD and INTC are strong picks within the Technology sector, but it's not the top sector.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nSCO, PLTR, LULU, and NFLX are below their 200-day MA, but they are not on the screener list. \n2884.TW is overbought, but there's no specific alert for it on the screener.\n\n\u2022 Name the strongest and weakest pick with one reason each: \nStrongest pick: PG, due to its high MFI (64.9) indicating strong buying pressure.\nWeakest pick: JNJ, due to its relatively low score (9/17) compared to other picks.\n\n\u2022 Overall confidence: MEDIUM, due to mixed sector performance and some contradictory signals between the screener and monitor.\n\u26a0\ufe0f Hallucination check flagged: TW",
     "conflicts": [],
-    "suspicious_tickers": [],
+    "suspicious_tickers": [
+      "TW"
+    ],
     "model": "groq/llama-3.1-8b-instant (free)"
   }
 ]
