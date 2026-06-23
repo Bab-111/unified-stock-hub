@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-06-22 23:27 UTC",
-    "phase": "After-Hours (4:00-8:00 PM ET)",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nEnergy sector momentum is strong, with WMB and KMI showing high institutional ownership and above-average volume. \nCAT in Industrials also shows strong volume, but its sector momentum is weaker compared to Energy.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nSCO and PLTR are below their 200-day MA, but not on the screener list. \nLULU and NFLX have bearish MACD crossovers, but also below their 200-day MA, not on the screener list.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest: WMB, due to its high institutional ownership (89.1%).\nWeakest: KMI, due to its below-average volume (0.7x).\n\n\u2022 Overall confidence: MEDIUM\nThe screener list shows strong Energy sector momentum, but some monitor signals indicate potential weakness in other sectors.",
+    "ts_utc": "2026-06-23 02:01 UTC",
+    "phase": "Overnight",
+    "note": "\u2022 Validate top screener picks vs sector momentum: Energy sector momentum is strong, and all top screener picks (WMB, KMI, TRGP) are in line with this trend, showing above MA200 and high MFI values.\n\u2022 Flag any contradiction between screener and monitor signals: None found, as all top picks are in the Energy sector and none are on the watchlist alerts.\n\u2022 Name the strongest and weakest pick with one reason each: \n  Strongest: WMB (Energy) - highest MFI value (71.4) indicating strong buying pressure.\n  Weakest: TRGP (Energy) - lowest MFI value (51.4) indicating relatively weak buying pressure.\n\u2022 Overall confidence: HIGH - All top picks are in line with sector momentum and show strong technical indicators.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
