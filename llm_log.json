@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-06-23 19:12 UTC",
-    "phase": "Regular Market Hours",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nPG and CL show strong sector momentum with high institutional ownership and above MA200. EBAY has high institutional ownership but lower MFI. JNJ and UNH have lower scores but high institutional ownership.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nNone found.\n\n\u2022 Name the strongest and weakest pick with one reason each:\n Strongest: PG due to high institutional ownership (71.9%). \n Weakest: JNJ due to lower score (9/17).\n\n\u2022 Overall confidence: MEDIUM \nThe screener picks show some strength but the sector is dominated by Consumer Stpl, which may limit overall market impact.",
+    "ts_utc": "2026-06-23 21:00 UTC",
+    "phase": "After-Hours (4:00-8:00 PM ET)",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top sector is Consumer Stpl, and all top screener picks (PG, CL) belong to this sector, indicating a strong sector momentum.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nThere are no direct contradictions between the screener and monitor signals for the top picks, but the monitor signals for SCO and PLTR indicate a bearish trend in their respective sectors.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: EBAY (Consumer Disc) - Its high institutional ownership (96.1%) suggests strong support.\nWeakest pick: AMAT (Technology) - Its MFI (74.0) is relatively high, indicating potential overbought conditions.\n\n\u2022 Overall confidence: MEDIUM \nThe presence of bearish monitor signals and potential overbought conditions in some sectors temper the confidence in the top screener picks.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
