@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-06-25 19:04 UTC",
-    "phase": "Regular Market Hours",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top screener picks in the Healthcare sector show strong momentum with all stocks above their 200-day MA and high institutional ownership.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nThere is a contradiction between the screener and monitor signals for the Technology sector, as QCOM shows strong momentum but its MFI is low at 45.7.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: UNH (85.9% institutional ownership)\nWeakest pick: MRK (low MFI at 44.7)\n\n\u2022 Overall confidence: HIGH\nThe screener picks show strong momentum and high institutional ownership, indicating a high level of confidence in these stocks.",
+    "ts_utc": "2026-06-25 20:54 UTC",
+    "phase": "After-Hours (4:00-8:00 PM ET)",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top screener picks in Industrials (CAT, DE, GE) align with the sector momentum, while AMAT in Technology diverges from the sector.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nSCO, PLTR, LULU, NFLX, and MCD are below their 200-day MA, contradicting the screener's focus on stocks above their 200-day MA.\n\n\u2022 Name the strongest and weakest pick with one reason each: \nStrongest pick: CAT (score of 14/17 and high MFI of 72.5). \nWeakest pick: DE (low MFI of 54.9).\n\n\u2022 Overall confidence: MEDIUM \nThe presence of divergent signals from the monitor and screener creates uncertainty, reducing overall confidence in the top picks.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
