@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Stock Hub — 2026-06-26 05:43 TW</title>
+<title>Stock Hub — 2026-06-26 05:50 TW</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -233,7 +233,7 @@ a:hover { text-decoration: underline; }
   <div class="header-title">📈 Stock Hub</div>
   <div class="phase-badge"><div class="phase-dot"></div>After-Hours (4:00-8:00 PM ET)</div>
   <span class="run-mode-tag">SCREENER</span>
-  <div class="header-time" id="live-clock">2026-06-26 05:43 TW &nbsp;|&nbsp; 2026-06-25 21:43 UTC</div>
+  <div class="header-time" id="live-clock">2026-06-26 05:50 TW &nbsp;|&nbsp; 2026-06-25 21:50 UTC</div>
   <button class="theme-btn" onclick="toggleTheme()">☀ / ☾</button>
 </div>
 
@@ -245,7 +245,7 @@ a:hover { text-decoration: underline; }
 </div>
 
 <div id="screener" class="tab-pane active">
-        <div class="updated-note">Run: 2026-06-25 21:43 &nbsp;·&nbsp; 132 stocks scored &nbsp;·&nbsp; Top sector: <strong style="color:var(--accent)">Industrials</strong></div>
+        <div class="updated-note">Run: 2026-06-25 21:49 &nbsp;·&nbsp; 132 stocks scored &nbsp;·&nbsp; Top sector: <strong style="color:var(--accent)">Industrials</strong></div>
         <div class="sentiment-strip">
           <div class="sent-seg sent-g" style="width:3.8%">4% Strong</div>
           <div class="sent-seg sent-y" style="width:3.8%">4%</div>
@@ -278,7 +278,7 @@ a:hover { text-decoration: underline; }
       <div class="factor-pills"><span class="pill fy">Vol</span><span class="pill fg">Breakout</span><span class="pill fg">MA200</span><span class="pill fg">Inst</span><span class="pill fg">MFI</span><span class="pill fg">Sector</span><span class="pill fr">History</span><span class="pill fg">IV</span></div>
       <div class="card-meta">
         <span>Vol: <strong>1.7x</strong></span>
-        <span>MA200: <strong class="pos">$772.6417078818045</strong></span>
+        <span>MA200: <strong class="pos">$772.6417073895855</strong></span>
         <span>Inst: <strong>72.9%</strong></span>
         <span>MFI: <strong>72.6</strong></span>
         <span>IV(mean): <strong>179.7%</strong></span>
@@ -380,7 +380,7 @@ a:hover { text-decoration: underline; }
       <div class="factor-pills"><span class="pill fg">Vol</span><span class="pill fg">Breakout</span><span class="pill fg">MA200</span><span class="pill fg">Inst</span><span class="pill fg">MFI</span><span class="pill fr">Sector</span><span class="pill fr">History</span><span class="pill fg">IV</span></div>
       <div class="card-meta">
         <span>Vol: <strong>2.1x</strong></span>
-        <span>MA200: <strong class="pos">$387.61424452258694</strong></span>
+        <span>MA200: <strong class="pos">$387.6142452609154</strong></span>
         <span>Inst: <strong>85.1%</strong></span>
         <span>MFI: <strong>79.9</strong></span>
         <span>IV(mean): <strong>206.5%</strong></span>
@@ -593,7 +593,7 @@ a:hover { text-decoration: underline; }
         </div></div></div>
             <div class="section-title">LLM Supervision</div>
             <div class="llm-panel">
-              <div class="llm-note">• Validate top screener picks vs sector momentum: <br>The top sector is Industrials, and CAT, DE, and TT are also from this sector. Their scores are relatively high, and their volumes are above average, indicating strong momentum.<br><br>• Flag any contradiction between screener and monitor signals: <br>There are no direct contradictions between the screener picks and monitor signals. However, the monitor signals indicate potential weakness in other sectors, such as Healthcare (ABBV) and Technology (AMAT).<br><br>• Name the strongest and weakest pick with one reason each: <br>Strongest pick: TT (Industrials) - with an MFI of 75.2 and an institutional ownership of 91.6%, indicating strong buying pressure.<br>Weakest pick: DE (Industrials) - with an MFI of 54.9, indicating a potential sell-off.<br><br>• Overall confidence: MEDIUM <br>The screener picks show strong momentum, but the monitor signals indicate potential weakness in other sectors, making the overall confidence medium.</div>
+              <div class="llm-note">• Validate top screener picks vs sector momentum: <br>The top screener picks (CAT, ABBV, AMAT, DE, TT) are all in the Industrials sector, which is currently the top sector. Their scores and metrics align with the sector's momentum.<br><br>• Flag any contradiction between screener and monitor signals: <br>SCO and MCD are below their 200-day MA, but not listed as top screener picks. LULU, PLTR, and NFLX have bearish MACD crossovers and are below their 200-day MA, but are not top screener picks.<br><br>• Name the strongest and weakest pick with one reason each:<br>The strongest pick is TT, with a high institutional ownership percentage (91.6%). The weakest pick is DE, with a relatively low trading volume (0.9x).<br><br>• Overall confidence: HIGH<br>Confidence is high due to the alignment of top screener picks with sector momentum and the presence of strong metrics across the top picks.</div>
             </div>
           </div>
         </div>
@@ -726,7 +726,7 @@ a:hover { text-decoration: underline; }
         <li><strong>AI supervision:</strong> Groq Llama 3.1 (free) — validates picks against sector context (requires GROQ_API_KEY secret)</li>
         <li><strong>Universe:</strong> 132 stocks defined in config/universe.csv</li>
         <li><strong>Scoring weights:</strong> Inst.Own(3) · Sector(3) · Volume(2) · Breakout(2) · MA200(2) · MFI(2) · History(2) · IV(1) = 17pts max</li>
-        <li><strong>Run time:</strong> 2026-06-25 21:43 UTC — Market phase: After-Hours (4:00-8:00 PM ET)</li>
+        <li><strong>Run time:</strong> 2026-06-25 21:49 UTC — Market phase: After-Hours (4:00-8:00 PM ET)</li>
       </ul>
       <div style="margin-top:10px;font-size:.75rem;color:var(--muted);border-top:1px solid var(--border);padding-top:8px">
         ⚠️ For informational purposes only — not financial advice. All data from Yahoo Finance (free tier).
@@ -1455,9 +1455,9 @@ a:hover { text-decoration: underline; }
     <div class="section-title">LLM Supervision Log (last 1 runs)</div>
     <div class="llm-panel">
         <div class="llm-entry">
-          <div class="llm-meta">2026-06-25 21:43 UTC &nbsp;·&nbsp; After-Hours (4:00-8:00 PM ET)</div>
+          <div class="llm-meta">2026-06-25 21:50 UTC &nbsp;·&nbsp; After-Hours (4:00-8:00 PM ET)</div>
           
-          <div class="llm-note">• Validate top screener picks vs sector momentum: <br>The top sector is Industrials, and CAT, DE, and TT are also from this sector. Their scores are relatively high, and their volumes are above average, indicating strong momentum.<br><br>• Flag any contradiction between screener and monitor signals: <br>There are no direct contradictions between the screener picks and monitor signals. However, the monitor signals indicate potential weakness in other sectors, such as Healthcare (ABBV) and Technology (AMAT).<br><br>• Name the strongest and weakest pick with one reason each: <br>Strongest pick: TT (Industrials) - with an MFI of 75.2 and an institutional ownership of 91.6%, indicating strong buying pressure.<br>Weakest pick: DE (Industrials) - with an MFI of 54.9, indicating a potential sell-off.<br><br>• Overall confidence: MEDIUM <br>The screener picks show strong momentum, but the monitor signals indicate potential weakness in other sectors, making the overall confidence medium.</div>
+          <div class="llm-note">• Validate top screener picks vs sector momentum: <br>The top screener picks (CAT, ABBV, AMAT, DE, TT) are all in the Industrials sector, which is currently the top sector. Their scores and metrics align with the sector's momentum.<br><br>• Flag any contradiction between screener and monitor signals: <br>SCO and MCD are below their 200-day MA, but not listed as top screener picks. LULU, PLTR, and NFLX have bearish MACD crossovers and are below their 200-day MA, but are not top screener picks.<br><br>• Name the strongest and weakest pick with one reason each:<br>The strongest pick is TT, with a high institutional ownership percentage (91.6%). The weakest pick is DE, with a relatively low trading volume (0.9x).<br><br>• Overall confidence: HIGH<br>Confidence is high due to the alignment of top screener picks with sector momentum and the presence of strong metrics across the top picks.</div>
           
         </div></div></div>
 
