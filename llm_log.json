@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-06-24 23:14 UTC",
-    "phase": "After-Hours (4:00-8:00 PM ET)",
-    "note": "\u2022 Validate top screener picks vs sector momentum: The top sector is Industrials, with SWK and CARR being the top screener picks. Both stocks have above MA200, indicating a strong uptrend, and high institutional ownership, suggesting investor confidence.\n\n\u2022 Flag any contradiction between screener and monitor signals: None found, as the screener picks are from the Industrials sector, and there are no monitor signals contradicting the screener picks.\n\n\u2022 Name the strongest and weakest pick with one reason each: \n  Strongest pick: SWK, due to its high score (13/17) and high institutional ownership (95.7%).\n  Weakest pick: CARR, due to its low volume (0.6x) compared to the other picks.\n\n\u2022 Overall confidence: HIGH, as the top screener picks have strong uptrends and high institutional ownership, indicating a high likelihood of continued growth.",
+    "ts_utc": "2026-06-25 02:04 UTC",
+    "phase": "Overnight",
+    "note": "\u2022 Validate top screener picks vs sector momentum: SWK and CARR are strong within the Industrials sector, while HD and EXPE are strong within Consumer Disc. TGT is a weaker pick in Consumer Disc.\n\u2022 Flag any contradiction between screener and monitor signals: None found.\n\u2022 Name the strongest and weakest pick with one reason each: \n  - Strongest pick: SWK due to its high score (13/17) and strong MFI (63.3).\n  - Weakest pick: TGT due to its lower score (11/17).\n\u2022 Overall confidence: HIGH, as the top picks are strong within their respective sectors and no contradictions were found.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
