@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Stock Hub — 2026-06-27 05:19 TW</title>
+<title>Stock Hub — 2026-06-27 05:25 TW</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -233,7 +233,7 @@ a:hover { text-decoration: underline; }
   <div class="header-title">📈 Stock Hub</div>
   <div class="phase-badge"><div class="phase-dot"></div>After-Hours (4:00-8:00 PM ET)</div>
   <span class="run-mode-tag">SCREENER</span>
-  <div class="header-time" id="live-clock">2026-06-27 05:19 TW &nbsp;|&nbsp; 2026-06-26 21:19 UTC</div>
+  <div class="header-time" id="live-clock">2026-06-27 05:25 TW &nbsp;|&nbsp; 2026-06-26 21:25 UTC</div>
   <button class="theme-btn" onclick="toggleTheme()">☀ / ☾</button>
 </div>
 
@@ -245,7 +245,7 @@ a:hover { text-decoration: underline; }
 </div>
 
 <div id="screener" class="tab-pane active">
-        <div class="updated-note">Run: 2026-06-26 21:19 &nbsp;·&nbsp; 132 stocks scored &nbsp;·&nbsp; Top sector: <strong style="color:var(--accent)">Healthcare</strong></div>
+        <div class="updated-note">Run: 2026-06-26 21:25 &nbsp;·&nbsp; 132 stocks scored &nbsp;·&nbsp; Top sector: <strong style="color:var(--accent)">Healthcare</strong></div>
         <div class="sentiment-strip">
           <div class="sent-seg sent-g" style="width:3.0%">3% Strong</div>
           <div class="sent-seg sent-y" style="width:4.5%">4%</div>
@@ -329,7 +329,7 @@ a:hover { text-decoration: underline; }
       <div class="factor-pills"><span class="pill fg">Vol</span><span class="pill fg">Breakout</span><span class="pill fg">MA200</span><span class="pill fg">Inst</span><span class="pill fy">MFI</span><span class="pill fg">Sector</span><span class="pill fr">History</span><span class="pill fg">IV</span></div>
       <div class="card-meta">
         <span>Vol: <strong>2.4x</strong></span>
-        <span>MA200: <strong class="pos">$1014.3202042118196</strong></span>
+        <span>MA200: <strong class="pos">$1014.3202022429435</strong></span>
         <span>Inst: <strong>85.4%</strong></span>
         <span>MFI: <strong>54.3</strong></span>
         <span>IV(mean): <strong>138.5%</strong></span>
@@ -380,7 +380,7 @@ a:hover { text-decoration: underline; }
       <div class="factor-pills"><span class="pill fy">Vol</span><span class="pill fy">Breakout</span><span class="pill fg">MA200</span><span class="pill fg">Inst</span><span class="pill fg">MFI</span><span class="pill fg">Sector</span><span class="pill fr">History</span><span class="pill fg">IV</span></div>
       <div class="card-meta">
         <span>Vol: <strong>1.9x</strong></span>
-        <span>MA200: <strong class="pos">$230.5512259698683</strong></span>
+        <span>MA200: <strong class="pos">$230.55122621597783</strong></span>
         <span>Inst: <strong>76.9%</strong></span>
         <span>MFI: <strong>69.1</strong></span>
         <span>IV(mean): <strong>260.2%</strong></span>
@@ -593,7 +593,7 @@ a:hover { text-decoration: underline; }
         </div></div></div>
             <div class="section-title">LLM Supervision</div>
             <div class="llm-panel">
-              <div class="llm-note">• Validate top screener picks vs sector momentum: <br>The top screener picks (ABBV, LLY, JNJ) are within the top sector (Healthcare), indicating alignment with sector momentum.<br><br>• Flag any contradiction between screener and monitor signals: <br>There are no direct contradictions between screener and monitor signals, but the monitor signals (SCO, PLTR, LULU, NFLX, MCD) indicate potential weakness in various stocks.<br><br>• Name the strongest and weakest pick with one reason each:<br>Strongest pick: ABBV (score=14/17, high MFI=78.4)<br>Weakest pick: AAPL (score=11/17, low MFI=50.9)<br><br>• Overall confidence: MEDIUM<br>The presence of monitor signals indicating potential weakness in various stocks reduces overall confidence in the top screener picks.</div>
+              <div class="llm-note">• Validate top screener picks vs sector momentum: All top picks (ABBV, LLY, JNJ) are within the Healthcare sector, which is strong, validating their selection.<br>• Flag any contradiction between screener and monitor signals: None found, but monitor signals for SCO, PLTR, LULU, NFLX, and MCD indicate potential weakness, not directly contradicting screener picks.<br>• Name the strongest and weakest pick with one reason each: Strongest: LLY (85.4% institutional ownership), Weakest: AAPL (65.8% institutional ownership and low MFI).<br>• Overall confidence: MEDIUM, as strong sector momentum and screener scores are balanced by some monitor signals indicating potential weakness.</div>
             </div>
           </div>
         </div>
@@ -726,7 +726,7 @@ a:hover { text-decoration: underline; }
         <li><strong>AI supervision:</strong> Groq Llama 3.1 (free) — validates picks against sector context (requires GROQ_API_KEY secret)</li>
         <li><strong>Universe:</strong> 132 stocks defined in config/universe.csv</li>
         <li><strong>Scoring weights:</strong> Inst.Own(3) · Sector(3) · Volume(2) · Breakout(2) · MA200(2) · MFI(2) · History(2) · IV(1) = 17pts max</li>
-        <li><strong>Run time:</strong> 2026-06-26 21:19 UTC — Market phase: After-Hours (4:00-8:00 PM ET)</li>
+        <li><strong>Run time:</strong> 2026-06-26 21:25 UTC — Market phase: After-Hours (4:00-8:00 PM ET)</li>
       </ul>
       <div style="margin-top:10px;font-size:.75rem;color:var(--muted);border-top:1px solid var(--border);padding-top:8px">
         ⚠️ For informational purposes only — not financial advice. All data from Yahoo Finance (free tier).
@@ -1455,9 +1455,9 @@ a:hover { text-decoration: underline; }
     <div class="section-title">LLM Supervision Log (last 1 runs)</div>
     <div class="llm-panel">
         <div class="llm-entry">
-          <div class="llm-meta">2026-06-26 21:19 UTC &nbsp;·&nbsp; After-Hours (4:00-8:00 PM ET)</div>
+          <div class="llm-meta">2026-06-26 21:25 UTC &nbsp;·&nbsp; After-Hours (4:00-8:00 PM ET)</div>
           
-          <div class="llm-note">• Validate top screener picks vs sector momentum: <br>The top screener picks (ABBV, LLY, JNJ) are within the top sector (Healthcare), indicating alignment with sector momentum.<br><br>• Flag any contradiction between screener and monitor signals: <br>There are no direct contradictions between screener and monitor signals, but the monitor signals (SCO, PLTR, LULU, NFLX, MCD) indicate potential weakness in various stocks.<br><br>• Name the strongest and weakest pick with one reason each:<br>Strongest pick: ABBV (score=14/17, high MFI=78.4)<br>Weakest pick: AAPL (score=11/17, low MFI=50.9)<br><br>• Overall confidence: MEDIUM<br>The presence of monitor signals indicating potential weakness in various stocks reduces overall confidence in the top screener picks.</div>
+          <div class="llm-note">• Validate top screener picks vs sector momentum: All top picks (ABBV, LLY, JNJ) are within the Healthcare sector, which is strong, validating their selection.<br>• Flag any contradiction between screener and monitor signals: None found, but monitor signals for SCO, PLTR, LULU, NFLX, and MCD indicate potential weakness, not directly contradicting screener picks.<br>• Name the strongest and weakest pick with one reason each: Strongest: LLY (85.4% institutional ownership), Weakest: AAPL (65.8% institutional ownership and low MFI).<br>• Overall confidence: MEDIUM, as strong sector momentum and screener scores are balanced by some monitor signals indicating potential weakness.</div>
           
         </div></div></div>
 
