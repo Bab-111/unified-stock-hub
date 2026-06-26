@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-06-25 23:25 UTC",
-    "phase": "After-Hours (4:00-8:00 PM ET)",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top screener picks (CAT, ABBV, AMAT, DE, TT) are all in the Industrials sector, which is the top sector for this market phase. Their scores and metrics align with the sector's momentum, indicating a potential buying opportunity.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nSCO, PLTR, LULU, and NFLX are below their 200-day MA, indicating potential selling pressure. This contradicts the screener's focus on stocks above their 200-day MA, suggesting caution when considering these stocks.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: AMAT (Technology) - Its MFI (Money Flow Index) is 79.9, indicating strong buying pressure.\nWeakest pick: DE (Industrials) - Its MFI is 54.9, indicating weak buying pressure.\n\n\u2022 Overall confidence: MEDIUM \nThe screener's top picks are in the top sector, but the monitor signals indicate potential selling pressure in some stocks, reducing overall confidence in the report's accuracy.",
+    "ts_utc": "2026-06-26 02:06 UTC",
+    "phase": "Overnight",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top screener picks in Industrials (CAT, DE, TT) align with sector momentum, while ABBV in Healthcare and AMAT in Technology diverge from their respective sectors.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nSCO, PLTR, LULU, NFLX, and MCD are below their 200-day MA, contradicting the screener's focus on stocks above their MA200.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: TT (Industrials) - 91.6% institutional ownership.\nWeakest pick: DE (Industrials) - low trading volume (0.9x).\n\n\u2022 Overall confidence: MEDIUM \nThe screener's focus on stocks above their MA200 is contradicted by several stocks below their MA200, reducing overall confidence in the top picks.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
