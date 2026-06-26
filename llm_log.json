@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-06-26 03:30 UTC",
-    "phase": "Overnight",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top screener picks in the Industrials sector (CAT, DE, TT) show strong momentum with high scores, above MA200, and high institutional ownership. \nIn contrast, AMAT in the Technology sector has a high score but is not in the top screener picks.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nSCO, PLTR, LULU, NFLX, and MCD are below their 200-day MA, indicating bearish momentum, contradicting the screener's focus on stocks above MA200.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: TT (Industrials) - highest institutional ownership (91.6%).\nWeakest pick: DE (Industrials) - low volatility (0.9x).\n\n\u2022 Overall confidence: MEDIUM \nThe screener picks show strong momentum, but the monitor signals indicate potential bearish trends, reducing overall confidence in the top picks.",
+    "ts_utc": "2026-06-26 15:21 UTC",
+    "phase": "Regular Market Hours",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top screener picks (JNJ, UNH, ABBV, LLY, SBUX) are all in the Healthcare sector, which is currently the top sector, validating their selection.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nThere are no direct contradictions between the screener and monitor signals, but the monitor signals (SCO, PLTR, LULU, NFLX, MCD) indicate potential weakness in other sectors.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: JNJ - High institutional ownership (76.9%) suggests strong market confidence.\nWeakest pick: LLY - Low MFI (48.2) indicates potential selling pressure.\n\n\u2022 Overall confidence: MEDIUM \nThe screener picks are valid within their sector, but the monitor signals indicate potential market weakness, reducing overall confidence.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
