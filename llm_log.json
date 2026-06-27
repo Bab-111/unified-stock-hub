@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-06-26 23:16 UTC",
-    "phase": "After-Hours (4:00-8:00 PM ET)",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nAll top screener picks (ABBV, LLY, JNJ) are within the top sector (Healthcare), validating their relevance.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nNone found.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest: LLY (85.4% institutional ownership, indicating strong support).\nWeakest: AAPL (65.8% institutional ownership, indicating relatively weaker support).\n\n\u2022 Overall confidence: HIGH\nThe screener picks are aligned with sector momentum, and no contradictions were found, indicating a strong confidence in the top picks.",
+    "ts_utc": "2026-06-27 02:00 UTC",
+    "phase": "Overnight",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top screener picks (ABBV, LLY, JNJ, SBUX, AAPL) are all within the top sector (Healthcare), indicating alignment with sector momentum.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nThere are no direct contradictions between the screener and monitor signals, but some monitor signals (e.g., SCO, PLTR, LULU, NFLX, MCD) indicate potential weakness in other sectors.\n\n\u2022 Name the strongest and weakest pick with one reason each: \nStrongest pick: ABBV, due to its high score (15/17) and high institutional ownership (76.9%).\nWeakest pick: AAPL, due to its low score (11/17) and relatively low institutional ownership (65.8%).\n\n\u2022 Overall confidence: \nHIGH, due to the strong alignment with sector momentum and the high scores of the top screener picks.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
