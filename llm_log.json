@@ -1,12 +1,10 @@
 [
   {
-    "ts_utc": "2026-06-29 17:16 UTC",
+    "ts_utc": "2026-06-29 18:56 UTC",
     "phase": "Regular Market Hours",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top screener picks (AMAT, SBUX, EBAY, HD, TGT) are all within the top sector (Consumer Disc), which is currently strong. This validation suggests that the screener picks are aligned with the sector momentum.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nThere are no direct contradictions between the screener signals and the monitor signals. However, the monitor signals highlight potential issues with other stocks (SCO, PLTR, LULU, NFLX, MCD, 2884.TW) that are not part of the top screener picks.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: EBAY (96.1% institutional ownership, indicating strong market support).\nWeakest pick: HD (76.1% institutional ownership, lower than the other Consumer Disc stocks).\n\n\u2022 Overall confidence: HIGH\nThe top screener picks are well-aligned with the sector momentum, and the monitor signals do not directly contradict the screener signals, indicating a high level of confidence in the picks.\n\u26a0\ufe0f Hallucination check flagged: TW",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \n  The top sector is Consumer Disc, and the top screener picks are all within this sector, indicating a strong sector momentum.\n\n\u2022 Flag any contradiction between screener and monitor signals: \n  There are no direct contradictions between screener and monitor signals, but the monitor signals for SCO, PLTR, LULU, NFLX, and MCD indicate potential weakness in these stocks.\n\n\u2022 Name the strongest and weakest pick with one reason each:\n  Strongest pick: EBAY (Consumer Disc) - High institutional ownership (96.1%) and above 200-day MA.\n  Weakest pick: HD (Consumer Disc) - Lower volume (0.7x) compared to other picks.\n\n\u2022 Overall confidence: HIGH\n  The top screener picks are within the strong sector momentum and have positive signals, indicating high confidence in these picks.",
     "conflicts": [],
-    "suspicious_tickers": [
-      "TW"
-    ],
+    "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
   }
 ]
