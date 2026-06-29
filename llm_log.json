@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-06-29 19:03 UTC",
-    "phase": "Regular Market Hours",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top screener picks (AMZN, SBUX, EBAY, HD) are all within the top sector (Consumer Disc), indicating alignment with sector momentum.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nNo direct contradictions are found between the screener picks and monitor signals.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: EBAY (96.1% institutional ownership, indicating strong market confidence).\nWeakest pick: HD (0.7x volume, indicating lower trading activity).\n\n\u2022 Overall confidence: HIGH with the top screener picks showing strong alignment with sector momentum and no direct contradictions with monitor signals.",
+    "ts_utc": "2026-06-29 20:48 UTC",
+    "phase": "After-Hours (4:00-8:00 PM ET)",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top sector is Consumer Disc, and all top screener picks are within this sector, validating their relevance.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nThere are no direct contradictions between screener and monitor signals, but some monitor signals (e.g., SCO, PLTR, LULU, NFLX, MCD) indicate potential weakness, which may contradict the screener's positive assessment of these stocks.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: EBAY, due to its high institutional ownership (96.1%) and strong relative strength (MFI=52.4).\nWeakest pick: AMZN, due to its low institutional ownership (68.0%) and weak relative strength (MFI=56.1).\n\n\u2022 Overall confidence: MEDIUM\nThe screener's positive assessment is tempered by the monitor signals indicating potential weakness in some stocks, reducing overall confidence.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
