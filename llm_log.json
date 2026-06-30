@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-06-30 03:28 UTC",
-    "phase": "Overnight",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \n  The top sector is Consumer Disc, and all top screener picks belong to this sector, validating their relevance.\n\n\u2022 Flag any contradiction between screener and monitor signals: \n  None found, as all screener picks are from the top sector and no monitor signals contradict their screener signals.\n\n\u2022 Name the strongest and weakest pick with one reason each: \n  Strongest: EBAY (96.1% institutional ownership), indicating strong market support.\n  Weakest: AMZN (68.0% institutional ownership), indicating relatively weaker market support.\n\n\u2022 Overall confidence: HIGH \n  The screener picks are from the top sector, and no contradictions were found, indicating a strong foundation for potential trades.",
+    "ts_utc": "2026-06-30 15:24 UTC",
+    "phase": "Regular Market Hours",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top screener picks in the Technology sector are AMAT, AMD, INTC, AAPL, and TXN, all with high scores and above 200-day MA. This aligns with sector momentum.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nSCO, PLTR, LULU, NFLX, and MCD are below their 200-day MA, but not in the top screener picks. This indicates a potential contradiction between the screener and monitor signals.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: AMAT (score=15/17) due to its high score and high MFI (71.5).\nWeakest pick: AAPL (score=12/17) due to its relatively low score.\n\n\u2022 Overall confidence: HIGH\nThe screener picks are consistent with sector momentum, and the strongest pick has a high score and strong momentum indicators.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
