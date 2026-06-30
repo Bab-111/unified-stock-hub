@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-06-30 16:01 UTC",
+    "ts_utc": "2026-06-30 16:07 UTC",
     "phase": "Regular Market Hours",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top screener picks (AMAT, AMD, INTC, AAPL, TXN) are all within the Technology sector, which is currently leading. This validates the sector momentum.\n\n\u2022 Flag any contradiction between screener and monitor signals:\nSCO, PLTR, LULU, NFLX, and MCD are all below their 200-day MA, indicating potential weakness, contradicting the screener's focus on strong stocks.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest: AMAT (score=15/17, high MFI=71.6) \nWeakest: TXN (score=12/17, low MFI=44.7)\n\n\u2022 Overall confidence: MEDIUM\nThe screener's focus on strong stocks is validated, but the monitor signals indicate potential weakness in other areas, reducing overall confidence.",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top screener picks (AMAT, AMD, INTC, AAPL, TXN) are all in the Technology sector, which is currently leading the market. Their scores and metrics suggest they are strong performers, with most above their 200-day MA and showing high institutional interest.\n\n\u2022 Flag any contradiction between screener and monitor signals:\nSCO, PLTR, LULU, NFLX, and MCD are all below their 200-day MA, indicating potential weakness, which contradicts the screener's focus on strong performers.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: AMAT, due to its high score (15/17) and high institutional interest (85.2%).\nWeakest pick: TXN, due to its low volume (0.3x MA200).\n\n\u2022 Overall confidence: MEDIUM\nThe screener picks show strong performance, but the monitor signals indicate potential weakness in other stocks, reducing overall confidence.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
