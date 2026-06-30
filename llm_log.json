@@ -1,12 +1,10 @@
 [
   {
-    "ts_utc": "2026-06-30 02:06 UTC",
+    "ts_utc": "2026-06-30 03:28 UTC",
     "phase": "Overnight",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top sector is Consumer Disc, and all top picks are from this sector, validating the sector momentum.\n\n\u2022 Flag any contradiction between screener and monitor signals:\nThere is a contradiction between the screener and monitor signals for 2884.TW, which is overbought according to the monitor, but no corresponding signal in the screener.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nThe strongest pick is EBAY, with a high institutional ownership of 96.1%. \nThe weakest pick is AMZN, with a relatively low institutional ownership of 68.0%.\n\n\u2022 Overall confidence: HIGH\nThe high institutional ownership and strong technical indicators for the top picks give high confidence in the screener's results.\n\u26a0\ufe0f Hallucination check flagged: TW",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \n  The top sector is Consumer Disc, and all top screener picks belong to this sector, validating their relevance.\n\n\u2022 Flag any contradiction between screener and monitor signals: \n  None found, as all screener picks are from the top sector and no monitor signals contradict their screener signals.\n\n\u2022 Name the strongest and weakest pick with one reason each: \n  Strongest: EBAY (96.1% institutional ownership), indicating strong market support.\n  Weakest: AMZN (68.0% institutional ownership), indicating relatively weaker market support.\n\n\u2022 Overall confidence: HIGH \n  The screener picks are from the top sector, and no contradictions were found, indicating a strong foundation for potential trades.",
     "conflicts": [],
-    "suspicious_tickers": [
-      "TW"
-    ],
+    "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
   }
 ]
