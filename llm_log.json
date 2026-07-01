@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-07-01 03:37 UTC",
-    "phase": "Overnight",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top screener picks (AMAT, AMD, INTC, AAPL, TXN) are all in the technology sector, which is currently leading the market. This aligns with sector momentum.\n\n\u2022 Flag any contradiction between screener and monitor signals:\nNo clear contradictions are observed between the screener and monitor signals. However, the monitor signals highlight potential issues with individual stocks (SCO, PLTR, LULU, NFLX, MCD) that are not reflected in the screener picks.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: AMAT (score=16/17) due to its high score and high institutional ownership (85.2%).\nWeakest pick: TXN (score=12/17) due to its low Money Flow Index (MFI=47.6).\n\n\u2022 Overall confidence: HIGH\nThe screener picks are well-aligned with sector momentum, and the monitor signals do not contradict the top picks, indicating a high level of confidence in the automated stock report.",
+    "ts_utc": "2026-07-01 15:36 UTC",
+    "phase": "Regular Market Hours",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top sector is Comm. Services, and all top screener picks (EBAY, SBUX, PM) belong to this sector, validating their selection.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nNo direct contradictions are found between screener and monitor signals, but some monitor signals (e.g., SCO, PLTR, LULU, NFLX, MCD) indicate potential weakness in their respective sectors.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: EBAY (score=11/17, high MFI=63.5)\nWeakest pick: WFC (score=10/17, low MFI=52.8)\n\n\u2022 Overall confidence: MEDIUM\nThe screener picks show some promise, but the monitor signals indicate potential weakness in other sectors, reducing overall confidence.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
