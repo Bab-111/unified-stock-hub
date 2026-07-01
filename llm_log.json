@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-07-01 21:43 UTC",
+    "ts_utc": "2026-07-01 23:21 UTC",
     "phase": "After-Hours (4:00-8:00 PM ET)",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top sector is Comm. Services, and V, EBAY, and T are within it. META is also in Comm. Services, but its MA200 is below, which is a red flag. This is a contradiction within the sector.\n\n\u2022 Flag any contradiction between screener and monitor signals:\nSCO, PLTR, LULU, NFLX, and MCD are below their 200-day MA, but none are on the screener. This is a contradiction between the monitor and screener signals.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest: EBAY, due to its high institutional ownership (96.1%). \nWeakest: META, due to its MA200 being below and a low MFI (46.8).\n\n\u2022 Overall confidence: MEDIUM\nThe screener and monitor signals have contradictions, and some stocks have red flags, reducing overall confidence.",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top sector is Comm. Services, with META and T being strong picks within the sector. However, META's MA200 is below, which may contradict its high score.\n\n\u2022 Flag any contradiction between screener and monitor signals:\nSCO, PLTR, LULU, and NFLX are below their 200-day MA, indicating bearish trends, but these stocks are not on the screener list.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: EBAY, due to its high institutional ownership percentage (96.1%).\nWeakest pick: META, due to its MA200 being below and a low MFI (46.8).\n\n\u2022 Overall confidence: MEDIUM\nThe presence of contradictory signals and bearish trends in the watchlist alerts reduces overall confidence in the top screener picks.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
