@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-07-02 03:22 UTC",
-    "phase": "Overnight",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top sector is Comm. Services, and two top picks (V and T) belong to this sector, while the other two (EBAY and META) belong to Consumer Disc and Comm. Services respectively. The sector momentum is strong, with 91.6% of stocks above their 200-day MA.\n\n\u2022 Flag any contradiction between screener and monitor signals:\nMETA's screener score is 10/17, but it's above its 200-day MA, which contradicts the watchlist alert for below 200-day MA.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest: EBAY - highest institutional ownership (96.1%).\nWeakest: T - lowest MFI (31.9).\n\n\u2022 Overall confidence: MEDIUM - The sector momentum is strong, but some contradictions and mixed signals from the screener and watchlist alerts reduce confidence.",
+    "ts_utc": "2026-07-02 15:09 UTC",
+    "phase": "Regular Market Hours",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top screener picks in the Healthcare sector (ABBV, UNH, LLY) all have strong momentum, with high institutional ownership and above-average MFI scores, indicating a strong buying trend.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nThere is a contradiction between the screener signals and the watchlist alerts for the Financials sector (JPM) and the Technology sector (AAPL), as JPM has a lower score and AAPL's MFI score is relatively low.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: UNH (85.8% institutional ownership)\nWeakest pick: AAPL (MFI score of 69.9 is relatively low compared to other picks)\n\n\u2022 Overall confidence: MEDIUM\nThe screener picks in the Healthcare sector show strong momentum, but the contradictions with the watchlist alerts and relatively low MFI score of AAPL reduce overall confidence.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
