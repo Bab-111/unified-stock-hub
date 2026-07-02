@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-07-02 21:18 UTC",
+    "ts_utc": "2026-07-02 23:15 UTC",
     "phase": "After-Hours (4:00-8:00 PM ET)",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top sector is Healthcare, and ABBV and UNH are the top screener picks within this sector, both showing strong momentum with scores above 11/17 and above 200-day MA.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nThere is a contradiction between the screener and monitor signals for LULU, which is a top pick in the Consumer Disc sector but has a bearish MACD crossover and is below the 200-day MA.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: ABBV, due to its high score of 14/17 and strong institutional ownership of 76.8%.\nWeakest pick: EBAY, due to its relatively low score of 12/17 and low MFI of 64.2.\n\n\u2022 Overall confidence: MEDIUM\nThe screener picks show strong momentum within the Healthcare sector, but the monitor signals reveal potential contradictions and weaknesses in other sectors, reducing overall confidence.",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top screener picks in Healthcare (ABBV, UNH) align with sector momentum, while AAPL in Technology diverges from the sector's expected performance.\n\n\u2022 Flag any contradiction between screener and monitor signals:\nSCO, PLTR, LULU, NFLX, and MCD show bearish signals below their 200-day MAs, contradicting the screener's focus on stocks above their MAs.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest: EBAY (Consumer Disc) due to its high institutional ownership (96.1%). \nWeakest: AAPL (Technology) due to its relatively low institutional ownership (65.8%).\n\n\u2022 Overall confidence: MEDIUM\nThe screener's focus on stocks above their 200-day MAs is partially contradicted by bearish signals from monitor alerts, reducing overall confidence.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
