@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-07-01 23:22 UTC",
-    "phase": "After-Hours (4:00-8:00 PM ET)",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top sector is Comm. Services, with META and T being part of it. META's score is 10/17, with a below MA200, which contradicts the sector's momentum.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nSCO, PLTR, LULU, NFLX, and MCD are all below their 200-day MA, but none of them are in the top screener picks. META is in the top picks but has a below MA200, which contradicts its score.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: EBAY (Consumer Disc) - High institutional ownership (96.1%).\nWeakest pick: META (Comm. Services) - Below MA200.\n\n\u2022 Overall confidence: MEDIUM - The presence of contradictions between screener and monitor signals and below MA200 for some top picks reduces confidence.",
+    "ts_utc": "2026-07-02 02:03 UTC",
+    "phase": "Overnight",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top sector is Comm. Services, with META and T being part of it. Their scores are 10/17, indicating neutral momentum. This contradicts the sector's overall strength.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nThe monitor signals show SCO, PLTR, LULU, NFLX, and MCD are below their 200-day MAs, indicating potential weakness. This contradicts the screener's positive signals for META and T.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest: EBAY (96.1% institutional ownership, indicating strong support).\nWeakest: META (below MA200, indicating potential weakness).\n\n\u2022 Overall confidence: MEDIUM\nThe screener and monitor signals show mixed results, indicating a need for further analysis before making a decision.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
