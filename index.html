@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Stock Hub — 2026-07-03 23:04 TW</title>
+<title>Stock Hub — 2026-07-03 23:05 TW</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -233,7 +233,7 @@ a:hover { text-decoration: underline; }
   <div class="header-title">📈 Stock Hub</div>
   <div class="phase-badge"><div class="phase-dot"></div>Regular Market Hours</div>
   <span class="run-mode-tag">SCREENER</span>
-  <div class="header-time" id="live-clock">2026-07-03 23:04 TW &nbsp;|&nbsp; 2026-07-03 15:04 UTC</div>
+  <div class="header-time" id="live-clock">2026-07-03 23:05 TW &nbsp;|&nbsp; 2026-07-03 15:05 UTC</div>
   <button class="theme-btn" onclick="toggleTheme()">☀ / ☾</button>
 </div>
 
@@ -245,7 +245,7 @@ a:hover { text-decoration: underline; }
 </div>
 
 <div id="screener" class="tab-pane active">
-        <div class="updated-note">Run: 2026-07-03 15:04 &nbsp;·&nbsp; 132 stocks scored &nbsp;·&nbsp; Top sector: <strong style="color:var(--accent)">Healthcare</strong></div>
+        <div class="updated-note">Run: 2026-07-03 15:05 &nbsp;·&nbsp; 132 stocks scored &nbsp;·&nbsp; Top sector: <strong style="color:var(--accent)">Healthcare</strong></div>
         <div class="sentiment-strip">
           <div class="sent-seg sent-g" style="width:2.3%">2% Strong</div>
           <div class="sent-seg sent-y" style="width:5.3%">5%</div>
@@ -593,7 +593,7 @@ a:hover { text-decoration: underline; }
         </div></div></div>
             <div class="section-title">LLM Supervision</div>
             <div class="llm-panel">
-              <div class="llm-note">• Validate top screener picks vs sector momentum: <br>The top sector is Healthcare, and ABBV and UNH are strong picks within this sector, both with scores above 11/17 and above 200-day MA. <br>However, LLY's score is lower than expected, given its high institutional ownership.<br><br>• Flag any contradiction between screener and monitor signals:<br>There are no direct contradictions between screener and monitor signals. However, the monitor signals highlight potential issues with stocks outside the top screener picks, such as SCO, PLTR, LULU, NFLX, and MCD.<br><br>• Name the strongest and weakest pick with one reason each:<br>Strongest pick: ABBV, due to its high score and above-average volume.<br>Weakest pick: LLY, due to its lower score compared to other Healthcare stocks.<br><br>• Overall confidence: MEDIUM<br>The screener picks are strong, but the monitor signals indicate potential issues with other stocks, reducing overall confidence.</div>
+              <div class="llm-note">• Top screener picks align with sector momentum in Healthcare, as ABBV and UNH have high scores and strong MFI readings, indicating strong buying pressure.<br>• No direct contradictions between screener and monitor signals, but LULU and NFLX have bearish MACD crossovers, which may contradict their screener scores.<br>• Strongest pick: ABBV, due to its high score and strong MFI reading, indicating sustained buying pressure.<br>• Weakest pick: AAPL, due to its lower score and relatively weak MFI reading, indicating potential selling pressure. <br>• Overall confidence: HIGH, as the top picks align with sector momentum and have strong technical indicators.</div>
             </div>
           </div>
         </div>
@@ -726,7 +726,7 @@ a:hover { text-decoration: underline; }
         <li><strong>AI supervision:</strong> Groq Llama 3.1 (free) — validates picks against sector context (requires GROQ_API_KEY secret)</li>
         <li><strong>Universe:</strong> 132 stocks defined in config/universe.csv</li>
         <li><strong>Scoring weights:</strong> Inst.Own(3) · Sector(3) · Volume(2) · Breakout(2) · MA200(2) · MFI(2) · History(2) · IV(1) = 17pts max</li>
-        <li><strong>Run time:</strong> 2026-07-03 15:04 UTC — Market phase: Regular Market Hours</li>
+        <li><strong>Run time:</strong> 2026-07-03 15:05 UTC — Market phase: Regular Market Hours</li>
       </ul>
       <div style="margin-top:10px;font-size:.75rem;color:var(--muted);border-top:1px solid var(--border);padding-top:8px">
         ⚠️ For informational purposes only — not financial advice. All data from Yahoo Finance (free tier).
@@ -1455,9 +1455,9 @@ a:hover { text-decoration: underline; }
     <div class="section-title">LLM Supervision Log (last 1 runs)</div>
     <div class="llm-panel">
         <div class="llm-entry">
-          <div class="llm-meta">2026-07-03 15:04 UTC &nbsp;·&nbsp; Regular Market Hours</div>
+          <div class="llm-meta">2026-07-03 15:05 UTC &nbsp;·&nbsp; Regular Market Hours</div>
           
-          <div class="llm-note">• Validate top screener picks vs sector momentum: <br>The top sector is Healthcare, and ABBV and UNH are strong picks within this sector, both with scores above 11/17 and above 200-day MA. <br>However, LLY's score is lower than expected, given its high institutional ownership.<br><br>• Flag any contradiction between screener and monitor signals:<br>There are no direct contradictions between screener and monitor signals. However, the monitor signals highlight potential issues with stocks outside the top screener picks, such as SCO, PLTR, LULU, NFLX, and MCD.<br><br>• Name the strongest and weakest pick with one reason each:<br>Strongest pick: ABBV, due to its high score and above-average volume.<br>Weakest pick: LLY, due to its lower score compared to other Healthcare stocks.<br><br>• Overall confidence: MEDIUM<br>The screener picks are strong, but the monitor signals indicate potential issues with other stocks, reducing overall confidence.</div>
+          <div class="llm-note">• Top screener picks align with sector momentum in Healthcare, as ABBV and UNH have high scores and strong MFI readings, indicating strong buying pressure.<br>• No direct contradictions between screener and monitor signals, but LULU and NFLX have bearish MACD crossovers, which may contradict their screener scores.<br>• Strongest pick: ABBV, due to its high score and strong MFI reading, indicating sustained buying pressure.<br>• Weakest pick: AAPL, due to its lower score and relatively weak MFI reading, indicating potential selling pressure. <br>• Overall confidence: HIGH, as the top picks align with sector momentum and have strong technical indicators.</div>
           
         </div></div></div>
 
