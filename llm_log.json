@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-07-02 23:16 UTC",
-    "phase": "After-Hours (4:00-8:00 PM ET)",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top sector is Healthcare, but only ABBV and UNH are from this sector. The screener picks do not perfectly align with sector momentum.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nSCO, PLTR, LULU, NFLX, and MCD are below their 200-day MA, indicating bearish signals, but they are not on the screener list. This is a contradiction between monitor and screener signals.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: ABBV, due to its high score (14/17) and high institutional ownership (76.8%).\nWeakest pick: EBAY, due to its low MFI (64.2), indicating a potential sell signal.\n\n\u2022 Overall confidence: MEDIUM \nThe screener picks show some promising signals, but the sector alignment and monitor signals indicate potential contradictions and areas of concern.",
+    "ts_utc": "2026-07-03 01:47 UTC",
+    "phase": "Overnight",
+    "note": "\u2022 Validate top screener picks vs sector momentum: Healthcare sector momentum is strong, with ABBV and UNH performing well, while AAPL and EBAY are less aligned with the sector's overall trend.\n\n\u2022 Flag any contradiction between screener and monitor signals: None, but monitor signals highlight potential weakness in PLTR, LULU, NFLX, and MCD, which could impact overall market sentiment.\n\n\u2022 Name the strongest and weakest pick with one reason each: \n  - Strongest: ABBV (Healthcare) due to its high score and strong institutional ownership.\n  - Weakest: EBAY (Consumer Disc) due to its low MFI reading, indicating potential selling pressure.\n\n\u2022 Overall confidence: MEDIUM due to mixed signals within the top screener picks and potential weakness in other sectors.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
