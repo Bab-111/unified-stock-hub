@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-07-03 02:45 UTC",
-    "phase": "Overnight",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top sector is Healthcare, and ABBV and UNH are the only two screener picks within this sector. ABBV has a strong score and high MFI, while UNH has a lower score but high institutional ownership.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nThere are no direct contradictions between the screener and monitor signals. However, the monitor signals highlight potential issues with SCO, PLTR, LULU, NFLX, and MCD, which are not among the top screener picks.\n\n\u2022 Name the strongest and weakest pick with one reason each: \nStrongest: ABBV, due to its high score and strong MFI. Weakest: UNH, due to its lower score compared to other picks.\n\n\u2022 Overall confidence: MEDIUM, as the top screener picks are within the top sector, but there are potential issues with other stocks highlighted by the monitor signals.",
+    "ts_utc": "2026-07-03 15:04 UTC",
+    "phase": "Regular Market Hours",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top sector is Healthcare, and ABBV and UNH are strong picks within this sector, both with scores above 11/17 and above 200-day MA. \nHowever, LLY's score is lower than expected, given its high institutional ownership.\n\n\u2022 Flag any contradiction between screener and monitor signals:\nThere are no direct contradictions between screener and monitor signals. However, the monitor signals highlight potential issues with stocks outside the top screener picks, such as SCO, PLTR, LULU, NFLX, and MCD.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: ABBV, due to its high score and above-average volume.\nWeakest pick: LLY, due to its lower score compared to other Healthcare stocks.\n\n\u2022 Overall confidence: MEDIUM\nThe screener picks are strong, but the monitor signals indicate potential issues with other stocks, reducing overall confidence.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
