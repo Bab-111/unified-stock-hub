@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-07-03 23:13 UTC",
-    "phase": "After-Hours (4:00-8:00 PM ET)",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top screener picks (ABBV, AAPL, EBAY, UNH, LLY) align with the top sector (Healthcare) momentum, indicating a strong sector performance.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nThere are no direct contradictions between screener and monitor signals. However, the monitor signals for SCO, PLTR, LULU, NFLX, and MCD indicate potential weakness in their respective sectors.\n\n\u2022 Name the strongest and weakest pick with one reason each: \nStrongest pick: ABBV (Healthcare) - High institutional ownership (76.8%) and strong momentum score (14/17).\nWeakest pick: AAPL (Technology) - Lower institutional ownership (65.8%) compared to other picks.\n\n\u2022 Overall confidence: MEDIUM - The top screener picks align with the sector momentum, but the monitor signals indicate potential weakness in other sectors.",
+    "ts_utc": "2026-07-04 01:46 UTC",
+    "phase": "Overnight",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top screener picks in the Healthcare sector (ABBV, UNH, LLY) are above their 200-day MA, indicating a strong uptrend. This aligns with sector momentum, as Healthcare is the top sector.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nThere is no direct contradiction between screener and monitor signals. However, the monitor signals for SCO, PLTR, LULU, NFLX, and MCD indicate potential weakness, but these stocks are not top screener picks.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: ABBV (score=14/17), due to its high score and above-average MFI.\nWeakest pick: AAPL (score=13/17), due to its relatively low score compared to other picks.\n\n\u2022 Overall confidence: MEDIUM\nThe screener picks in the Healthcare sector show strength, but the monitor signals for other stocks indicate potential weakness, reducing overall confidence.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
