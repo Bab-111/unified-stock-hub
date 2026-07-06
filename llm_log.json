@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-07-04 02:41 UTC",
-    "phase": "Overnight",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top screener picks in the Healthcare sector are ABBV and UNH, both with high scores and above 200-day MA, indicating strong sector momentum.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nThere are no direct contradictions, but the monitor signals highlight potential issues in other sectors, such as Technology (AAPL) and Consumer Disc (EBAY), which may require further evaluation.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: ABBV, due to its high score and strong institutional ownership (76.8%).\nWeakest pick: EBAY, due to its low volume (0.4x) and relatively low MFI (64.3).\n\n\u2022 Overall confidence: HIGH\nThe screener picks align with sector momentum, and the monitor signals highlight potential areas for further evaluation, but overall, the report suggests a strong market phase.",
+    "ts_utc": "2026-07-06 16:14 UTC",
+    "phase": "Regular Market Hours",
+    "note": "\u2022 Validate top screener picks vs sector momentum: Top screener picks AAPL, AMD, QCOM, and NOW are all in the Technology sector, which is the current top sector, validating their selection.\n\u2022 Flag any contradiction between screener and monitor signals: EBAY, a Consumer Disc stock, is listed as a top screener pick, contradicting the sector momentum.\n\u2022 Name the strongest and weakest pick with one reason each: Strongest pick: QCOM, with an institutional ownership of 84.7%, indicating strong investor confidence. Weakest pick: AMD, with a lower MFI (Money Flow Index) of 49.5, indicating lower buying pressure.\n\u2022 Overall confidence: HIGH, as the top screener picks are in the top sector and have strong institutional ownership.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
