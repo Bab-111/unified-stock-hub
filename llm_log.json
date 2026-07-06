@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-07-06 21:43 UTC",
+    "ts_utc": "2026-07-06 23:13 UTC",
     "phase": "After-Hours (4:00-8:00 PM ET)",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top screener picks in the Technology sector are all above their 200-day MA, indicating a strong uptrend. This aligns with sector momentum, as Technology is the top sector in the after-hours market.\n\n\u2022 Flag any contradiction between screener and monitor signals:\nNOW (Technology) has a high institutional ownership (88.4%) but a low volume (0.6x), which may indicate a potential buying opportunity. However, V (Financials) has a high institutional ownership (91.6%) but a high volume (1.4x), which may indicate a potential selling opportunity.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: QCOM (Technology) - High institutional ownership (84.7%) and above 200-day MA.\nWeakest pick: V (Financials) - High volume (1.4x) may indicate selling pressure.\n\n\u2022 Overall confidence: HIGH\nThe strong uptrend in the Technology sector and high institutional ownership in top picks indicate a high level of confidence in the screener's top picks.",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top screener picks in the Technology sector show strong momentum with high scores and above-average volume, indicating a strong trend.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nNOW (Technology) has a high score but low volume, which contradicts the screener's emphasis on strong volume. V (Financials) has a low score but high volume, which may indicate a potential sell signal.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: QCOM (Technology) due to its high score and strong institutional ownership. \nWeakest pick: V (Financials) due to its low score.\n\n\u2022 Overall confidence: MEDIUM \nThe mixed signals from the screener and monitor, particularly the contradiction in NOW's volume, reduce overall confidence in the top picks.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
