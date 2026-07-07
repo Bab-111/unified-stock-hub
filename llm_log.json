@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-07-07 23:07 UTC",
+    "ts_utc": "2026-07-07 23:09 UTC",
     "phase": "After-Hours (4:00-8:00 PM ET)",
-    "note": "\u2022 Validate top screener picks vs sector momentum: The Energy sector is strong, but the screener picks have varying momentum, with TRGP and EOG showing high institutional ownership and low volatility, while KMI has moderate momentum.\n\n\u2022 Flag any contradiction between screener and monitor signals: None found, but SCO and MCD are below their 200-day MA, indicating potential weakness in their respective sectors.\n\n\u2022 Name the strongest and weakest pick with one reason each: \n  Strongest pick: TRGP (97.3% institutional ownership)\n  Weakest pick: KMI (62.5 MFI, indicating a potential reversal)\n\n\u2022 Overall confidence: HIGH with a strong Energy sector and top screener picks, but caution advised due to potential weakness in other sectors.",
+    "note": "\u2022 Validate top screener picks vs sector momentum: The Energy sector is strong, with TRGP and EOG showing high institutional investment (97.3% and 97.6%) and above 200-day MA, indicating sector momentum supports these picks.\n\u2022 Flag any contradiction between screener and monitor signals: None found, as screener picks are from the Energy sector and monitor signals are from various sectors with no direct contradiction.\n\u2022 Name the strongest and weakest pick with one reason each: \n  - Strongest: TRGP, due to its high institutional investment (97.3%).\n  - Weakest: AAPL, due to its lower volume (0.8x) compared to peers.\n\u2022 Overall confidence: HIGH, as sector momentum supports top screener picks and no direct contradictions were found.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
