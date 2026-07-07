@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-07-06 23:15 UTC",
-    "phase": "After-Hours (4:00-8:00 PM ET)",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top screener picks (AMD, AAPL, QCOM, NOW, V) are all in the Technology sector, which is currently leading the market. Their scores and metrics are generally positive, indicating strong momentum.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nNOW is the only top screener pick with a relatively low volume (0.6x MA200), which could be a concern. Additionally, V is the only non-Technology stock on the list, which may not align with the sector's momentum.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: QCOM (84.7% institutional ownership), indicating strong support from major investors.\nWeakest pick: V (1.4x volume), indicating high volatility that may be a concern.\n\n\u2022 Overall confidence: HIGH\nThe top screener picks are generally strong, and the sector momentum is positive, giving a high level of confidence in the picks.",
+    "ts_utc": "2026-07-07 01:54 UTC",
+    "phase": "Overnight",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top screener picks in the Technology sector are all above their 200-day MA, indicating a strong uptrend. However, the sector as a whole is not overbought, with an MFI of 51.0, suggesting room for further growth.\n\n\u2022 Flag any contradiction between screener and monitor signals:\nThere is a contradiction between the screener and monitor signals for LULU, as the monitor signal indicates a bearish crossover and a below 200-day MA, while the screener does not provide a score for this stock.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: QCOM, due to its high institutional ownership percentage of 84.7%.\nWeakest pick: V, due to its low score of 10/17, indicating lower potential for growth.\n\n\u2022 Overall confidence: MEDIUM\nThe top screener picks are strong, but the sector is not overbought, and there are some contradictions between screener and monitor signals, which reduces overall confidence.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
