@@ -245,7 +245,7 @@ a:hover { text-decoration: underline; }
 </div>
 
 <div id="screener" class="tab-pane active">
-        <div class="updated-note">Run: 2026-07-07 20:47 &nbsp;·&nbsp; 132 stocks scored &nbsp;·&nbsp; Top sector: <strong style="color:var(--accent)">Energy</strong></div>
+        <div class="updated-note">Run: 2026-07-07 20:48 &nbsp;·&nbsp; 132 stocks scored &nbsp;·&nbsp; Top sector: <strong style="color:var(--accent)">Energy</strong></div>
         <div class="sentiment-strip">
           <div class="sent-seg sent-g" style="width:0.0%">0% Strong</div>
           <div class="sent-seg sent-y" style="width:7.6%">8%</div>
@@ -329,7 +329,7 @@ a:hover { text-decoration: underline; }
       <div class="factor-pills"><span class="pill fr">Vol</span><span class="pill fg">Breakout</span><span class="pill fg">MA200</span><span class="pill fg">Inst</span><span class="pill fr">MFI</span><span class="pill fg">Sector</span><span class="pill fr">History</span><span class="pill fg">IV</span></div>
       <div class="card-meta">
         <span>Vol: <strong>0.6x</strong></span>
-        <span>MA200: <strong class="pos">$238.95410788931497</strong></span>
+        <span>MA200: <strong class="pos">$238.95410826148057</strong></span>
         <span>Inst: <strong>97.3%</strong></span>
         <span>MFI: <strong>42.8</strong></span>
         <span>IV(mean): <strong>37.2%</strong></span>
@@ -482,7 +482,7 @@ a:hover { text-decoration: underline; }
       <div class="factor-pills"><span class="pill fr">Vol</span><span class="pill fr">Breakout</span><span class="pill fg">MA200</span><span class="pill fg">Inst</span><span class="pill fg">MFI</span><span class="pill fr">Sector</span><span class="pill fg">History</span><span class="pill fg">IV</span></div>
       <div class="card-meta">
         <span>Vol: <strong>0.8x</strong></span>
-        <span>MA200: <strong class="pos">$274.38611559363886</strong></span>
+        <span>MA200: <strong class="pos">$274.38611571769405</strong></span>
         <span>Inst: <strong>65.8%</strong></span>
         <span>MFI: <strong>75.7</strong></span>
         <span>IV(mean): <strong>78.0%</strong></span>
@@ -593,7 +593,7 @@ a:hover { text-decoration: underline; }
         </div></div></div>
             <div class="section-title">LLM Supervision</div>
             <div class="llm-panel">
-              <div class="llm-note">• Validate top screener picks vs sector momentum: <br>The top Energy sector picks (TRGP, KMI, EOG) have strong institutional support (97.3-97.6%) and are above their 200-day MA, indicating sector momentum.<br><br>• Flag any contradiction between screener and monitor signals: <br>SCO and MCD are below their 200-day MA, contradicting the screener's focus on stocks above the 200-day MA.<br><br>• Name the strongest and weakest pick with one reason each:<br>Strongest: TRGP (97.3% institutional support)<br>Weakest: D (Utilities) (score of 11/17 is relatively low compared to Energy sector picks)<br><br>• Overall confidence: HIGH<br>The strong institutional support and sector momentum in the Energy sector give high confidence in the top picks.</div>
+              <div class="llm-note">• Validate top screener picks vs sector momentum: <br>The Energy sector is strong, with TRGP and EOG showing high institutional investment (97.3% and 97.6% respectively). However, their volume is low (0.6x and 0.4x), which may indicate a lack of buying momentum.<br><br>• Flag any contradiction between screener and monitor signals: <br>The monitor signals contradict the screener picks, as the Energy sector is strong, but the Utilities sector's top pick, D, has a relatively low score and high volume.<br><br>• Name the strongest and weakest pick with one reason each: <br>Strongest pick: TRGP, due to its high institutional investment (97.3%). <br>Weakest pick: D, due to its low score (11/17) despite being in the Utilities sector, which is not the top sector.<br><br>• Overall confidence: MEDIUM <br>The sector momentum and screener picks are mixed, and the monitor signals contradict some of the screener picks, indicating a need for further analysis.</div>
             </div>
           </div>
         </div>
@@ -726,7 +726,7 @@ a:hover { text-decoration: underline; }
         <li><strong>AI supervision:</strong> Groq Llama 3.1 (free) — validates picks against sector context (requires GROQ_API_KEY secret)</li>
         <li><strong>Universe:</strong> 132 stocks defined in config/universe.csv</li>
         <li><strong>Scoring weights:</strong> Inst.Own(3) · Sector(3) · Volume(2) · Breakout(2) · MA200(2) · MFI(2) · History(2) · IV(1) = 17pts max</li>
-        <li><strong>Run time:</strong> 2026-07-07 20:47 UTC — Market phase: After-Hours (4:00-8:00 PM ET)</li>
+        <li><strong>Run time:</strong> 2026-07-07 20:48 UTC — Market phase: After-Hours (4:00-8:00 PM ET)</li>
       </ul>
       <div style="margin-top:10px;font-size:.75rem;color:var(--muted);border-top:1px solid var(--border);padding-top:8px">
         ⚠️ For informational purposes only — not financial advice. All data from Yahoo Finance (free tier).
@@ -1457,7 +1457,7 @@ a:hover { text-decoration: underline; }
         <div class="llm-entry">
           <div class="llm-meta">2026-07-07 20:48 UTC &nbsp;·&nbsp; After-Hours (4:00-8:00 PM ET)</div>
           
-          <div class="llm-note">• Validate top screener picks vs sector momentum: <br>The top Energy sector picks (TRGP, KMI, EOG) have strong institutional support (97.3-97.6%) and are above their 200-day MA, indicating sector momentum.<br><br>• Flag any contradiction between screener and monitor signals: <br>SCO and MCD are below their 200-day MA, contradicting the screener's focus on stocks above the 200-day MA.<br><br>• Name the strongest and weakest pick with one reason each:<br>Strongest: TRGP (97.3% institutional support)<br>Weakest: D (Utilities) (score of 11/17 is relatively low compared to Energy sector picks)<br><br>• Overall confidence: HIGH<br>The strong institutional support and sector momentum in the Energy sector give high confidence in the top picks.</div>
+          <div class="llm-note">• Validate top screener picks vs sector momentum: <br>The Energy sector is strong, with TRGP and EOG showing high institutional investment (97.3% and 97.6% respectively). However, their volume is low (0.6x and 0.4x), which may indicate a lack of buying momentum.<br><br>• Flag any contradiction between screener and monitor signals: <br>The monitor signals contradict the screener picks, as the Energy sector is strong, but the Utilities sector's top pick, D, has a relatively low score and high volume.<br><br>• Name the strongest and weakest pick with one reason each: <br>Strongest pick: TRGP, due to its high institutional investment (97.3%). <br>Weakest pick: D, due to its low score (11/17) despite being in the Utilities sector, which is not the top sector.<br><br>• Overall confidence: MEDIUM <br>The sector momentum and screener picks are mixed, and the monitor signals contradict some of the screener picks, indicating a need for further analysis.</div>
           
         </div></div></div>
 
