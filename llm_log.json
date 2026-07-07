@@ -1,12 +1,10 @@
 [
   {
-    "ts_utc": "2026-07-07 02:52 UTC",
-    "phase": "Overnight",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top screener picks in the Technology sector are performing well, with all five stocks above their 200-day MA and moderate to high institutional ownership. This suggests that sector momentum is strong, supporting the top picks.\n\n\u2022 Flag any contradiction between screener and monitor signals:\nThere is no direct contradiction between the screener and monitor signals. However, the monitor signal for 2884.TW indicates overbought conditions, which may be a concern for the sector's overall momentum.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: QCOM (84.7% institutional ownership) - High institutional ownership suggests strong investor confidence.\nWeakest pick: V (10/17 score) - Low screener score indicates lower potential for growth.\n\n\u2022 Overall confidence: HIGH\nThe top screener picks in the Technology sector are performing well, and the sector's momentum is strong, indicating a high level of confidence in the picks.\n\u26a0\ufe0f Hallucination check flagged: TW",
+    "ts_utc": "2026-07-07 15:41 UTC",
+    "phase": "Regular Market Hours",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top screener picks in the Healthcare sector align with the sector's momentum, as they all have above 200-day MAs and high institutional ownership.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nThere are no direct contradictions between the screener and monitor signals, but the monitor signals highlight potential weakness in other sectors.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest: LLY (85.3% institutional ownership suggests strong investor confidence)\nWeakest: AAPL (MFI of 75.0 indicates a potential divergence from its upward trend)\n\n\u2022 Overall confidence: HIGH\nThe screener picks in the Healthcare sector are well-positioned for growth, with strong institutional ownership and above 200-day MAs.",
     "conflicts": [],
-    "suspicious_tickers": [
-      "TW"
-    ],
+    "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
   }
 ]
