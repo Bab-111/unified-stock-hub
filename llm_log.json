@@ -2,7 +2,7 @@
   {
     "ts_utc": "2026-07-08 20:18 UTC",
     "phase": "After-Hours (4:00-8:00 PM ET)",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nMPC and VLO show strong momentum within the Energy sector, with MPC having a higher MFI score and MPC's MA200 above its price.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nAAPL and QCOM are top picks in the Technology sector, but the monitor signals for SCO, PLTR, and LULU indicate bearish trends in their respective sectors.\n\n\u2022 Name the strongest and weakest pick with one reason each: \nStrongest pick: MPC, due to its high MFI score of 63.8.\nWeakest pick: QCOM, due to its low MFI score of 40.8.\n\n\u2022 Overall confidence: MEDIUM \nThe mixed signals from both screener and monitor alerts suggest caution in making a definitive call on the stocks.",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top sector is Energy, and Energy stocks MPC and VLO have strong scores with above MA200 and high institutional ownership. This aligns with sector momentum.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nKMI (Energy) has a lower volume compared to its peers, which may indicate a potential contradiction in the screener's signal.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: MPC (Energy) due to its high institutional ownership (78.4%).\nWeakest pick: QCOM (Technology) due to its low volume (0.6x).\n\n\u2022 Overall confidence: HIGH \nThe top Energy stocks have strong scores and align with sector momentum, indicating a high level of confidence in these picks.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
