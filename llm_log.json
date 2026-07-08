@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-07-08 18:15 UTC",
-    "phase": "Regular Market Hours",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nEnergy sector momentum is strong, with all top screener picks (KMI, PSX, MPC) above their 200-day MA and having high institutional ownership. This supports the top picks.\n\n\u2022 Flag any contradiction between screener and monitor signals:\nSCO is below its 200-day MA, contradicting the Energy sector's overall momentum. This warrants closer monitoring.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: PSX, due to its high institutional ownership (80.8%). \nWeakest pick: QCOM, due to its low MFI (40.0) indicating a potential sell-off.\n\n\u2022 Overall confidence: HIGH, due to strong sector momentum and high institutional ownership among top picks.",
+    "ts_utc": "2026-07-08 20:18 UTC",
+    "phase": "After-Hours (4:00-8:00 PM ET)",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nMPC and VLO show strong momentum within the Energy sector, with MPC having a higher MFI score and MPC's MA200 above its price.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nAAPL and QCOM are top picks in the Technology sector, but the monitor signals for SCO, PLTR, and LULU indicate bearish trends in their respective sectors.\n\n\u2022 Name the strongest and weakest pick with one reason each: \nStrongest pick: MPC, due to its high MFI score of 63.8.\nWeakest pick: QCOM, due to its low MFI score of 40.8.\n\n\u2022 Overall confidence: MEDIUM \nThe mixed signals from both screener and monitor alerts suggest caution in making a definitive call on the stocks.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
