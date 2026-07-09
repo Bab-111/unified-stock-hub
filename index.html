@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Stock Hub — 2026-07-10 07:18 TW</title>
+<title>Stock Hub — 2026-07-10 07:19 TW</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -233,7 +233,7 @@ a:hover { text-decoration: underline; }
   <div class="header-title">📈 Stock Hub</div>
   <div class="phase-badge"><div class="phase-dot"></div>After-Hours (4:00-8:00 PM ET)</div>
   <span class="run-mode-tag">SCREENER</span>
-  <div class="header-time" id="live-clock">2026-07-10 07:18 TW &nbsp;|&nbsp; 2026-07-09 23:18 UTC</div>
+  <div class="header-time" id="live-clock">2026-07-10 07:19 TW &nbsp;|&nbsp; 2026-07-09 23:19 UTC</div>
   <button class="theme-btn" onclick="toggleTheme()">☀ / ☾</button>
 </div>
 
@@ -245,7 +245,7 @@ a:hover { text-decoration: underline; }
 </div>
 
 <div id="screener" class="tab-pane active">
-        <div class="updated-note">Run: 2026-07-09 23:18 &nbsp;·&nbsp; 132 stocks scored &nbsp;·&nbsp; Top sector: <strong style="color:var(--accent)">Technology</strong></div>
+        <div class="updated-note">Run: 2026-07-09 23:19 &nbsp;·&nbsp; 132 stocks scored &nbsp;·&nbsp; Top sector: <strong style="color:var(--accent)">Technology</strong></div>
         <div class="sentiment-strip">
           <div class="sent-seg sent-g" style="width:3.0%">3% Strong</div>
           <div class="sent-seg sent-y" style="width:4.5%">4%</div>
@@ -593,7 +593,7 @@ a:hover { text-decoration: underline; }
         </div></div></div>
             <div class="section-title">LLM Supervision</div>
             <div class="llm-panel">
-              <div class="llm-note">• Validate top screener picks vs sector momentum: <br>The top screener picks (AAPL, AMD, AMAT, NOW, AMZN) are all in the Technology sector and have strong scores, but sector momentum is not explicitly stated.<br><br>• Flag any contradiction between screener and monitor signals:<br>None, as all screener picks are in the Technology sector and the monitor signals are mostly related to other sectors or specific stocks.<br><br>• Name the strongest and weakest pick with one reason each:<br>Strongest: AMAT, due to its high score (12/17) and high institutional ownership (84.9%).<br>Weakest: AMD, due to its low volume (0.7x) compared to other picks.<br><br>• Overall confidence: MEDIUM, as the screener picks are strong but the sector momentum is unclear and the monitor signals are mostly unrelated.</div>
+              <div class="llm-note">• Validate top screener picks vs sector momentum: <br>The Technology sector is strong, with all top screener picks showing above MA200 and high MFI scores, indicating a bullish trend.<br><br>• Flag any contradiction between screener and monitor signals: <br>None, as all top screener picks are within the Technology sector and do not conflict with any monitor signals.<br><br>• Name the strongest and weakest pick with one reason each: <br>Strongest: NOW (88.3% inst) - high institutional ownership.<br>Weakest: AMD (MFI=50.7) - lower MFI score compared to other picks.<br><br>• Overall confidence: HIGH - all top screener picks are within a strong sector and show positive indicators.</div>
             </div>
           </div>
         </div>
@@ -726,7 +726,7 @@ a:hover { text-decoration: underline; }
         <li><strong>AI supervision:</strong> Groq Llama 3.1 (free) — validates picks against sector context (requires GROQ_API_KEY secret)</li>
         <li><strong>Universe:</strong> 132 stocks defined in config/universe.csv</li>
         <li><strong>Scoring weights:</strong> Inst.Own(3) · Sector(3) · Volume(2) · Breakout(2) · MA200(2) · MFI(2) · History(2) · IV(1) = 17pts max</li>
-        <li><strong>Run time:</strong> 2026-07-09 23:18 UTC — Market phase: After-Hours (4:00-8:00 PM ET)</li>
+        <li><strong>Run time:</strong> 2026-07-09 23:19 UTC — Market phase: After-Hours (4:00-8:00 PM ET)</li>
       </ul>
       <div style="margin-top:10px;font-size:.75rem;color:var(--muted);border-top:1px solid var(--border);padding-top:8px">
         ⚠️ For informational purposes only — not financial advice. All data from Yahoo Finance (free tier).
@@ -1455,9 +1455,9 @@ a:hover { text-decoration: underline; }
     <div class="section-title">LLM Supervision Log (last 1 runs)</div>
     <div class="llm-panel">
         <div class="llm-entry">
-          <div class="llm-meta">2026-07-09 23:18 UTC &nbsp;·&nbsp; After-Hours (4:00-8:00 PM ET)</div>
+          <div class="llm-meta">2026-07-09 23:19 UTC &nbsp;·&nbsp; After-Hours (4:00-8:00 PM ET)</div>
           
-          <div class="llm-note">• Validate top screener picks vs sector momentum: <br>The top screener picks (AAPL, AMD, AMAT, NOW, AMZN) are all in the Technology sector and have strong scores, but sector momentum is not explicitly stated.<br><br>• Flag any contradiction between screener and monitor signals:<br>None, as all screener picks are in the Technology sector and the monitor signals are mostly related to other sectors or specific stocks.<br><br>• Name the strongest and weakest pick with one reason each:<br>Strongest: AMAT, due to its high score (12/17) and high institutional ownership (84.9%).<br>Weakest: AMD, due to its low volume (0.7x) compared to other picks.<br><br>• Overall confidence: MEDIUM, as the screener picks are strong but the sector momentum is unclear and the monitor signals are mostly unrelated.</div>
+          <div class="llm-note">• Validate top screener picks vs sector momentum: <br>The Technology sector is strong, with all top screener picks showing above MA200 and high MFI scores, indicating a bullish trend.<br><br>• Flag any contradiction between screener and monitor signals: <br>None, as all top screener picks are within the Technology sector and do not conflict with any monitor signals.<br><br>• Name the strongest and weakest pick with one reason each: <br>Strongest: NOW (88.3% inst) - high institutional ownership.<br>Weakest: AMD (MFI=50.7) - lower MFI score compared to other picks.<br><br>• Overall confidence: HIGH - all top screener picks are within a strong sector and show positive indicators.</div>
           
         </div></div></div>
 
