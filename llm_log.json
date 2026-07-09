@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-07-09 02:46 UTC",
-    "phase": "Overnight",
-    "note": "\u2022 Validate top screener picks vs sector momentum: The top Energy sector picks (VLO, MPC, KMI) are above their 200-day MA and have high institutional ownership, indicating strong sector momentum.\n\u2022 Flag any contradiction between screener and monitor signals: None found, but the Energy sector's strong momentum contrasts with the bearish crossovers in Technology (AAPL, QCOM).\n\u2022 Name the strongest and weakest pick with one reason each: Strongest: VLO, due to its high institutional ownership (87.9%). Weakest: QCOM, due to its low volume (0.6x).\n\u2022 Overall confidence: HIGH, as the top picks are above their 200-day MA and have strong institutional backing.",
+    "ts_utc": "2026-07-09 15:53 UTC",
+    "phase": "Regular Market Hours",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top screener picks (AAPL, AMD, TXN, NOW, ADBE) are all in the Technology sector, which is currently the top sector. This validates the sector momentum.\n\n\u2022 Flag any contradiction between screener and monitor signals:\nThere is a contradiction between the monitor signals and the screener signals for ADBE, as the screener indicates a score of 11/17, but the monitor does not flag it as a concern.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: TXN, due to its high institutional ownership (92.6%) and strong momentum.\nWeakest pick: ADBE, due to its below MA200 signal from the monitor.\n\n\u2022 Overall confidence: MEDIUM\nThe screener picks are strong, but the monitor signals indicate potential contradictions and concerns, such as ADBE's below MA200 signal.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
