@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-07-10 02:49 UTC",
-    "phase": "Overnight",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top sector is Technology, and all top screener picks are within this sector. Their scores and metrics indicate a strong performance, aligning with the sector's momentum.\n\n\u2022 Flag any contradiction between screener and monitor signals:\nThere is no direct contradiction between the screener and monitor signals. However, the monitor signals highlight potential issues in other stocks, such as SCO, PLTR, LULU, NFLX, and MCD, which are below their 200-day MA.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: AMAT (Technology) - High institutional ownership (84.9%) indicates strong investor confidence.\nWeakest pick: AMD (Technology) - Lower MFI (50.7) compared to other picks suggests a potential decline in buying pressure.\n\n\u2022 Overall confidence: HIGH \nThe top screener picks are well-positioned within the Technology sector, with strong scores and metrics, indicating a high level of confidence in their performance.",
+    "ts_utc": "2026-07-10 15:28 UTC",
+    "phase": "Regular Market Hours",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top picks in the Consumer Disc sector are showing mixed momentum, with EXPE and BKNG having high MFI scores, while EBAY and SBUX have relatively low MFI scores.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nThere are no direct contradictions between the screener and monitor signals, but the monitor signals highlight potential issues with other stocks in the sector, such as LULU and NFLX, which are experiencing bearish crossovers.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nThe strongest pick is EXPE, due to its high score and above-average MFI score. \nThe weakest pick is AMZN, due to its low volume and relatively low score.\n\n\u2022 Overall confidence: HIGH\nThe sector momentum is strong, and the top picks are showing positive signals, indicating a high level of confidence in the sector's performance.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
