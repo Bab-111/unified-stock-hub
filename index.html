@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Stock Hub — 2026-07-10 09:30 TW</title>
+<title>Stock Hub — 2026-07-10 10:49 TW</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -233,7 +233,7 @@ a:hover { text-decoration: underline; }
   <div class="header-title">📈 Stock Hub</div>
   <div class="phase-badge"><div class="phase-dot"></div>Overnight</div>
   <span class="run-mode-tag">SCREENER</span>
-  <div class="header-time" id="live-clock">2026-07-10 09:30 TW &nbsp;|&nbsp; 2026-07-10 01:30 UTC</div>
+  <div class="header-time" id="live-clock">2026-07-10 10:49 TW &nbsp;|&nbsp; 2026-07-10 02:49 UTC</div>
   <button class="theme-btn" onclick="toggleTheme()">☀ / ☾</button>
 </div>
 
@@ -245,7 +245,7 @@ a:hover { text-decoration: underline; }
 </div>
 
 <div id="screener" class="tab-pane active">
-        <div class="updated-note">Run: 2026-07-10 01:30 &nbsp;·&nbsp; 132 stocks scored &nbsp;·&nbsp; Top sector: <strong style="color:var(--accent)">Technology</strong></div>
+        <div class="updated-note">Run: 2026-07-10 02:49 &nbsp;·&nbsp; 132 stocks scored &nbsp;·&nbsp; Top sector: <strong style="color:var(--accent)">Technology</strong></div>
         <div class="sentiment-strip">
           <div class="sent-seg sent-g" style="width:3.0%">3% Strong</div>
           <div class="sent-seg sent-y" style="width:4.5%">4%</div>
@@ -278,7 +278,7 @@ a:hover { text-decoration: underline; }
       <div class="factor-pills"><span class="pill fr">Vol</span><span class="pill fr">Breakout</span><span class="pill fg">MA200</span><span class="pill fg">Inst</span><span class="pill fg">MFI</span><span class="pill fg">Sector</span><span class="pill fg">History</span><span class="pill fg">IV</span></div>
       <div class="card-meta">
         <span>Vol: <strong>0.9x</strong></span>
-        <span>MA200: <strong class="pos">$275.29799683113407</strong></span>
+        <span>MA200: <strong class="pos">$275.2979967070789</strong></span>
         <span>Inst: <strong>65.8%</strong></span>
         <span>MFI: <strong>75.8</strong></span>
         <span>IV(mean): <strong>255.9%</strong></span>
@@ -380,7 +380,7 @@ a:hover { text-decoration: underline; }
       <div class="factor-pills"><span class="pill fy">Vol</span><span class="pill fy">Breakout</span><span class="pill fg">MA200</span><span class="pill fg">Inst</span><span class="pill fy">MFI</span><span class="pill fg">Sector</span><span class="pill fr">History</span><span class="pill fg">IV</span></div>
       <div class="card-meta">
         <span>Vol: <strong>1.7x</strong></span>
-        <span>MA200: <strong class="pos">$413.90074840018417</strong></span>
+        <span>MA200: <strong class="pos">$413.9007486482946</strong></span>
         <span>Inst: <strong>84.9%</strong></span>
         <span>MFI: <strong>54.6</strong></span>
         <span>IV(mean): <strong>237.3%</strong></span>
@@ -593,7 +593,7 @@ a:hover { text-decoration: underline; }
         </div></div></div>
             <div class="section-title">LLM Supervision</div>
             <div class="llm-panel">
-              <div class="llm-note">• Validate top screener picks vs sector momentum: <br>The top sector is Technology, and all top screener picks are from the Technology sector, validating their relevance.<br><br>• Flag any contradiction between screener and monitor signals: <br>There are no direct contradictions between screener and monitor signals, but some monitor signals (MACD bearish crossover and below 200-day MA) are present in stocks outside the top screener picks (PLTR, LULU, NFLX, and SCO).<br><br>• Name the strongest and weakest pick with one reason each:<br>Strongest pick: NOW (Technology) - High institutional ownership (88.3%).<br>Weakest pick: AMD (Technology) - Lower MFI (50.7) compared to other top picks.<br><br>• Overall confidence: MEDIUM<br>The presence of some monitor signals in non-top-pick stocks and the relatively lower MFI of AMD suggest a moderate level of confidence in the top screener picks.</div>
+              <div class="llm-note">• Validate top screener picks vs sector momentum: <br>The top sector is Technology, and all top screener picks are within this sector. Their scores and metrics indicate a strong performance, aligning with the sector's momentum.<br><br>• Flag any contradiction between screener and monitor signals:<br>There is no direct contradiction between the screener and monitor signals. However, the monitor signals highlight potential issues in other stocks, such as SCO, PLTR, LULU, NFLX, and MCD, which are below their 200-day MA.<br><br>• Name the strongest and weakest pick with one reason each:<br>Strongest pick: AMAT (Technology) - High institutional ownership (84.9%) indicates strong investor confidence.<br>Weakest pick: AMD (Technology) - Lower MFI (50.7) compared to other picks suggests a potential decline in buying pressure.<br><br>• Overall confidence: HIGH <br>The top screener picks are well-positioned within the Technology sector, with strong scores and metrics, indicating a high level of confidence in their performance.</div>
             </div>
           </div>
         </div>
@@ -726,7 +726,7 @@ a:hover { text-decoration: underline; }
         <li><strong>AI supervision:</strong> Groq Llama 3.1 (free) — validates picks against sector context (requires GROQ_API_KEY secret)</li>
         <li><strong>Universe:</strong> 132 stocks defined in config/universe.csv</li>
         <li><strong>Scoring weights:</strong> Inst.Own(3) · Sector(3) · Volume(2) · Breakout(2) · MA200(2) · MFI(2) · History(2) · IV(1) = 17pts max</li>
-        <li><strong>Run time:</strong> 2026-07-10 01:30 UTC — Market phase: Overnight</li>
+        <li><strong>Run time:</strong> 2026-07-10 02:49 UTC — Market phase: Overnight</li>
       </ul>
       <div style="margin-top:10px;font-size:.75rem;color:var(--muted);border-top:1px solid var(--border);padding-top:8px">
         ⚠️ For informational purposes only — not financial advice. All data from Yahoo Finance (free tier).
@@ -1455,9 +1455,9 @@ a:hover { text-decoration: underline; }
     <div class="section-title">LLM Supervision Log (last 1 runs)</div>
     <div class="llm-panel">
         <div class="llm-entry">
-          <div class="llm-meta">2026-07-10 01:30 UTC &nbsp;·&nbsp; Overnight</div>
+          <div class="llm-meta">2026-07-10 02:49 UTC &nbsp;·&nbsp; Overnight</div>
           
-          <div class="llm-note">• Validate top screener picks vs sector momentum: <br>The top sector is Technology, and all top screener picks are from the Technology sector, validating their relevance.<br><br>• Flag any contradiction between screener and monitor signals: <br>There are no direct contradictions between screener and monitor signals, but some monitor signals (MACD bearish crossover and below 200-day MA) are present in stocks outside the top screener picks (PLTR, LULU, NFLX, and SCO).<br><br>• Name the strongest and weakest pick with one reason each:<br>Strongest pick: NOW (Technology) - High institutional ownership (88.3%).<br>Weakest pick: AMD (Technology) - Lower MFI (50.7) compared to other top picks.<br><br>• Overall confidence: MEDIUM<br>The presence of some monitor signals in non-top-pick stocks and the relatively lower MFI of AMD suggest a moderate level of confidence in the top screener picks.</div>
+          <div class="llm-note">• Validate top screener picks vs sector momentum: <br>The top sector is Technology, and all top screener picks are within this sector. Their scores and metrics indicate a strong performance, aligning with the sector's momentum.<br><br>• Flag any contradiction between screener and monitor signals:<br>There is no direct contradiction between the screener and monitor signals. However, the monitor signals highlight potential issues in other stocks, such as SCO, PLTR, LULU, NFLX, and MCD, which are below their 200-day MA.<br><br>• Name the strongest and weakest pick with one reason each:<br>Strongest pick: AMAT (Technology) - High institutional ownership (84.9%) indicates strong investor confidence.<br>Weakest pick: AMD (Technology) - Lower MFI (50.7) compared to other picks suggests a potential decline in buying pressure.<br><br>• Overall confidence: HIGH <br>The top screener picks are well-positioned within the Technology sector, with strong scores and metrics, indicating a high level of confidence in their performance.</div>
           
         </div></div></div>
 
