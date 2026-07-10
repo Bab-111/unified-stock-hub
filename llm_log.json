@@ -1,10 +1,12 @@
 [
   {
-    "ts_utc": "2026-07-10 15:57 UTC",
+    "ts_utc": "2026-07-10 16:36 UTC",
     "phase": "Regular Market Hours",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nMaterials sector is strong, but ECL's MFI (66.6) is relatively low compared to others, indicating potential weakness.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nSCO and PLTR are below their 200-day MA, contradicting the screener's focus on stocks above their MA200.\n\n\u2022 Name the strongest and weakest pick with one reason each: \nStrongest: EXPE, with an extremely high institutional ownership (104.4%) indicating strong market confidence.\nWeakest: AAPL, with a relatively low volume (0.2x MA200) indicating potential lack of market momentum.\n\n\u2022 Overall confidence: MEDIUM\nThe screener picks are mostly above their 200-day MA, but some monitor signals indicate potential weakness, reducing overall confidence.",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe Materials sector is strong, which supports ECL's screener pick. However, Consumer Disc (EXPE) and Comm. Services (META) sectors are not as strong, contradicting their high screener scores.\n\n\u2022 Flag any contradiction between screener and monitor signals:\nSCO, PLTR, LULU, NFLX, and MCD have bearish signals (below 200-day MA or MACD crossovers) that contradict their screener scores. 2884.TW is overbought, which may be a warning sign.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest: ECL (Materials) - strong sector momentum supports its screener score.\nWeakest: EXPE (Consumer Disc) - its high screener score contradicts the relatively weak Consumer Disc sector.\n\n\u2022 Overall confidence: MEDIUM - strong sector momentum and screener scores are offset by bearish monitor signals and sector contradictions.\n\u26a0\ufe0f Hallucination check flagged: TW",
     "conflicts": [],
-    "suspicious_tickers": [],
+    "suspicious_tickers": [
+      "TW"
+    ],
     "model": "groq/llama-3.1-8b-instant (free)"
   }
 ]
