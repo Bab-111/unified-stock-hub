@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-07-11 02:27 UTC",
-    "phase": "Overnight",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nMaterials sector is strong, with ECL as the top pick, indicating sector momentum aligns with screener results.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nSCO and PLTR are below their 200-day MAs, contradicting the screener's focus on stocks above their MAs.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: ECL (93.8% institutional ownership, indicating strong support).\nWeakest pick: AAPL (MFI at 74.6, indicating possible divergence from price action).\n\n\u2022 Overall confidence: MEDIUM \nThe screener results are promising, but the presence of contradictory monitor signals and potential divergences in some picks reduces overall confidence.",
+    "ts_utc": "2026-07-11 12:31 UTC",
+    "phase": "Pre-Market (before 9:30 AM ET)",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top sector is Materials, but the top screener picks are from Comm. Services (META) and Technology (AAPL, CSCO). This indicates a potential mismatch between sector momentum and individual stock performance.\n\n\u2022 Flag any contradiction between screener and monitor signals:\nRKLB, SOFI, IREN, ATOM, SCO, PLTR, LULU, NOW, NFLX, and MCD are showing bearish signals, contradicting the screener's focus on stocks with above MA200 and high institutional ownership.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: ECL (Materials) - high institutional ownership (93.8%).\nWeakest pick: CSCO (Technology) - low momentum (MFI=52.0).\n\n\u2022 Overall confidence: MEDIUM \nThe presence of both strong and weak picks, as well as contradictions between screener and monitor signals, indicates a mixed and uncertain market environment.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
