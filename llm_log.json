@@ -1,10 +1,12 @@
 [
   {
-    "ts_utc": "2026-07-10 23:06 UTC",
-    "phase": "After-Hours (4:00-8:00 PM ET)",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe Materials sector is strong, but META and AAPL are from Technology, which is not as strong. \nECL is a Materials stock, but its score is lower than the others, and its volume is low.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nSCO and PLTR are below their 200-day MA, but they are not on the screener list. \nLULU and NFLX have MACD bearish crossovers, but they are also below their 200-day MA.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest: ECL, due to its high institutional ownership (93.8%).\nWeakest: AAPL, due to its low volume (0.6x).\n\n\u2022 Overall confidence: MEDIUM\nThe screener picks are mixed with both strong and weak candidates, and there are contradictions with the monitor signals.",
+    "ts_utc": "2026-07-11 01:24 UTC",
+    "phase": "Overnight",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nMaterials sector is strong, but META and AAPL are from other sectors, which may not align with the sector momentum. ECL and CSCO are from the Materials sector, but their scores are lower than ECL.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nSCO, PLTR, LULU, NFLX, and MCD are below their 200-day MA, contradicting the screener's MA200=above signal. 2884.TW is overbought, contradicting the screener's MFI=63.3 and MFI=67.0 signals.\n\n\u2022 Name the strongest and weakest pick with one reason each:\n Strongest pick: ECL (Materials) - High institutional ownership (93.8%).\n Weakest pick: AAPL (Technology) - Low score (10/17).\n\n\u2022 Overall confidence: MEDIUM - The screener's signals are mixed, and some monitor signals contradict the screener's signals.\n\u26a0\ufe0f Hallucination check flagged: TW",
     "conflicts": [],
-    "suspicious_tickers": [],
+    "suspicious_tickers": [
+      "TW"
+    ],
     "model": "groq/llama-3.1-8b-instant (free)"
   }
 ]
