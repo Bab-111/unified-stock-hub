@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-07-14 02:13 UTC",
-    "phase": "Overnight",
-    "note": "\u2022 Validate top screener picks vs sector momentum: The top screener picks (PSX, VLO, MPC) are all in the Energy sector, which is the top sector for the overnight market. This aligns with the sector momentum.\n\u2022 Flag any contradiction between screener and monitor signals: RKLB and ATOM have bearish MACD crossovers, which contradicts the overall positive trend of the top screener picks.\n\u2022 Name the strongest and weakest pick with one reason each: Strongest pick: PSX, due to its high institutional ownership (80.8%). Weakest pick: EBAY, due to its low trading volume (0.5x).\n\u2022 Overall confidence: HIGH, as the top screener picks align with sector momentum and have strong institutional support.",
+    "ts_utc": "2026-07-14 14:44 UTC",
+    "phase": "Regular Market Hours",
+    "note": "\u2022 Validate top screener picks vs sector momentum: The top screener picks (JPM, V, MA, C, AAPL) are all in the Financials sector, which is currently the top sector. Their scores and metrics suggest they are strong performers, but AAPL is the only non-Financials pick, which may indicate a sector rotation opportunity.\n\n\u2022 Flag any contradiction between screener and monitor signals: None of the top screener picks have any monitor alerts. However, RKLB and ATOM have bearish MACD crossovers, which could indicate a potential reversal in the Financials sector.\n\n\u2022 Name the strongest and weakest pick with one reason each: \n  - Strongest pick: V (Financials) due to its high institutional ownership (91.6%) and strong momentum.\n  - Weakest pick: C (Financials) due to its low trading volume (0.3x MA200).\n\n\u2022 Overall confidence: HIGH, as the top screener picks are strong performers in the top sector, and there are no major contradictions between the screener and monitor signals.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
