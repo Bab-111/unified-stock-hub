@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Stock Hub — 2026-07-15 05:07 TW</title>
+<title>Stock Hub — 2026-07-15 07:01 TW</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -233,7 +233,7 @@ a:hover { text-decoration: underline; }
   <div class="header-title">📈 Stock Hub</div>
   <div class="phase-badge"><div class="phase-dot"></div>After-Hours (4:00-8:00 PM ET)</div>
   <span class="run-mode-tag">SCREENER</span>
-  <div class="header-time" id="live-clock">2026-07-15 05:07 TW &nbsp;|&nbsp; 2026-07-14 21:07 UTC</div>
+  <div class="header-time" id="live-clock">2026-07-15 07:01 TW &nbsp;|&nbsp; 2026-07-14 23:01 UTC</div>
   <button class="theme-btn" onclick="toggleTheme()">☀ / ☾</button>
 </div>
 
@@ -245,7 +245,7 @@ a:hover { text-decoration: underline; }
 </div>
 
 <div id="screener" class="tab-pane active">
-        <div class="updated-note">Run: 2026-07-14 21:07 &nbsp;·&nbsp; 132 stocks scored &nbsp;·&nbsp; Top sector: <strong style="color:var(--accent)">Technology</strong></div>
+        <div class="updated-note">Run: 2026-07-14 23:01 &nbsp;·&nbsp; 132 stocks scored &nbsp;·&nbsp; Top sector: <strong style="color:var(--accent)">Technology</strong></div>
         <div class="sentiment-strip">
           <div class="sent-seg sent-g" style="width:0.8%">1% Strong</div>
           <div class="sent-seg sent-y" style="width:6.8%">7%</div>
@@ -380,7 +380,7 @@ a:hover { text-decoration: underline; }
       <div class="factor-pills"><span class="pill fr">Vol</span><span class="pill fg">Breakout</span><span class="pill fr">MA200</span><span class="pill fg">Inst</span><span class="pill fg">MFI</span><span class="pill fg">Sector</span><span class="pill fr">History</span><span class="pill fg">IV</span></div>
       <div class="card-meta">
         <span>Vol: <strong>0.8x</strong></span>
-        <span>MA200: <strong class="neg">$184.2248052581539</strong></span>
+        <span>MA200: <strong class="neg">$184.22480575437467</strong></span>
         <span>Inst: <strong>94.2%</strong></span>
         <span>MFI: <strong>66.3</strong></span>
         <span>IV(mean): <strong>113.0%</strong></span>
@@ -593,7 +593,7 @@ a:hover { text-decoration: underline; }
         </div></div></div>
             <div class="section-title">LLM Supervision</div>
             <div class="llm-panel">
-              <div class="llm-note">• Validate top screener picks vs sector momentum: <br>The Technology sector is strong in after-hours, validating the top picks AAPL, CRM, AMD, and QCOM.<br><br>• Flag any contradiction between screener and monitor signals: <br>None found, but monitor signals from RKLB, ATOM, SCO, SOFI, IREN, PLTR, LULU, NOW, NFLX, and MCD are bearish, which contrasts with the overall sector momentum.<br><br>• Name the strongest and weakest pick with one reason each:<br>Strongest: AAPL (score=13/17 and MFI=75.8, indicating strong buying pressure).<br>Weakest: JPM (score=11/17 and MFI=60.5, indicating moderate selling pressure).<br><br>• Overall confidence: HIGH<br>The strong sector momentum and high scores from the top picks give confidence in the screener results.</div>
+              <div class="llm-note">• Validate top screener picks vs sector momentum: <br>The top sector is Technology, and all top screener picks (AAPL, CRM, AMD, QCOM) are within this sector, validating the sector momentum.<br><br>• Flag any contradiction between screener and monitor signals: <br>There are no direct contradictions between the screener top picks and the watchlist alerts.<br><br>• Name the strongest and weakest pick with one reason each:<br>Strongest pick: AAPL, due to its high MFI score of 75.8 indicating strong buying pressure.<br>Weakest pick: JPM, due to its lower score of 11/17 compared to the other top picks.<br><br>• Overall confidence: HIGH<br>The top screener picks align with the sector momentum, and there are no direct contradictions with the watchlist alerts, indicating a high level of confidence in the automated stock report.</div>
             </div>
           </div>
         </div>
@@ -726,7 +726,7 @@ a:hover { text-decoration: underline; }
         <li><strong>AI supervision:</strong> Groq Llama 3.1 (free) — validates picks against sector context (requires GROQ_API_KEY secret)</li>
         <li><strong>Universe:</strong> 132 stocks defined in config/universe.csv</li>
         <li><strong>Scoring weights:</strong> Inst.Own(3) · Sector(3) · Volume(2) · Breakout(2) · MA200(2) · MFI(2) · History(2) · IV(1) = 17pts max</li>
-        <li><strong>Run time:</strong> 2026-07-14 21:07 UTC — Market phase: After-Hours (4:00-8:00 PM ET)</li>
+        <li><strong>Run time:</strong> 2026-07-14 23:01 UTC — Market phase: After-Hours (4:00-8:00 PM ET)</li>
       </ul>
       <div style="margin-top:10px;font-size:.75rem;color:var(--muted);border-top:1px solid var(--border);padding-top:8px">
         ⚠️ For informational purposes only — not financial advice. All data from Yahoo Finance (free tier).
@@ -1678,9 +1678,9 @@ a:hover { text-decoration: underline; }
     <div class="section-title">LLM Supervision Log (last 1 runs)</div>
     <div class="llm-panel">
         <div class="llm-entry">
-          <div class="llm-meta">2026-07-14 21:07 UTC &nbsp;·&nbsp; After-Hours (4:00-8:00 PM ET)</div>
+          <div class="llm-meta">2026-07-14 23:01 UTC &nbsp;·&nbsp; After-Hours (4:00-8:00 PM ET)</div>
           
-          <div class="llm-note">• Validate top screener picks vs sector momentum: <br>The Technology sector is strong in after-hours, validating the top picks AAPL, CRM, AMD, and QCOM.<br><br>• Flag any contradiction between screener and monitor signals: <br>None found, but monitor signals from RKLB, ATOM, SCO, SOFI, IREN, PLTR, LULU, NOW, NFLX, and MCD are bearish, which contrasts with the overall sector momentum.<br><br>• Name the strongest and weakest pick with one reason each:<br>Strongest: AAPL (score=13/17 and MFI=75.8, indicating strong buying pressure).<br>Weakest: JPM (score=11/17 and MFI=60.5, indicating moderate selling pressure).<br><br>• Overall confidence: HIGH<br>The strong sector momentum and high scores from the top picks give confidence in the screener results.</div>
+          <div class="llm-note">• Validate top screener picks vs sector momentum: <br>The top sector is Technology, and all top screener picks (AAPL, CRM, AMD, QCOM) are within this sector, validating the sector momentum.<br><br>• Flag any contradiction between screener and monitor signals: <br>There are no direct contradictions between the screener top picks and the watchlist alerts.<br><br>• Name the strongest and weakest pick with one reason each:<br>Strongest pick: AAPL, due to its high MFI score of 75.8 indicating strong buying pressure.<br>Weakest pick: JPM, due to its lower score of 11/17 compared to the other top picks.<br><br>• Overall confidence: HIGH<br>The top screener picks align with the sector momentum, and there are no direct contradictions with the watchlist alerts, indicating a high level of confidence in the automated stock report.</div>
           
         </div></div></div>
 
