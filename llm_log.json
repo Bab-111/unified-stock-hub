@@ -2,7 +2,7 @@
   {
     "ts_utc": "2026-07-15 20:06 UTC",
     "phase": "After-Hours (4:00-8:00 PM ET)",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe Comm. Services sector is strong, but AAPL's high MFI and GOOGL's low MFI contradict the sector's overall strength.\n\n\u2022 Flag any contradiction between screener and monitor signals:\nRKLB and ATOM show bearish MACD crossovers, contradicting the overall positive screener signals.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: EBAY, due to its high institutional ownership (96.2%).\nWeakest pick: GOOGL, due to its low MFI (42.9).\n\n\u2022 Overall confidence: MEDIUM, due to mixed signals within the top screener picks and sector momentum.",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \n  The top sector is Comm. Services, and all top picks (GOOGL, META, and AAPL) are within this sector, validating their inclusion.\n\n\u2022 Flag any contradiction between screener and monitor signals: \n  RKLB, ATOM, SCO, and SOFI have bearish MACD crossovers, contradicting the screener's positive signals.\n\n\u2022 Name the strongest and weakest pick with one reason each: \n  Strongest pick: EBAY (Consumer Disc) - high institutional ownership (96.2%) and strong MFI.\n  Weakest pick: GOOGL (Comm. Services) - low MFI (42.9) compared to other top picks.\n\n\u2022 Overall confidence: MEDIUM - The presence of contradictory monitor signals and relatively low MFI for GOOGL temper confidence in the top picks.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
