@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-07-14 23:03 UTC",
-    "phase": "After-Hours (4:00-8:00 PM ET)",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top sector is Technology, and all top screener picks (AAPL, CRM, AMD, QCOM) are within this sector, validating their inclusion.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nRKLB, ATOM, SCO, and SOFI have bearish MACD crossovers, contradicting the screener's positive signals for AAPL and QCOM.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest: AAPL, due to its high MFI score (75.8) indicating strong buying pressure.\nWeakest: JPM, due to its low MFI score (60.5) indicating weak buying pressure.\n\n\u2022 Overall confidence: MEDIUM \nThe presence of contradictory signals from the watchlist and the relatively low MFI scores of some top picks reduce overall confidence in the screener's accuracy.",
+    "ts_utc": "2026-07-15 01:13 UTC",
+    "phase": "Overnight",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nAAPL and QCOM have strong momentum in the Technology sector, with high scores and above MA200. CRM's low score and below MA200 indicate a potential weakness.\n\n\u2022 Flag any contradiction between screener and monitor signals:\nNone, as monitor signals are mostly related to individual stocks and do not contradict screener picks.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest: AAPL, due to its high score and strong momentum.\nWeakest: CRM, due to its low score and below MA200.\n\n\u2022 Overall confidence: HIGH, as the top screener picks have strong momentum in the Technology sector.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
