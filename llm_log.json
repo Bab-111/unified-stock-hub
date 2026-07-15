@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-07-15 02:11 UTC",
-    "phase": "Overnight",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nAAPL, CRM, and QCOM are strong within the Technology sector, while JPM is the only Financials pick. \nSector momentum is strong, driven by Technology.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nRKLB, ATOM, SCO, and SOFI have bearish MACD crossovers, but no corresponding screener picks.\nIREN, PLTR, LULU, NOW, NFLX, and MCD are below their 200-day MAs, but no corresponding screener picks.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: AAPL (score of 13/17 and high MFI of 75.8).\nWeakest pick: JPM (lower MFI of 61.6 compared to other Financials stocks).\n\n\u2022 Overall confidence: MEDIUM\nThe strong sector momentum and top screener picks are balanced by the bearish monitor signals and lack of corresponding screener picks.",
+    "ts_utc": "2026-07-15 14:43 UTC",
+    "phase": "Regular Market Hours",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nAAPL and QCOM show strong momentum with scores above 11/17 and MA200 above, while CRM and PLTR have mixed signals with scores below 11/17 and MA200 below.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nPLTR is on the watchlist for being below its 200-day MA, contradicting its screener score of 11/17.\n\n\u2022 Name the strongest and weakest pick with one reason each: \nStrongest: AAPL, due to its high score of 13/17 and strong momentum.\nWeakest: PLTR, due to its low score of 11/17 and recent bearish crossover.\n\n\u2022 Overall confidence: MEDIUM, due to mixed signals from top screener picks and watchlist alerts.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
