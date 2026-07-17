@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Stock Hub — 2026-07-17 09:26 TW</title>
+<title>Stock Hub — 2026-07-17 10:28 TW</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -233,7 +233,7 @@ a:hover { text-decoration: underline; }
   <div class="header-title">📈 Stock Hub</div>
   <div class="phase-badge"><div class="phase-dot"></div>Overnight</div>
   <span class="run-mode-tag">SCREENER</span>
-  <div class="header-time" id="live-clock">2026-07-17 09:26 TW &nbsp;|&nbsp; 2026-07-17 01:26 UTC</div>
+  <div class="header-time" id="live-clock">2026-07-17 10:28 TW &nbsp;|&nbsp; 2026-07-17 02:28 UTC</div>
   <button class="theme-btn" onclick="toggleTheme()">☀ / ☾</button>
 </div>
 
@@ -245,7 +245,7 @@ a:hover { text-decoration: underline; }
 </div>
 
 <div id="screener" class="tab-pane active">
-        <div class="updated-note">Run: 2026-07-17 01:25 &nbsp;·&nbsp; 132 stocks scored &nbsp;·&nbsp; Top sector: <strong style="color:var(--accent)">Consumer Stpl</strong></div>
+        <div class="updated-note">Run: 2026-07-17 02:27 &nbsp;·&nbsp; 132 stocks scored &nbsp;·&nbsp; Top sector: <strong style="color:var(--accent)">Consumer Stpl</strong></div>
         <div class="sentiment-strip">
           <div class="sent-seg sent-g" style="width:2.3%">2% Strong</div>
           <div class="sent-seg sent-y" style="width:5.3%">5%</div>
@@ -593,7 +593,7 @@ a:hover { text-decoration: underline; }
         </div></div></div>
             <div class="section-title">LLM Supervision</div>
             <div class="llm-panel">
-              <div class="llm-note">• Validate top screener picks vs sector momentum: <br>Consumer Stpl sector is strong with PM, GIS, and KO having high institutional ownership and above 200-day MA. <br>PLD in Real Estate has a high institutional ownership but is below sector momentum.<br><br>• Flag any contradiction between screener and monitor signals:<br>RKLB, SOFI, DRAM, IREN, ATOM, SCO, QCOM have bearish MACD crossovers, contradicting the screener's positive signals.<br><br>• Name the strongest and weakest pick with one reason each:<br>Strongest: PM - high institutional ownership (84.1%).<br>Weakest: KO - low relative strength (68.3%).<br><br>• Overall confidence: MEDIUM - sector momentum is strong, but monitor signals show potential risks.</div>
+              <div class="llm-note">• Validate top screener picks vs sector momentum: <br>The top screener picks (PM, PLD, GIS, UNH, KO) are all in the Consumer Stpl sector, which is the top sector. However, PLD is in the Real Estate sector, which is not the top sector. This could indicate a potential contradiction.<br><br>• Flag any contradiction between screener and monitor signals:<br>There are no direct contradictions between the screener and monitor signals. However, the monitor signals (MACD bearish crossover, below 200-day MA) for stocks like RKLB, SOFI, and others may contradict the screener signals for stocks like PM, which has a high score and above MA200.<br><br>• Name the strongest and weakest pick with one reason each:<br>Strongest pick: PM (score=13/17) due to its high score and above MA200.<br>Weakest pick: KO (score=11/17) due to its low institutional ownership percentage (68.3%).<br><br>• Overall confidence: MEDIUM<br>The screener picks show positive momentum, but the monitor signals indicate potential weakness in the sector, which reduces overall confidence.</div>
             </div>
           </div>
         </div>
@@ -726,7 +726,7 @@ a:hover { text-decoration: underline; }
         <li><strong>AI supervision:</strong> Groq Llama 3.1 (free) — validates picks against sector context (requires GROQ_API_KEY secret)</li>
         <li><strong>Universe:</strong> 132 stocks defined in config/universe.csv</li>
         <li><strong>Scoring weights:</strong> Inst.Own(3) · Sector(3) · Volume(2) · Breakout(2) · MA200(2) · MFI(2) · History(2) · IV(1) = 17pts max</li>
-        <li><strong>Run time:</strong> 2026-07-17 01:25 UTC — Market phase: Overnight</li>
+        <li><strong>Run time:</strong> 2026-07-17 02:27 UTC — Market phase: Overnight</li>
       </ul>
       <div style="margin-top:10px;font-size:.75rem;color:var(--muted);border-top:1px solid var(--border);padding-top:8px">
         ⚠️ For informational purposes only — not financial advice. All data from Yahoo Finance (free tier).
@@ -1678,9 +1678,9 @@ a:hover { text-decoration: underline; }
     <div class="section-title">LLM Supervision Log (last 1 runs)</div>
     <div class="llm-panel">
         <div class="llm-entry">
-          <div class="llm-meta">2026-07-17 01:26 UTC &nbsp;·&nbsp; Overnight</div>
+          <div class="llm-meta">2026-07-17 02:28 UTC &nbsp;·&nbsp; Overnight</div>
           
-          <div class="llm-note">• Validate top screener picks vs sector momentum: <br>Consumer Stpl sector is strong with PM, GIS, and KO having high institutional ownership and above 200-day MA. <br>PLD in Real Estate has a high institutional ownership but is below sector momentum.<br><br>• Flag any contradiction between screener and monitor signals:<br>RKLB, SOFI, DRAM, IREN, ATOM, SCO, QCOM have bearish MACD crossovers, contradicting the screener's positive signals.<br><br>• Name the strongest and weakest pick with one reason each:<br>Strongest: PM - high institutional ownership (84.1%).<br>Weakest: KO - low relative strength (68.3%).<br><br>• Overall confidence: MEDIUM - sector momentum is strong, but monitor signals show potential risks.</div>
+          <div class="llm-note">• Validate top screener picks vs sector momentum: <br>The top screener picks (PM, PLD, GIS, UNH, KO) are all in the Consumer Stpl sector, which is the top sector. However, PLD is in the Real Estate sector, which is not the top sector. This could indicate a potential contradiction.<br><br>• Flag any contradiction between screener and monitor signals:<br>There are no direct contradictions between the screener and monitor signals. However, the monitor signals (MACD bearish crossover, below 200-day MA) for stocks like RKLB, SOFI, and others may contradict the screener signals for stocks like PM, which has a high score and above MA200.<br><br>• Name the strongest and weakest pick with one reason each:<br>Strongest pick: PM (score=13/17) due to its high score and above MA200.<br>Weakest pick: KO (score=11/17) due to its low institutional ownership percentage (68.3%).<br><br>• Overall confidence: MEDIUM<br>The screener picks show positive momentum, but the monitor signals indicate potential weakness in the sector, which reduces overall confidence.</div>
           
         </div></div></div>
 
