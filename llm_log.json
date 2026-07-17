@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-07-17 20:04 UTC",
+    "ts_utc": "2026-07-17 20:56 UTC",
     "phase": "After-Hours (4:00-8:00 PM ET)",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top Energy sector picks (PSX, MPC, VLO, and CVX) have strong scores and high institutional ownership, indicating sector momentum.\n\n\u2022 Flag any contradiction between screener and monitor signals:\nNone found, but monitor signals show bearish crossovers in several stocks, which may contradict the screener's bullish signals.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest: PSX, due to its high institutional ownership (80.8%).\nWeakest: CVX, due to its low trading volume (0.5x).\n\n\u2022 Overall confidence: HIGH\nThe screener's top picks in the Energy sector, combined with the sector's momentum, give a high level of confidence in these stocks.",
+    "note": "\u2022 Validate top screener picks vs sector momentum: The top Energy sector picks (PSX, VLO, MPC, CVX) are all above their 200-day MA and have high institutional ownership, indicating sector momentum is strong.\n\u2022 Flag any contradiction between screener and monitor signals: There are no direct contradictions, but the Energy sector's strength may overshadow the bearish crossovers in other sectors.\n\u2022 Name the strongest and weakest pick with one reason each: \n  - Strongest: PSX, due to its high institutional ownership (80.8%).\n  - Weakest: CVX, due to its low Money Flow Index (52.1).\n\u2022 Overall confidence: HIGH, as the top Energy sector picks are well-positioned for After-Hours momentum.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
