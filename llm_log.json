@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-07-16 23:04 UTC",
-    "phase": "After-Hours (4:00-8:00 PM ET)",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nPM and GIS show strong sector momentum with high MFI and above MA200, while PLD has high institutional ownership. UNH and KO have moderate momentum.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nNone found.\n\n\u2022 Name the strongest and weakest pick with one reason each: \nStrongest pick: PM, due to its high MFI indicating strong buying pressure. \nWeakest pick: KO, due to its low institutional ownership.\n\n\u2022 Overall confidence: HIGH, due to strong sector momentum and high institutional ownership among top picks.",
+    "ts_utc": "2026-07-17 01:26 UTC",
+    "phase": "Overnight",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nConsumer Stpl sector is strong with PM, GIS, and KO having high institutional ownership and above 200-day MA. \nPLD in Real Estate has a high institutional ownership but is below sector momentum.\n\n\u2022 Flag any contradiction between screener and monitor signals:\nRKLB, SOFI, DRAM, IREN, ATOM, SCO, QCOM have bearish MACD crossovers, contradicting the screener's positive signals.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest: PM - high institutional ownership (84.1%).\nWeakest: KO - low relative strength (68.3%).\n\n\u2022 Overall confidence: MEDIUM - sector momentum is strong, but monitor signals show potential risks.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
