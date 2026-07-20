@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-07-20 18:51 UTC",
-    "phase": "Regular Market Hours",
-    "note": "\u2022 The top screener picks in the Energy sector (XOM, PSX, VLO, MPC) show strong momentum with scores above 10/17 and MFI above 65.5, validating their selection.\n\u2022 There are no contradictions between screener and monitor signals, as all top picks are from the Energy sector and none of the monitor signals directly contradict their selection.\n\u2022 The strongest pick is VLO (87.8% inst) due to its high institutional ownership, while the weakest pick is XOM (68.4% inst) due to its relatively lower institutional ownership compared to the other top picks.\n\u2022 Overall confidence: HIGH, as the top screener picks show strong momentum and no direct contradictions with monitor signals.",
+    "ts_utc": "2026-07-20 20:18 UTC",
+    "phase": "After-Hours (4:00-8:00 PM ET)",
+    "note": "\u2022 Validate top screener picks vs sector momentum: The Energy sector is strong, and all top screener picks (PSX, VLO, MPC, CVX) have a score of 11/17, indicating a high level of momentum. This aligns with the sector's performance.\n\n\u2022 Flag any contradiction between screener and monitor signals: RKLB, SOFI, DRAM, IREN, ATOM, SCO, PLTR, LULU, NOW, QCOM, NFLX, and MCD have bearish MACD crossovers or are below their 200-day MA, contradicting the screener's focus on Energy sector strength.\n\n\u2022 Name the strongest and weakest pick with one reason each: \n  - Strongest pick: VLO (Energy) due to its high institutional ownership (87.8%).\n  - Weakest pick: CVX (Energy) due to its low MFI (58.8), indicating a potential decline in buying pressure.\n\n\u2022 Overall confidence: MEDIUM due to the presence of bearish MACD crossovers and stocks below their 200-day MA in other sectors, which may impact the Energy sector's momentum.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
