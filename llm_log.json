@@ -1,9 +1,16 @@
 [
   {
-    "ts_utc": "2026-07-20 15:29 UTC",
+    "ts_utc": "2026-07-20 16:07 UTC",
     "phase": "Regular Market Hours",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top Energy sector picks (PSX, MPC, VLO) have strong momentum with high MFI scores, while AAPL and QCOM in the Technology sector have mixed signals, with high scores but bearish MACD crossovers.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nQCOM appears in both the screener and watchlist, with a bearish MACD crossover in the watchlist, contradicting its strong screener score.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: PSX (Energy) - High MFI score (75.7) indicating strong buying pressure.\nWeakest pick: VLO (Energy) - Low volume (0.2x) indicating low trading activity.\n\n\u2022 Overall confidence: MEDIUM \nThe mixed signals from Technology sector stocks and the contradictions in QCOM's signals reduce confidence in the top picks.",
-    "conflicts": [],
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top sector is Technology, and all top screener picks (AAPL, QCOM, AMD, AVGO, TXN) are within this sector, validating their inclusion.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nQCOM is flagged due to a contradiction between its strong screener score and a bearish MACD crossover.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest: AAPL, due to its high score (13/17) and strong momentum (MA200 above).\nWeakest: AVGO, due to its relatively low score (10/17) despite a strong institutional ownership percentage.\n\n\u2022 Overall confidence: MEDIUM \nThe presence of contradictions and mixed signals within the screener and monitor results reduces overall confidence in the picks.",
+    "conflicts": [
+      {
+        "ticker": "QCOM",
+        "reasons": [
+          "Screener=strong but MACD bearish crossover"
+        ]
+      }
+    ],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
   }
