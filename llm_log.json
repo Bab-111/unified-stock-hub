@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-07-18 02:12 UTC",
-    "phase": "Overnight",
-    "note": "\u2022 Validate top screener picks vs sector momentum: The top sector is Energy, and all Energy picks (PSX, VLO, MPC, CVX) have scores above 10/17, indicating strong momentum within the sector.\n\u2022 Flag any contradiction between screener and monitor signals: RKLB, SOFI, DRAM, IREN, ATOM, SCO, and QCOM have bearish MACD crossovers, contradicting the screener's positive signals for Energy stocks.\n\u2022 Name the strongest and weakest pick with one reason each: Strongest pick: PSX, due to its high MFI (77.0) indicating strong buying pressure. Weakest pick: CVX, due to its low MFI (52.1) indicating weak buying pressure.\n\u2022 Overall confidence: MEDIUM, due to the presence of contradictory signals from the monitor and the relatively low MFI of CVX.",
+    "ts_utc": "2026-07-20 15:04 UTC",
+    "phase": "Regular Market Hours",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top sector is Energy, with PSX and VLO showing strong momentum in the screener, but their MFI values are relatively low compared to the sector average.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nQCOM appears in both the screener and watchlist, but with a bearish MACD crossover in the watchlist, contradicting its strong screener score.\n\n\u2022 Name the strongest and weakest pick with one reason each: \nStrongest pick: VLO, with a high institutional ownership percentage (87.8%) indicating strong investor confidence.\nWeakest pick: RKLB, with a heavy drop of -11.61% due to a MACD bearish crossover.\n\n\u2022 Overall confidence: MEDIUM \nThe mixed signals from QCOM and the bearish crossover in RKLB reduce overall confidence in the top picks.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
