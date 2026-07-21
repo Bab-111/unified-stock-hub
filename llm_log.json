@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-07-21 21:09 UTC",
+    "ts_utc": "2026-07-21 21:20 UTC",
     "phase": "After-Hours (4:00-8:00 PM ET)",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nAAPL, AMD, and AVGO are strong top picks within the Technology sector, showing high scores and above-average institutional ownership. UNH stands out as a Healthcare stock in a Technology-dominated list.\n\n\u2022 Flag any contradiction between screener and monitor signals:\nQCOM is both a top screener pick and has a bearish MACD crossover, indicating a potential contradiction.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest: AAPL (high score of 13/17)\nWeakest: UNH (low score of 10/17)\n\n\u2022 Overall confidence: HIGH\nThe top picks are consistent with sector momentum, and the strongest pick, AAPL, has a high score, indicating a strong potential for growth.",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nAAPL, AMD, and AVGO are strong within the Technology sector, while QCOM shows a bearish crossover, contradicting its high institutional ownership.\n\n\u2022 Flag any contradiction between screener and monitor signals:\nQCOM is a top screener pick but has a bearish crossover on the watchlist, and PLTR is overbought but below its 200-day MA.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest: AAPL, due to its high institutional ownership (66.2%).\nWeakest: QCOM, due to its bearish crossover.\n\n\u2022 Overall confidence: HIGH, as AAPL and AMD show strong momentum within the Technology sector.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
