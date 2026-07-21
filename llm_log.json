@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-07-21 18:14 UTC",
-    "phase": "Regular Market Hours",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top screener picks (AAPL, AMD, QCOM, AVGO, TXN) are all in the Technology sector, which is currently the top sector. Their scores and metrics indicate a strong momentum within the sector.\n\n\u2022 Flag any contradiction between screener and monitor signals:\nQCOM is both a top screener pick and has a bearish MACD crossover, indicating a contradiction between the two signals.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: AAPL, due to its high score (13/17) and high MFI (77.3).\nWeakest pick: AVGO, due to its low score (10/17) compared to other picks.\n\n\u2022 Overall confidence: HIGH\nThe top screener picks have strong momentum within the Technology sector, and while there are some contradictions, overall confidence remains high.",
+    "ts_utc": "2026-07-21 20:17 UTC",
+    "phase": "After-Hours (4:00-8:00 PM ET)",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top sector is Technology, with AAPL, AMD, AVGO, and QCOM as top screener picks. All four stocks have strong momentum, with high scores and above 200-day MA, indicating a strong sector trend.\n\n\u2022 Flag any contradiction between screener and monitor signals:\nQCOM is both a top screener pick and has a bearish MACD crossover, indicating a potential contradiction.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: AAPL (score=13/17) due to its high score and strong momentum.\nWeakest pick: QCOM (score=11/17) due to its bearish MACD crossover.\n\n\u2022 Overall confidence: HIGH\nThe strong sector trend and high scores of the top picks indicate a high level of confidence in the market's direction.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
