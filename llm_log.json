@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-07-21 23:03 UTC",
+    "ts_utc": "2026-07-21 23:04 UTC",
     "phase": "After-Hours (4:00-8:00 PM ET)",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe Technology sector is strong, with AAPL, AMD, and AVGO showing high scores and above-average MFI. QCOM also has a high score but a low MFI, indicating a potential sell signal.\n\n\u2022 Flag any contradiction between screener and monitor signals:\nQCOM has a MACD bearish crossover on the watchlist, contradicting its high score on the screener.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest: AAPL, due to its high score and above-average MFI.\nWeakest: QCOM, due to its low MFI and MACD bearish crossover.\n\n\u2022 Overall confidence: MEDIUM\nThe sector is strong, but some individual stocks show mixed signals, reducing overall confidence.",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top screener picks (AAPL, AMD, QCOM, UNH, AVGO) are all in the Technology sector, which is the top sector in the market. Their scores and metrics indicate strong performance, with most above their 200-day MA and high institutional ownership.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nQCOM is both a top screener pick and has a bearish MACD crossover, indicating a potential contradiction.\n\n\u2022 Name the strongest and weakest pick with one reason each: \nStrongest pick: AAPL, due to its high score (13/17) and high institutional ownership (66.2%).\nWeakest pick: UNH, due to its low score (10/17) and low trading volume (0.5x).\n\n\u2022 Overall confidence: MEDIUM \nThe presence of a contradiction in QCOM's signals and the relatively low scores of some picks temper confidence in the top screener picks.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
