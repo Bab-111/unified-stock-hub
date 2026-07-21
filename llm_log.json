@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-07-21 02:28 UTC",
-    "phase": "Overnight",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top Energy sector picks (PSX, VLO, MPC, CVX, AAPL) are all above their 200-day MA, indicating a strong sector momentum.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nNone found, as all top picks are from the Energy sector and do not conflict with the monitor signals.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest: VLO (87.8% institutional ownership), indicating strong investor confidence.\nWeakest: CVX (59.0 MFI), indicating potential selling pressure.\n\n\u2022 Overall confidence: HIGH \nThe sector momentum and strong institutional ownership of top picks suggest a high confidence in the Energy sector's performance.",
+    "ts_utc": "2026-07-21 15:00 UTC",
+    "phase": "Regular Market Hours",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \n  Top screener picks (AAPL, ADBE, CRM, AMD, QCOM) all belong to the Technology sector, which is currently leading the market. Their scores and metrics suggest a mix of strong and weak performances, but all are above their 200-day MA, indicating a positive trend.\n\n\u2022 Flag any contradiction between screener and monitor signals: \n  QCOM is both a top screener pick and has a bearish MACD crossover, indicating a potential contradiction. This warrants further investigation.\n\n\u2022 Name the strongest and weakest pick with one reason each: \n  Strongest pick: AAPL, with a high score (13/17) and above-average MFI (78.8).\n  Weakest pick: CRM, with a high volume (0.9x) and low MFI (66.8), indicating potential overbought conditions.\n\n\u2022 Overall confidence: MEDIUM \n  The top screener picks show a mix of strong and weak performances, while the watchlist alerts highlight potential bearish crossovers and overbought conditions, making it a moderately confident selection.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
