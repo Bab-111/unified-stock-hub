@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Stock Hub — 2026-07-22 09:22 TW</title>
+<title>Stock Hub — 2026-07-22 10:27 TW</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -233,7 +233,7 @@ a:hover { text-decoration: underline; }
   <div class="header-title">📈 Stock Hub</div>
   <div class="phase-badge"><div class="phase-dot"></div>Overnight</div>
   <span class="run-mode-tag">SCREENER</span>
-  <div class="header-time" id="live-clock">2026-07-22 09:22 TW &nbsp;|&nbsp; 2026-07-22 01:22 UTC</div>
+  <div class="header-time" id="live-clock">2026-07-22 10:27 TW &nbsp;|&nbsp; 2026-07-22 02:27 UTC</div>
   <button class="theme-btn" onclick="toggleTheme()">☀ / ☾</button>
 </div>
 
@@ -245,7 +245,7 @@ a:hover { text-decoration: underline; }
 </div>
 
 <div id="screener" class="tab-pane active">
-        <div class="updated-note">Run: 2026-07-22 01:22 &nbsp;·&nbsp; 132 stocks scored &nbsp;·&nbsp; Top sector: <strong style="color:var(--accent)">Technology</strong></div>
+        <div class="updated-note">Run: 2026-07-22 02:26 &nbsp;·&nbsp; 132 stocks scored &nbsp;·&nbsp; Top sector: <strong style="color:var(--accent)">Technology</strong></div>
         <div class="sentiment-strip">
           <div class="sent-seg sent-g" style="width:1.5%">2% Strong</div>
           <div class="sent-seg sent-y" style="width:6.1%">6%</div>
@@ -278,7 +278,7 @@ a:hover { text-decoration: underline; }
       <div class="factor-pills"><span class="pill fr">Vol</span><span class="pill fr">Breakout</span><span class="pill fg">MA200</span><span class="pill fg">Inst</span><span class="pill fg">MFI</span><span class="pill fg">Sector</span><span class="pill fg">History</span><span class="pill fg">IV</span></div>
       <div class="card-meta">
         <span>Vol: <strong>0.8x</strong></span>
-        <span>MA200: <strong class="pos">$279.6124345102618</strong></span>
+        <span>MA200: <strong class="pos">$279.6124342641523</strong></span>
         <span>Inst: <strong>66.2%</strong></span>
         <span>MFI: <strong>75.4</strong></span>
         <span>IV(mean): <strong>107.8%</strong></span>
@@ -431,7 +431,7 @@ a:hover { text-decoration: underline; }
       <div class="factor-pills"><span class="pill fr">Vol</span><span class="pill fg">Breakout</span><span class="pill fg">MA200</span><span class="pill fg">Inst</span><span class="pill fy">MFI</span><span class="pill fy">Sector</span><span class="pill fr">History</span><span class="pill fg">IV</span></div>
       <div class="card-meta">
         <span>Vol: <strong>0.5x</strong></span>
-        <span>MA200: <strong class="pos">$342.1683883666992</strong></span>
+        <span>MA200: <strong class="pos">$342.1683873822612</strong></span>
         <span>Inst: <strong>86.1%</strong></span>
         <span>MFI: <strong>54.9</strong></span>
         <span>IV(mean): <strong>128.4%</strong></span>
@@ -593,7 +593,7 @@ a:hover { text-decoration: underline; }
         </div></div></div>
             <div class="section-title">LLM Supervision</div>
             <div class="llm-panel">
-              <div class="llm-note">• Validate top screener picks vs sector momentum: <br>The top screener picks (AAPL, AMD, QCOM, UNH, AVGO) are all in the Technology sector, which is currently the top sector. Their scores and metrics are relatively strong, indicating potential for growth.<br><br>• Flag any contradiction between screener and monitor signals:<br>QCOM is both a top screener pick and has a bearish MACD crossover, which contradicts its strong screener score. This indicates potential for a short-term correction.<br><br>• Name the strongest and weakest pick with one reason each:<br>Strongest pick: AAPL (score=13/17, high MFI=75.4) <br>Weakest pick: UNH (score=10/17, low volume=0.5x)<br><br>• Overall confidence: MEDIUM<br>The top screener picks show potential for growth, but the contradiction in QCOM's signals and the bearish MACD crossovers in other stocks indicate a need for caution.</div>
+              <div class="llm-note">• Validate top screener picks vs sector momentum: <br>The top screener picks (AAPL, AMD, QCOM, UNH, AVGO) are all in the Technology sector, which is currently the top sector. This validates their selection as top picks.<br><br>• Flag any contradiction between screener and monitor signals:<br>QCOM is flagged as a top screener pick but also has a MACD bearish crossover, which is a monitor signal indicating potential weakness.<br><br>• Name the strongest and weakest pick with one reason each:<br>Strongest: AAPL (score=13/17, high MFI=75.4) <br>Weakest: QCOM (score=11/17, MACD bearish crossover)<br><br>• Overall confidence: HIGH<br>The top screener picks are strong and the sector momentum is positive, indicating a high level of confidence in the selected stocks.</div>
             </div>
           </div>
         </div>
@@ -726,7 +726,7 @@ a:hover { text-decoration: underline; }
         <li><strong>AI supervision:</strong> Groq Llama 3.1 (free) — validates picks against sector context (requires GROQ_API_KEY secret)</li>
         <li><strong>Universe:</strong> 132 stocks defined in config/universe.csv</li>
         <li><strong>Scoring weights:</strong> Inst.Own(3) · Sector(3) · Volume(2) · Breakout(2) · MA200(2) · MFI(2) · History(2) · IV(1) = 17pts max</li>
-        <li><strong>Run time:</strong> 2026-07-22 01:22 UTC — Market phase: Overnight</li>
+        <li><strong>Run time:</strong> 2026-07-22 02:26 UTC — Market phase: Overnight</li>
       </ul>
       <div style="margin-top:10px;font-size:.75rem;color:var(--muted);border-top:1px solid var(--border);padding-top:8px">
         ⚠️ For informational purposes only — not financial advice. All data from Yahoo Finance (free tier).
@@ -1678,9 +1678,9 @@ a:hover { text-decoration: underline; }
     <div class="section-title">LLM Supervision Log (last 1 runs)</div>
     <div class="llm-panel">
         <div class="llm-entry">
-          <div class="llm-meta">2026-07-22 01:22 UTC &nbsp;·&nbsp; Overnight</div>
+          <div class="llm-meta">2026-07-22 02:27 UTC &nbsp;·&nbsp; Overnight</div>
           
-          <div class="llm-note">• Validate top screener picks vs sector momentum: <br>The top screener picks (AAPL, AMD, QCOM, UNH, AVGO) are all in the Technology sector, which is currently the top sector. Their scores and metrics are relatively strong, indicating potential for growth.<br><br>• Flag any contradiction between screener and monitor signals:<br>QCOM is both a top screener pick and has a bearish MACD crossover, which contradicts its strong screener score. This indicates potential for a short-term correction.<br><br>• Name the strongest and weakest pick with one reason each:<br>Strongest pick: AAPL (score=13/17, high MFI=75.4) <br>Weakest pick: UNH (score=10/17, low volume=0.5x)<br><br>• Overall confidence: MEDIUM<br>The top screener picks show potential for growth, but the contradiction in QCOM's signals and the bearish MACD crossovers in other stocks indicate a need for caution.</div>
+          <div class="llm-note">• Validate top screener picks vs sector momentum: <br>The top screener picks (AAPL, AMD, QCOM, UNH, AVGO) are all in the Technology sector, which is currently the top sector. This validates their selection as top picks.<br><br>• Flag any contradiction between screener and monitor signals:<br>QCOM is flagged as a top screener pick but also has a MACD bearish crossover, which is a monitor signal indicating potential weakness.<br><br>• Name the strongest and weakest pick with one reason each:<br>Strongest: AAPL (score=13/17, high MFI=75.4) <br>Weakest: QCOM (score=11/17, MACD bearish crossover)<br><br>• Overall confidence: HIGH<br>The top screener picks are strong and the sector momentum is positive, indicating a high level of confidence in the selected stocks.</div>
           
         </div></div></div>
 
