@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-07-21 23:04 UTC",
-    "phase": "After-Hours (4:00-8:00 PM ET)",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top screener picks (AAPL, AMD, QCOM, UNH, AVGO) are all in the Technology sector, which is the top sector in the market. Their scores and metrics indicate strong performance, with most above their 200-day MA and high institutional ownership.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nQCOM is both a top screener pick and has a bearish MACD crossover, indicating a potential contradiction.\n\n\u2022 Name the strongest and weakest pick with one reason each: \nStrongest pick: AAPL, due to its high score (13/17) and high institutional ownership (66.2%).\nWeakest pick: UNH, due to its low score (10/17) and low trading volume (0.5x).\n\n\u2022 Overall confidence: MEDIUM \nThe presence of a contradiction in QCOM's signals and the relatively low scores of some picks temper confidence in the top screener picks.",
+    "ts_utc": "2026-07-22 01:22 UTC",
+    "phase": "Overnight",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top screener picks (AAPL, AMD, QCOM, UNH, AVGO) are all in the Technology sector, which is currently the top sector. Their scores and metrics are relatively strong, indicating potential for growth.\n\n\u2022 Flag any contradiction between screener and monitor signals:\nQCOM is both a top screener pick and has a bearish MACD crossover, which contradicts its strong screener score. This indicates potential for a short-term correction.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: AAPL (score=13/17, high MFI=75.4) \nWeakest pick: UNH (score=10/17, low volume=0.5x)\n\n\u2022 Overall confidence: MEDIUM\nThe top screener picks show potential for growth, but the contradiction in QCOM's signals and the bearish MACD crossovers in other stocks indicate a need for caution.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
