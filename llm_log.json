@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-07-22 21:08 UTC",
+    "ts_utc": "2026-07-22 21:17 UTC",
     "phase": "After-Hours (4:00-8:00 PM ET)",
-    "note": "\u2022 Validate top screener picks vs sector momentum: Utilities sector is strong, with D and PCG scoring high on the screener. Their volume and MA200 indicators are above average, and their MFI is relatively high, indicating buying pressure.\n\u2022 Flag any contradiction between screener and monitor signals: RKLB, SOFI, and SCO have bearish crossovers, contradicting the screener's positive signals. PLTR is overbought, contradicting its screener score.\n\u2022 Name the strongest and weakest pick with one reason each: \n  - Strongest pick: PCG, due to its high institutional ownership (99.0%).\n  - Weakest pick: RKLB, due to its heavy drop (-11.61%).\n\u2022 Overall confidence: MEDIUM, as some monitor signals contradict the screener's positive signals, indicating potential market volatility.",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe Utilities sector is strong, with D and PCG showing high scores and high institutional ownership. However, AAPL and AVGO in Technology also have high scores, indicating a strong sector performance.\n\n\u2022 Flag any contradiction between screener and monitor signals:\nNone, but some stocks on the watchlist (RKLB, SOFI, DRAM, IREN, ATOM, SCO, QCOM, NFLX, MCD) show bearish crossovers or drops, contradicting the screener's positive signals.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: PCG (Utilities) - High institutional ownership (99.0%) indicates strong investor confidence.\nWeakest pick: AMD (Technology) - Low MFI (49.3) suggests a potential sell-off.\n\n\u2022 Overall confidence: MEDIUM\nThe strong sector performance and high scores of top picks are balanced by the bearish crossovers and drops on the watchlist, reducing overall confidence.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
