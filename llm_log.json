@@ -2,7 +2,7 @@
   {
     "ts_utc": "2026-07-22 20:10 UTC",
     "phase": "After-Hours (4:00-8:00 PM ET)",
-    "note": "\u2022 Validate top screener picks vs sector momentum: All top picks (XOM, CVX, TRGP, KMI, EOG) are in the Energy sector, which is currently the top sector, validating their selection.\n\n\u2022 Flag any contradiction between screener and monitor signals: None found.\n\n\u2022 Name the strongest and weakest pick with one reason each: \n  - Strongest pick: TRGP, due to its high institutional ownership (97.2%).\n  - Weakest pick: RKLB, due to the bearish MACD crossover.\n\n\u2022 Overall confidence: HIGH, as all top picks are in the top sector and show strong technical indicators.",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top screener picks in Utilities (D and PCG) show strong momentum with high scores, above MA200, and high institutional ownership. This aligns with the sector's overall performance in the After-Hours market.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nThere are no direct contradictions between screener and monitor signals for the top picks. However, monitor signals for other stocks in the Utilities sector, like RKLB, show bearish crossovers.\n\n\u2022 Name the strongest and weakest pick with one reason each:\n Strongest pick: PCG (Utilities) - High institutional ownership (99.0%).\n Weakest pick: AMD (Technology) - Low MFI (49.2) compared to other picks.\n\n\u2022 Overall confidence: HIGH with strong sector momentum and high institutional ownership among top picks.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
