@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Stock Hub — 2026-07-23 09:30 TW</title>
+<title>Stock Hub — 2026-07-23 10:31 TW</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -233,7 +233,7 @@ a:hover { text-decoration: underline; }
   <div class="header-title">📈 Stock Hub</div>
   <div class="phase-badge"><div class="phase-dot"></div>Overnight</div>
   <span class="run-mode-tag">SCREENER</span>
-  <div class="header-time" id="live-clock">2026-07-23 09:30 TW &nbsp;|&nbsp; 2026-07-23 01:30 UTC</div>
+  <div class="header-time" id="live-clock">2026-07-23 10:31 TW &nbsp;|&nbsp; 2026-07-23 02:31 UTC</div>
   <button class="theme-btn" onclick="toggleTheme()">☀ / ☾</button>
 </div>
 
@@ -245,7 +245,7 @@ a:hover { text-decoration: underline; }
 </div>
 
 <div id="screener" class="tab-pane active">
-        <div class="updated-note">Run: 2026-07-23 01:29 &nbsp;·&nbsp; 132 stocks scored &nbsp;·&nbsp; Top sector: <strong style="color:var(--accent)">Utilities</strong></div>
+        <div class="updated-note">Run: 2026-07-23 02:31 &nbsp;·&nbsp; 132 stocks scored &nbsp;·&nbsp; Top sector: <strong style="color:var(--accent)">Utilities</strong></div>
         <div class="sentiment-strip">
           <div class="sent-seg sent-g" style="width:0.0%">0% Strong</div>
           <div class="sent-seg sent-y" style="width:7.6%">8%</div>
@@ -380,7 +380,7 @@ a:hover { text-decoration: underline; }
       <div class="factor-pills"><span class="pill fr">Vol</span><span class="pill fr">Breakout</span><span class="pill fg">MA200</span><span class="pill fg">Inst</span><span class="pill fg">MFI</span><span class="pill fr">Sector</span><span class="pill fg">History</span><span class="pill fg">IV</span></div>
       <div class="card-meta">
         <span>Vol: <strong>0.8x</strong></span>
-        <span>MA200: <strong class="pos">$280.2414713213521</strong></span>
+        <span>MA200: <strong class="pos">$280.24147107524254</strong></span>
         <span>Inst: <strong>66.5%</strong></span>
         <span>MFI: <strong>69.4</strong></span>
         <span>IV(mean): <strong>147.9%</strong></span>
@@ -593,7 +593,7 @@ a:hover { text-decoration: underline; }
         </div></div></div>
             <div class="section-title">LLM Supervision</div>
             <div class="llm-panel">
-              <div class="llm-note">• Validate top screener picks vs sector momentum: Utilities sector momentum is strong, with D and PCG showing high scores and high institutional ownership, validating the top picks.<br>• Flag any contradiction between screener and monitor signals: None found, but monitor signals indicate bearish crossovers in multiple stocks, which may contradict the screener's bullish signals.<br>• Name the strongest and weakest pick with one reason each: <br>  - Strongest pick: D, due to its high institutional ownership (82.7%).<br>  - Weakest pick: AMD, due to its low MFI (49.3).<br>• Overall confidence: MEDIUM, due to the presence of bearish monitor signals that may contradict the screener's bullish signals.</div>
+              <div class="llm-note">• Validate top screener picks vs sector momentum: Utilities sector momentum is strong, with D and PCG showing high scores and above-average volume. This supports the top picks in the Utilities sector.<br>• Flag any contradiction between screener and monitor signals: None found.<br>• Name the strongest and weakest pick with one reason each: <br>  - Strongest pick: D (Utilities) due to its high score of 11/17 and above-average volume.<br>  - Weakest pick: AMD (Technology) due to its low MFI of 49.3, indicating a potential sell signal.<br>• Overall confidence: HIGH due to strong sector momentum and high scores of top picks.</div>
             </div>
           </div>
         </div>
@@ -726,7 +726,7 @@ a:hover { text-decoration: underline; }
         <li><strong>AI supervision:</strong> Groq Llama 3.1 (free) — validates picks against sector context (requires GROQ_API_KEY secret)</li>
         <li><strong>Universe:</strong> 132 stocks defined in config/universe.csv</li>
         <li><strong>Scoring weights:</strong> Inst.Own(3) · Sector(3) · Volume(2) · Breakout(2) · MA200(2) · MFI(2) · History(2) · IV(1) = 17pts max</li>
-        <li><strong>Run time:</strong> 2026-07-23 01:29 UTC — Market phase: Overnight</li>
+        <li><strong>Run time:</strong> 2026-07-23 02:31 UTC — Market phase: Overnight</li>
       </ul>
       <div style="margin-top:10px;font-size:.75rem;color:var(--muted);border-top:1px solid var(--border);padding-top:8px">
         ⚠️ For informational purposes only — not financial advice. All data from Yahoo Finance (free tier).
@@ -1678,9 +1678,9 @@ a:hover { text-decoration: underline; }
     <div class="section-title">LLM Supervision Log (last 1 runs)</div>
     <div class="llm-panel">
         <div class="llm-entry">
-          <div class="llm-meta">2026-07-23 01:30 UTC &nbsp;·&nbsp; Overnight</div>
+          <div class="llm-meta">2026-07-23 02:31 UTC &nbsp;·&nbsp; Overnight</div>
           
-          <div class="llm-note">• Validate top screener picks vs sector momentum: Utilities sector momentum is strong, with D and PCG showing high scores and high institutional ownership, validating the top picks.<br>• Flag any contradiction between screener and monitor signals: None found, but monitor signals indicate bearish crossovers in multiple stocks, which may contradict the screener's bullish signals.<br>• Name the strongest and weakest pick with one reason each: <br>  - Strongest pick: D, due to its high institutional ownership (82.7%).<br>  - Weakest pick: AMD, due to its low MFI (49.3).<br>• Overall confidence: MEDIUM, due to the presence of bearish monitor signals that may contradict the screener's bullish signals.</div>
+          <div class="llm-note">• Validate top screener picks vs sector momentum: Utilities sector momentum is strong, with D and PCG showing high scores and above-average volume. This supports the top picks in the Utilities sector.<br>• Flag any contradiction between screener and monitor signals: None found.<br>• Name the strongest and weakest pick with one reason each: <br>  - Strongest pick: D (Utilities) due to its high score of 11/17 and above-average volume.<br>  - Weakest pick: AMD (Technology) due to its low MFI of 49.3, indicating a potential sell signal.<br>• Overall confidence: HIGH due to strong sector momentum and high scores of top picks.</div>
           
         </div></div></div>
 
