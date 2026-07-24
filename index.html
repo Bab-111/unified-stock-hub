@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Stock Hub — 2026-07-25 07:07 TW</title>
+<title>Stock Hub — 2026-07-25 07:09 TW</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -233,7 +233,7 @@ a:hover { text-decoration: underline; }
   <div class="header-title">📈 Stock Hub</div>
   <div class="phase-badge"><div class="phase-dot"></div>After-Hours (4:00-8:00 PM ET)</div>
   <span class="run-mode-tag">SCREENER</span>
-  <div class="header-time" id="live-clock">2026-07-25 07:07 TW &nbsp;|&nbsp; 2026-07-24 23:07 UTC</div>
+  <div class="header-time" id="live-clock">2026-07-25 07:09 TW &nbsp;|&nbsp; 2026-07-24 23:09 UTC</div>
   <button class="theme-btn" onclick="toggleTheme()">☀ / ☾</button>
 </div>
 
@@ -245,7 +245,7 @@ a:hover { text-decoration: underline; }
 </div>
 
 <div id="screener" class="tab-pane active">
-        <div class="updated-note">Run: 2026-07-24 23:07 &nbsp;·&nbsp; 132 stocks scored &nbsp;·&nbsp; Top sector: <strong style="color:var(--accent)">Real Estate</strong></div>
+        <div class="updated-note">Run: 2026-07-24 23:09 &nbsp;·&nbsp; 132 stocks scored &nbsp;·&nbsp; Top sector: <strong style="color:var(--accent)">Real Estate</strong></div>
         <div class="sentiment-strip">
           <div class="sent-seg sent-g" style="width:2.3%">2% Strong</div>
           <div class="sent-seg sent-y" style="width:5.3%">5%</div>
@@ -380,7 +380,7 @@ a:hover { text-decoration: underline; }
       <div class="factor-pills"><span class="pill fr">Vol</span><span class="pill fg">Breakout</span><span class="pill fg">MA200</span><span class="pill fg">Inst</span><span class="pill fg">MFI</span><span class="pill fr">Sector</span><span class="pill fg">History</span><span class="pill fg">IV</span></div>
       <div class="card-meta">
         <span>Vol: <strong>0.9x</strong></span>
-        <span>MA200: <strong class="pos">$281.25633935546875</strong></span>
+        <span>MA200: <strong class="pos">$281.25633911132815</strong></span>
         <span>Inst: <strong>66.5%</strong></span>
         <span>MFI: <strong>61.6</strong></span>
         <span>IV(mean): <strong>304.6%</strong></span>
@@ -431,7 +431,7 @@ a:hover { text-decoration: underline; }
       <div class="factor-pills"><span class="pill fy">Vol</span><span class="pill fg">Breakout</span><span class="pill fg">MA200</span><span class="pill fg">Inst</span><span class="pill fg">MFI</span><span class="pill fr">Sector</span><span class="pill fr">History</span><span class="pill fg">IV</span></div>
       <div class="card-meta">
         <span>Vol: <strong>1.4x</strong></span>
-        <span>MA200: <strong class="pos">$45.96212451171875</strong></span>
+        <span>MA200: <strong class="pos">$45.96212466430664</strong></span>
         <span>Inst: <strong>70.4%</strong></span>
         <span>MFI: <strong>68.4</strong></span>
         <span>IV(mean): <strong>223.2%</strong></span>
@@ -593,7 +593,7 @@ a:hover { text-decoration: underline; }
         </div></div></div>
             <div class="section-title">LLM Supervision</div>
             <div class="llm-panel">
-              <div class="llm-note">• Validate top screener picks vs sector momentum: <br>DLR and EQIX are strong within the top sector Real Estate, with high scores and MA200 above. <br>PLD is also strong, but with a lower score. <br>AAPL and VZ are from other sectors, but still have MA200 above.<br><br>• Flag any contradiction between screener and monitor signals: <br>None found, as monitor signals are mostly bearish crossovers or below 200-day MA, which is consistent with the After-Hours market phase.<br><br>• Name the strongest and weakest pick with one reason each:<br>Strongest: DLR (score=15/17) <br>Weakest: PLTR (overbought - RSI 82)<br><br>• Overall confidence: HIGH <br>The screener picks are strong within their sector, and the monitor signals are consistent with the market phase.</div>
+              <div class="llm-note">• Validate top screener picks vs sector momentum: <br>DLR and EQIX show strong momentum within the Real Estate sector, with high scores and above-average MFI. PLD also performs well, but with a lower score. AAPL and VZ, outside the top sector, have lower scores and may not align with sector momentum.<br><br>• Flag any contradiction between screener and monitor signals:<br>None found, as monitor signals are focused on individual stocks and do not contradict screener picks.<br><br>• Name the strongest and weakest pick with one reason each:<br>Strongest pick: DLR (98.6% institutional ownership), indicating strong support from major investors.<br>Weakest pick: AAPL (66.5% institutional ownership), suggesting less support from major investors.<br><br>• Overall confidence: HIGH<br>Confidence is high due to the strong performance of top screener picks within the Real Estate sector, with high scores and above-average MFI.</div>
             </div>
           </div>
         </div>
@@ -726,7 +726,7 @@ a:hover { text-decoration: underline; }
         <li><strong>AI supervision:</strong> Groq Llama 3.1 (free) — validates picks against sector context (requires GROQ_API_KEY secret)</li>
         <li><strong>Universe:</strong> 132 stocks defined in config/universe.csv</li>
         <li><strong>Scoring weights:</strong> Inst.Own(3) · Sector(3) · Volume(2) · Breakout(2) · MA200(2) · MFI(2) · History(2) · IV(1) = 17pts max</li>
-        <li><strong>Run time:</strong> 2026-07-24 23:07 UTC — Market phase: After-Hours (4:00-8:00 PM ET)</li>
+        <li><strong>Run time:</strong> 2026-07-24 23:09 UTC — Market phase: After-Hours (4:00-8:00 PM ET)</li>
       </ul>
       <div style="margin-top:10px;font-size:.75rem;color:var(--muted);border-top:1px solid var(--border);padding-top:8px">
         ⚠️ For informational purposes only — not financial advice. All data from Yahoo Finance (free tier).
@@ -1678,9 +1678,9 @@ a:hover { text-decoration: underline; }
     <div class="section-title">LLM Supervision Log (last 1 runs)</div>
     <div class="llm-panel">
         <div class="llm-entry">
-          <div class="llm-meta">2026-07-24 23:07 UTC &nbsp;·&nbsp; After-Hours (4:00-8:00 PM ET)</div>
+          <div class="llm-meta">2026-07-24 23:09 UTC &nbsp;·&nbsp; After-Hours (4:00-8:00 PM ET)</div>
           
-          <div class="llm-note">• Validate top screener picks vs sector momentum: <br>DLR and EQIX are strong within the top sector Real Estate, with high scores and MA200 above. <br>PLD is also strong, but with a lower score. <br>AAPL and VZ are from other sectors, but still have MA200 above.<br><br>• Flag any contradiction between screener and monitor signals: <br>None found, as monitor signals are mostly bearish crossovers or below 200-day MA, which is consistent with the After-Hours market phase.<br><br>• Name the strongest and weakest pick with one reason each:<br>Strongest: DLR (score=15/17) <br>Weakest: PLTR (overbought - RSI 82)<br><br>• Overall confidence: HIGH <br>The screener picks are strong within their sector, and the monitor signals are consistent with the market phase.</div>
+          <div class="llm-note">• Validate top screener picks vs sector momentum: <br>DLR and EQIX show strong momentum within the Real Estate sector, with high scores and above-average MFI. PLD also performs well, but with a lower score. AAPL and VZ, outside the top sector, have lower scores and may not align with sector momentum.<br><br>• Flag any contradiction between screener and monitor signals:<br>None found, as monitor signals are focused on individual stocks and do not contradict screener picks.<br><br>• Name the strongest and weakest pick with one reason each:<br>Strongest pick: DLR (98.6% institutional ownership), indicating strong support from major investors.<br>Weakest pick: AAPL (66.5% institutional ownership), suggesting less support from major investors.<br><br>• Overall confidence: HIGH<br>Confidence is high due to the strong performance of top screener picks within the Real Estate sector, with high scores and above-average MFI.</div>
           
         </div></div></div>
 

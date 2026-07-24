@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-07-24 23:07 UTC",
+    "ts_utc": "2026-07-24 23:09 UTC",
     "phase": "After-Hours (4:00-8:00 PM ET)",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nDLR and EQIX are strong within the top sector Real Estate, with high scores and MA200 above. \nPLD is also strong, but with a lower score. \nAAPL and VZ are from other sectors, but still have MA200 above.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nNone found, as monitor signals are mostly bearish crossovers or below 200-day MA, which is consistent with the After-Hours market phase.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest: DLR (score=15/17) \nWeakest: PLTR (overbought - RSI 82)\n\n\u2022 Overall confidence: HIGH \nThe screener picks are strong within their sector, and the monitor signals are consistent with the market phase.",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nDLR and EQIX show strong momentum within the Real Estate sector, with high scores and above-average MFI. PLD also performs well, but with a lower score. AAPL and VZ, outside the top sector, have lower scores and may not align with sector momentum.\n\n\u2022 Flag any contradiction between screener and monitor signals:\nNone found, as monitor signals are focused on individual stocks and do not contradict screener picks.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: DLR (98.6% institutional ownership), indicating strong support from major investors.\nWeakest pick: AAPL (66.5% institutional ownership), suggesting less support from major investors.\n\n\u2022 Overall confidence: HIGH\nConfidence is high due to the strong performance of top screener picks within the Real Estate sector, with high scores and above-average MFI.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
