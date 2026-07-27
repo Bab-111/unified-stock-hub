@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-07-25 02:27 UTC",
-    "phase": "Overnight",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nDLR and EQIX show strong momentum in the Real Estate sector, with high scores and above-average volume. PLD also performs well, but with a lower score. AAPL and VZ show weaker momentum in the Technology and Comm. Services sectors, respectively.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nNone found, as all top screener picks have positive monitor signals.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest: DLR, due to its high score and above-average volume. \nWeakest: AAPL, due to its low score and below-average volume.\n\n\u2022 Overall confidence: HIGH, as the top screener picks align with sector momentum and show strong technical signals.",
+    "ts_utc": "2026-07-27 15:38 UTC",
+    "phase": "Regular Market Hours",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top screener picks (VZ, CMCSA, EMR, AAPL, T) are all within the top sector (Comm. Services), validating their inclusion.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nNo direct contradictions are found between the screener and monitor signals, but some stocks on the watchlist (PLTR, LULU, NOW, NFLX, MCD) are below their 200-day MA, contradicting the screener's MA200=above/below signals for VZ and CMCSA.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: VZ (score=11/17, high institutional ownership=70.4%), \nWeakest pick: CMCSA (score=10/17, low MFI=52.4).\n\n\u2022 Overall confidence: MEDIUM\nThe screener picks show some promising characteristics, but the watchlist alerts indicate potential bearish momentum and divergences, reducing overall confidence.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
