@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-07-27 21:19 UTC",
+    "ts_utc": "2026-07-27 23:10 UTC",
     "phase": "After-Hours (4:00-8:00 PM ET)",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top screener picks in the Consumer Stpl sector (PG, PM, MO) have strong scores and high institutional ownership, indicating sector momentum.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nNone of the top screener picks have bearish MACD crossovers or are below their 200-day MAs.\n\n\u2022 Name the strongest and weakest pick with one reason each:\n Strongest pick: PM (84.1% institutional ownership), indicating strong investor confidence.\n Weakest pick: MO (50.4% MFI), indicating potential selling pressure.\n\n\u2022 Overall confidence: HIGH\nThe top screener picks in the Consumer Stpl sector have strong scores and high institutional ownership, indicating a high level of confidence in these stocks.",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \n  - Consumer Stpl sector momentum is strong, with PG, PM, and AAPL showing high institutional ownership and above-average MA200.\n  - NOW and VLO are also strong, but their high MFI indicates potential overbought conditions.\n\n\u2022 Flag any contradiction between screener and monitor signals:\n  - RKLB, SOFI, DRAM, IREN, ATOM, SCO, and QCOM show bearish MACD crossovers, contradicting their screener scores.\n  - PLTR and LULU are overbought or below their 200-day MA, contradicting their screener scores.\n\n\u2022 Name the strongest and weakest pick with one reason each:\n  - Strongest pick: PM (84.1% institutional ownership)\n  - Weakest pick: RKLB (heavy drop of -11.61%)\n\n\u2022 Overall confidence: MEDIUM\nThe strong sector momentum and high institutional ownership of top screener picks are balanced by potential overbought conditions and bearish MACD crossovers in other stocks.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
