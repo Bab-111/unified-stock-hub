@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-07-27 23:12 UTC",
-    "phase": "After-Hours (4:00-8:00 PM ET)",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top sector is Consumer Stpl, with PG and PM showing strong institutional support (71.8% and 84.1% respectively) and above MA200. However, MO has a lower MFI (50.4) compared to the others.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nRKLB, SOFI, DRAM, IREN, ATOM, SCO, QCOM, and NFLX have bearish crossovers, contradicting the screener's positive signals for the sector.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: PM (84.1% institutional support)\nWeakest pick: MO (low MFI of 50.4)\n\n\u2022 Overall confidence: MEDIUM \nThe sector momentum is strong, but the bearish crossovers on the watchlist and the low MFI on MO reduce overall confidence.",
+    "ts_utc": "2026-07-28 01:21 UTC",
+    "phase": "Overnight",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top sector is Consumer Stpl, with PG and PM as top picks. PG and PM have high institutional ownership and are above their 200-day MA, indicating strong sector momentum.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nNOW is a top screener pick but has a bearish MACD crossover and is below its 200-day MA, contradicting its high score.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest: PM - high institutional ownership (84.1%).\nWeakest: RKLB - heavy drop (-11.61%) due to MACD bearish crossover.\n\n\u2022 Overall confidence: MEDIUM \nThe sector momentum is strong, but some top picks have bearish signals, reducing overall confidence in the automated stock report.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
