@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-07-29 02:26 UTC",
-    "phase": "Overnight",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top screener picks in Healthcare (MRK, ABBV) are in line with the sector momentum, while Consumer Stpl (PM) and Technology (AAPL) are not. Industrials (ITW) is also in line with sector momentum.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nThere is a contradiction between the screener signal for PLTR (overbought) and the monitor signal (below 200-day MA).\n\n\u2022 Name the strongest and weakest pick with one reason each:\n Strongest pick: MRK (Healthcare) due to its high institutional ownership (82.2%).\n Weakest pick: AAPL (Technology) due to its low institutional ownership (66.5%).\n\n\u2022 Overall confidence: HIGH\nThe screener picks are well-aligned with sector momentum, and the monitor signals provide additional context for further analysis.",
+    "ts_utc": "2026-07-29 15:06 UTC",
+    "phase": "Regular Market Hours",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nRTX, HON, LMT, and EMR are top picks in the Industrials sector, with high scores and above-average MFI values, indicating strong momentum.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nThere are no direct contradictions between the screener and monitor signals for the top picks, but some stocks on the watchlist (RKLB, SOFI, DRAM, IREN, ATOM, SCO, QCOM, NFLX, MCD) have bearish MACD crossovers or are below their 200-day MAs.\n\n\u2022 Name the strongest and weakest pick with one reason each: \nStrongest pick: RTX, with a high MFI value (82.4) indicating strong buying pressure.\nWeakest pick: LMT, with the lowest MFI value (63.1) among the top picks, indicating relatively weak buying pressure.\n\n\u2022 Overall confidence: HIGH\nThe top screener picks in the Industrials sector have strong momentum, with high scores and above-average MFI values, indicating a high level of confidence in their potential performance.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
