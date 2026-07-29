@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-07-28 23:09 UTC",
-    "phase": "After-Hours (4:00-8:00 PM ET)",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \n  MRK and ABBV are top picks in the Healthcare sector, which is currently strong. \n  PM is in the Consumer Staples sector, which is not as strong as Healthcare. \n  AAPL is in Technology, which is neutral. \n  ITW is in Industrials, which is neutral.\n\n\u2022 Flag any contradiction between screener and monitor signals: \n  RKLB, SOFI, DRAM, IREN, ATOM, SCO, PLTR, LULU, NOW, QCOM, NFLX, and MCD have bearish signals, contradicting the screener's top picks.\n\n\u2022 Name the strongest and weakest pick with one reason each: \n  Strongest pick: MRK (score=11/17) \n  Weakest pick: AAPL (score=10/17 and MFI=68.9 is not significantly high)\n\n\u2022 Overall confidence: MEDIUM \n  The screener's top picks are mixed with sector momentum, and there are several bearish signals from the watchlist.",
+    "ts_utc": "2026-07-29 01:23 UTC",
+    "phase": "Overnight",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nMRK and ABBV are strong picks within the top sector, Healthcare, with high institutional ownership and above MA200. PM is a strong pick in Consumer Staples. AAPL and ITW are weaker picks within their respective sectors.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nNone found, as screener signals are based on overnight data and monitor signals are based on real-time data.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: MRK (High institutional ownership at 82.2%).\nWeakest pick: AAPL (Lowest institutional ownership at 66.5%).\n\n\u2022 Overall confidence: HIGH\nConfidence is high due to strong sector momentum and multiple positive signals from the screener and monitor.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
