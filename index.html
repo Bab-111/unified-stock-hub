@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Stock Hub — 2026-07-30 04:56 TW</title>
+<title>Stock Hub — 2026-07-30 05:05 TW</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -233,7 +233,7 @@ a:hover { text-decoration: underline; }
   <div class="header-title">📈 Stock Hub</div>
   <div class="phase-badge"><div class="phase-dot"></div>After-Hours (4:00-8:00 PM ET)</div>
   <span class="run-mode-tag">SCREENER</span>
-  <div class="header-time" id="live-clock">2026-07-30 04:56 TW &nbsp;|&nbsp; 2026-07-29 20:56 UTC</div>
+  <div class="header-time" id="live-clock">2026-07-30 05:05 TW &nbsp;|&nbsp; 2026-07-29 21:05 UTC</div>
   <button class="theme-btn" onclick="toggleTheme()">☀ / ☾</button>
 </div>
 
@@ -245,7 +245,7 @@ a:hover { text-decoration: underline; }
 </div>
 
 <div id="screener" class="tab-pane active">
-        <div class="updated-note">Run: 2026-07-29 20:55 &nbsp;·&nbsp; 132 stocks scored &nbsp;·&nbsp; Top sector: <strong style="color:var(--accent)">Energy</strong></div>
+        <div class="updated-note">Run: 2026-07-29 21:05 &nbsp;·&nbsp; 132 stocks scored &nbsp;·&nbsp; Top sector: <strong style="color:var(--accent)">Energy</strong></div>
         <div class="sentiment-strip">
           <div class="sent-seg sent-g" style="width:1.5%">2% Strong</div>
           <div class="sent-seg sent-y" style="width:6.1%">6%</div>
@@ -363,7 +363,7 @@ a:hover { text-decoration: underline; }
           <span class="ticker">XOM</span>
           <span class="tl-badge tl-moderate">Moderate</span>
           <span class="sector-tag">Energy</span>
-          <span class="sector-tag" style="color:var(--muted)">$649.7B</span>
+          <span class="sector-tag" style="color:var(--muted)">N/A</span>
         </div>
         <div class="card-price-row">
           <span class="price">$156.75</span>
@@ -380,7 +380,7 @@ a:hover { text-decoration: underline; }
       <div class="factor-pills"><span class="pill fr">Vol</span><span class="pill fr">Breakout</span><span class="pill fg">MA200</span><span class="pill fg">Inst</span><span class="pill fg">MFI</span><span class="pill fg">Sector</span><span class="pill fr">History</span><span class="pill fg">IV</span></div>
       <div class="card-meta">
         <span>Vol: <strong>0.6x</strong></span>
-        <span>MA200: <strong class="pos">$149.75279974168348</strong></span>
+        <span>MA200: <strong class="pos">$149.75279998779297</strong></span>
         <span>Inst: <strong>68.3%</strong></span>
         <span>MFI: <strong>65.4</strong></span>
         <span>IV(mean): <strong>102.4%</strong></span>
@@ -430,10 +430,10 @@ a:hover { text-decoration: underline; }
       </div>
       <div class="factor-pills"><span class="pill fr">Vol</span><span class="pill fr">Breakout</span><span class="pill fg">MA200</span><span class="pill fg">Inst</span><span class="pill fg">MFI</span><span class="pill fg">Sector</span><span class="pill fr">History</span><span class="pill fg">IV</span></div>
       <div class="card-meta">
-        <span>Vol: <strong>0.6x</strong></span>
-        <span>MA200: <strong class="pos">$185.85077322683026</strong></span>
+        <span>Vol: <strong>0.7x</strong></span>
+        <span>MA200: <strong class="pos">$185.85077334988503</strong></span>
         <span>Inst: <strong>70.3%</strong></span>
-        <span>MFI: <strong>70.8</strong></span>
+        <span>MFI: <strong>71.4</strong></span>
         <span>IV(mean): <strong>101.1%</strong></span>
         
       </div>
@@ -593,7 +593,7 @@ a:hover { text-decoration: underline; }
         </div></div></div>
             <div class="section-title">LLM Supervision</div>
             <div class="llm-panel">
-              <div class="llm-note">• Validate top screener picks vs sector momentum: <br>  - MDLZ and NOW show strong momentum in their respective sectors, but their scores are tied with XOM and CVX, which are in the top sector (Energy).<br>  - XOM and CVX have lower volume and lower MFI compared to MDLZ and NOW.<br><br>• Flag any contradiction between screener and monitor signals: <br>  - NOW is a top screener pick but also shows a bearish crossover on the MACD and is below its 200-day MA.<br><br>• Name the strongest and weakest pick with one reason each: <br>  - Strongest pick: MDLZ, due to its high score and strong MFI.<br>  - Weakest pick: XOM, due to its low volume.<br><br>• Overall confidence: MEDIUM, due to mixed signals and contradictions between screener and monitor signals.</div>
+              <div class="llm-note">• Validate top screener picks vs sector momentum: <br>The top sector is Energy, but only XOM and CVX are from this sector, and their scores are lower than the top picks from other sectors.<br><br>• Flag any contradiction between screener and monitor signals: <br>NOW is a top screener pick but also appears in the watchlist as below its 200-day MA, which could indicate a contradiction.<br><br>• Name the strongest and weakest pick with one reason each:<br>Strongest pick: MDLZ (score=12/17) due to its high score.<br>Weakest pick: XOM (score=11/17) due to its low volume (0.6x).<br><br>• Overall confidence: MEDIUM<br>The presence of contradictions and lower scores for top sector picks reduces overall confidence.</div>
             </div>
           </div>
         </div>
@@ -651,11 +651,11 @@ a:hover { text-decoration: underline; }
           <td style="font-weight:800;font-size:1rem;text-align:center;padding:8px">11/17</td>
         </tr><tr>
           <td style="font-weight:700;text-align:left;padding:8px 10px;font-size:.9rem">🟡 CVX</td>
-          <td style="background:#3a1a1a;color:#f87171;text-align:center;padding:8px 6px;font-size:.82rem;font-weight:500">0.6×</td>
+          <td style="background:#3a1a1a;color:#f87171;text-align:center;padding:8px 6px;font-size:.82rem;font-weight:500">0.7×</td>
           <td style="background:#3a1a1a;color:#f87171;text-align:center;padding:8px 6px;font-size:.82rem;font-weight:500">-0.3%</td>
           <td style="background:#1a3a1a;color:#4ade80;text-align:center;padding:8px 6px;font-size:.82rem;font-weight:500">▲ Above</td>
           <td style="background:#1a3a1a;color:#4ade80;text-align:center;padding:8px 6px;font-size:.82rem;font-weight:500">70.3%</td>
-          <td style="background:#1a3a1a;color:#4ade80;text-align:center;padding:8px 6px;font-size:.82rem;font-weight:500">70.8</td>
+          <td style="background:#1a3a1a;color:#4ade80;text-align:center;padding:8px 6px;font-size:.82rem;font-weight:500">71.4</td>
           <td style="background:#1a3a1a;color:#4ade80;text-align:center;padding:8px 6px;font-size:.82rem;font-weight:500">Energy</td>
           <td style="background:#1a3a1a;color:#4ade80;text-align:center;padding:8px 6px;font-size:.82rem;font-weight:500">101.1%</td>
           <td style="background:#3a1a1a;color:#f87171;text-align:center;padding:8px 6px;font-size:.82rem;font-weight:500">N/A</td>
@@ -726,7 +726,7 @@ a:hover { text-decoration: underline; }
         <li><strong>AI supervision:</strong> Groq Llama 3.1 (free) — validates picks against sector context (requires GROQ_API_KEY secret)</li>
         <li><strong>Universe:</strong> 132 stocks defined in config/universe.csv</li>
         <li><strong>Scoring weights:</strong> Inst.Own(3) · Sector(3) · Volume(2) · Breakout(2) · MA200(2) · MFI(2) · History(2) · IV(1) = 17pts max</li>
-        <li><strong>Run time:</strong> 2026-07-29 20:55 UTC — Market phase: After-Hours (4:00-8:00 PM ET)</li>
+        <li><strong>Run time:</strong> 2026-07-29 21:05 UTC — Market phase: After-Hours (4:00-8:00 PM ET)</li>
       </ul>
       <div style="margin-top:10px;font-size:.75rem;color:var(--muted);border-top:1px solid var(--border);padding-top:8px">
         ⚠️ For informational purposes only — not financial advice. All data from Yahoo Finance (free tier).
@@ -1678,9 +1678,9 @@ a:hover { text-decoration: underline; }
     <div class="section-title">LLM Supervision Log (last 1 runs)</div>
     <div class="llm-panel">
         <div class="llm-entry">
-          <div class="llm-meta">2026-07-29 20:56 UTC &nbsp;·&nbsp; After-Hours (4:00-8:00 PM ET)</div>
+          <div class="llm-meta">2026-07-29 21:05 UTC &nbsp;·&nbsp; After-Hours (4:00-8:00 PM ET)</div>
           
-          <div class="llm-note">• Validate top screener picks vs sector momentum: <br>  - MDLZ and NOW show strong momentum in their respective sectors, but their scores are tied with XOM and CVX, which are in the top sector (Energy).<br>  - XOM and CVX have lower volume and lower MFI compared to MDLZ and NOW.<br><br>• Flag any contradiction between screener and monitor signals: <br>  - NOW is a top screener pick but also shows a bearish crossover on the MACD and is below its 200-day MA.<br><br>• Name the strongest and weakest pick with one reason each: <br>  - Strongest pick: MDLZ, due to its high score and strong MFI.<br>  - Weakest pick: XOM, due to its low volume.<br><br>• Overall confidence: MEDIUM, due to mixed signals and contradictions between screener and monitor signals.</div>
+          <div class="llm-note">• Validate top screener picks vs sector momentum: <br>The top sector is Energy, but only XOM and CVX are from this sector, and their scores are lower than the top picks from other sectors.<br><br>• Flag any contradiction between screener and monitor signals: <br>NOW is a top screener pick but also appears in the watchlist as below its 200-day MA, which could indicate a contradiction.<br><br>• Name the strongest and weakest pick with one reason each:<br>Strongest pick: MDLZ (score=12/17) due to its high score.<br>Weakest pick: XOM (score=11/17) due to its low volume (0.6x).<br><br>• Overall confidence: MEDIUM<br>The presence of contradictions and lower scores for top sector picks reduces overall confidence.</div>
           
         </div></div></div>
 
