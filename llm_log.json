@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-07-30 21:19 UTC",
+    "ts_utc": "2026-07-30 23:12 UTC",
     "phase": "After-Hours (4:00-8:00 PM ET)",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \n  MSFT and AAPL have strong screener scores and are above their 200-day MA, indicating positive momentum. \n  AMD and INTC also have strong scores but lower MFI, suggesting potential weakness. \n  QCOM has a lower score and a bearish MACD crossover, contradicting its strong screener score.\n\n\u2022 Flag any contradiction between screener and monitor signals: \n  QCOM has a strong screener score but a bearish MACD crossover, indicating a contradiction.\n\n\u2022 Name the strongest and weakest pick with one reason each:\n  Strongest pick: MSFT, due to its high screener score and strong momentum.\n  Weakest pick: QCOM, due to its bearish MACD crossover contradicting its strong screener score.\n\n\u2022 Overall confidence: MEDIUM, due to mixed signals and contradictions between screener and monitor signals.",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top sector is Technology, with MSFT and AAPL showing strong scores and high institutional ownership. However, AMD and INTC also have strong scores, but their MFI (Money Flow Index) is relatively low. QCOM has a lower score, but its institutional ownership is high.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nQCOM has a strong screener score, but a MACD bearish crossover and a price below the 200-day MA, indicating a potential contradiction.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: MSFT, due to its high institutional ownership (75.7%).\nWeakest pick: INTC, due to its low MFI (25.2).\n\n\u2022 Overall confidence: MEDIUM\nThe strong screener scores and high institutional ownership of MSFT and AAPL suggest a positive sector trend, but the presence of bearish crossovers and prices below the 200-day MA for some stocks, such as QCOM and INTC, temper confidence.",
     "conflicts": [
       {
         "ticker": "QCOM",
