@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-07-30 20:13 UTC",
+    "ts_utc": "2026-07-30 21:10 UTC",
     "phase": "After-Hours (4:00-8:00 PM ET)",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nMSFT and AAPL have strong screener scores and are above their 200-day MA, indicating sector momentum support. \nAMD and INTC also have strong screener scores but have lower MFI values, indicating potential weakness.\n\n\u2022 Flag any contradiction between screener and monitor signals:\nQCOM has a strong screener score but a bearish MACD crossover and is below its 200-day MA, indicating a contradiction.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: MSFT, due to its high screener score and strong sector momentum.\nWeakest pick: INTC, due to its low MFI value.\n\n\u2022 Overall confidence: HIGH, due to strong sector momentum and high screener scores for top picks.",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top sector is Technology, and all top screener picks (MSFT, AAPL, AMD, INTC, QCOM) belong to this sector, validating their selection.\n\n\u2022 Flag any contradiction between screener and monitor signals:\nQCOM has a strong score (12/17) but a MACD bearish crossover and price below 200-day MA, indicating a contradiction between screener and monitor signals.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: MSFT (score=14/17), due to its high score.\nWeakest pick: INTC (score=13/17), due to its low MFI (25.2).\n\n\u2022 Overall confidence: MEDIUM\nThe presence of a contradiction in QCOM's signals and relatively low MFI in INTC reduce overall confidence in the top screener picks.",
     "conflicts": [
       {
         "ticker": "QCOM",
