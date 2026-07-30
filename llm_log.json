@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-07-30 16:05 UTC",
+    "ts_utc": "2026-07-30 18:07 UTC",
     "phase": "Regular Market Hours",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \n  All top screener picks (MSFT, AAPL, AMD, INTC, NOW) are in the Technology sector, which is the top sector. Their scores and metrics align with sector momentum, with most having above MA200 and high institutional ownership.\n\n\u2022 Flag any contradiction between screener and monitor signals: \n  NOW is both a top screener pick and on the watchlist for being below its 200-day MA, which is a contradictory signal.\n\n\u2022 Name the strongest and weakest pick with one reason each: \n  Strongest pick: MSFT, due to its high institutional ownership (75.7%).\n  Weakest pick: INTC, due to its low MFI (22.9).\n\n\u2022 Overall confidence: HIGH, as the top screener picks align with sector momentum and most have strong metrics.",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nTop sector Technology shows strength, but individual stock momentum varies. MSFT and ADBE have high MFI, indicating strong buying pressure, while AMD and INTC have low MFI, suggesting selling pressure.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nContradictions exist between screener and monitor signals. MSFT and ADBE have high scores but PLTR is overbought, and LULU, NOW, NFLX, and MCD are below their 200-day MA.\n\n\u2022 Name the strongest and weakest pick with one reason each: \nStrongest pick: MSFT, due to its high score and strong MFI. Weakest pick: INTC, due to its low MFI.\n\n\u2022 Overall confidence: MEDIUM\nSector momentum is strong, but individual stock signals are mixed, indicating a need for further analysis before making investment decisions.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
