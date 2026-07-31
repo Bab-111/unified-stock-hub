@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-07-30 23:13 UTC",
-    "phase": "After-Hours (4:00-8:00 PM ET)",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \n  - MSFT and AAPL have strong scores and above MA200, indicating sector momentum.\n  - AMD and INTC have similar scores but lower MFI, indicating potential weakness.\n  - QCOM has a lower score and below MA200, contradicting sector momentum.\n\n\u2022 Flag any contradiction between screener and monitor signals: \n  - QCOM has a strong score but a MACD bearish crossover and below 200-day MA.\n  - PLTR is overbought but below 200-day MA, indicating potential weakness.\n\n\u2022 Name the strongest and weakest pick with one reason each: \n  - Strongest: MSFT, due to its high score and above MA200.\n  - Weakest: QCOM, due to its low score and below MA200.\n\n\u2022 Overall confidence: MEDIUM\nThe sector momentum is strong, but individual stock signals are mixed, indicating a need for further analysis.",
+    "ts_utc": "2026-07-31 01:30 UTC",
+    "phase": "Overnight",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nAll top screener picks (MSFT, AAPL, AMD, INTC, QCOM) are in the Technology sector, which is currently leading the market. Their scores range from 12 to 14 out of 17, indicating strong performance.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nQCOM is flagged due to a MACD bearish crossover, contradicting its strong screener score. Additionally, QCOM's price is below its 200-day MA, further indicating a potential contradiction.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: MSFT (score=14/17), due to its high score and above-average MFI (68.9).\nWeakest pick: INTC (score=13/17), due to its low MFI (25.2) indicating potential weakness.\n\n\u2022 Overall confidence: HIGH\nThe top screener picks are in the leading sector, and their strong scores and indicators suggest a high level of confidence in their continued performance.",
     "conflicts": [
       {
         "ticker": "QCOM",
