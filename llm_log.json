@@ -1,12 +1,10 @@
 [
   {
-    "ts_utc": "2026-07-31 23:10 UTC",
-    "phase": "After-Hours (4:00-8:00 PM ET)",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \n  SBUX and AMZN are top picks in the Consumer Disc sector, which is currently leading the market. Their scores and momentum indicators align with sector momentum.\n\n\u2022 Flag any contradiction between screener and monitor signals: \n  PLTR is overbought but below its 200-day MA, and 2884.TW is overbought with no bearish crossover. These signals contradict the screener's focus on strong momentum.\n\n\u2022 Name the strongest and weakest pick with one reason each: \n  Strongest pick: SBUX, due to its high score (13/17) and high institutional ownership (86.7%).\n  Weakest pick: AAPL, due to its low score (11/17) and relatively low institutional ownership (65.7%).\n\n\u2022 Overall confidence: HIGH \n  The top screener picks align with sector momentum, and the strongest pick, SBUX, has a high score and strong institutional ownership.\n\u26a0\ufe0f Hallucination check flagged: TW",
+    "ts_utc": "2026-08-01 01:30 UTC",
+    "phase": "Overnight",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nConsumer Disc sector is strong, with SBUX and AMZN as top picks. Both stocks have high scores and above-average volume, indicating potential momentum.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nNone found, but monitor signals indicate caution with stocks like PLTR, LULU, and NFLX due to overbought or below-200-day MA conditions.\n\n\u2022 Name the strongest and weakest pick with one reason each: \nStrongest pick: SBUX, due to its high score and above-average volume. \nWeakest pick: AMZN, due to its low MFI (45.5) indicating potential sell-off.\n\n\u2022 Overall confidence: HIGH \nThe sector momentum and screener picks align, with no major red flags, indicating a strong potential for the Consumer Disc sector.",
     "conflicts": [],
-    "suspicious_tickers": [
-      "TW"
-    ],
+    "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
   }
 ]
