@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Stock Hub — 2026-08-04 05:02 TW</title>
+<title>Stock Hub — 2026-08-04 05:13 TW</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -233,7 +233,7 @@ a:hover { text-decoration: underline; }
   <div class="header-title">📈 Stock Hub</div>
   <div class="phase-badge"><div class="phase-dot"></div>After-Hours (4:00-8:00 PM ET)</div>
   <span class="run-mode-tag">SCREENER</span>
-  <div class="header-time" id="live-clock">2026-08-04 05:02 TW &nbsp;|&nbsp; 2026-08-03 21:02 UTC</div>
+  <div class="header-time" id="live-clock">2026-08-04 05:13 TW &nbsp;|&nbsp; 2026-08-03 21:13 UTC</div>
   <button class="theme-btn" onclick="toggleTheme()">☀ / ☾</button>
 </div>
 
@@ -245,7 +245,7 @@ a:hover { text-decoration: underline; }
 </div>
 
 <div id="screener" class="tab-pane active">
-        <div class="updated-note">Run: 2026-08-03 21:02 &nbsp;·&nbsp; 132 stocks scored &nbsp;·&nbsp; Top sector: <strong style="color:var(--accent)">Comm. Services</strong></div>
+        <div class="updated-note">Run: 2026-08-03 21:13 &nbsp;·&nbsp; 132 stocks scored &nbsp;·&nbsp; Top sector: <strong style="color:var(--accent)">Comm. Services</strong></div>
         <div class="sentiment-strip">
           <div class="sent-seg sent-g" style="width:0.8%">1% Strong</div>
           <div class="sent-seg sent-y" style="width:6.8%">7%</div>
@@ -265,8 +265,8 @@ a:hover { text-decoration: underline; }
         </div>
         <div class="card-price-row">
           <span class="price">$487.65</span>
-          <span class="chg pos">+2.42%</span>
-          <span class="muted" style="font-size:.8rem">close $487.65 vs open $476.12 (+2.4%)</span>
+          <span class="chg pos">+2.36%</span>
+          <span class="muted" style="font-size:.8rem">close $487.65 vs open $476.39 (+2.4%)</span>
         </div>
       </div>
       <div class="score-bar-wrap">
@@ -329,7 +329,7 @@ a:hover { text-decoration: underline; }
       <div class="factor-pills"><span class="pill fr">Vol</span><span class="pill fr">Breakout</span><span class="pill fg">MA200</span><span class="pill fg">Inst</span><span class="pill fg">MFI</span><span class="pill fg">Sector</span><span class="pill fr">History</span><span class="pill fg">IV</span></div>
       <div class="card-meta">
         <span>Vol: <strong>0.6x</strong></span>
-        <span>MA200: <strong class="pos">$46.32203572796237</strong></span>
+        <span>MA200: <strong class="pos">$46.322035881780806</strong></span>
         <span>Inst: <strong>70.7%</strong></span>
         <span>MFI: <strong>70.7</strong></span>
         <span>IV(mean): <strong>89.3%</strong></span>
@@ -431,7 +431,7 @@ a:hover { text-decoration: underline; }
       <div class="factor-pills"><span class="pill fr">Vol</span><span class="pill fr">Breakout</span><span class="pill fg">MA200</span><span class="pill fg">Inst</span><span class="pill fy">MFI</span><span class="pill fg">Sector</span><span class="pill fr">History</span><span class="pill fg">IV</span></div>
       <div class="card-meta">
         <span>Vol: <strong>1.2x</strong></span>
-        <span>MA200: <strong class="pos">$340.7875435121598</strong></span>
+        <span>MA200: <strong class="pos">$340.78754252772177</strong></span>
         <span>Inst: <strong>80.3%</strong></span>
         <span>MFI: <strong>52.7</strong></span>
         <span>IV(mean): <strong>110.6%</strong></span>
@@ -593,7 +593,7 @@ a:hover { text-decoration: underline; }
         </div></div></div>
             <div class="section-title">LLM Supervision</div>
             <div class="llm-panel">
-              <div class="llm-note">• Validate top screener picks vs sector momentum: <br>The top sector is Comm. Services, with MSFT, VZ, and GOOGL as top picks. Their scores and momentum indicators (MA200 above, MFI above 50%) suggest they are strong within their sector.<br><br>• Flag any contradiction between screener and monitor signals: <br>None of the top screener picks have bearish MACD crossovers or are below their 200-day MA, but some monitor signals (e.g., PLTR, LULU, NOW) indicate potential weakness.<br><br>• Name the strongest and weakest pick with one reason each: <br>Strongest pick: MSFT, due to its high score (12/17) and strong momentum indicators.<br>Weakest pick: BA, due to its relatively low MFI (55.6) compared to other top picks.<br><br>• Overall confidence: HIGH<br>The screener top picks have strong momentum indicators and scores, suggesting a high level of confidence in their potential performance.</div>
+              <div class="llm-note">• Validate top screener picks vs sector momentum: <br>The top sector is Comm. Services, with MSFT and GOOGL as the top two screener picks. Both stocks have strong momentum, with MSFT's MFI at 77.9 and GOOGL's MFI at 52.7.<br><br>• Flag any contradiction between screener and monitor signals: <br>No direct contradictions are found between screener and monitor signals for the top picks. However, PLTR is overbought and below its 200-day MA, which may indicate a potential reversal.<br><br>• Name the strongest and weakest pick with one reason each: <br>Strongest pick: MSFT, due to its high MFI score of 77.9. <br>Weakest pick: VZ, due to its low MFI score of 70.7.<br><br>• Overall confidence: HIGH <br>Confidence is high due to the strong momentum and high MFI scores of the top picks, particularly MSFT.</div>
             </div>
           </div>
         </div>
@@ -726,7 +726,7 @@ a:hover { text-decoration: underline; }
         <li><strong>AI supervision:</strong> Groq Llama 3.1 (free) — validates picks against sector context (requires GROQ_API_KEY secret)</li>
         <li><strong>Universe:</strong> 132 stocks defined in config/universe.csv</li>
         <li><strong>Scoring weights:</strong> Inst.Own(3) · Sector(3) · Volume(2) · Breakout(2) · MA200(2) · MFI(2) · History(2) · IV(1) = 17pts max</li>
-        <li><strong>Run time:</strong> 2026-08-03 21:02 UTC — Market phase: After-Hours (4:00-8:00 PM ET)</li>
+        <li><strong>Run time:</strong> 2026-08-03 21:13 UTC — Market phase: After-Hours (4:00-8:00 PM ET)</li>
       </ul>
       <div style="margin-top:10px;font-size:.75rem;color:var(--muted);border-top:1px solid var(--border);padding-top:8px">
         ⚠️ For informational purposes only — not financial advice. All data from Yahoo Finance (free tier).
@@ -1678,9 +1678,9 @@ a:hover { text-decoration: underline; }
     <div class="section-title">LLM Supervision Log (last 1 runs)</div>
     <div class="llm-panel">
         <div class="llm-entry">
-          <div class="llm-meta">2026-08-03 21:02 UTC &nbsp;·&nbsp; After-Hours (4:00-8:00 PM ET)</div>
+          <div class="llm-meta">2026-08-03 21:13 UTC &nbsp;·&nbsp; After-Hours (4:00-8:00 PM ET)</div>
           
-          <div class="llm-note">• Validate top screener picks vs sector momentum: <br>The top sector is Comm. Services, with MSFT, VZ, and GOOGL as top picks. Their scores and momentum indicators (MA200 above, MFI above 50%) suggest they are strong within their sector.<br><br>• Flag any contradiction between screener and monitor signals: <br>None of the top screener picks have bearish MACD crossovers or are below their 200-day MA, but some monitor signals (e.g., PLTR, LULU, NOW) indicate potential weakness.<br><br>• Name the strongest and weakest pick with one reason each: <br>Strongest pick: MSFT, due to its high score (12/17) and strong momentum indicators.<br>Weakest pick: BA, due to its relatively low MFI (55.6) compared to other top picks.<br><br>• Overall confidence: HIGH<br>The screener top picks have strong momentum indicators and scores, suggesting a high level of confidence in their potential performance.</div>
+          <div class="llm-note">• Validate top screener picks vs sector momentum: <br>The top sector is Comm. Services, with MSFT and GOOGL as the top two screener picks. Both stocks have strong momentum, with MSFT's MFI at 77.9 and GOOGL's MFI at 52.7.<br><br>• Flag any contradiction between screener and monitor signals: <br>No direct contradictions are found between screener and monitor signals for the top picks. However, PLTR is overbought and below its 200-day MA, which may indicate a potential reversal.<br><br>• Name the strongest and weakest pick with one reason each: <br>Strongest pick: MSFT, due to its high MFI score of 77.9. <br>Weakest pick: VZ, due to its low MFI score of 70.7.<br><br>• Overall confidence: HIGH <br>Confidence is high due to the strong momentum and high MFI scores of the top picks, particularly MSFT.</div>
           
         </div></div></div>
 
