@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Stock Hub — 2026-08-04 07:10 TW</title>
+<title>Stock Hub — 2026-08-04 07:12 TW</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -233,7 +233,7 @@ a:hover { text-decoration: underline; }
   <div class="header-title">📈 Stock Hub</div>
   <div class="phase-badge"><div class="phase-dot"></div>After-Hours (4:00-8:00 PM ET)</div>
   <span class="run-mode-tag">SCREENER</span>
-  <div class="header-time" id="live-clock">2026-08-04 07:10 TW &nbsp;|&nbsp; 2026-08-03 23:10 UTC</div>
+  <div class="header-time" id="live-clock">2026-08-04 07:12 TW &nbsp;|&nbsp; 2026-08-03 23:12 UTC</div>
   <button class="theme-btn" onclick="toggleTheme()">☀ / ☾</button>
 </div>
 
@@ -245,7 +245,7 @@ a:hover { text-decoration: underline; }
 </div>
 
 <div id="screener" class="tab-pane active">
-        <div class="updated-note">Run: 2026-08-03 23:09 &nbsp;·&nbsp; 132 stocks scored &nbsp;·&nbsp; Top sector: <strong style="color:var(--accent)">Comm. Services</strong></div>
+        <div class="updated-note">Run: 2026-08-03 23:11 &nbsp;·&nbsp; 132 stocks scored &nbsp;·&nbsp; Top sector: <strong style="color:var(--accent)">Comm. Services</strong></div>
         <div class="sentiment-strip">
           <div class="sent-seg sent-g" style="width:0.8%">1% Strong</div>
           <div class="sent-seg sent-y" style="width:6.8%">7%</div>
@@ -329,7 +329,7 @@ a:hover { text-decoration: underline; }
       <div class="factor-pills"><span class="pill fr">Vol</span><span class="pill fr">Breakout</span><span class="pill fg">MA200</span><span class="pill fg">Inst</span><span class="pill fg">MFI</span><span class="pill fg">Sector</span><span class="pill fr">History</span><span class="pill fg">IV</span></div>
       <div class="card-meta">
         <span>Vol: <strong>0.6x</strong></span>
-        <span>MA200: <strong class="pos">$46.32203572796237</strong></span>
+        <span>MA200: <strong class="pos">$46.322035881780806</strong></span>
         <span>Inst: <strong>70.7%</strong></span>
         <span>MFI: <strong>70.7</strong></span>
         <span>IV(mean): <strong>89.3%</strong></span>
@@ -431,7 +431,7 @@ a:hover { text-decoration: underline; }
       <div class="factor-pills"><span class="pill fr">Vol</span><span class="pill fr">Breakout</span><span class="pill fg">MA200</span><span class="pill fg">Inst</span><span class="pill fy">MFI</span><span class="pill fg">Sector</span><span class="pill fr">History</span><span class="pill fg">IV</span></div>
       <div class="card-meta">
         <span>Vol: <strong>1.2x</strong></span>
-        <span>MA200: <strong class="pos">$340.7875435121598</strong></span>
+        <span>MA200: <strong class="pos">$340.78754252772177</strong></span>
         <span>Inst: <strong>80.3%</strong></span>
         <span>MFI: <strong>52.7</strong></span>
         <span>IV(mean): <strong>110.6%</strong></span>
@@ -593,7 +593,7 @@ a:hover { text-decoration: underline; }
         </div></div></div>
             <div class="section-title">LLM Supervision</div>
             <div class="llm-panel">
-              <div class="llm-note">• Validate top screener picks vs sector momentum: <br>The top sector is Comm. Services, and all top screener picks (VZ, GOOGL) are within this sector, while MSFT is in Technology and BA is in Industrials. This validates the sector momentum.<br><br>• Flag any contradiction between screener and monitor signals:<br>There is no direct contradiction between the screener and monitor signals. However, the monitor signals indicate bearish crossovers for several stocks, which might contradict the screener's positive signals for the top picks.<br><br>• Name the strongest and weakest pick with one reason each:<br>Strongest pick: VZ, due to its high institutional ownership percentage (75.8%).<br>Weakest pick: BA, due to its relatively low Money Flow Index (MFI) of 55.6.<br><br>• Overall confidence: MEDIUM<br>The mixed signals from the monitor and screener indicate that the market is uncertain, and caution is advised when making investment decisions.</div>
+              <div class="llm-note">• Validate top screener picks vs sector momentum: <br>The top sector is Comm. Services, and two out of the top five screener picks belong to this sector (VZ and GOOGL). MSFT is in Technology, which is not the top sector. BA is in Industrials, and AMZN is in Consumer Disc.<br><br>• Flag any contradiction between screener and monitor signals: <br>None found.<br><br>• Name the strongest and weakest pick with one reason each:<br>Strongest: MSFT, due to its high MFI score of 77.9.<br>Weakest: VZ, due to its low MFI score of 70.7.<br><br>• Overall confidence: HIGH<br>The screener picks show strong technical signals, and the sector momentum is in the top sector.</div>
             </div>
           </div>
         </div>
@@ -726,7 +726,7 @@ a:hover { text-decoration: underline; }
         <li><strong>AI supervision:</strong> Groq Llama 3.1 (free) — validates picks against sector context (requires GROQ_API_KEY secret)</li>
         <li><strong>Universe:</strong> 132 stocks defined in config/universe.csv</li>
         <li><strong>Scoring weights:</strong> Inst.Own(3) · Sector(3) · Volume(2) · Breakout(2) · MA200(2) · MFI(2) · History(2) · IV(1) = 17pts max</li>
-        <li><strong>Run time:</strong> 2026-08-03 23:09 UTC — Market phase: After-Hours (4:00-8:00 PM ET)</li>
+        <li><strong>Run time:</strong> 2026-08-03 23:11 UTC — Market phase: After-Hours (4:00-8:00 PM ET)</li>
       </ul>
       <div style="margin-top:10px;font-size:.75rem;color:var(--muted);border-top:1px solid var(--border);padding-top:8px">
         ⚠️ For informational purposes only — not financial advice. All data from Yahoo Finance (free tier).
@@ -1678,9 +1678,9 @@ a:hover { text-decoration: underline; }
     <div class="section-title">LLM Supervision Log (last 1 runs)</div>
     <div class="llm-panel">
         <div class="llm-entry">
-          <div class="llm-meta">2026-08-03 23:10 UTC &nbsp;·&nbsp; After-Hours (4:00-8:00 PM ET)</div>
+          <div class="llm-meta">2026-08-03 23:12 UTC &nbsp;·&nbsp; After-Hours (4:00-8:00 PM ET)</div>
           
-          <div class="llm-note">• Validate top screener picks vs sector momentum: <br>The top sector is Comm. Services, and all top screener picks (VZ, GOOGL) are within this sector, while MSFT is in Technology and BA is in Industrials. This validates the sector momentum.<br><br>• Flag any contradiction between screener and monitor signals:<br>There is no direct contradiction between the screener and monitor signals. However, the monitor signals indicate bearish crossovers for several stocks, which might contradict the screener's positive signals for the top picks.<br><br>• Name the strongest and weakest pick with one reason each:<br>Strongest pick: VZ, due to its high institutional ownership percentage (75.8%).<br>Weakest pick: BA, due to its relatively low Money Flow Index (MFI) of 55.6.<br><br>• Overall confidence: MEDIUM<br>The mixed signals from the monitor and screener indicate that the market is uncertain, and caution is advised when making investment decisions.</div>
+          <div class="llm-note">• Validate top screener picks vs sector momentum: <br>The top sector is Comm. Services, and two out of the top five screener picks belong to this sector (VZ and GOOGL). MSFT is in Technology, which is not the top sector. BA is in Industrials, and AMZN is in Consumer Disc.<br><br>• Flag any contradiction between screener and monitor signals: <br>None found.<br><br>• Name the strongest and weakest pick with one reason each:<br>Strongest: MSFT, due to its high MFI score of 77.9.<br>Weakest: VZ, due to its low MFI score of 70.7.<br><br>• Overall confidence: HIGH<br>The screener picks show strong technical signals, and the sector momentum is in the top sector.</div>
           
         </div></div></div>
 
