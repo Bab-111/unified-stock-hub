@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-08-04 15:19 UTC",
+    "ts_utc": "2026-08-04 15:21 UTC",
     "phase": "Regular Market Hours",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top screener picks (MSFT, INTC, PLTR, NOW, AAPL) are all in the Technology sector, which is currently strong. MSFT and NOW have high scores and high MFI, indicating strong momentum.\n\n\u2022 Flag any contradiction between screener and monitor signals:\nPLTR is a top screener pick but has a bearish RSI signal, indicating overbought conditions. RKLB, SOFI, DRAM, IREN, ATOM, SCO, QCOM, and NFLX have bearish MACD crossovers, contradicting the screener's strong signals.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: MSFT, due to its high score and high MFI.\nWeakest pick: PLTR, due to its overbought RSI signal.\n\n\u2022 Overall confidence: MEDIUM\nThe strong sector momentum and top screener picks are balanced by bearish signals from the watchlist and rule-based conflicts, resulting in a moderate level of confidence.",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \n  MSFT and NOW have strong scores and high MFI, indicating strong momentum within the sector. \n  AMD and INTC have lower scores but are still above their MA200, indicating some sector momentum.\n\n\u2022 Flag any contradiction between screener and monitor signals: \n  PLTR is a top screener pick but is overbought (RSI 82) and below its 200-day MA, indicating a contradiction.\n\n\u2022 Name the strongest and weakest pick with one reason each: \n  Strongest pick: MSFT, due to its high score and high MFI.\n  Weakest pick: INTC, due to its low MFI.\n\n\u2022 Overall confidence: MEDIUM\n  Market conditions are mixed, with some strong picks and contradictions, reducing overall confidence.",
     "conflicts": [
       {
         "ticker": "PLTR",
