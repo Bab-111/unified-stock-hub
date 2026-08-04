@@ -245,7 +245,7 @@ a:hover { text-decoration: underline; }
 </div>
 
 <div id="screener" class="tab-pane active">
-        <div class="updated-note">Run: 2026-08-04 20:21 &nbsp;·&nbsp; 132 stocks scored &nbsp;·&nbsp; Top sector: <strong style="color:var(--accent)">Technology</strong></div>
+        <div class="updated-note">Run: 2026-08-04 20:22 &nbsp;·&nbsp; 132 stocks scored &nbsp;·&nbsp; Top sector: <strong style="color:var(--accent)">Technology</strong></div>
         <div class="sentiment-strip">
           <div class="sent-seg sent-g" style="width:6.1%">6% Strong</div>
           <div class="sent-seg sent-y" style="width:1.5%">2%</div>
@@ -380,7 +380,7 @@ a:hover { text-decoration: underline; }
       <div class="factor-pills"><span class="pill fr">Vol</span><span class="pill fr">Breakout</span><span class="pill fg">MA200</span><span class="pill fg">Inst</span><span class="pill fg">MFI</span><span class="pill fg">Sector</span><span class="pill fg">History</span><span class="pill fg">IV</span></div>
       <div class="card-meta">
         <span>Vol: <strong>1.3x</strong></span>
-        <span>MA200: <strong class="pos">$400.6593805128528</strong></span>
+        <span>MA200: <strong class="pos">$400.6593800206338</strong></span>
         <span>Inst: <strong>75.4%</strong></span>
         <span>MFI: <strong>79.0</strong></span>
         <span>IV(mean): <strong>139.0%</strong></span>
@@ -431,7 +431,7 @@ a:hover { text-decoration: underline; }
       <div class="factor-pills"><span class="pill fr">Vol</span><span class="pill fg">Breakout</span><span class="pill fg">MA200</span><span class="pill fg">Inst</span><span class="pill fg">MFI</span><span class="pill fg">Sector</span><span class="pill fr">History</span><span class="pill fg">IV</span></div>
       <div class="card-meta">
         <span>Vol: <strong>0.6x</strong></span>
-        <span>MA200: <strong class="pos">$179.20121346750568</strong></span>
+        <span>MA200: <strong class="pos">$179.20121408277942</strong></span>
         <span>Inst: <strong>93.8%</strong></span>
         <span>MFI: <strong>60.9</strong></span>
         <span>IV(mean): <strong>140.3%</strong></span>
@@ -593,7 +593,7 @@ a:hover { text-decoration: underline; }
         </div></div></div>
             <div class="section-title">LLM Supervision</div>
             <div class="llm-panel">
-              <div class="llm-note">• Validate top screener picks vs sector momentum: <br>  PLTR and NOW show strong scores but are overbought and below 200-day MA, respectively.<br>  MSFT and CRM have lower scores but are above 200-day MA and have high institutional ownership.<br>  INTC has a lower score but is above 200-day MA.<br><br>• Flag any contradiction between screener and monitor signals:<br>  PLTR is a strong screener pick but is overbought and below 200-day MA, contradicting its score.<br>  NOW is a strong screener pick but is below 200-day MA, contradicting its score.<br><br>• Name the strongest and weakest pick with one reason each:<br>  Strongest: CRM, due to high institutional ownership (93.8%).<br>  Weakest: INTC, due to low MFI (33.2).<br><br>• Overall confidence: MEDIUM <br>  The sector momentum is strong, but contradictions between screener and monitor signals and mixed technical indicators reduce overall confidence.</div>
+              <div class="llm-note">• Validate top screener picks vs sector momentum: <br>  - PLTR, NOW, and MSFT have strong screener scores but are also overbought/ below 200-day MA, indicating mixed signals.<br>  - CRM and INTC have strong screener scores and are above MA200, indicating a stronger momentum.<br><br>• Flag any contradiction between screener and monitor signals:<br>  - PLTR is a strong screener pick but has an overbought RSI, indicating a contradiction.<br>  - NOW is a strong screener pick but is below 200-day MA, indicating a contradiction.<br><br>• Name the strongest and weakest pick with one reason each:<br>  - Strongest pick: CRM (93.8% institutional ownership)<br>  - Weakest pick: INTC (33.2% MFI, indicating a bearish trend)<br><br>• Overall confidence: MEDIUM<br>The top screener picks have mixed signals, and some have contradictions between screener and monitor signals, reducing overall confidence.</div>
             </div>
           </div>
         </div>
@@ -726,7 +726,7 @@ a:hover { text-decoration: underline; }
         <li><strong>AI supervision:</strong> Groq Llama 3.1 (free) — validates picks against sector context (requires GROQ_API_KEY secret)</li>
         <li><strong>Universe:</strong> 132 stocks defined in config/universe.csv</li>
         <li><strong>Scoring weights:</strong> Inst.Own(3) · Sector(3) · Volume(2) · Breakout(2) · MA200(2) · MFI(2) · History(2) · IV(1) = 17pts max</li>
-        <li><strong>Run time:</strong> 2026-08-04 20:21 UTC — Market phase: After-Hours (4:00-8:00 PM ET)</li>
+        <li><strong>Run time:</strong> 2026-08-04 20:22 UTC — Market phase: After-Hours (4:00-8:00 PM ET)</li>
       </ul>
       <div style="margin-top:10px;font-size:.75rem;color:var(--muted);border-top:1px solid var(--border);padding-top:8px">
         ⚠️ For informational purposes only — not financial advice. All data from Yahoo Finance (free tier).
@@ -1680,7 +1680,7 @@ a:hover { text-decoration: underline; }
         <div class="llm-entry">
           <div class="llm-meta">2026-08-04 20:22 UTC &nbsp;·&nbsp; After-Hours (4:00-8:00 PM ET)</div>
           <div class='conflict-list'><span class="conflict-badge">⚠️ PLTR</span> </div>
-          <div class="llm-note">• Validate top screener picks vs sector momentum: <br>  PLTR and NOW show strong scores but are overbought and below 200-day MA, respectively.<br>  MSFT and CRM have lower scores but are above 200-day MA and have high institutional ownership.<br>  INTC has a lower score but is above 200-day MA.<br><br>• Flag any contradiction between screener and monitor signals:<br>  PLTR is a strong screener pick but is overbought and below 200-day MA, contradicting its score.<br>  NOW is a strong screener pick but is below 200-day MA, contradicting its score.<br><br>• Name the strongest and weakest pick with one reason each:<br>  Strongest: CRM, due to high institutional ownership (93.8%).<br>  Weakest: INTC, due to low MFI (33.2).<br><br>• Overall confidence: MEDIUM <br>  The sector momentum is strong, but contradictions between screener and monitor signals and mixed technical indicators reduce overall confidence.</div>
+          <div class="llm-note">• Validate top screener picks vs sector momentum: <br>  - PLTR, NOW, and MSFT have strong screener scores but are also overbought/ below 200-day MA, indicating mixed signals.<br>  - CRM and INTC have strong screener scores and are above MA200, indicating a stronger momentum.<br><br>• Flag any contradiction between screener and monitor signals:<br>  - PLTR is a strong screener pick but has an overbought RSI, indicating a contradiction.<br>  - NOW is a strong screener pick but is below 200-day MA, indicating a contradiction.<br><br>• Name the strongest and weakest pick with one reason each:<br>  - Strongest pick: CRM (93.8% institutional ownership)<br>  - Weakest pick: INTC (33.2% MFI, indicating a bearish trend)<br><br>• Overall confidence: MEDIUM<br>The top screener picks have mixed signals, and some have contradictions between screener and monitor signals, reducing overall confidence.</div>
           
         </div></div></div>
 
