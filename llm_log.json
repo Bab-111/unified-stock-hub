@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-08-04 18:25 UTC",
-    "phase": "Regular Market Hours",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \n  The top sector is Technology, and all top screener picks (MSFT, PLTR, NOW, CRM, AMD) are within the Technology sector, validating their inclusion.\n\n\u2022 Flag any contradiction between screener and monitor signals:\n  PLTR is flagged due to a contradiction between its strong screener score (14/17) and overbought RSI (82), indicating a potential reversal.\n\n\u2022 Name the strongest and weakest pick with one reason each:\n  Strongest pick: CRM (93.8% institutional ownership), indicating strong market support.\n  Weakest pick: PLTR (MACD bearish crossover and overbought RSI), indicating potential reversal.\n\n\u2022 Overall confidence: MEDIUM\nThe presence of a contradiction between screener and monitor signals for PLTR and other bearish crossovers in the watchlist alerts lowers overall confidence.",
+    "ts_utc": "2026-08-04 20:22 UTC",
+    "phase": "After-Hours (4:00-8:00 PM ET)",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \n  PLTR and NOW show strong scores but are overbought and below 200-day MA, respectively.\n  MSFT and CRM have lower scores but are above 200-day MA and have high institutional ownership.\n  INTC has a lower score but is above 200-day MA.\n\n\u2022 Flag any contradiction between screener and monitor signals:\n  PLTR is a strong screener pick but is overbought and below 200-day MA, contradicting its score.\n  NOW is a strong screener pick but is below 200-day MA, contradicting its score.\n\n\u2022 Name the strongest and weakest pick with one reason each:\n  Strongest: CRM, due to high institutional ownership (93.8%).\n  Weakest: INTC, due to low MFI (33.2).\n\n\u2022 Overall confidence: MEDIUM \n  The sector momentum is strong, but contradictions between screener and monitor signals and mixed technical indicators reduce overall confidence.",
     "conflicts": [
       {
         "ticker": "PLTR",
