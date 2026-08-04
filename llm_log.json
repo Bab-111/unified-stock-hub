@@ -1,9 +1,16 @@
 [
   {
-    "ts_utc": "2026-08-04 02:15 UTC",
-    "phase": "Overnight",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top sector is Comm. Services, and two of the top screener picks, VZ and GOOGL, belong to this sector. Both have above MA200 and high institutional ownership, indicating strong momentum.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nThere is a contradiction between the screener and monitor signals for PLTR, which is overbought according to the screener but below 200-day MA according to the monitor. \n\n\u2022 Name the strongest and weakest pick with one reason each: \nStrongest pick: MSFT, due to its high score of 12/17 and high MFI of 77.9. \nWeakest pick: BA, due to its relatively low MFI of 55.6.\n\n\u2022 Overall confidence: HIGH \nThe screener top picks have strong momentum and high institutional ownership, indicating a high level of confidence in the market's direction.",
-    "conflicts": [],
+    "ts_utc": "2026-08-04 15:19 UTC",
+    "phase": "Regular Market Hours",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top screener picks (MSFT, INTC, PLTR, NOW, AAPL) are all in the Technology sector, which is currently strong. MSFT and NOW have high scores and high MFI, indicating strong momentum.\n\n\u2022 Flag any contradiction between screener and monitor signals:\nPLTR is a top screener pick but has a bearish RSI signal, indicating overbought conditions. RKLB, SOFI, DRAM, IREN, ATOM, SCO, QCOM, and NFLX have bearish MACD crossovers, contradicting the screener's strong signals.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: MSFT, due to its high score and high MFI.\nWeakest pick: PLTR, due to its overbought RSI signal.\n\n\u2022 Overall confidence: MEDIUM\nThe strong sector momentum and top screener picks are balanced by bearish signals from the watchlist and rule-based conflicts, resulting in a moderate level of confidence.",
+    "conflicts": [
+      {
+        "ticker": "PLTR",
+        "reasons": [
+          "Screener=strong but RSI=82 (overbought)"
+        ]
+      }
+    ],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
   }
