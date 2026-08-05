@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-08-05 18:17 UTC",
-    "phase": "Regular Market Hours",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nMaterials sector momentum is strong, but MSFT (Technology) and AAPL (Technology) are among the top picks, indicating a sector mismatch. \nECL (Materials) aligns with the sector, but its MFI is lower than the others.\n\n\u2022 Flag any contradiction between screener and monitor signals:\nNOW (Technology) is a top screener pick but also below its 200-day MA, contradicting its strong screener score.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: ECL (Materials) due to its high institutional ownership (93.3%).\nWeakest pick: AAPL (Technology) due to its low MFI (45.1).\n\n\u2022 Overall confidence: MEDIUM \nThe sector mismatch and some contradictory signals reduce overall confidence in the top screener picks.",
+    "ts_utc": "2026-08-05 20:24 UTC",
+    "phase": "After-Hours (4:00-8:00 PM ET)",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \n  MRK, PFE, LLY, MSFT, and JNJ are all strong picks within the Healthcare sector, which is currently leading the market.\n\n\u2022 Flag any contradiction between screener and monitor signals:\n  PLTR is overbought and below its 200-day MA, which is a contradiction. \n  RKLB, SOFI, DRAM, IREN, ATOM, SCO, QCOM, NFLX, and MCD are all showing bearish MACD crossovers and are below their 200-day MAs.\n\n\u2022 Name the strongest and weakest pick with one reason each:\n  Strongest pick: LLY (85.0% institutional ownership, indicating strong support).\n  Weakest pick: JNJ (0.5x volume, indicating low trading activity).\n\n\u2022 Overall confidence: HIGH\n  The strong Healthcare sector and solid screener picks contribute to high confidence in the report's accuracy.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
