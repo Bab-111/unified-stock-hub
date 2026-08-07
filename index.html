@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Stock Hub — 2026-08-07 08:53 TW</title>
+<title>Stock Hub — 2026-08-07 08:55 TW</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -233,7 +233,7 @@ a:hover { text-decoration: underline; }
   <div class="header-title">📈 Stock Hub</div>
   <div class="phase-badge"><div class="phase-dot"></div>Overnight</div>
   <span class="run-mode-tag">PARTIAL</span>
-  <div class="header-time" id="live-clock">2026-08-07 08:53 TW &nbsp;|&nbsp; 2026-08-07 00:53 UTC</div>
+  <div class="header-time" id="live-clock">2026-08-07 08:55 TW &nbsp;|&nbsp; 2026-08-07 00:55 UTC</div>
   <button class="theme-btn" onclick="toggleTheme()">☀ / ☾</button>
 </div>
 
@@ -245,7 +245,7 @@ a:hover { text-decoration: underline; }
 </div>
 
 <div id="screener" class="tab-pane active">
-        <div class="updated-note">Run: 2026-08-07 00:52 &nbsp;·&nbsp; 132 stocks scored &nbsp;·&nbsp; Top sector: <strong style="color:var(--accent)">Energy</strong></div>
+        <div class="updated-note">Run: 2026-08-07 00:54 &nbsp;·&nbsp; 132 stocks scored &nbsp;·&nbsp; Top sector: <strong style="color:var(--accent)">Energy</strong></div>
         <div class="sentiment-strip">
           <div class="sent-seg sent-g" style="width:0.0%">0% Strong</div>
           <div class="sent-seg sent-y" style="width:7.6%">8%</div>
@@ -278,7 +278,7 @@ a:hover { text-decoration: underline; }
       <div class="factor-pills"><span class="pill fr">Vol</span><span class="pill fr">Breakout</span><span class="pill fg">MA200</span><span class="pill fg">Inst</span><span class="pill fg">MFI</span><span class="pill fg">Sector</span><span class="pill fr">History</span><span class="pill fg">IV</span></div>
       <div class="card-meta">
         <span>Vol: <strong>0.5x</strong></span>
-        <span>MA200: <strong class="pos">$61.294257164001465</strong></span>
+        <span>MA200: <strong class="pos">$61.29425713323778</strong></span>
         <span>Inst: <strong>100.2%</strong></span>
         <span>MFI: <strong>74.7</strong></span>
         <span>IV(mean): <strong>81.2%</strong></span>
@@ -329,7 +329,7 @@ a:hover { text-decoration: underline; }
       <div class="factor-pills"><span class="pill fr">Vol</span><span class="pill fr">Breakout</span><span class="pill fg">MA200</span><span class="pill fg">Inst</span><span class="pill fg">MFI</span><span class="pill fg">Sector</span><span class="pill fr">History</span><span class="pill fg">IV</span></div>
       <div class="card-meta">
         <span>Vol: <strong>0.6x</strong></span>
-        <span>MA200: <strong class="pos">$175.5271836557696</strong></span>
+        <span>MA200: <strong class="pos">$175.5271841479886</strong></span>
         <span>Inst: <strong>80.8%</strong></span>
         <span>MFI: <strong>62.8</strong></span>
         <span>IV(mean): <strong>117.2%</strong></span>
@@ -593,7 +593,7 @@ a:hover { text-decoration: underline; }
         </div></div></div>
             <div class="section-title">LLM Supervision</div>
             <div class="llm-panel">
-              <div class="llm-note">• Validate top screener picks vs sector momentum: <br>The top screener picks in the Energy sector (BKR and PSX) show strong momentum with high scores, above MA200, and high MFI, indicating a strong uptrend.<br><br>• Flag any contradiction between screener and monitor signals: <br>NOW, a top screener pick, is also on the watchlist for being below its 200-day MA, which contradicts its strong screener score.<br><br>• Name the strongest and weakest pick with one reason each:<br>Strongest pick: BKR (Energy) - High score and above MA200 indicate strong momentum.<br>Weakest pick: AMD (Technology) - Low MFI (44.1) suggests a potential downtrend.<br><br>• Overall confidence: HIGH<br>The top screener picks in the Energy sector show strong momentum, and the sector is currently leading, indicating high confidence in the market's direction.</div>
+              <div class="llm-note">• Validate top screener picks vs sector momentum: <br>Energy sector momentum is strong, supporting top picks BKR and PSX. NOW and MSFT in Technology sector show above-average momentum, but AMD lags behind.<br><br>• Flag any contradiction between screener and monitor signals:<br>Monitor signals contradict screener picks for NOW, as it's below its 200-day MA, contradicting its high screener score.<br><br>• Name the strongest and weakest pick with one reason each:<br>Strongest pick: BKR, due to its high score and above-average MFI.<br>Weakest pick: AMD, due to its low MFI.<br><br>• Overall confidence: HIGH<br>The strong sector momentum and high screener scores for top picks indicate a high level of confidence in the automated stock report.</div>
             </div>
           </div>
         </div>
@@ -726,7 +726,7 @@ a:hover { text-decoration: underline; }
         <li><strong>AI supervision:</strong> Groq Llama 3.1 (free) — validates picks against sector context (requires GROQ_API_KEY secret)</li>
         <li><strong>Universe:</strong> 132 stocks defined in config/universe.csv</li>
         <li><strong>Scoring weights:</strong> Inst.Own(3) · Sector(3) · Volume(2) · Breakout(2) · MA200(2) · MFI(2) · History(2) · IV(1) = 17pts max</li>
-        <li><strong>Run time:</strong> 2026-08-07 00:52 UTC — Market phase: Overnight</li>
+        <li><strong>Run time:</strong> 2026-08-07 00:54 UTC — Market phase: Overnight</li>
       </ul>
       <div style="margin-top:10px;font-size:.75rem;color:var(--muted);border-top:1px solid var(--border);padding-top:8px">
         ⚠️ For informational purposes only — not financial advice. All data from Yahoo Finance (free tier).
@@ -1328,66 +1328,48 @@ a:hover { text-decoration: underline; }
       <div class="fund-grid"><div class="fund-row"><span>PE</span><strong>16.46</strong></div><div class="fund-row"><span>Fwd PE</span><strong>13.75</strong></div><div class="fund-row"><span>PEG</span><strong>2.48</strong></div><div class="fund-row"><span>P/B</span><strong>1.98</strong></div><div class="fund-row"><span>ROE</span><strong>13.0%</strong></div><div class="fund-row"><span>Margin</span><strong>40.2%</strong></div><div class="fund-row"><span>Rev Growth</span><strong>14.6%</strong></div><div class="fund-row"><span>Beta</span><strong>0.33</strong></div><div class="fund-row"><span>Inst Own</span><strong>29.7%</strong></div><div class="fund-row"><span>Mkt Cap</span><strong>564.47B</strong></div></div>
       
     </div></div></div></div>
-<div id="news"     class="tab-pane"><div class="updated-note">Updated: 2026-08-07 08:52 TW</div><div class="news-section"><div class="section-label">🌍 General Market</div><div class="article">
+<div id="news"     class="tab-pane"><div class="updated-note">Updated: 2026-08-07 08:54 TW</div><div class="news-section"><div class="section-label">🌍 General Market</div><div class="article">
           <a href="https://news.google.com/rss/articles/CBMihwFBVV95cUxNcmhkS2hZaWhCRE1xZVpnRUEwOGpaaW11SHd0RzhiX0tTbG5rMGhUX0dvRG8wVFNxYkdjeUd3MlJTc1NEV0pJdUlVUlUtb3l1YkFSZUY5aXhja25adTMwcVZyOWRxMW1SNi1WV0NnU3p5bklPQzRoU1ZhZDliRGhfejNkVkRLb1E?oc=5" target="_blank" rel="noopener">Stock Market Today: Dow Poised to Break Winning Streak — Live Updates - WSJ</a>
           <div class="article-meta"><span class="src-badge">Google News</span> <span class="muted">Thu, 06 Aug 2026</span></div>
         </div><div class="article">
           <a href="https://news.google.com/rss/articles/CBMid0FVX3lxTE9sdDVGOGpOTml1NUpGRV9OVS1PdEdMd1pZWUZxekExRW5vUVFUT1N6dDJva1Y4UTRleEY3aFRDSGZFOHVxQUhLa2xPSjk4Um9ybzBXNzA3R2M0VjZHdDFYdk9kbWQzSHVQRERJNzhZRkItNjU1ZHo40gF8QVVfeXFMTzIzSjJPbUJOWmYwbG56bHI1TUNhUmpjaElWMDhvM3I1UC1WZ2lqNE9wdUwwYWY3N3FsLUc5TktPLVgwNVlrNFFRbnJQTFFOV2d2WU9JUVhtckRVVzRlekViVm9qcWhOTnBlV2tkc3BsNG1RSnk5LV9BeEstRQ?oc=5" target="_blank" rel="noopener">S&P 500 falls as oil prices pressure stocks; Dow drops more than 450 points to end 5-day win streak - CNBC</a>
           <div class="article-meta"><span class="src-badge">Google News</span> <span class="muted">Wed, 05 Aug 2026</span></div>
-        </div></div><div class="news-section"><div class="section-label">📰 DRAM</div><div class="article">
-          <a href="http://www.etf.com/sections/equity/even-dram-bears-are-committed-ride?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss" target="_blank" rel="noopener">Even the DRAM Bears Are Committed to the Ride</a>
-          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Fri, 31 Jul 2026</span></div>
-        </div><div class="article">
-          <a href="https://finance.yahoo.com/m/db5a2b16-9dba-33bd-b3d3-e6a4d82f21ae/memory-stocks-surge.-sandisk.html?.tsrc=rss" target="_blank" rel="noopener">Memory Stocks Surge. Sandisk Tops S&P 500 Gainers.</a>
-          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 30 Jul 2026</span></div>
-        </div><div class="article">
-          <a href="https://www.marketwatch.com/story/individual-investors-are-dumping-stocks-at-the-fastest-pace-since-the-covid-crash-42b46756?.tsrc=rss" target="_blank" rel="noopener">Individual investors are dumping stocks at the fastest pace since the COVID crash</a>
-          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Wed, 29 Jul 2026</span></div>
-        </div><div class="article">
-          <a href="https://finance.yahoo.com/m/44c0e5fe-9716-31f8-a01f-17f5ae8056b1/seagate-stock-rises-after.html?.tsrc=rss" target="_blank" rel="noopener">Seagate Stock Rises After Blowout Earnings Fueled by AI Demand</a>
-          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Wed, 29 Jul 2026</span></div>
-        </div><div class="article">
-          <a href="https://247wallst.com/investing/2026/07/28/buy-or-sell-the-memory-plunge-sandisk-sinks-9-micron-drops-7-western-digital-falls-8/?.tsrc=rss" target="_blank" rel="noopener">Buy or Sell the Memory Plunge? SanDisk Sinks 9%, Micron Drops 7%, Western Digital Falls 8%</a>
-          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Tue, 28 Jul 2026</span></div>
-        </div><div class="article">
-          <a href="https://news.google.com/rss/articles/CBMigAFBVV95cUxPZnVZYVM3dnZoNWI1NGFBdzdreFVCMEFuR1VZRENBdXNHSjRpUjljODBqY3pYZExIUjVCSUVBTDRHdDJrcUp6VjRHVnZKZGVoQ1RBbktwSVBFVFlsRWY2VTRFS3c2RFJZcjdodDdLOWVLcEhHdzBFbE13Wi12TzJsdtIBhgFBVV95cUxNazNIN0dUcWFkb0xRRkpfWW01anBCbFM4Mk1lTnRrX2dYcHc4NE9wRURWQXBZaGpPbEdncDBpT2Y2d1FhbjVFSHdDV3FMb2tvdmNzZFg4VkJBaHUzc0t2SHFqQ09HOU83OU11QWVaMmZta0tuOTFSeU5wb1gtSVdmdk9GQ0EtZw?oc=5" target="_blank" rel="noopener">The next AI boom in stock market after memory chip trade may be photonics - CNBC</a>
-          <div class="article-meta"><span class="src-badge">Google News</span> <span class="muted">Wed, 05 Aug 2026</span></div>
-        </div></div><div class="news-section"><div class="section-label">📰 LULU</div><div class="article">
-          <a href="https://finance.yahoo.com/media-advertising/articles/fashion-biggest-brands-spent-years-070000130.html?.tsrc=rss" target="_blank" rel="noopener">Fashion’s biggest brands spent years letting eBay and Depop resell their clothes. Now, they want the money</a>
+        </div></div><div class="news-section"><div class="section-label">📰 QCOM</div><div class="article">
+          <a href="https://finance.yahoo.com/markets/stocks/articles/qualcomm-qcom-stock-fair-value-231733386.html?.tsrc=rss" target="_blank" rel="noopener">Qualcomm (QCOM) Stock Fair Value Moves Lower As Margin Pressure Offsets AI Ambitions</a>
           <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 06 Aug 2026</span></div>
         </div><div class="article">
-          <a href="https://finance.yahoo.com/markets/stocks/articles/lululemon-lulu-faces-california-lawsuit-180956945.html?.tsrc=rss" target="_blank" rel="noopener">Lululemon (LULU) Faces California Lawsuit Over Alleged Misleading Discount Prices</a>
+          <a href="https://www.trefis.com/articles/610350/what-you-actually-pay-to-join-the-sitm-run/2026-08-06?.tsrc=rss" target="_blank" rel="noopener">What You Actually Pay To Join The SITM Run</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 06 Aug 2026</span></div>
+        </div><div class="article">
+          <a href="https://finance.yahoo.com/markets/stocks/articles/parkervision-reports-second-quarter-2026-200100059.html?.tsrc=rss" target="_blank" rel="noopener">ParkerVision Reports Second Quarter 2026 Results</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 06 Aug 2026</span></div>
+        </div><div class="article">
+          <a href="https://www.trefis.com/articles/610419/qualcomms-largest-revenue-line-is-shrinking-from-both-sides/2026-08-06?.tsrc=rss" target="_blank" rel="noopener">Qualcomm's Largest Revenue Line Is Shrinking From Both Sides</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 06 Aug 2026</span></div>
+        </div><div class="article">
+          <a href="https://247wallst.com/investing/2026/08/06/prediction-arm-holdings-will-trade-at-this-price-in-12-months/?.tsrc=rss" target="_blank" rel="noopener">Prediction: Arm Holdings Will Trade at This Price in 12 Months</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 06 Aug 2026</span></div>
+        </div><div class="article">
+          <a href="https://news.google.com/rss/articles/CBMivAFBVV95cUxPS1NCUTZYZHZ5TUhUX2VzYjYxczhZdmtoVmNpaS0wWDQ1YnZBMnpkSzZsalp0emFvQXVYZHQxLU41X3Blc1psakc3bGJMWkhhQ3JBYi1xNjZaZ3NucFlBV2JYNmZxcnRzS1FZeEQyTGxMLWhkd1V3R3lFcW1DajI3V2UzVzFZei1uZTJUQWRVakdOZlIxVjNQRExwRmdjVTBSczh4S2dZVExRYk10VGgwdzJqWUhvQlo5bFhLRw?oc=5" target="_blank" rel="noopener">Qualcomm’s Largest Revenue Line Is Shrinking From Both Sides - Trefis</a>
+          <div class="article-meta"><span class="src-badge">Google News</span> <span class="muted">Thu, 06 Aug 2026</span></div>
+        </div></div><div class="news-section"><div class="section-label">📰 SOFI</div><div class="article">
+          <a href="https://finance.yahoo.com/markets/stocks/articles/why-wall-street-keeps-ignoring-170231638.html?.tsrc=rss" target="_blank" rel="noopener">Why Wall Street Keeps Ignoring SoFi’s Record Growth for Robinhood</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 06 Aug 2026</span></div>
+        </div><div class="article">
+          <a href="https://finance.yahoo.com/markets/stocks/articles/caz-investments-partners-sofi-democratize-130100189.html?.tsrc=rss" target="_blank" rel="noopener">CAZ Investments Partners with SoFi to Democratize Access to Private Markets</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 06 Aug 2026</span></div>
+        </div><div class="article">
+          <a href="https://www.trefis.com/articles/610170/pypls-historical-floor-is-back-but-is-the-business-same/2026-08-05?.tsrc=rss" target="_blank" rel="noopener">PYPL's Historical Floor Is Back, But Is The Business The Same?</a>
           <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Wed, 05 Aug 2026</span></div>
         </div><div class="article">
-          <a href="https://wwd.com/business-news/real-estate/tanger-q2-raised-guidance-ceo-interview-1239093981/?.tsrc=rss" target="_blank" rel="noopener">Tanger Posts Robust Q2, Raises 2026 Guidance</a>
+          <a href="https://finance.yahoo.com/markets/stocks/articles/why-hedge-funds-prefer-robinhood-190047212.html?.tsrc=rss" target="_blank" rel="noopener">Why Hedge Funds Prefer Robinhood (HOOD) Stock Over SoFi</a>
           <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Wed, 05 Aug 2026</span></div>
         </div><div class="article">
-          <a href="https://www.just-style.com/news/tariff-refund-drives-q2-profit-at-delta-galil/?.tsrc=rss" target="_blank" rel="noopener">Tariff refund drives Q2 profit at Delta Galil</a>
+          <a href="https://www.barchart.com/story/news/3667580/why-its-time-to-buy-the-dip-in-sofi-stock?.tsrc=rss" target="_blank" rel="noopener">Why It’s Time to Buy the Dip In SoFi Stock</a>
           <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Wed, 05 Aug 2026</span></div>
         </div><div class="article">
-          <a href="https://wwd.com/sourcing-journal/industry-news/lululemon-fake-reference-price-california-1239092371/?.tsrc=rss" target="_blank" rel="noopener">Lululemon Faces Lawsuit For Fake Reference Prices</a>
-          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Tue, 04 Aug 2026</span></div>
-        </div><div class="article">
-          <a href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQlhHYThFaGU5c3FrVmNtZHIxWUt0QXc3VUQ3bFVITFYyS1F4d1ZZTWlZOFNnSWZOZ1JRM09BTDJpX1ZhQ2t3NTI3V091YXNDYkhWUkdMSmwyeTZIUEN6MUZ0Y3dMUjlCZ1BpaUlYUFBKSW1lRWlKWlpjUjNQRVlyWFN2aTRsWDBIX3U1N0o5SmYteUxCUUliajMyMEg4TExnVG5lMXlQVWw?oc=5" target="_blank" rel="noopener">LULU Stock Plummets To Over 6-Year Lows – Barclays Says New CEO Appointment Is Incrementally Positive - Stocktwits</a>
-          <div class="article-meta"><span class="src-badge">Google News</span> <span class="muted">Mon, 03 Aug 2026</span></div>
-        </div></div><div class="news-section"><div class="section-label">📰 IREN</div><div class="article">
-          <a href="https://finance.yahoo.com/markets/stocks/articles/cleanspark-clsk-reports-q3-loss-231009129.html?.tsrc=rss" target="_blank" rel="noopener">CleanSpark (CLSK) Reports Q3 Loss, Lags Revenue Estimates</a>
-          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 06 Aug 2026</span></div>
-        </div><div class="article">
-          <a href="https://www.fool.com/investing/2026/08/06/why-iren-limited-stock-crashed-nearly-20-in-july/?.tsrc=rss" target="_blank" rel="noopener">Why IREN Limited Stock Crashed Nearly 20% in July</a>
-          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 06 Aug 2026</span></div>
-        </div><div class="article">
-          <a href="https://www.cryptoprowl.com/releases/pancakeswap-expands-tokenized-equity-offerings-with-10-new-bstocks-on-bnb-chain-6348?.tsrc=rss" target="_blank" rel="noopener">PancakeSwap Expands Tokenized Equity Offerings with 10 New 'bStocks' on BNB Chain</a>
-          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 06 Aug 2026</span></div>
-        </div><div class="article">
-          <a href="https://247wallst.com/investing/2026/08/06/coreweave-is-off-20-over-3-months-a-prominent-tech-analyst-expects-65-gains-this-cycle/?.tsrc=rss" target="_blank" rel="noopener">CoreWeave is Off 20% Over 3 Months: A Prominent Tech Analyst Expects 65% Gains This Cycle</a>
-          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 06 Aug 2026</span></div>
-        </div><div class="article">
-          <a href="https://www.fool.com/coverage/charts/2026/08/05/iren-vs-aerovironment-a-comparison-of-recent-revenue-trajectories/?.tsrc=rss" target="_blank" rel="noopener">Iren vs. AeroVironment: A Comparison of Recent Revenue Trajectories</a>
-          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Wed, 05 Aug 2026</span></div>
-        </div><div class="article">
-          <a href="https://news.google.com/rss/articles/CBMiUEFVX3lxTE9HdDVXV1JwY0tfU2Rwajd5dWdoUFNQYWUzbGhtTDlwWnFOMGI5Q3dMT2xkZUx1a1c3QzhsMmNfQUZQX1ozYWp5T3FkOGlBMDlf?oc=5" target="_blank" rel="noopener">IREN Stock Quote Price and Forecast - CNN</a>
-          <div class="article-meta"><span class="src-badge">Google News</span> <span class="muted">Tue, 04 Aug 2026</span></div>
+          <a href="https://news.google.com/rss/articles/CBMimwFBVV95cUxQaHhwbVp0NFpxMWFiZXVMdzRuOWpOdXlYZ2JKVU5oUDVLVzRrNDY4TVhOUzVqcFppeVpDRlNuOFV3SVlxX0szOGJZbHVjN0xILWVQSkpiN3Jxd2hWYUdySzhkbV94dmJZcjEyNERtMVNoSmJxaDZvSEluTE03WWd6U2lXSTdrSzJDRW5BVkdwTlZwck9vWFpoQldzbw?oc=5" target="_blank" rel="noopener">Why Wall Street Keeps Ignoring SoFi’s Record Growth for Robinhood - Yahoo Finance</a>
+          <div class="article-meta"><span class="src-badge">Google News</span> <span class="muted">Thu, 06 Aug 2026</span></div>
         </div></div><div class="news-section"><div class="section-label">📰 RKLB</div><div class="article">
           <a href="https://finance.yahoo.com/markets/stocks/articles/rocket-lab-corporation-rklb-ascends-221503456.html?.tsrc=rss" target="_blank" rel="noopener">Rocket Lab Corporation (RKLB) Ascends While Market Falls: Some Facts to Note</a>
           <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 06 Aug 2026</span></div>
@@ -1406,42 +1388,6 @@ a:hover { text-decoration: underline; }
         </div><div class="article">
           <a href="https://news.google.com/rss/articles/CBMingFBVV95cUxPR0VobWZ4eTdNYV9ROEFyM2hiTzNfUHZzbkhHU0F4RkM1Q1hQb0d3VzRpekJKTFo3SzRwTnpDMEZvMExYYlV5WExiNVR4Y0QzcFVtVU9DdDBhUVpnOGNnRFRGaUotOVVUemx3bkJrWXBzRmQwN2Y2b1VlTXJpQWVXTjA3RWVMT1A0MlpwaGdBRGg5SExNTzBaUWdlU3VFdw?oc=5" target="_blank" rel="noopener">Space Stocks Are Roaring Back In August — Here’s Why ASTS, RKLB, RDW And Their Peers Are Leaving SpaceX Behind - Yahoo F</a>
           <div class="article-meta"><span class="src-badge">Google News</span> <span class="muted">Thu, 06 Aug 2026</span></div>
-        </div></div><div class="news-section"><div class="section-label">📰 MCD</div><div class="article">
-          <a href="https://finance.yahoo.com/video/krispy-kreme-ceo-details-turnaround-195400020.html?.tsrc=rss" target="_blank" rel="noopener">Krispy Kreme CEO details turnaround strategy after earnings</a>
-          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 06 Aug 2026</span></div>
-        </div><div class="article">
-          <a href="https://finance.yahoo.com/markets/stocks/articles/krispy-kreme-inc-dnut-q2-190158836.html?.tsrc=rss" target="_blank" rel="noopener">Krispy Kreme Inc (DNUT) (Q2 2026) Earnings Call Highlights: EBITDA Soars 43% as Refranchising ...</a>
-          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 06 Aug 2026</span></div>
-        </div><div class="article">
-          <a href="https://finance.yahoo.com/m/8b79df64-1ab8-3a9e-937a-5a9ce0973eb9/selling-this-spread-on.html?.tsrc=rss" target="_blank" rel="noopener">Selling This Spread On McDonald's Stock Can Deliver A Fast Return</a>
-          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 06 Aug 2026</span></div>
-        </div><div class="article">
-          <a href="https://finance.yahoo.com/markets/stocks/articles/krispy-kreme-posts-43-ebitda-163348365.html?.tsrc=rss" target="_blank" rel="noopener">Krispy Kreme Posts 43% EBITDA Growth as Turnaround Gains Momentum</a>
-          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 06 Aug 2026</span></div>
-        </div><div class="article">
-          <a href="https://app.moby.co/home/news/news-restaurant-brands-falls-on-burger-kings-best-quarter-in-years?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss" target="_blank" rel="noopener">Restaurant Brands Falls on Burger King’s Best Quarter in Years</a>
-          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 06 Aug 2026</span></div>
-        </div><div class="article">
-          <a href="https://news.google.com/rss/articles/CBMiugFBVV95cUxONVJ2a2tMc01uWFZTNGVtTWJIWENFSm9oc1lwM3lIeG01V09XTmZrd2VhSE9qSkdsM3g5OFJ2dlhwekdhSnFWcFpoX2xQQ0pfUW5lTnNxaUpDVDY0dXpnOHRXRzRpZG1haG1Cb1BrWGE3NjdoWEdFOEZaaE9weGYxay00X01CSXdQN1FIVF93bjliS182LWRTZFNhRTdlSkRLR21lZ1VCa3A3OG1MeGlUcFY4Y3BqV3NtN0E?oc=5" target="_blank" rel="noopener">Selling This Spread On McDonald's Stock Can Deliver A Fast Return - Investor's Business Daily</a>
-          <div class="article-meta"><span class="src-badge">Google News</span> <span class="muted">Thu, 06 Aug 2026</span></div>
-        </div></div><div class="news-section"><div class="section-label">📰 ATOM</div><div class="article">
-          <a href="https://finance.yahoo.com/markets/stocks/articles/atomera-inc-atom-q2-2026-050117242.html?.tsrc=rss" target="_blank" rel="noopener">Atomera Inc (ATOM) (Q2 2026) Earnings Call Highlights: GAA Milestone, New NAND TAM, and GaN ...</a>
-          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Wed, 05 Aug 2026</span></div>
-        </div><div class="article">
-          <a href="https://www.marketbeat.com/instant-alerts/atomera-q2-earnings-call-highlights-2026-08-04/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss" target="_blank" rel="noopener">Atomera Q2 Earnings Call Highlights</a>
-          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Tue, 04 Aug 2026</span></div>
-        </div><div class="article">
-          <a href="https://finance.yahoo.com/technology/articles/atomera-provides-second-quarter-2026-200100353.html?.tsrc=rss" target="_blank" rel="noopener">Atomera Provides Second Quarter 2026 Results</a>
-          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Tue, 04 Aug 2026</span></div>
-        </div><div class="article">
-          <a href="https://finance.yahoo.com/markets/stocks/articles/spacex-first-earnings-offer-chance-082619954.html?.tsrc=rss" target="_blank" rel="noopener">SpaceX’s First Earnings Offer a Chance to Reverse Stock’s Plunge</a>
-          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Tue, 04 Aug 2026</span></div>
-        </div><div class="article">
-          <a href="https://finance.yahoo.com/technology/articles/atomera-announce-second-quarter-2026-200100368.html?.tsrc=rss" target="_blank" rel="noopener">Atomera to Announce Second Quarter 2026 Financial Results and Host Webinar on Tuesday, August 4, 2026</a>
-          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Tue, 21 Jul 2026</span></div>
-        </div><div class="article">
-          <a href="https://news.google.com/rss/articles/CBMi2AFBVV95cUxNZnpYVWlQWGtwUU42T1JTUUNNZ21Qd045cDB5akJjM2c3N1NwSHItX1N4Q0dGelFMcUQ4Yk92Ny00Xzk4UjlVeHBIbU5peG5EVy1sLTMzTFkyRVpCeW9qdGkya3RjTFFGUkM4ZS1LazZobVdlMy1UTDQyZVY1QUpzc202RWFkMGRsZzdrcHBucUlmOFN1ZmxsZnoxeERDQTM4NkJicF95SDBMQkppNlJjSi1aX0YxSm41NUQtLTF3STA2bDRmM0dlOVNJNEF4ZnN0TDBSSXZPZFE?oc=5" target="_blank" rel="noopener">ATOM Stock Soars Toward Record Month: Synopsys Collaboration Fuels Retail Hype - Stocktwits</a>
-          <div class="article-meta"><span class="src-badge">Google News</span> <span class="muted">Wed, 05 Aug 2026</span></div>
         </div></div><div class="news-section"><div class="section-label">📰 NFLX</div><div class="article">
           <a href="https://finance.yahoo.com/markets/stocks/articles/netflix-nflx-stock-may-26-231512047.html?.tsrc=rss" target="_blank" rel="noopener">Netflix (NFLX) Stock May Be 26% Undervalued Despite New Franchise Rights</a>
           <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 06 Aug 2026</span></div>
@@ -1475,6 +1421,60 @@ a:hover { text-decoration: underline; }
         </div><div class="article">
           <a href="https://news.google.com/rss/articles/CBMidkFVX3lxTFBFa3JhS2RVSlJ6elYwSkJURW9qOG9idGJXWjJzZ3dWVy1VdjJkU3Nwa3dMWnNwSlRNU3VtN1lHVDgxWEQxMUpIaUtXWXpZTlNBVWlYZ245THRYQjZlal82OUlkM1NaQnpqZXFYUy0yWkFwa2Vramc?oc=5" target="_blank" rel="noopener">Winbond Plunges 26% in 3 Days, Then Foreign Investors Flip to Net Buy 36,000 Lots — Retail Investors Split: Dumping or B</a>
           <div class="article-meta"><span class="src-badge">Google News</span> <span class="muted">Thu, 30 Jul 2026</span></div>
+        </div></div><div class="news-section"><div class="section-label">📰 GOOG</div><div class="article">
+          <a href="https://www.thestreet.com/economy/jamie-dimon-ai-us-economy-growth?.tsrc=rss" target="_blank" rel="noopener">Jamie Dimon makes huge call on AI and U.S. economy</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Fri, 07 Aug 2026</span></div>
+        </div><div class="article">
+          <a href="https://finance.yahoo.com/technology/ai/articles/anthropic-spvs-stack-71-billion-000514097.html?.tsrc=rss" target="_blank" rel="noopener">Anthropic SPVs Stack $71 Billion in Chip-Lease Debt in 60 Days</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Fri, 07 Aug 2026</span></div>
+        </div><div class="article">
+          <a href="https://www.fool.com/investing/2026/08/06/four-of-googles-top-ai-researchers-just-left-to-st/?.tsrc=rss" target="_blank" rel="noopener">Four of Google's Top AI Researchers Just Left to Start One Company. Alphabet Is Investing in It.</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Fri, 07 Aug 2026</span></div>
+        </div><div class="article">
+          <a href="https://www.thestreet.com/investing/alphabet-stock-buybacks?.tsrc=rss" target="_blank" rel="noopener">Alphabet’s stock buybacks: History & investor impact explained</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 06 Aug 2026</span></div>
+        </div><div class="article">
+          <a href="https://finance.yahoo.com/markets/stocks/articles/marqeta-mq-expands-google-wallet-231748447.html?.tsrc=rss" target="_blank" rel="noopener">Marqeta (MQ) Expands Google Wallet Payments, Is The Stock Fully Valued?</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 06 Aug 2026</span></div>
+        </div><div class="article">
+          <a href="https://news.google.com/rss/articles/CBMipwFBVV95cUxOcU5wZDBReEdfVHpvZjFKZmQweDlydlFIR2txV0JYV2RscEFFWlZjWldQalg2MF9xWUNFbHNzSmNRaC1PN2JFNDh1OWE4U2lFRkVpbmQzLWhVelJqOUVQdFdLc2hKem5DUUpTdUNGVE5ZUXJQN3dSclIzcnA3X0RPOXhzME4xLXgyUGZFRzdJbkN6TzdJbVI3WUVCbzFTdWZUcjMtM3lGQQ?oc=5" target="_blank" rel="noopener">After Earnings, Is Alphabet Stock a Buy, a Sell, or Fairly Valued? - Morningstar</a>
+          <div class="article-meta"><span class="src-badge">Google News</span> <span class="muted">Tue, 04 Aug 2026</span></div>
+        </div></div><div class="news-section"><div class="section-label">📰 IREN</div><div class="article">
+          <a href="https://finance.yahoo.com/markets/stocks/articles/cleanspark-clsk-reports-q3-loss-231009129.html?.tsrc=rss" target="_blank" rel="noopener">CleanSpark (CLSK) Reports Q3 Loss, Lags Revenue Estimates</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 06 Aug 2026</span></div>
+        </div><div class="article">
+          <a href="https://www.fool.com/investing/2026/08/06/why-iren-limited-stock-crashed-nearly-20-in-july/?.tsrc=rss" target="_blank" rel="noopener">Why IREN Limited Stock Crashed Nearly 20% in July</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 06 Aug 2026</span></div>
+        </div><div class="article">
+          <a href="https://www.cryptoprowl.com/releases/pancakeswap-expands-tokenized-equity-offerings-with-10-new-bstocks-on-bnb-chain-6348?.tsrc=rss" target="_blank" rel="noopener">PancakeSwap Expands Tokenized Equity Offerings with 10 New 'bStocks' on BNB Chain</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 06 Aug 2026</span></div>
+        </div><div class="article">
+          <a href="https://247wallst.com/investing/2026/08/06/coreweave-is-off-20-over-3-months-a-prominent-tech-analyst-expects-65-gains-this-cycle/?.tsrc=rss" target="_blank" rel="noopener">CoreWeave is Off 20% Over 3 Months: A Prominent Tech Analyst Expects 65% Gains This Cycle</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 06 Aug 2026</span></div>
+        </div><div class="article">
+          <a href="https://www.fool.com/coverage/charts/2026/08/05/iren-vs-aerovironment-a-comparison-of-recent-revenue-trajectories/?.tsrc=rss" target="_blank" rel="noopener">Iren vs. AeroVironment: A Comparison of Recent Revenue Trajectories</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Wed, 05 Aug 2026</span></div>
+        </div><div class="article">
+          <a href="https://news.google.com/rss/articles/CBMiUEFVX3lxTE9HdDVXV1JwY0tfU2Rwajd5dWdoUFNQYWUzbGhtTDlwWnFOMGI5Q3dMT2xkZUx1a1c3QzhsMmNfQUZQX1ozYWp5T3FkOGlBMDlf?oc=5" target="_blank" rel="noopener">IREN Stock Quote Price and Forecast - CNN</a>
+          <div class="article-meta"><span class="src-badge">Google News</span> <span class="muted">Tue, 04 Aug 2026</span></div>
+        </div></div><div class="news-section"><div class="section-label">📰 DRAM</div><div class="article">
+          <a href="http://www.etf.com/sections/equity/even-dram-bears-are-committed-ride?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss" target="_blank" rel="noopener">Even the DRAM Bears Are Committed to the Ride</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Fri, 31 Jul 2026</span></div>
+        </div><div class="article">
+          <a href="https://finance.yahoo.com/m/db5a2b16-9dba-33bd-b3d3-e6a4d82f21ae/memory-stocks-surge.-sandisk.html?.tsrc=rss" target="_blank" rel="noopener">Memory Stocks Surge. Sandisk Tops S&P 500 Gainers.</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 30 Jul 2026</span></div>
+        </div><div class="article">
+          <a href="https://www.marketwatch.com/story/individual-investors-are-dumping-stocks-at-the-fastest-pace-since-the-covid-crash-42b46756?.tsrc=rss" target="_blank" rel="noopener">Individual investors are dumping stocks at the fastest pace since the COVID crash</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Wed, 29 Jul 2026</span></div>
+        </div><div class="article">
+          <a href="https://finance.yahoo.com/m/44c0e5fe-9716-31f8-a01f-17f5ae8056b1/seagate-stock-rises-after.html?.tsrc=rss" target="_blank" rel="noopener">Seagate Stock Rises After Blowout Earnings Fueled by AI Demand</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Wed, 29 Jul 2026</span></div>
+        </div><div class="article">
+          <a href="https://247wallst.com/investing/2026/07/28/buy-or-sell-the-memory-plunge-sandisk-sinks-9-micron-drops-7-western-digital-falls-8/?.tsrc=rss" target="_blank" rel="noopener">Buy or Sell the Memory Plunge? SanDisk Sinks 9%, Micron Drops 7%, Western Digital Falls 8%</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Tue, 28 Jul 2026</span></div>
+        </div><div class="article">
+          <a href="https://news.google.com/rss/articles/CBMigAFBVV95cUxPZnVZYVM3dnZoNWI1NGFBdzdreFVCMEFuR1VZRENBdXNHSjRpUjljODBqY3pYZExIUjVCSUVBTDRHdDJrcUp6VjRHVnZKZGVoQ1RBbktwSVBFVFlsRWY2VTRFS3c2RFJZcjdodDdLOWVLcEhHdzBFbE13Wi12TzJsdtIBhgFBVV95cUxNazNIN0dUcWFkb0xRRkpfWW01anBCbFM4Mk1lTnRrX2dYcHc4NE9wRURWQXBZaGpPbEdncDBpT2Y2d1FhbjVFSHdDV3FMb2tvdmNzZFg4VkJBaHUzc0t2SHFqQ09HOU83OU11QWVaMmZta0tuOTFSeU5wb1gtSVdmdk9GQ0EtZw?oc=5" target="_blank" rel="noopener">The next AI boom in stock market after memory chip trade may be photonics - CNBC</a>
+          <div class="article-meta"><span class="src-badge">Google News</span> <span class="muted">Wed, 05 Aug 2026</span></div>
         </div></div><div class="news-section"><div class="section-label">📰 SCO</div><div class="article">
           <a href="https://finance.yahoo.com/energy/articles/iea-sees-oil-market-excess-150000789.html?.tsrc=rss" target="_blank" rel="noopener">IEA Sees Oil Market Excess in 2027: Should You Play Short Energy ETFs?</a>
           <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 18 Jun 2026</span></div>
@@ -1511,60 +1511,42 @@ a:hover { text-decoration: underline; }
         </div><div class="article">
           <a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxOVmNSeExLa2lydDQ2M2FrREZXWjYxTl8xMDhYekt1Y0JhZDZjd05WTF9kRERSYS11cUV4T2xNYlRoZFdmV3djTExlTV9aR3ZsYlNKSmpjZXJlNDJwamEyOFlTQkNnQnZTR3FhbXRkcUlDYTdYQXBaZzFqMXlmZkIxSHUtQ3JiSzRWOTdtSDIxQXhuZDdzTVhYZ0JzTWQ?oc=5" target="_blank" rel="noopener">Palantir's Pathway Back To $200 Just Became A Lot Clearer (NASDAQ:PLTR) - Seeking Alpha</a>
           <div class="article-meta"><span class="src-badge">Google News</span> <span class="muted">Thu, 06 Aug 2026</span></div>
-        </div></div><div class="news-section"><div class="section-label">📰 SOFI</div><div class="article">
-          <a href="https://finance.yahoo.com/markets/stocks/articles/why-wall-street-keeps-ignoring-170231638.html?.tsrc=rss" target="_blank" rel="noopener">Why Wall Street Keeps Ignoring SoFi’s Record Growth for Robinhood</a>
+        </div></div><div class="news-section"><div class="section-label">📰 MCD</div><div class="article">
+          <a href="https://finance.yahoo.com/video/krispy-kreme-ceo-details-turnaround-195400020.html?.tsrc=rss" target="_blank" rel="noopener">Krispy Kreme CEO details turnaround strategy after earnings</a>
           <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 06 Aug 2026</span></div>
         </div><div class="article">
-          <a href="https://finance.yahoo.com/markets/stocks/articles/caz-investments-partners-sofi-democratize-130100189.html?.tsrc=rss" target="_blank" rel="noopener">CAZ Investments Partners with SoFi to Democratize Access to Private Markets</a>
+          <a href="https://finance.yahoo.com/markets/stocks/articles/krispy-kreme-inc-dnut-q2-190158836.html?.tsrc=rss" target="_blank" rel="noopener">Krispy Kreme Inc (DNUT) (Q2 2026) Earnings Call Highlights: EBITDA Soars 43% as Refranchising ...</a>
           <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 06 Aug 2026</span></div>
         </div><div class="article">
-          <a href="https://www.trefis.com/articles/610170/pypls-historical-floor-is-back-but-is-the-business-same/2026-08-05?.tsrc=rss" target="_blank" rel="noopener">PYPL's Historical Floor Is Back, But Is The Business The Same?</a>
-          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Wed, 05 Aug 2026</span></div>
+          <a href="https://finance.yahoo.com/m/8b79df64-1ab8-3a9e-937a-5a9ce0973eb9/selling-this-spread-on.html?.tsrc=rss" target="_blank" rel="noopener">Selling This Spread On McDonald's Stock Can Deliver A Fast Return</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 06 Aug 2026</span></div>
         </div><div class="article">
-          <a href="https://finance.yahoo.com/markets/stocks/articles/why-hedge-funds-prefer-robinhood-190047212.html?.tsrc=rss" target="_blank" rel="noopener">Why Hedge Funds Prefer Robinhood (HOOD) Stock Over SoFi</a>
-          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Wed, 05 Aug 2026</span></div>
+          <a href="https://finance.yahoo.com/markets/stocks/articles/krispy-kreme-posts-43-ebitda-163348365.html?.tsrc=rss" target="_blank" rel="noopener">Krispy Kreme Posts 43% EBITDA Growth as Turnaround Gains Momentum</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 06 Aug 2026</span></div>
         </div><div class="article">
-          <a href="https://www.barchart.com/story/news/3667580/why-its-time-to-buy-the-dip-in-sofi-stock?.tsrc=rss" target="_blank" rel="noopener">Why It’s Time to Buy the Dip In SoFi Stock</a>
-          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Wed, 05 Aug 2026</span></div>
+          <a href="https://app.moby.co/home/news/news-restaurant-brands-falls-on-burger-kings-best-quarter-in-years?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss" target="_blank" rel="noopener">Restaurant Brands Falls on Burger King’s Best Quarter in Years</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 06 Aug 2026</span></div>
         </div><div class="article">
-          <a href="https://news.google.com/rss/articles/CBMimwFBVV95cUxQaHhwbVp0NFpxMWFiZXVMdzRuOWpOdXlYZ2JKVU5oUDVLVzRrNDY4TVhOUzVqcFppeVpDRlNuOFV3SVlxX0szOGJZbHVjN0xILWVQSkpiN3Jxd2hWYUdySzhkbV94dmJZcjEyNERtMVNoSmJxaDZvSEluTE03WWd6U2lXSTdrSzJDRW5BVkdwTlZwck9vWFpoQldzbw?oc=5" target="_blank" rel="noopener">Why Wall Street Keeps Ignoring SoFi’s Record Growth for Robinhood - Yahoo Finance</a>
+          <a href="https://news.google.com/rss/articles/CBMiugFBVV95cUxONVJ2a2tMc01uWFZTNGVtTWJIWENFSm9oc1lwM3lIeG01V09XTmZrd2VhSE9qSkdsM3g5OFJ2dlhwekdhSnFWcFpoX2xQQ0pfUW5lTnNxaUpDVDY0dXpnOHRXRzRpZG1haG1Cb1BrWGE3NjdoWEdFOEZaaE9weGYxay00X01CSXdQN1FIVF93bjliS182LWRTZFNhRTdlSkRLR21lZ1VCa3A3OG1MeGlUcFY4Y3BqV3NtN0E?oc=5" target="_blank" rel="noopener">Selling This Spread On McDonald's Stock Can Deliver A Fast Return - Investor's Business Daily</a>
           <div class="article-meta"><span class="src-badge">Google News</span> <span class="muted">Thu, 06 Aug 2026</span></div>
-        </div></div><div class="news-section"><div class="section-label">📰 QCOM</div><div class="article">
-          <a href="https://finance.yahoo.com/markets/stocks/articles/qualcomm-qcom-stock-fair-value-231733386.html?.tsrc=rss" target="_blank" rel="noopener">Qualcomm (QCOM) Stock Fair Value Moves Lower As Margin Pressure Offsets AI Ambitions</a>
+        </div></div><div class="news-section"><div class="section-label">📰 LULU</div><div class="article">
+          <a href="https://finance.yahoo.com/media-advertising/articles/fashion-biggest-brands-spent-years-070000130.html?.tsrc=rss" target="_blank" rel="noopener">Fashion’s biggest brands spent years letting eBay and Depop resell their clothes. Now, they want the money</a>
           <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 06 Aug 2026</span></div>
         </div><div class="article">
-          <a href="https://www.trefis.com/articles/610350/what-you-actually-pay-to-join-the-sitm-run/2026-08-06?.tsrc=rss" target="_blank" rel="noopener">What You Actually Pay To Join The SITM Run</a>
-          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 06 Aug 2026</span></div>
+          <a href="https://finance.yahoo.com/markets/stocks/articles/lululemon-lulu-faces-california-lawsuit-180956945.html?.tsrc=rss" target="_blank" rel="noopener">Lululemon (LULU) Faces California Lawsuit Over Alleged Misleading Discount Prices</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Wed, 05 Aug 2026</span></div>
         </div><div class="article">
-          <a href="https://finance.yahoo.com/markets/stocks/articles/parkervision-reports-second-quarter-2026-200100059.html?.tsrc=rss" target="_blank" rel="noopener">ParkerVision Reports Second Quarter 2026 Results</a>
-          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 06 Aug 2026</span></div>
+          <a href="https://wwd.com/business-news/real-estate/tanger-q2-raised-guidance-ceo-interview-1239093981/?.tsrc=rss" target="_blank" rel="noopener">Tanger Posts Robust Q2, Raises 2026 Guidance</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Wed, 05 Aug 2026</span></div>
         </div><div class="article">
-          <a href="https://www.trefis.com/articles/610419/qualcomms-largest-revenue-line-is-shrinking-from-both-sides/2026-08-06?.tsrc=rss" target="_blank" rel="noopener">Qualcomm's Largest Revenue Line Is Shrinking From Both Sides</a>
-          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 06 Aug 2026</span></div>
+          <a href="https://www.just-style.com/news/tariff-refund-drives-q2-profit-at-delta-galil/?.tsrc=rss" target="_blank" rel="noopener">Tariff refund drives Q2 profit at Delta Galil</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Wed, 05 Aug 2026</span></div>
         </div><div class="article">
-          <a href="https://247wallst.com/investing/2026/08/06/prediction-arm-holdings-will-trade-at-this-price-in-12-months/?.tsrc=rss" target="_blank" rel="noopener">Prediction: Arm Holdings Will Trade at This Price in 12 Months</a>
-          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 06 Aug 2026</span></div>
+          <a href="https://wwd.com/sourcing-journal/industry-news/lululemon-fake-reference-price-california-1239092371/?.tsrc=rss" target="_blank" rel="noopener">Lululemon Faces Lawsuit For Fake Reference Prices</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Tue, 04 Aug 2026</span></div>
         </div><div class="article">
-          <a href="https://news.google.com/rss/articles/CBMivAFBVV95cUxPS1NCUTZYZHZ5TUhUX2VzYjYxczhZdmtoVmNpaS0wWDQ1YnZBMnpkSzZsalp0emFvQXVYZHQxLU41X3Blc1psakc3bGJMWkhhQ3JBYi1xNjZaZ3NucFlBV2JYNmZxcnRzS1FZeEQyTGxMLWhkd1V3R3lFcW1DajI3V2UzVzFZei1uZTJUQWRVakdOZlIxVjNQRExwRmdjVTBSczh4S2dZVExRYk10VGgwdzJqWUhvQlo5bFhLRw?oc=5" target="_blank" rel="noopener">Qualcomm’s Largest Revenue Line Is Shrinking From Both Sides - Trefis</a>
-          <div class="article-meta"><span class="src-badge">Google News</span> <span class="muted">Thu, 06 Aug 2026</span></div>
-        </div></div><div class="news-section"><div class="section-label">📰 GOOG</div><div class="article">
-          <a href="https://www.thestreet.com/economy/jamie-dimon-ai-us-economy-growth?.tsrc=rss" target="_blank" rel="noopener">Jamie Dimon makes huge call on AI and U.S. economy</a>
-          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Fri, 07 Aug 2026</span></div>
-        </div><div class="article">
-          <a href="https://finance.yahoo.com/technology/ai/articles/anthropic-spvs-stack-71-billion-000514097.html?.tsrc=rss" target="_blank" rel="noopener">Anthropic SPVs Stack $71 Billion in Chip-Lease Debt in 60 Days</a>
-          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Fri, 07 Aug 2026</span></div>
-        </div><div class="article">
-          <a href="https://www.fool.com/investing/2026/08/06/four-of-googles-top-ai-researchers-just-left-to-st/?.tsrc=rss" target="_blank" rel="noopener">Four of Google's Top AI Researchers Just Left to Start One Company. Alphabet Is Investing in It.</a>
-          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Fri, 07 Aug 2026</span></div>
-        </div><div class="article">
-          <a href="https://www.thestreet.com/investing/alphabet-stock-buybacks?.tsrc=rss" target="_blank" rel="noopener">Alphabet’s stock buybacks: History & investor impact explained</a>
-          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 06 Aug 2026</span></div>
-        </div><div class="article">
-          <a href="https://finance.yahoo.com/markets/stocks/articles/marqeta-mq-expands-google-wallet-231748447.html?.tsrc=rss" target="_blank" rel="noopener">Marqeta (MQ) Expands Google Wallet Payments, Is The Stock Fully Valued?</a>
-          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 06 Aug 2026</span></div>
-        </div><div class="article">
-          <a href="https://news.google.com/rss/articles/CBMipwFBVV95cUxOcU5wZDBReEdfVHpvZjFKZmQweDlydlFIR2txV0JYV2RscEFFWlZjWldQalg2MF9xWUNFbHNzSmNRaC1PN2JFNDh1OWE4U2lFRkVpbmQzLWhVelJqOUVQdFdLc2hKem5DUUpTdUNGVE5ZUXJQN3dSclIzcnA3X0RPOXhzME4xLXgyUGZFRzdJbkN6TzdJbVI3WUVCbzFTdWZUcjMtM3lGQQ?oc=5" target="_blank" rel="noopener">After Earnings, Is Alphabet Stock a Buy, a Sell, or Fairly Valued? - Morningstar</a>
-          <div class="article-meta"><span class="src-badge">Google News</span> <span class="muted">Tue, 04 Aug 2026</span></div>
+          <a href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQlhHYThFaGU5c3FrVmNtZHIxWUt0QXc3VUQ3bFVITFYyS1F4d1ZZTWlZOFNnSWZOZ1JRM09BTDJpX1ZhQ2t3NTI3V091YXNDYkhWUkdMSmwyeTZIUEN6MUZ0Y3dMUjlCZ1BpaUlYUFBKSW1lRWlKWlpjUjNQRVlyWFN2aTRsWDBIX3U1N0o5SmYteUxCUUliajMyMEg4TExnVG5lMXlQVWw?oc=5" target="_blank" rel="noopener">LULU Stock Plummets To Over 6-Year Lows – Barclays Says New CEO Appointment Is Incrementally Positive - Stocktwits</a>
+          <div class="article-meta"><span class="src-badge">Google News</span> <span class="muted">Mon, 03 Aug 2026</span></div>
         </div></div><div class="news-section"><div class="section-label">📰 NOW</div><div class="article">
           <a href="https://finance.yahoo.com/technology/ai/articles/accentures-ai-focused-deal-indias-150900696.html?.tsrc=rss" target="_blank" rel="noopener">Is Accenture's AI-Focused Deal With India's Dabur a Growth Catalyst?</a>
           <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 06 Aug 2026</span></div>
@@ -1583,6 +1565,24 @@ a:hover { text-decoration: underline; }
         </div><div class="article">
           <a href="https://news.google.com/rss/articles/CBMiswFBVV95cUxOQVotTVRJLU9fLUQxRmcwWUtFT3NUU2x0ZGRPWTJVS2JoZlp6NHMxbG0xRl9KZDljYlJLelkwR1VsOXBaWGlCR0R6aHYxbWlFbTJ6TGN5M1BGTDhHeTh5MXJwamJaNG1MUmU4amZPWUQtaGpqU3hzYV9DRjc5QlRUeVh0blczUEh0UFpadkFidy03LTZjaHRkUjhscm1sUGthRHZQWVpTOC1fNXlqVm5WRDg5MNIBuAFBVV95cUxNNlRUNFpQWm81cDQ2N3NPSU1aZG1DOUxnMHYzWWN3SDFxWkdjUEFodlVCS28wSFF1V0dlQUVlTG91SEdfX3B3ZzFYaURVTTdRVGxlN2doMzQzc1pZNV93U1NKRXNrbV8xbzVlNk9hUVFRMF9SdWZfUnhoSzlvLWUzMFJZUmUtUmZkaE5lMEIzYzU2dVphUDJnLVBrVUtqaDNPQ1M3dzJtTVNhQWNPUjB4YXhTZWhiamhW?oc=5" target="_blank" rel="noopener">SpaceX shares passed a key test Thursday. Now sophisticated traders are betting the bottom may be in - CNBC</a>
           <div class="article-meta"><span class="src-badge">Google News</span> <span class="muted">Thu, 06 Aug 2026</span></div>
+        </div></div><div class="news-section"><div class="section-label">📰 ATOM</div><div class="article">
+          <a href="https://finance.yahoo.com/markets/stocks/articles/atomera-inc-atom-q2-2026-050117242.html?.tsrc=rss" target="_blank" rel="noopener">Atomera Inc (ATOM) (Q2 2026) Earnings Call Highlights: GAA Milestone, New NAND TAM, and GaN ...</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Wed, 05 Aug 2026</span></div>
+        </div><div class="article">
+          <a href="https://www.marketbeat.com/instant-alerts/atomera-q2-earnings-call-highlights-2026-08-04/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss" target="_blank" rel="noopener">Atomera Q2 Earnings Call Highlights</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Tue, 04 Aug 2026</span></div>
+        </div><div class="article">
+          <a href="https://finance.yahoo.com/technology/articles/atomera-provides-second-quarter-2026-200100353.html?.tsrc=rss" target="_blank" rel="noopener">Atomera Provides Second Quarter 2026 Results</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Tue, 04 Aug 2026</span></div>
+        </div><div class="article">
+          <a href="https://finance.yahoo.com/markets/stocks/articles/spacex-first-earnings-offer-chance-082619954.html?.tsrc=rss" target="_blank" rel="noopener">SpaceX’s First Earnings Offer a Chance to Reverse Stock’s Plunge</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Tue, 04 Aug 2026</span></div>
+        </div><div class="article">
+          <a href="https://finance.yahoo.com/technology/articles/atomera-announce-second-quarter-2026-200100368.html?.tsrc=rss" target="_blank" rel="noopener">Atomera to Announce Second Quarter 2026 Financial Results and Host Webinar on Tuesday, August 4, 2026</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Tue, 21 Jul 2026</span></div>
+        </div><div class="article">
+          <a href="https://news.google.com/rss/articles/CBMi2AFBVV95cUxNZnpYVWlQWGtwUU42T1JTUUNNZ21Qd045cDB5akJjM2c3N1NwSHItX1N4Q0dGelFMcUQ4Yk92Ny00Xzk4UjlVeHBIbU5peG5EVy1sLTMzTFkyRVpCeW9qdGkya3RjTFFGUkM4ZS1LazZobVdlMy1UTDQyZVY1QUpzc202RWFkMGRsZzdrcHBucUlmOFN1ZmxsZnoxeERDQTM4NkJicF95SDBMQkppNlJjSi1aX0YxSm41NUQtLTF3STA2bDRmM0dlOVNJNEF4ZnN0TDBSSXZPZFE?oc=5" target="_blank" rel="noopener">ATOM Stock Soars Toward Record Month: Synopsys Collaboration Fuels Retail Hype - Stocktwits</a>
+          <div class="article-meta"><span class="src-badge">Google News</span> <span class="muted">Wed, 05 Aug 2026</span></div>
         </div></div><div class="news-section"><div class="section-label">📰 BKR</div><div class="article">
           <a href="https://finance.yahoo.com/markets/article/spacexs-need-for-power-is-a-clear-positive-for-these-companies-154604075.html?.tsrc=rss" target="_blank" rel="noopener">SpaceX's need for power is a 'clear positive' for these companies</a>
           <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 06 Aug 2026</span></div>
@@ -1602,37 +1602,37 @@ a:hover { text-decoration: underline; }
           <a href="https://news.google.com/rss/articles/CBMiwAFBVV95cUxPYWxlaDNLa1ZWa1JlX0NmUVprZkl5ekRXdjRlUlk2dXV1WFIwUUQxaG5ZamVvMEhUSFFrajFzeDBmYjhFTFJ5U051R2ZvSlhEeUgyYW9nbkZQWjFfS1k2Vm1JX0piU2RXdjhPWFU3Y051NmQ2SFBZWTdudTJyUi1wRkFtV0Rja1BPWkE0QVJMaUVDVGlzNHk1ZEZuWTVBUXBsbHg3N21xNUJDYW95M0J3MVhrb2paM0hHT1JzSi0zdGU?oc=5" target="_blank" rel="noopener">Baker Hughes Company $BKR Shares Sold by Edgestream Partners L.P. - MarketBeat</a>
           <div class="article-meta"><span class="src-badge">Google News</span> <span class="muted">Thu, 06 Aug 2026</span></div>
         </div></div><div class="news-section"><div class="section-label">📰 PSX</div><div class="article">
-          <a href="https://finance.yahoo.com/energy/articles/conocophillips-names-andy-o-brien-002718626.html?.tsrc=rss" target="_blank" rel="noopener">ConocoPhillips Names Andy O’Brien CEO as Ryan Lance Steps Down</a>
-          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Fri, 07 Aug 2026</span></div>
-        </div><div class="article">
-          <a href="https://finance.yahoo.com/energy/articles/us-oil-imports-saudi-arabia-183350172.html?.tsrc=rss" target="_blank" rel="noopener">US oil imports from Saudi Arabia at zero in July, first time in 40 years</a>
-          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 06 Aug 2026</span></div>
-        </div><div class="article">
-          <a href="https://finance.yahoo.com/markets/stocks/articles/phillips-66-psx-stock-gets-182333050.html?.tsrc=rss" target="_blank" rel="noopener">Phillips 66 (PSX) Stock Gets Fair Value Boost As Analysts Lift Targets</a>
-          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 06 Aug 2026</span></div>
-        </div><div class="article">
-          <a href="https://finance.yahoo.com/markets/stocks/articles/valero-energy-stock-buy-premium-161900909.html?.tsrc=rss" target="_blank" rel="noopener">Valero Energy Stock: Buy at a Premium or Wait for a Better Entry Point?</a>
-          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 06 Aug 2026</span></div>
-        </div><div class="article">
           <a href="https://finance.yahoo.com/energy/articles/psx-q2-earnings-call-sees-140000815.html?.tsrc=rss" target="_blank" rel="noopener">PSX Q2 Earnings Call Sees Refining Tightness Lasting Longer</a>
           <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 06 Aug 2026</span></div>
+        </div><div class="article">
+          <a href="https://www.offshore-technology.com/news/phillips-66-q2-2026-results/?.tsrc=rss" target="_blank" rel="noopener">Phillips 66 net profit rises 339% to $3.8bn in Q2 2026</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 06 Aug 2026</span></div>
+        </div><div class="article">
+          <a href="https://finance.yahoo.com/energy/articles/phillips-66-profit-jumps-refining-021800484.html?.tsrc=rss" target="_blank" rel="noopener">Phillips 66 Profit Jumps as Refining Margins More Than Double</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 06 Aug 2026</span></div>
+        </div><div class="article">
+          <a href="https://finance.yahoo.com/markets/stocks/articles/phillips-66-psx-q2-earnings-133010680.html?.tsrc=rss" target="_blank" rel="noopener">Phillips 66 (PSX) Q2 Earnings: Taking a Look at Key Metrics Versus Estimates</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Wed, 05 Aug 2026</span></div>
+        </div><div class="article">
+          <a href="https://finance.yahoo.com/markets/stocks/articles/phillips-66-psx-beats-q2-121506085.html?.tsrc=rss" target="_blank" rel="noopener">Phillips 66 (PSX) Beats Q2 Earnings and Revenue Estimates</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Wed, 05 Aug 2026</span></div>
         </div><div class="article">
           <a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxQYXRIaHVpTWw0dW1QMUtma2cyQUJzQjVEVEpkaTl3NnFFQU10UGdXQnZydGR4MElBVzB2R2JJTktjTzNQSTVUQTl1UnFad2gtSjFtbWtyWGw1NUZGMURidlZkczBKZnpvMjhkZnFlYk16SlVaOXZLM1lRXzJnV09MOHppaTVoNngxUXI3QUM5YWNOeGxudkE?oc=5" target="_blank" rel="noopener">Phillips 66 (PSX) Stock Gets Fair Value Boost As Analysts Lift Targets - Yahoo Finance</a>
           <div class="article-meta"><span class="src-badge">Google News</span> <span class="muted">Thu, 06 Aug 2026</span></div>
         </div></div><div class="news-section"><div class="section-label">📰 MSFT</div><div class="article">
-          <a href="https://www.fool.com/investing/2026/08/06/2-energy-stocks-with-more-hype-than-fundamentals-r/?.tsrc=rss" target="_blank" rel="noopener">2 Energy Stocks With More Hype Than Fundamentals Right Now</a>
-          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Fri, 07 Aug 2026</span></div>
-        </div><div class="article">
-          <a href="https://finance.yahoo.com/m/469fa8c1-0411-3099-9283-5b6de7225491/alphabet-promised-more-ai.html?.tsrc=rss" target="_blank" rel="noopener">Alphabet Promised More AI Spending. Now It’s Asking the Bond Market For the Cash.</a>
-          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 06 Aug 2026</span></div>
-        </div><div class="article">
-          <a href="https://www.trefis.com/articles/610349/the-unspoken-agreement-youve-made-holding-meta-platforms-stock/2026-08-06?.tsrc=rss" target="_blank" rel="noopener">The Unspoken Agreement You've Made Holding Meta Platforms Stock</a>
+          <a href="https://finance.yahoo.com/video/microsoft-starting-show-payoff-major-193732756.html?.tsrc=rss" target="_blank" rel="noopener">Microsoft is starting to show its payoff on major AI plays</a>
           <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 06 Aug 2026</span></div>
         </div><div class="article">
           <a href="https://finance.yahoo.com/m/786ee4d7-d4c1-31a2-876f-42e58d681c63/stock-market-today%3A-dow-sinks.html?.tsrc=rss" target="_blank" rel="noopener">Stock Market Today: Dow Sinks 464 Points, But Chip Firm Surges; Microsoft Surpasses Buy Zone (Live Coverage)</a>
           <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 06 Aug 2026</span></div>
         </div><div class="article">
-          <a href="https://finance.yahoo.com/markets/stocks/articles/microsoft-msft-record-rally-puts-205622595.html?.tsrc=rss" target="_blank" rel="noopener">Microsoft’s (MSFT) Record Rally Puts Alphabet (GOOGL) Rivalry Back In Focus</a>
+          <a href="https://www.fool.com/coverage/charts/2026/08/06/microsoft-vs-automatic-data-processing-scale-vs-seasonality-in-revenue/?.tsrc=rss" target="_blank" rel="noopener">Microsoft vs. Automatic Data Processing: Scale vs. Seasonality in Revenue</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 06 Aug 2026</span></div>
+        </div><div class="article">
+          <a href="https://finance.yahoo.com/technology/ai/articles/mai-cyber-vs-gemini-flash-202443694.html?.tsrc=rss" target="_blank" rel="noopener">Microsoft (MSFT) vs. Alphabet (GOOGL): Which AI Giant Has the Edge in Next-Gen Cybersecurity?</a>
+          <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 06 Aug 2026</span></div>
+        </div><div class="article">
+          <a href="https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-mixed-afternoon-195925324.html?.tsrc=rss" target="_blank" rel="noopener">Sector Update: Tech Stocks Mixed Late Afternoon</a>
           <div class="article-meta"><span class="src-badge">Yahoo Finance</span> <span class="muted">Thu, 06 Aug 2026</span></div>
         </div><div class="article">
           <a href="https://news.google.com/rss/articles/CBMingFBVV95cUxNMWR6UndlZ0hmRGlxbHBqdzIwcEJxVHBZSHRRRURqOVI2cEJBeWh1UW5CM0dyQmo3ZFRucmpOaDV4aERDRURIakFoRXd1SmNZZS1YWEV1OWJmMFlaWjJDZ2k4MlFZZUI3dWlScW1kSFJvblpYclQ1ZkFVZDBnV1ZTNVNXNEpHaXJuUGFGZXRFSGdYQnp0UnZyclk1TXMtdw?oc=5" target="_blank" rel="noopener">Microsoft Stock Breaks Out Into Buy Zone. Here’s Why. - Investor's Business Daily</a>
@@ -1660,9 +1660,9 @@ a:hover { text-decoration: underline; }
     <div class="section-title">LLM Supervision Log (last 1 runs)</div>
     <div class="llm-panel">
         <div class="llm-entry">
-          <div class="llm-meta">2026-08-07 00:53 UTC &nbsp;·&nbsp; Overnight</div>
+          <div class="llm-meta">2026-08-07 00:55 UTC &nbsp;·&nbsp; Overnight</div>
           
-          <div class="llm-note">• Validate top screener picks vs sector momentum: <br>The top screener picks in the Energy sector (BKR and PSX) show strong momentum with high scores, above MA200, and high MFI, indicating a strong uptrend.<br><br>• Flag any contradiction between screener and monitor signals: <br>NOW, a top screener pick, is also on the watchlist for being below its 200-day MA, which contradicts its strong screener score.<br><br>• Name the strongest and weakest pick with one reason each:<br>Strongest pick: BKR (Energy) - High score and above MA200 indicate strong momentum.<br>Weakest pick: AMD (Technology) - Low MFI (44.1) suggests a potential downtrend.<br><br>• Overall confidence: HIGH<br>The top screener picks in the Energy sector show strong momentum, and the sector is currently leading, indicating high confidence in the market's direction.</div>
+          <div class="llm-note">• Validate top screener picks vs sector momentum: <br>Energy sector momentum is strong, supporting top picks BKR and PSX. NOW and MSFT in Technology sector show above-average momentum, but AMD lags behind.<br><br>• Flag any contradiction between screener and monitor signals:<br>Monitor signals contradict screener picks for NOW, as it's below its 200-day MA, contradicting its high screener score.<br><br>• Name the strongest and weakest pick with one reason each:<br>Strongest pick: BKR, due to its high score and above-average MFI.<br>Weakest pick: AMD, due to its low MFI.<br><br>• Overall confidence: HIGH<br>The strong sector momentum and high screener scores for top picks indicate a high level of confidence in the automated stock report.</div>
           
         </div></div></div>
 
