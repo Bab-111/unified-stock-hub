@@ -1,16 +1,9 @@
 [
   {
-    "ts_utc": "2026-08-10 17:48 UTC",
+    "ts_utc": "2026-08-10 19:53 UTC",
     "phase": "Regular Market Hours",
-    "note": "\u2022 Top screener picks (SLB, PLTR, XOM, BKR, EOG) are all in the Energy sector, which is currently the top sector, validating their selection.\n\u2022 PLTR is flagged for contradiction between screener (strong) and monitor signals (overbought RSI).\n\u2022 The strongest pick is EOG (Energy) with a high institutional ownership percentage (99.3%) and a strong momentum indicator (MFI=36.9).\n\u2022 The weakest pick is XOM (Energy) with a relatively low momentum indicator (MFI=32.9).\n\u2022 Overall confidence: MEDIUM due to the presence of contradictions and mixed signals.",
-    "conflicts": [
-      {
-        "ticker": "PLTR",
-        "reasons": [
-          "Screener=strong but RSI=82 (overbought)"
-        ]
-      }
-    ],
+    "note": "\u2022 Top screener picks (BKR, SLB, PSX, XOM, OKE) are all in the Energy sector, which is currently the top sector, validating the picks' relevance to sector momentum.\n\u2022 No direct contradictions between screener and monitor signals are observed, but some stocks (RKLB, SOFI, SCO) have bearish MACD crossovers, which may impact their screener scores.\n\u2022 The strongest pick is SLB, with a high score (13/17) and a relatively low MFI (66.5), indicating strong buying pressure.\n\u2022 The weakest pick is XOM, with a low score (11/17) and a low MFI (34.4), indicating potential selling pressure.\n\u2022 Overall confidence: MEDIUM, as some bearish MACD crossovers and low MFIs may impact the screener picks' performance.",
+    "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
   }
