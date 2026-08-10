@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-08-08 01:21 UTC",
-    "phase": "Overnight",
-    "note": "\u2022 Validate top screener picks vs sector momentum: Consumer Disc sector momentum is strong, with top screener picks BKNG, SBUX, and ROST showing high institutional ownership and above-average MA200. PLTR, a Technology pick, also shows strong momentum, but its overbought RSI may be a concern.\n\n\u2022 Flag any contradiction between screener and monitor signals: PLTR has a strong screener score but is overbought, and its RSI is above 80. This contradicts the screener's positive signal.\n\n\u2022 Name the strongest and weakest pick with one reason each: \n  Strongest pick: BKNG (99.9% institutional ownership)\n  Weakest pick: PLTR (overbought RSI 82)\n\n\u2022 Overall confidence: MEDIUM - strong sector momentum and screener picks, but overbought RSI and bearish crossovers on the watchlist may indicate potential market volatility.",
+    "ts_utc": "2026-08-10 14:16 UTC",
+    "phase": "Regular Market Hours",
+    "note": "\u2022 The top screener picks (PLTR, BKR, NOW, MSFT, AAPL) are all in the Technology sector, while the top sector is Energy, indicating a sector mismatch.\n\u2022 PLTR is flagged for contradiction between screener (strong) and monitor signals (overbought RSI).\n\u2022 The strongest pick is BKR due to its high institutional ownership (100.4%), and the weakest pick is AAPL due to its low MFI (52.5).\n\u2022 Overall confidence: MEDIUM, as the sector mismatch and contradiction between signals reduce confidence in the top picks.",
     "conflicts": [
       {
         "ticker": "PLTR",
