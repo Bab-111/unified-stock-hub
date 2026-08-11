@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-08-11 19:59 UTC",
-    "phase": "Regular Market Hours",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top sector is Energy, and all top screener picks (PSX, BKR, SLB, MPC) belong to this sector, indicating sector momentum is strong.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nNone found, as all screener picks are from the Energy sector and do not have bearish MACD crossovers.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest: BKR (Energy) with an inst=100.2% above MA200, indicating strong institutional support.\nWeakest: MPC (Energy) with an MFI=37.0, indicating low money flow.\n\n\u2022 Overall confidence: HIGH with the Energy sector showing strong momentum and all top picks having positive indicators.",
+    "ts_utc": "2026-08-11 20:42 UTC",
+    "phase": "After-Hours (4:00-8:00 PM ET)",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nEnergy sector momentum is strong, with 4 out of 5 top screener picks belonging to this sector, indicating a potential sector rotation.\n\n\u2022 Flag any contradiction between screener and monitor signals:\nNone found.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest: PSX - High MFI (57.2) suggests a strong accumulation trend.\nWeakest: MPC - Low MFI (37.2) indicates a potential distribution trend.\n\n\u2022 Overall confidence: HIGH\nSector momentum and screener picks align, with strong accumulation trends in the top picks.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
