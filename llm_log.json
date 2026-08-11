@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-08-11 01:26 UTC",
-    "phase": "Overnight",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top screener picks in the Energy sector are BKR, SLB, PSX, XOM, and CVX, all with scores above 11/17 and above 68% institutional ownership. This suggests strong sector momentum.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nNo direct contradictions between screener and monitor signals are observed. However, some monitor signals indicate bearish crossovers (RKLB, SOFI, DRAM, IREN, ATOM, SCO, QCOM) that may contradict the screener's bullish signals for Energy stocks.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: BKR (score=13/17), due to its high score and above-average institutional ownership (100.4%).\nWeakest pick: XOM (score=11/17), due to its low score and below-average institutional ownership (68.2%).\n\n\u2022 Overall confidence: MEDIUM \nSector momentum is strong, but monitor signals indicate potential bearish trends in other sectors, which may impact Energy stocks.",
+    "ts_utc": "2026-08-11 14:15 UTC",
+    "phase": "Regular Market Hours",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top screener picks (LMT, BA, HON, GE, MMM) all have scores above 10/17, indicating strong technicals. They also have above-average volume and are above their 200-day moving averages, suggesting sector momentum is strong.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nThere are no direct contradictions between the screener picks and monitor signals. However, some monitor signals (e.g., PLTR, LULU, NOW) indicate potential weakness, which could contradict the screener's positive view on the Industrials sector.\n\n\u2022 Name the strongest and weakest pick with one reason each: \nStrongest pick: LMT (score=12/17) due to its high score and above-average volume. \nWeakest pick: MMM (score=11/17) due to its low volume (0.5x MA200).\n\n\u2022 Overall confidence: HIGH \nThe screener picks are strong, and the sector momentum is positive, indicating a high level of confidence in the top picks.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
