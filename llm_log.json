@@ -1,9 +1,16 @@
 [
   {
-    "ts_utc": "2026-08-12 01:44 UTC",
-    "phase": "Overnight",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top sector is Energy, and the top screener picks are all from the Energy sector, validating the sector momentum.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nNone found, as the screener picks are all from the Energy sector and do not conflict with the monitor signals.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest: PSX, due to its high MFI (57.2) indicating strong buying pressure.\nWeakest: MPC, due to its low MFI (37.2) indicating weak buying pressure.\n\n\u2022 Overall confidence: HIGH \nThe Energy sector is strong, and the screener picks are well-positioned, giving a high confidence level in the automated stock report.",
-    "conflicts": [],
+    "ts_utc": "2026-08-12 14:16 UTC",
+    "phase": "Regular Market Hours",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe Technology sector is strong, and all top screener picks (NOW, MSFT, AAPL, PLTR, CSCO) have scores above 11/17, indicating potential strength.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nPLTR is flagged due to a contradiction between its strong screener score and overbought RSI reading, indicating potential weakness.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: NOW, due to its high score (13/17) and strong institutional interest (89.0%).\nWeakest pick: AAPL, due to its low MFI reading (53.0), indicating potential weakness.\n\n\u2022 Overall confidence: HIGH, due to the sector's strength and the screener's consistent picks.",
+    "conflicts": [
+      {
+        "ticker": "PLTR",
+        "reasons": [
+          "Screener=strong but RSI=82 (overbought)"
+        ]
+      }
+    ],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
   }
