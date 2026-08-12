@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-08-12 20:43 UTC",
+    "ts_utc": "2026-08-12 20:55 UTC",
     "phase": "After-Hours (4:00-8:00 PM ET)",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top sector is Technology, and all top screener picks (MSFT, PLTR, NOW, AAPL, INTC) belong to this sector, validating their selection.\n\n\u2022 Flag any contradiction between screener and monitor signals:\nPLTR is flagged as both a top screener pick and an overbought stock due to its RSI of 82, indicating a contradiction between the two signals.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: NOW (89.0% institutional ownership), indicating strong support from institutional investors.\nWeakest pick: INTC (1.4x volume, above MA200), indicating high volatility and potential for price correction.\n\n\u2022 Overall confidence: MEDIUM\nThe presence of contradictions and potential for price corrections in some stocks lowers overall confidence in the top screener picks.",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \n  MSFT, PLTR, NOW, AAPL, and INTC are strong picks within the Technology sector, with MA200 above and high institutional ownership.\n\n\u2022 Flag any contradiction between screener and monitor signals:\n  PLTR has a strong screener score but is overbought and below its 200-day MA, indicating a potential contradiction.\n\n\u2022 Name the strongest and weakest pick with one reason each:\n  Strongest: MSFT, due to its high institutional ownership (76.1%).\n  Weakest: INTC, due to its high volatility (1.4x) compared to the others.\n\n\u2022 Overall confidence: HIGH, as the top picks are strong within their sector and have few contradictions.",
     "conflicts": [
       {
         "ticker": "PLTR",
