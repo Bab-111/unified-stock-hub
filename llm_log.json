@@ -1,16 +1,9 @@
 [
   {
-    "ts_utc": "2026-08-13 01:46 UTC",
-    "phase": "Overnight",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nMSFT and NOW are strong picks with high MFI scores and above 200-day MA. \nPLTR is strong but overbought, while AAPL and CSCO are weaker due to lower MFI scores.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nPLTR is strong on the screener but overbought on the monitor, and NOW is strong on the screener but below 200-day MA on the monitor.\n\n\u2022 Name the strongest and weakest pick with one reason each: \nStrongest: NOW (high MFI score of 82.2)\nWeakest: AAPL (low MFI score of 51.0)\n\n\u2022 Overall confidence: MEDIUM\nThe sector momentum is strong, but individual stock signals are mixed, with some stocks showing overbought or bearish crossover signals.",
-    "conflicts": [
-      {
-        "ticker": "PLTR",
-        "reasons": [
-          "Screener=strong but RSI=82 (overbought)"
-        ]
-      }
-    ],
+    "ts_utc": "2026-08-13 14:18 UTC",
+    "phase": "Regular Market Hours",
+    "note": "\u2022 Top screener picks (MSFT, INTC, DIS, PLTR, NOW) are all from the Technology sector, which is not the top sector (Comm. Services). This suggests a potential contradiction between sector momentum and screener picks.\n\u2022 PLTR is flagged as both a top screener pick and a watchlist alert for being overbought and below its 200-day MA.\n\u2022 The strongest pick is NOW, due to its high MFI score of 80.9, indicating strong buying pressure.\n\u2022 The weakest pick is INTC, due to its low MFI score of 46.9, indicating weak buying pressure.\n\u2022 Overall confidence: MEDIUM, as sector momentum and screener picks do not align, and some stocks have contradictory signals.",
+    "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
   }
