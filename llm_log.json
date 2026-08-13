@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-08-13 19:55 UTC",
-    "phase": "Regular Market Hours",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top sector is Comm. Services, with PLTR and GOOGL being the only Technology stocks in the top picks. This indicates a slight deviation from the sector's focus.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nPLTR is a strong pick according to the screener but is overbought with an RSI of 82, indicating a contradiction.\n\n\u2022 Name the strongest and weakest pick with one reason each: \nStrongest pick: CMCSA, due to its high institutional ownership percentage of 92.1%.\nWeakest pick: GOOGL, due to its relatively low MFI of 57.5.\n\n\u2022 Overall confidence: MEDIUM\nThe presence of contradictions and deviations from sector focus reduces overall confidence in the top picks.",
+    "ts_utc": "2026-08-13 20:42 UTC",
+    "phase": "After-Hours (4:00-8:00 PM ET)",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top sector is Comm. Services, and PLTR (Technology) is the only non-Comm. Services pick. This could be a concern for sector momentum.\n\n\u2022 Flag any contradiction between screener and monitor signals:\nPLTR is a strong pick from the screener but is overbought (RSI 82) and below its 200-day MA, contradicting its strong score.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: CMCSA (Comm. Services) - highest institutional ownership (92.1%).\nWeakest pick: RKLB - heavy drop (-11.61%) with a MACD bearish crossover.\n\n\u2022 Overall confidence: MEDIUM - sector momentum is a concern, but individual stock signals are mixed.",
     "conflicts": [
       {
         "ticker": "PLTR",
