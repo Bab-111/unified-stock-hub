@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-08-12 22:51 UTC",
-    "phase": "After-Hours (4:00-8:00 PM ET)",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \n  MSFT, PLTR, NOW, AAPL, and CSCO are strong picks within the Technology sector, with high scores and above-average volume. However, PLTR is overbought, which may indicate a short-term reversal.\n\n\u2022 Flag any contradiction between screener and monitor signals:\n  PLTR is both a top screener pick and overbought, according to the RSI. NOW is a top screener pick but also below its 200-day MA.\n\n\u2022 Name the strongest and weakest pick with one reason each:\n  Strongest pick: NOW, due to its high score and strong institutional ownership (89.0%).\n  Weakest pick: AAPL, due to its relatively low score (12/17) compared to other top picks.\n\n\u2022 Overall confidence: MEDIUM\nThe presence of overbought and bearish crossover signals among top picks indicates a moderate level of uncertainty, which may impact the confidence in these picks.",
+    "ts_utc": "2026-08-13 00:57 UTC",
+    "phase": "Overnight",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nTop sector is Technology, with MSFT, PLTR, NOW, AAPL, and CSCO as top screener picks. All five stocks have a score of 12 or 13 out of 17, indicating strong performance.\n\n\u2022 Flag any contradiction between screener and monitor signals:\nPLTR is flagged as overbought with an RSI of 82, contradicting its strong screener score.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: NOW (89.0% institutional ownership), indicating strong support from major investors.\nWeakest pick: AAPL (MFI of 51.0), indicating a lack of buying pressure.\n\n\u2022 Overall confidence: MEDIUM\nThe presence of overbought signals and bearish crossovers in the watchlist alerts reduces overall confidence in the top screener picks.",
     "conflicts": [
       {
         "ticker": "PLTR",
