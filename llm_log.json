@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-08-14 17:42 UTC",
+    "ts_utc": "2026-08-14 17:48 UTC",
     "phase": "Regular Market Hours",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top screener picks in the Energy sector show strong technical signals with high scores, above MA200, and high institutional ownership. This suggests a strong sector momentum.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nNone found, as the screener picks are not directly contradicted by the watchlist alerts.\n\n\u2022 Name the strongest and weakest pick with one reason each: \nStrongest pick: BKR (Energy) - highest institutional ownership (100.5%).\nWeakest pick: OKE (Energy) - lowest MFI (60.3) compared to other picks.\n\n\u2022 Overall confidence: HIGH \nThe top screener picks in the Energy sector show strong technical signals, and there are no direct contradictions with the watchlist alerts, indicating a high confidence in the picks.",
+    "note": "\u2022 Validate top screener picks vs sector momentum: The top screener picks (WMB, OKE, BKR, PSX, MPC) all have high scores and are above their 200-day MA, indicating strong sector momentum.\n\n\u2022 Flag any contradiction between screener and monitor signals: RKLB, SOFI, DRAM, IREN, ATOM, SCO, and QCOM have bearish MACD crossovers, contradicting the screener's positive signals for the Energy sector.\n\n\u2022 Name the strongest and weakest pick with one reason each: \n  - Strongest pick: BKR, due to its high institutional ownership percentage (100.5%).\n  - Weakest pick: OKE, due to its relatively low MFI (60.3).\n\n\u2022 Overall confidence: MEDIUM, due to the presence of contradictory signals from the monitor, which may indicate a potential sector downturn.",
     "conflicts": [],
     "suspicious_tickers": [],
     "model": "groq/llama-3.1-8b-instant (free)"
