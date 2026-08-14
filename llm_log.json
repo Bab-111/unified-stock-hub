@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-08-13 22:53 UTC",
-    "phase": "After-Hours (4:00-8:00 PM ET)",
-    "note": "\u2022 Top screener picks (PLTR, DIS, CMCSA, CLX, MSFT) align with the Comm. Services sector momentum, which is strong in the After-Hours market.\n\u2022 PLTR is flagged for contradiction between strong screener score and overbought RSI (82) signal.\n\u2022 The strongest pick is CMCSA, with a high screener score (11/17) and a strong institutional ownership (92.1%).\n\u2022 The weakest pick is RKLB, due to a heavy drop (-11.61%) and a MACD bearish crossover.\n\u2022 Overall confidence: HIGH, due to strong sector momentum and high screener scores across top picks.",
+    "ts_utc": "2026-08-14 00:57 UTC",
+    "phase": "Overnight",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \n  - PLTR: strong screener score, but overbought RSI; \n  - DIS and CMCSA: strong screener scores with above MA200 and high institutional ownership; \n  - CLX: strong screener score, but high volume; \n  - MSFT: relatively weaker screener score, but above MA200.\n\n\u2022 Flag any contradiction between screener and monitor signals: \n  - PLTR: strong screener score contradicts overbought RSI signal; \n  - RKLB, SOFI, DRAM, IREN, ATOM, SCO, QCOM: bearish MACD crossovers contradict screener signals.\n\n\u2022 Name the strongest and weakest pick with one reason each:\n  - Strongest pick: CMCSA (92.1% institutional ownership)\n  - Weakest pick: MSFT (relatively weaker screener score)\n\n\u2022 Overall confidence: MEDIUM\n  - Sector momentum is strong, but contradictions between screener and monitor signals reduce confidence.",
     "conflicts": [
       {
         "ticker": "PLTR",
