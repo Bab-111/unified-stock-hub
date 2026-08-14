@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Stock Hub — 2026-08-14 08:57 TW</title>
+<title>Stock Hub — 2026-08-14 09:44 TW</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -232,8 +232,8 @@ a:hover { text-decoration: underline; }
 <div id="header">
   <div class="header-title">📈 Stock Hub</div>
   <div class="phase-badge"><div class="phase-dot"></div>Overnight</div>
-  <span class="run-mode-tag">PARTIAL</span>
-  <div class="header-time" id="live-clock">2026-08-14 08:57 TW &nbsp;|&nbsp; 2026-08-14 00:57 UTC</div>
+  <span class="run-mode-tag">SCREENER</span>
+  <div class="header-time" id="live-clock">2026-08-14 09:44 TW &nbsp;|&nbsp; 2026-08-14 01:44 UTC</div>
   <button class="theme-btn" onclick="toggleTheme()">☀ / ☾</button>
 </div>
 
@@ -245,7 +245,7 @@ a:hover { text-decoration: underline; }
 </div>
 
 <div id="screener" class="tab-pane active">
-        <div class="updated-note">Run: 2026-08-14 00:56 &nbsp;·&nbsp; 132 stocks scored &nbsp;·&nbsp; Top sector: <strong style="color:var(--accent)">Comm. Services</strong></div>
+        <div class="updated-note">Run: 2026-08-14 01:44 &nbsp;·&nbsp; 132 stocks scored &nbsp;·&nbsp; Top sector: <strong style="color:var(--accent)">Comm. Services</strong></div>
         <div class="sentiment-strip">
           <div class="sent-seg sent-g" style="width:0.8%">1% Strong</div>
           <div class="sent-seg sent-y" style="width:6.8%">7%</div>
@@ -431,7 +431,7 @@ a:hover { text-decoration: underline; }
       <div class="factor-pills"><span class="pill fy">Vol</span><span class="pill fr">Breakout</span><span class="pill fg">MA200</span><span class="pill fg">Inst</span><span class="pill fg">MFI</span><span class="pill fy">Sector</span><span class="pill fy">History</span><span class="pill fg">IV</span></div>
       <div class="card-meta">
         <span>Vol: <strong>1.5x</strong></span>
-        <span>MA200: <strong class="pos">$99.79183065695841</strong></span>
+        <span>MA200: <strong class="pos">$99.70840804807601</strong></span>
         <span>Inst: <strong>88.0%</strong></span>
         <span>MFI: <strong>72.0</strong></span>
         <span>IV(mean): <strong>94.7%</strong></span>
@@ -593,7 +593,7 @@ a:hover { text-decoration: underline; }
         </div></div></div>
             <div class="section-title">LLM Supervision</div>
             <div class="llm-panel">
-              <div class="llm-note">• Validate top screener picks vs sector momentum: <br>  - PLTR: strong screener score, but overbought RSI; <br>  - DIS and CMCSA: strong screener scores with above MA200 and high institutional ownership; <br>  - CLX: strong screener score, but high volume; <br>  - MSFT: relatively weaker screener score, but above MA200.<br><br>• Flag any contradiction between screener and monitor signals: <br>  - PLTR: strong screener score contradicts overbought RSI signal; <br>  - RKLB, SOFI, DRAM, IREN, ATOM, SCO, QCOM: bearish MACD crossovers contradict screener signals.<br><br>• Name the strongest and weakest pick with one reason each:<br>  - Strongest pick: CMCSA (92.1% institutional ownership)<br>  - Weakest pick: MSFT (relatively weaker screener score)<br><br>• Overall confidence: MEDIUM<br>  - Sector momentum is strong, but contradictions between screener and monitor signals reduce confidence.</div>
+              <div class="llm-note">• Validate top screener picks vs sector momentum: <br>The top sector is Comm. Services, and three out of the top four screener picks belong to this sector, indicating strong sector momentum.<br><br>• Flag any contradiction between screener and monitor signals: <br>PLTR has a strong screener score but is overbought according to the RSI, indicating a potential contradiction.<br><br>• Name the strongest and weakest pick with one reason each:<br>Strongest pick: CMCSA (Comm. Services) due to its high institutional ownership percentage (92.1%).<br>Weakest pick: RKLB due to its heavy drop (-11.61%) and MACD bearish crossover.<br><br>• Overall confidence: MEDIUM <br>The sector momentum is strong, but the presence of overbought stocks and bearish crossovers in the watchlist alerts reduces overall confidence.</div>
             </div>
           </div>
         </div>
@@ -726,7 +726,7 @@ a:hover { text-decoration: underline; }
         <li><strong>AI supervision:</strong> Groq Llama 3.1 (free) — validates picks against sector context (requires GROQ_API_KEY secret)</li>
         <li><strong>Universe:</strong> 132 stocks defined in config/universe.csv</li>
         <li><strong>Scoring weights:</strong> Inst.Own(3) · Sector(3) · Volume(2) · Breakout(2) · MA200(2) · MFI(2) · History(2) · IV(1) = 17pts max</li>
-        <li><strong>Run time:</strong> 2026-08-14 00:56 UTC — Market phase: Overnight</li>
+        <li><strong>Run time:</strong> 2026-08-14 01:44 UTC — Market phase: Overnight</li>
       </ul>
       <div style="margin-top:10px;font-size:.75rem;color:var(--muted);border-top:1px solid var(--border);padding-top:8px">
         ⚠️ For informational purposes only — not financial advice. All data from Yahoo Finance (free tier).
@@ -1660,9 +1660,9 @@ a:hover { text-decoration: underline; }
     <div class="section-title">LLM Supervision Log (last 1 runs)</div>
     <div class="llm-panel">
         <div class="llm-entry">
-          <div class="llm-meta">2026-08-14 00:57 UTC &nbsp;·&nbsp; Overnight</div>
+          <div class="llm-meta">2026-08-14 01:44 UTC &nbsp;·&nbsp; Overnight</div>
           <div class='conflict-list'><span class="conflict-badge">⚠️ PLTR</span> </div>
-          <div class="llm-note">• Validate top screener picks vs sector momentum: <br>  - PLTR: strong screener score, but overbought RSI; <br>  - DIS and CMCSA: strong screener scores with above MA200 and high institutional ownership; <br>  - CLX: strong screener score, but high volume; <br>  - MSFT: relatively weaker screener score, but above MA200.<br><br>• Flag any contradiction between screener and monitor signals: <br>  - PLTR: strong screener score contradicts overbought RSI signal; <br>  - RKLB, SOFI, DRAM, IREN, ATOM, SCO, QCOM: bearish MACD crossovers contradict screener signals.<br><br>• Name the strongest and weakest pick with one reason each:<br>  - Strongest pick: CMCSA (92.1% institutional ownership)<br>  - Weakest pick: MSFT (relatively weaker screener score)<br><br>• Overall confidence: MEDIUM<br>  - Sector momentum is strong, but contradictions between screener and monitor signals reduce confidence.</div>
+          <div class="llm-note">• Validate top screener picks vs sector momentum: <br>The top sector is Comm. Services, and three out of the top four screener picks belong to this sector, indicating strong sector momentum.<br><br>• Flag any contradiction between screener and monitor signals: <br>PLTR has a strong screener score but is overbought according to the RSI, indicating a potential contradiction.<br><br>• Name the strongest and weakest pick with one reason each:<br>Strongest pick: CMCSA (Comm. Services) due to its high institutional ownership percentage (92.1%).<br>Weakest pick: RKLB due to its heavy drop (-11.61%) and MACD bearish crossover.<br><br>• Overall confidence: MEDIUM <br>The sector momentum is strong, but the presence of overbought stocks and bearish crossovers in the watchlist alerts reduces overall confidence.</div>
           
         </div></div></div>
 
