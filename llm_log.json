@@ -1,8 +1,8 @@
 [
   {
-    "ts_utc": "2026-08-14 01:44 UTC",
-    "phase": "Overnight",
-    "note": "\u2022 Validate top screener picks vs sector momentum: \nThe top sector is Comm. Services, and three out of the top four screener picks belong to this sector, indicating strong sector momentum.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nPLTR has a strong screener score but is overbought according to the RSI, indicating a potential contradiction.\n\n\u2022 Name the strongest and weakest pick with one reason each:\nStrongest pick: CMCSA (Comm. Services) due to its high institutional ownership percentage (92.1%).\nWeakest pick: RKLB due to its heavy drop (-11.61%) and MACD bearish crossover.\n\n\u2022 Overall confidence: MEDIUM \nThe sector momentum is strong, but the presence of overbought stocks and bearish crossovers in the watchlist alerts reduces overall confidence.",
+    "ts_utc": "2026-08-14 14:11 UTC",
+    "phase": "Regular Market Hours",
+    "note": "\u2022 Validate top screener picks vs sector momentum: \nEnergy sector momentum is strong, with PSX, MPC, and KMI showing high scores and above MA200. This validates the top sector pick.\n\n\u2022 Flag any contradiction between screener and monitor signals: \nPLTR is a strong screener pick but is overbought (RSI 82), contradicting the screener signal.\n\n\u2022 Name the strongest and weakest pick with one reason each:\n Strongest pick: PSX, due to its high score (12/17) and strong sector momentum.\n Weakest pick: INTC, due to its low MFI (54.6) compared to other picks.\n\n\u2022 Overall confidence: MEDIUM\nThe screener picks show promise, but contradictions between screener and monitor signals reduce overall confidence.",
     "conflicts": [
       {
         "ticker": "PLTR",
