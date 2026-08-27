@@ -1,86 +1,258 @@
 {
   "general": [
     {
-      "title": "Stock futures rise as Nvidia shares jump 4% after earnings: Live updates - CNBC",
+      "title": "S&P 500, Nasdaq Composite close higher Thursday as Nvidia rallies on revenue guidance: Live updates - CNBC",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE81OFdpS2tFUVh1NFJWZVBOdHV1VDZINjFmVmZxUnF2TVFRVnVDV1VXYnN1OS0xTURpMTl6S1NvMllsWVlHSVpCUU4yRmJZcDYtNUVVV1p2U2ZXOEpuSHlkM3lkTGNtWjBSdlVtUUZxLW9PbUZpbHBF0gF8QVVfeXFMTVE4T2JoblkzUGJXTFEyZjFHYk5adlZyYmUzcXhMRDZUSUJMU1FUNDRsT2RPNzc2MUcxT2V5M3RoeUgxS2xGRi1oWXdsLVkxOWYyRUZiSVdjNnVLbktoYWtoUmRBWGpZTW5PUnMyYUZLamt2aHlLSmtmQmZPXw?oc=5",
       "source": "Google News",
-      "published": "Wed, 26 Aug 2026"
+      "published": "Thu, 27 Aug 2026"
     },
     {
-      "title": "Stock market today: Dow, S&P 500, Nasdaq futures hold steady ahead of inflation data, Nvidia earnings - Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQYlhyaGhsNURhcWk5dVd6RkhyYl90SlkyajU5X05KdjE1YlpROUxDTlNOZ1BKUWdqWmxRc3JSdjlCZFhHZGRrVkU4RkdTOEFKQmd6NHNTVm9RVElJZG9Nanl4Z0lhcXRNcnZvRG5ZTVFhVTg3anhSQzl2M0t0OHZkU3ZXZ2R3VVJyOVN1bjlxX2xIWTNCRkpxSW9OcVZRWUo2cUxyYXRJM0h5SF82dDE0?oc=5",
+      "title": "Stock market today: Dow, S&P 500, Nasdaq futures rise as Nvidia, Salesforce earnings boost tech - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPV19GV21jUzBTUXUzS1l3ZW5obXFHNDU3emZTLXRyMzVaVl9aTVpXUHlaSmdXeHdNbXpDeEFObmVZblQ0UFNFQmNrcGV5Vk9NaTZJemNwTjNuMTV0S3lBVFdDY1NsejRjcjRSTDdCS1Vobzk3ZWJUTkhsejhPdFEwc1ZoWHhySDFKekVHblV0TEFOLTZSMkJYMkFVMlBtYzI1VFE3U2I0a0plcXJITFE?oc=5",
       "source": "Google News",
-      "published": "Wed, 26 Aug 2026"
+      "published": "Thu, 27 Aug 2026"
     }
   ],
   "per_ticker": {
-    "IREN": [
+    "MCD": [
       {
-        "title": "IREN Slides 6% as Traders De-Risk Before Q4 Earnings, Core Scientific Declines 4%",
-        "link": "https://247wallst.com/investing/2026/08/26/iren-slides-6-as-traders-de-risk-before-q4-earnings-core-scientific-declines-4/?.tsrc=rss",
+        "title": "McDonald's vs. Domino's: Which Stock Has Better Growth Prospects?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/mcdonalds-vs-dominos-stock-better-155600860.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "IREN stock is shedding 6% ahead of back-to-back reports from NVIDIA tonight and IREN itself Thursday, putting traders who bought yesterday's rally in an uncomfortable spot before two of the most conse"
+        "published": "Thu, 27 Aug 2026",
+        "summary": "MCD and DPZ pursue growth through global expansion, digital initiatives and customer engagement, with distinct strategies."
       },
       {
-        "title": "IREN to Report Q4 Earnings: Should You Buy, Sell or Hold the Stock?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/iren-report-q4-earnings-buy-153500923.html?.tsrc=rss",
+        "title": "Wendy\u2019s Sinks 13% as Trian Shelves Its Take-Private Bid, McDonald\u2019s Slips",
+        "link": "https://247wallst.com/investing/2026/08/27/wendys-sinks-13-as-trian-shelves-its-take-private-bid-mcdonalds-slips/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "IREN's AI cloud growth and stronger funding face near-term pressure from falling Bitcoin mining revenues and impairments ahead of fiscal Q4 results."
+        "published": "Thu, 27 Aug 2026",
+        "summary": "Trian Fund Management just pulled the plug on a deal that had sent Wendy's stock soaring, and now investors are staring at a business the CEO has openly called a disappointment with no buyout floor to"
       },
       {
-        "title": "Crypto Mining Stocks Rally as Bitcoin Hovers Around $80K: MARA Jumps 7%, TeraWulf and IREN Climb 5%",
-        "link": "https://247wallst.com/investing/2026/08/25/crypto-mining-stocks-rally-as-bitcoin-hovers-around-80k-mara-jumps-7-terawulf-and-iren-climb-5/?.tsrc=rss",
+        "title": "McDonald's discontinues fan favorite after 13 years",
+        "link": "https://www.thestreet.com/restaurants/mcdonalds-discontinues-pumpkin-spice-adds-caramel-apple-pie-latte-2026?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Wed, 26 Aug 2026",
+        "summary": "The fast-food giant is ending a 13-year tradition as it brings an all-American flavor to its fall menu."
+      },
+      {
+        "title": "Can MCD's Unified Digital Platform Unlock More Growth & Productivity?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/mcds-unified-digital-platform-unlock-153000716.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "published": "Tue, 25 Aug 2026",
-        "summary": "Bitcoin briefly cracked $80,000 for the first time in months, sending crypto mining stocks surging well past the broader digital infrastructure pack, but not every miner is rallying for the same reaso"
+        "summary": "McDonald's unified digital platform could unlock growth, personalization and productivity as integration across major markets nears completion."
       },
       {
-        "title": "NBIS Stock Gains Premarket: Neocloud Operator Raises $5.8B in Debt, Beating Initial Target; Investors Await IREN Report",
-        "link": "https://stocktwits.com/news-articles/markets/equity/nbis-stock-gains-premarket-neocloud-operator-raises-5-8-b-in-debt-beating-initial-target-investors-await-iren-report/cZYkKPeRJ8X?.tsrc=rss",
+        "title": "The Kohl\u2019s Recesson",
+        "link": "https://247wallst.com/investing/2026/08/27/the-kohls-recesson/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "Tue, 25 Aug 2026",
-        "summary": "Nebius has faced an intense selloff over the past week, with investors viewing the mammoth debt offering as adding to the company\u2019s debt liabilities."
+        "published": "Thu, 27 Aug 2026",
+        "summary": "Kohl's, McDonald's, and Walmart are all flashing the same warning sign, and it points to a crisis already swallowing half the country before most economists will admit it exists."
       },
       {
-        "title": "IREN Clears Its Biggest AI Test With Microsoft",
-        "link": "https://finance.yahoo.com/technology/ai/articles/iren-clears-biggest-ai-test-162109401.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Fri, 21 Aug 2026",
-        "summary": "Horizon 1 acceptance turns a $9.7 billion contract into actual revenue."
-      },
-      {
-        "title": "Crypto Mining Stocks Rally as Bitcoin Hovers Around $80K: MARA Jumps 7%, TeraWulf and IREN Climb 5% - Yahoo Finance",
-        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcy1mRHRqbEpnM0VHUHo1WXRqZHlBbzhia1B2a3JBbndZSEYxX25oN0tUR2lWdFFnV3lGX3RQLWVyOXlUaXdaSWxSVnR5VW4zWVk0UkI1cnJUaG5NOFdzWlN6OXdnM3Y2WWYxRHVTZlFNS0pRSlBqQWZCc3Ytc3B2cmlUSlVRcml6SGFzUks0dTc4ZFlWTE5KYTUyOU1YWHNK?oc=5",
+        "title": "McDonald\u2019s Stock Sell-Off Is Hiding A Stronger Story (NYSE:MCD) - Seeking Alpha",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxObVdLRHJxelNkRk9GVWF3UmpyMGNsRGZ1ZDBnU2lKX1N0Y2R3cDlXZXNUSjFpNGtReFQ0ay03cnIxM29oeDhCTmFjQXhUUm5DMXRDNnNPX1huMHRkaktNeV95aTN2Rkk3eWN4TzFSOGRGWmtudlVLaGYxRmUteEZnTS1BSzcwZXF3VThDT0ppSUdVOVREQkE?oc=5",
         "source": "Google News",
         "published": "Tue, 25 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxOcy1mRHRqbEpnM0VHUHo1WXRqZHlBbzhia1B2a3JBbndZSEYxX25oN0tUR2lWdFFnV3lGX3RQLWVyOXlUaXdaSWxSVnR5VW4zWVk0UkI1cnJUaG5NOFdzWlN6OXdnM3Y2WWYxRHVTZl"
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxObVdLRHJxelNkRk9GVWF3UmpyMGNsRGZ1ZDBnU2lKX1N0Y2R3cDlXZXNUSjFpNGtReFQ0ay03cnIxM29oeDhCTmFjQXhUUm5DMXRDNnNPX1huMHRkaktNeV95aTN2Rkk3eWN4TzFSOG"
       },
       {
-        "title": "IREN to Report Q4 Earnings: Should You Buy, Sell or Hold the Stock? - Yahoo Finance",
-        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOY2hNQVdab1RSZzl0SlpvdXRPRUFtTUxNRWJvNmRIdHBacWdPVlJQY1BFaUJ4VFVaYUp6dGJIVTVfdTRhOUN3Tndsbm9ZdkRCakpsdmJ5UDVNTERiVWVJSVNZZm1tZlBvcEs3aGtfSDg4SDN6X28yblJXX01FRnJXcmExRlpKZ2dBbkpndGoyWkpreWk0MWdr?oc=5",
+        "title": "McDonald's vs. Domino's: Which Stock Has Better Growth Prospects? - TradingView",
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUnQxcW41S0RkbzMtbEx2YVBIZ3ZjRl9LZmxhVkNFOXE4UVU4TzFVa3J3TkRLaFc0R3pyLVRpR0JOdk44ZFE1VmhKZUtNY3pxakVBLUxRNGk3Z3F6OFc5ZGF1VjhLWDRwVWhpZHkwTW5LdEtrYXBBMG9RQTBFTjIyM24zdnYtOXJyZzFpYmp5NjMwdFgtUWRDbU15ejl6U3pBRnZ2OC1yZ2JCT1k3VnlfQ0hXT3BUOGFYUFE?oc=5",
+        "source": "Google News",
+        "published": "Thu, 27 Aug 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxOUnQxcW41S0RkbzMtbEx2YVBIZ3ZjRl9LZmxhVkNFOXE4UVU4TzFVa3J3TkRLaFc0R3pyLVRpR0JOdk44ZFE1VmhKZUtNY3pxakVBLUxRNGk3Z3F6OFc5ZGF1VjhLWDRwVWhpZHkwTW"
+      },
+      {
+        "title": "Jim Cramer Breaks Down McDonald\u2019s (MCD) Q2 Earnings and Execution Flaws - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOaG0yOWRzQUxHSEZLdzVNeWhsT2hiWHBQVWRNX0VJMmNySUpYYkE0ODVybTk5UW5RNTVPTkRrNXZFbUhnNElSclh4U0Q5TFU1NXlUMmp4YWNBSzFtLW5QaWxlbW5zc0lBN3ZWN0ZhTDNqYm9yT3BKVUotTTQzQjJyMTZVVENCWDNFWUw2d2M2VTlkdzUtcFBZR0dJdVU?oc=5",
+        "source": "Google News",
+        "published": "Sun, 16 Aug 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxOaG0yOWRzQUxHSEZLdzVNeWhsT2hiWHBQVWRNX0VJMmNySUpYYkE0ODVybTk5UW5RNTVPTkRrNXZFbUhnNElSclh4U0Q5TFU1NXlUMmp4YWNBSzFtLW5QaWxlbW5zc0lBN3ZWN0ZhTD"
+      },
+      {
+        "title": "McDonald\u2019s stock hits 52-week low at $260.95 - Investing.com",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNTjFOaWF3cGJhV2RxT0hUTWpweFQ0TEVfV2ZGMFdpTWRBQkhTSk45NXRVQVdsa3U0TF9JTS1LT1FpS1dySWhjamlTdkVCT2lxcWJ4Q1NrN0VHdXhsTUFDVGVPUDBjamw4Y2ZzVlh1aGdYbkJ0dmtRWktVa3dReFJnQlZJUFNXT0J1YzZjRXAwRElHWUQ3d0hkak1EWFl6QQ?oc=5",
+        "source": "Google News",
+        "published": "Thu, 27 Aug 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNTjFOaWF3cGJhV2RxT0hUTWpweFQ0TEVfV2ZGMFdpTWRBQkhTSk45NXRVQVdsa3U0TF9JTS1LT1FpS1dySWhjamlTdkVCT2lxcWJ4Q1NrN0VHdXhsTUFDVGVPUDBjamw4Y2ZzVlh1aG"
+      },
+      {
+        "title": "Consumer spending, Burger King, McDonald's",
+        "link": "https://www.nrn.com/restaurant-finance/consumer-spending-burger-king-mcdonald-s",
+        "source": "Finviz",
+        "published": "",
+        "summary": ""
+      },
+      {
+        "title": "McDonald's is bringing back its spicy chicken nuggets for the first time in two years",
+        "link": "https://qz.com/mcdonalds-spicy-chicken-mcnuggets-return-fall-2026-082626",
+        "source": "Finviz",
+        "published": "",
+        "summary": ""
+      },
+      {
+        "title": "12 stocks for 'bottom-fishing' investors looking for cheap growth opportunities",
+        "link": "https://www.marketwatch.com/story/12-stocks-for-bottom-fishing-investors-looking-for-cheap-growth-opportunities-d232ea75?mod=mw_FV",
+        "source": "Finviz",
+        "published": "",
+        "summary": ""
+      }
+    ],
+    "DRAM": [
+      {
+        "title": "Chip stocks are crashing as the rest of the market barely flinches: AlphaCheck",
+        "link": "https://finance.yahoo.com/markets/article/chip-stocks-are-crashing-as-the-rest-of-the-market-barely-flinches-alphacheck-161342600.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Tue, 28 Jul 2026",
+        "summary": "Semiconductor stocks are flashing red \u2014 under the market's hood, the rally is still running green."
+      },
+      {
+        "title": "Leveraged ETF Craze Turns Its Sights to Other Funds",
+        "link": "https://www.thedailyupside.com/etf/thematics-sectors/leveraged-etf-craze-turns-its-sights-to-other-funds/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Mon, 17 Aug 2026",
+        "summary": "Issuers are now quick to prep leveraged and inverse versions of the trendiest new ETFs."
+      },
+      {
+        "title": "U.S. ETF Investors at Odds: Chasing Returns or Playing the Long Game?",
+        "link": "http://www.etf.com/sections/advisor-center/us-etf-investors-odds-chasing-returns-or-playing-long-game?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Wed, 12 Aug 2026",
+        "summary": "<p>While U.S. ETF assets under management and flows rose to record levels in the first half of 2026, asset managers split the field with inflows from each constituency. Some continue to compete on pri"
+      },
+      {
+        "title": "The ETFs Most Exposed to the 2026 Chip Supply Chain Crisis \u2014 Winners and Losers",
+        "link": "http://www.etf.com/sections/news/etfs-most-exposed-2026-chip-supply-chain-crisis-winners-and-losers?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Mon, 10 Aug 2026",
+        "summary": "<p>High-bandwidth memory is sold out for all of 2026. SK Hynix has warned the shortage could last past 2030. Automakers are cutting production of budget models, and PC and smartphone prices are set to"
+      },
+      {
+        "title": "The DRAMa Behind Wall Street\u2019s Fastest Selling ETF",
+        "link": "https://www.thedailyupside.com/etf/thematics-sectors/the-drama-behind-wall-streets-fastest-selling-etf/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Mon, 10 Aug 2026",
+        "summary": "Roundhill said flows into its $24 billion memory fund, DRAM, show conviction from investors about the AI buildout. But not all are cashing in."
+      },
+      {
+        "title": "DRAM, MAGS ETF Issuer Eyes AI Photonics Opportunity With New Optical Stocks Fund - Stocktwits",
+        "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOMHV4Ti0yZy11dEctb3R5ZElNcFVfQjdia0tsN1pNZEpaZ1BMbl9MU205aFYyOGF4WHZwVUtJN1k5dlp3NDg5LTdTekN1Q0p5ZHFUVUxjWUlmQlAySmFzdmFpeUczRlpHWEthYThKb2lqZkp2YW83dXRQbElnMnZjVnIxaDFNdWFyY29NMjliajZ4UmNTN1hmYkd6Rk1jeHFNVjB1dmd3YWprUEVENjVFZVpPWlRWT0taTFVZRWZ6MlY1ektucnVUOWZCNmhIOUxRYkJtRnlEb0lMb2M?oc=5",
+        "source": "Google News",
+        "published": "Thu, 27 Aug 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi2wFBVV95cUxOMHV4Ti0yZy11dEctb3R5ZElNcFVfQjdia0tsN1pNZEpaZ1BMbl9MU205aFYyOGF4WHZwVUtJN1k5dlp3NDg5LTdTekN1Q0p5ZHFUVUxjWUlmQlAySmFzdmFpeUczRlpHWEthYThKb2"
+      },
+      {
+        "title": "The next AI boom in stock market after memory chip trade may be photonics - CNBC",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZnVZYVM3dnZoNWI1NGFBdzdreFVCMEFuR1VZRENBdXNHSjRpUjljODBqY3pYZExIUjVCSUVBTDRHdDJrcUp6VjRHVnZKZGVoQ1RBbktwSVBFVFlsRWY2VTRFS3c2RFJZcjdodDdLOWVLcEhHdzBFbE13Wi12TzJsdtIBhgFBVV95cUxNazNIN0dUcWFkb0xRRkpfWW01anBCbFM4Mk1lTnRrX2dYcHc4NE9wRURWQXBZaGpPbEdncDBpT2Y2d1FhbjVFSHdDV3FMb2tvdmNzZFg4VkJBaHUzc0t2SHFqQ09HOU83OU11QWVaMmZta0tuOTFSeU5wb1gtSVdmdk9GQ0EtZw?oc=5",
+        "source": "Google News",
+        "published": "Wed, 05 Aug 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxPZnVZYVM3dnZoNWI1NGFBdzdreFVCMEFuR1VZRENBdXNHSjRpUjljODBqY3pYZExIUjVCSUVBTDRHdDJrcUp6VjRHVnZKZGVoQ1RBbktwSVBFVFlsRWY2VTRFS3c2RFJZcjdodDdLOW"
+      },
+      {
+        "title": "ASML (ENXTAM:ASML) Stock May Trade At A Premium As AI DRAM Demand Builds - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTjQ1QWgxLW9IUldjNUhtOWZIcHpWS09xdnZBcF9obWlFZnJUYmc2V2tOd1FCQ2JhS1ludnRYLU9PNnZNT2h4dXZmMk94WDMybzFkZ3dHbXVyUGp4XzEzYzRWd1VUeXZQQ0JQRXVBZDRhVHdBb1pmNng5YUhwSEtsUmdoV29adHdCd25KY0FyZU1QSDRQeUE?oc=5",
+        "source": "Google News",
+        "published": "Tue, 25 Aug 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxQTjQ1QWgxLW9IUldjNUhtOWZIcHpWS09xdnZBcF9obWlFZnJUYmc2V2tOd1FCQ2JhS1ludnRYLU9PNnZNT2h4dXZmMk94WDMybzFkZ3dHbXVyUGp4XzEzYzRWd1VUeXZQQ0JQRXVBZD"
+      },
+      {
+        "title": "(DRAM) and the Role of Price-Sensitive Allocations - Stock Traders Daily",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQQmdhMTBhTHAzV0o0azd1ZlFaWWZTSXQ1WjFkUnRUUDZmQkhSNUlob1JZX1lyWmgtMUhDMWNDaW5Cc0oxV0JFbkdwbkw2blNXNndTWmJRSFZfVlRKUENSZGNJVTI4LWFlbmVGNnd1Um1peXl1NW5FUzFJSC1yeXljNGsxZmRGWXRaaUdlSGtnaUMtcFdTaWp6cW9zSjdsUlMyVE8zY1MxMmV2NHZLMzNQME1vazVIcDQtWF9keWxPNDdGUHpIS1pZ?oc=5",
+        "source": "Google News",
+        "published": "Thu, 27 Aug 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxQQmdhMTBhTHAzV0o0azd1ZlFaWWZTSXQ1WjFkUnRUUDZmQkhSNUlob1JZX1lyWmgtMUhDMWNDaW5Cc0oxV0JFbkdwbkw2blNXNndTWmJRSFZfVlRKUENSZGNJVTI4LWFlbmVGNnd1Um"
+      },
+      {
+        "title": "The 10 Most Popular AI ETFs of 2026",
+        "link": "https://finance.yahoo.com/m/959aca37-524b-3408-a528-a00422fced80/the-10-most-popular-ai-etfs.html",
+        "source": "Finviz",
+        "published": "",
+        "summary": ""
+      },
+      {
+        "title": "ETF League Tables: Roundhill Gains $315M",
+        "link": "https://finance.yahoo.com/m/c3d5d927-35fa-3318-aafb-870603c2f50c/etf-league-tables%3A-roundhill.html",
+        "source": "Finviz",
+        "published": "",
+        "summary": ""
+      }
+    ],
+    "NFLX": [
+      {
+        "title": "Netflix (NFLX) Stock Falls Amid Market Uptick: What Investors Need to Know",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/netflix-nflx-stock-falls-amid-214502710.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Thu, 27 Aug 2026",
+        "summary": "In the most recent trading session, Netflix (NFLX) closed at $79.84, indicating a -1.99% shift from the previous trading day."
+      },
+      {
+        "title": "NFLX Has Bounced From This Price Before. Now What?",
+        "link": "https://www.trefis.com/articles/613256/nflx-has-bounced-from-this-price-before-now-what-2/2026-08-27?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Thu, 27 Aug 2026",
+        "summary": "Netflix stock has returned to a floor where buyers have repeatedly appeared, but this time it arrives with new questions about its growth story."
+      },
+      {
+        "title": "NFLX vs. GOOGL: Which Streaming & Ad Stock Has an Edge Right Now?",
+        "link": "https://finance.yahoo.com/media-advertising/articles/nflx-vs-googl-streaming-ad-155300799.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Thu, 27 Aug 2026",
+        "summary": "Alphabet's diversified growth, AI-driven ad innovation and lower valuation give it an edge over Netflix's slowing growth."
+      },
+      {
+        "title": "Netflix Is Rallying: These 3 Catalysts Will Decide If That Continues",
+        "link": "https://247wallst.com/investing/2026/08/27/netflix-is-rallying-these-3-catalysts-will-decide-if-that-continues/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Thu, 27 Aug 2026",
+        "summary": "Netflix has clawed back more than 21% from its recent low, but the stock still sits well below its peak with three specific catalysts poised to determine whether this rally has real staying power or s"
+      },
+      {
+        "title": "Dear Netflix Stock Fans, Mark Your Calendars for August 27",
+        "link": "https://www.barchart.com/story/news/4133660/dear-netflix-stock-fans-mark-your-calendars-for-august-27?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Wed, 26 Aug 2026",
+        "summary": "Netflix will host Grand Theft Auto VI\u2019s long\u2011awaited preview release after repeated delays."
+      },
+      {
+        "title": "NFLX Stock Eyes Sixth Week Of Gains: Netflix Reportedly Mulls Adding Rival Streamers To Compete With YouTube, Roku - Yah",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTXpLbDAxQTYwbU90cXRtSHRMS3p0OWloLU9YWi1vb01hdkdEV3AwR3d4SW5ZZ3RuUjM1NldZQ0ptZWZSdmxqMjRUSXpqczdNOVpscEVGdlBNTzZiUmRsTHpZc3RaZVBUTjBfN2c4WWFySVRJX2FtOXEtZHFXaVBvUlpOVDU4OVMyUXhmY2VhR2llekRQcGc?oc=5",
         "source": "Google News",
         "published": "Wed, 26 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxOY2hNQVdab1RSZzl0SlpvdXRPRUFtTUxNRWJvNmRIdHBacWdPVlJQY1BFaUJ4VFVaYUp6dGJIVTVfdTRhOUN3Tndsbm9ZdkRCakpsdmJ5UDVNTERiVWVJSVNZZm1tZlBvcEs3aGtfSD"
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxPTXpLbDAxQTYwbU90cXRtSHRMS3p0OWloLU9YWi1vb01hdkdEV3AwR3d4SW5ZZ3RuUjM1NldZQ0ptZWZSdmxqMjRUSXpqczdNOVpscEVGdlBNTzZiUmRsTHpZc3RaZVBUTjBfN2c4WW"
       },
       {
-        "title": "IREN Slides 6% as Traders De-Risk Before Q4 Earnings, Core Scientific Declines 4% - 24/7 Wall St.",
-        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNd2tZM2luSFJmNGY2UFZ1aHFWdXEtT2UwT1ZxVmJSZzB6anotU1lDQ1BaN1lvRTZJLUtiUHNacjhVT3JKZmNzOTBsZUdFS2YyVHhaS0RiT3UwV1llVHNaRG5WeHJad2lQQW5WRnptcnNfbGJESjZFRDMyME9wdGtQMTVjUEYwdDMtR0Y1ZHk0cm9uOFc4VGFRWFFtNDc2TkdWN3hVbzJfY0pzbVNYUVE2bElqU0xHTHE4ODhkMzk1Zw?oc=5",
+        "title": "Netflix Stock Is Down Big-Time. Is This Finally a Buying Opportunity? - The Motley Fool",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNMEhlVWdhMnBBa3FSc1k3eHU3c0tyVXlpUDYyTW43ZEppd0hidGxfQzhmd05QRUVMbDJxLUJKQTBEMGhBbWxsQy1EamtyaXlqQ20zVzdpNkRUMGhfTERCVG5HeS00cGRWNUJLckxPNmV4OENXcHd0ckVQZS02R1VHSGR5UlNnN05xWFJkanFJTzhGUnk1Ymc?oc=5",
         "source": "Google News",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxNd2tZM2luSFJmNGY2UFZ1aHFWdXEtT2UwT1ZxVmJSZzB6anotU1lDQ1BaN1lvRTZJLUtiUHNacjhVT3JKZmNzOTBsZUdFS2YyVHhaS0RiT3UwV1llVHNaRG5WeHJad2lQQW5WRnptcn"
+        "published": "Tue, 25 Aug 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxNMEhlVWdhMnBBa3FSc1k3eHU3c0tyVXlpUDYyTW43ZEppd0hidGxfQzhmd05QRUVMbDJxLUJKQTBEMGhBbWxsQy1EamtyaXlqQ20zVzdpNkRUMGhfTERCVG5HeS00cGRWNUJLckxPNm"
       },
       {
-        "title": "Why Is IREN Stock Sliding on Monday? - Benzinga",
-        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZWRORnc3a0l3cHVLTy1nRUc1NzFWb1lRUTdrSEV3THZNN0Jjb3dXd2YtcE1RbmZ2enZmTnktbVNySXBnd1RMOGxiSnJ3aVRpRVRWTGFfbEFvQzR4S1UycV9DbldWVm85WVlVSV9fMFFLY1IxM2NzOS1kV3gxTE0tTWFZX3hYbEFPY3ZyNXNsMkZFaV9WeTJIUXNsY3k?oc=5",
+        "title": "NFLX Has Bounced From This Price Before. Now What? - Trefis",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQnFZUmM3b2pTbWNSM1dfT25RclZnWGtndWh0VE9Oejg5WVNGTWlscjdmVkZ5NjF6eG5YR0xtT0ZGSDFzSkVUcFlCVXlacUlMTnJTSTl2WVhVX01CMDlkWXEyRWluamE4X2NMQW1GeS14S1lTSHg5bURRMllCdldQekZCQ2J5NFdfQ3dYNkQtRmE3RTJWazBnNFhmVjhhQWcwMlJKalV4UHYwQUM2QnJzMA?oc=5",
         "source": "Google News",
-        "published": "Mon, 24 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxNZWRORnc3a0l3cHVLTy1nRUc1NzFWb1lRUTdrSEV3THZNN0Jjb3dXd2YtcE1RbmZ2enZmTnktbVNySXBnd1RMOGxiSnJ3aVRpRVRWTGFfbEFvQzR4S1UycV9DbldWVm85WVlVSV9fMF"
+        "published": "Thu, 27 Aug 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxOQnFZUmM3b2pTbWNSM1dfT25RclZnWGtndWh0VE9Oejg5WVNGTWlscjdmVkZ5NjF6eG5YR0xtT0ZGSDFzSkVUcFlCVXlacUlMTnJTSTl2WVhVX01CMDlkWXEyRWluamE4X2NMQW1GeS"
       },
       {
-        "title": "IREN Stock Plunges 5% Ahead of Earnings as AI Growth Takes Center Stage",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/iren-stock-plunges-5-ahead-194353256.html",
+        "title": "Unusual Options Activity: NFLX, HONA, and MSFT Lead the Way With These 3 Options Strategies - Barchart.com",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbUxoTHNWVzkzZ3JYZWw3LTVYUzNwVnJ2QUk1U1ZWUmtlbXJxa3h2OHJ2LXpSWEtQVHlRcXV4Rm9IMXJncHlRUjBFcW0xYTRoSGNIbVpPRU1oYXB4Y0h1V3B1d3JfRjluQWN0RTkyQVhqaG1sdGNWcF90V2tPaXBMRF9SRFFuSTQtTzBzejNERnI1VkJDS1BaaHhJNHNhbmZUU1Bsa3VObU9WaXZ0ZlZ3QmpxTl81TS1rNUQ4NXV2eGgtX3RmRklZYkxUNzQ?oc=5",
+        "source": "Google News",
+        "published": "Thu, 27 Aug 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxPbUxoTHNWVzkzZ3JYZWw3LTVYUzNwVnJ2QUk1U1ZWUmtlbXJxa3h2OHJ2LXpSWEtQVHlRcXV4Rm9IMXJncHlRUjBFcW0xYTRoSGNIbVpPRU1oYXB4Y0h1V3B1d3JfRjluQWN0RTkyQV"
+      },
+      {
+        "title": "ETFs that invest in AI stocks rise sharply",
+        "link": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-nvidia-beat-expectations-earnings-jackson-hole-marvell-results/card/etfs-that-invest-in-ai-stocks-rise-sharply-cWhQUpKw8rxvpO5prXSZ?mod=mw_FV",
+        "source": "Finviz",
+        "published": "",
+        "summary": ""
+      },
+      {
+        "title": "Nielsen's Gauge: Beyond DASH, What Are We Missing?",
+        "link": "https://finance.yahoo.com/m/eee2545a-50d6-3874-a9f4-d6884f07a123/nielsen%27s-gauge%3A-beyond-dash%2C.html",
         "source": "Finviz",
         "published": "",
         "summary": ""
@@ -109,13 +281,6 @@
         "summary": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE9fNU52T0VlOGNteHJqYzZUR29lY2duT09YNmp3alV3d1ZsZ0FGMTBzeVBldzRwQlBfNm1IV3BFLUFHYlotZGpieVpzbjB4cTJHekl2dUx2b0JWeVg4R1U3M3Z4UnVaenJ4OV8wR1VZcm"
       },
       {
-        "title": "Taiwan Stocks Swing Wildly by 963 Points; TAIEX Fails to Hold 47,000 Ahead of TSMC Earnings Call - finance.biggo.com",
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBjQjVpQXcxZmFKVE90TUZGdHpEbVNSM3ZlUGF4dkhFRFhndHNES1hlZGhRVzlFYUJmU19YQ3BCOUVoTmZYWExKNlh5X1RValZIUTlxcVpmRTByQU9GbjZOZ0JVbk8ycnRwRVJXWDBNMVdLWmZYZHc?oc=5",
-        "source": "Google News",
-        "published": "Mon, 06 Jul 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTFBjQjVpQXcxZmFKVE90TUZGdHpEbVNSM3ZlUGF4dkhFRFhndHNES1hlZGhRVzlFYUJmU19YQ3BCOUVoTmZYWExKNlh5X1RValZIUTlxcVpmRTByQU9GbjZOZ0JVbk8ycnRwRVJXWDBNMV"
-      },
-      {
         "title": "E.SUN Financial Posts Record NT$24.44 Billion Profit for First Seven Months, Driven by Banking and Securities Engines - ",
         "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE02dUpQR1dUSnBSdHNyaC1rTUQyWU5hY0dycmpkaVBqaEVBOGcwSXdPUTRCN1k4NjlrUWgyTE9sS1pwRkZOS2tGNnpUOEl4R3VyWjhhUTVIbUhURXJMSDZGT2g4TU5HX1JDbm9XblZiYng3NGRDWGc?oc=5",
         "source": "Google News",
@@ -123,402 +288,193 @@
         "summary": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE02dUpQR1dUSnBSdHNyaC1rTUQyWU5hY0dycmpkaVBqaEVBOGcwSXdPUTRCN1k4NjlrUWgyTE9sS1pwRkZOS2tGNnpUOEl4R3VyWjhhUTVIbUhURXJMSDZGT2g4TU5HX1JDbm9XblZiYn"
       },
       {
-        "title": "The Shanghai Commercial & Savings Bank, Ltd. (5876.TW) Stock Price, News, Quote & History - Yahoo Finance",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5mVVNCNmpQaTlRMWQxU2dfZkV5WDBPNnQtbHJSY2ZMaURYZDhJUTV6c1hZNXNHekVhcUxtT2ZJb1JXYWtfQnNUeDR0QmE5Tk5JT2c?oc=5",
+        "title": "\u3010E.SUN Financial FY2026 Q2 Earnings Call\u3011First-Half Net Profit Hits Record NT$21.43 Billion, EPS NT$1.32; Loan Growth Ta",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBOTU5DSGJXZ2Zta0dCeEllRmRBdUhxVzhvMUxLdHY0aFBWek9YdmJ0Sm96eEg3TF9KWUVmNGZLT3NyTmxQb19PZGMyNjMtQ2FVVHVUWC12QjgzUE41SFpMM0FB?oc=5",
         "source": "Google News",
-        "published": "Thu, 06 Dec 2018",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTE5mVVNCNmpQaTlRMWQxU2dfZkV5WDBPNnQtbHJSY2ZMaURYZDhJUTV6c1hZNXNHekVhcUxtT2ZJb1JXYWtfQnNUeDR0QmE5Tk5JT2c?oc=5\" target=\"_blank\">The Shanghai Com"
+        "published": "Thu, 13 Aug 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTFBOTU5DSGJXZ2Zta0dCeEllRmRBdUhxVzhvMUxLdHY0aFBWek9YdmJ0Sm96eEg3TF9KWUVmNGZLT3NyTmxQb19PZGMyNjMtQ2FVVHVUWC12QjgzUE41SFpMM0FB?oc=5\" target=\"_bl"
+      },
+      {
+        "title": "Foreign Investors Buy NT$45.4 Billion to Cover Taiwan Stocks; All Three Container Shipping Giants Attract Buying - finan",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9FTE5NSXk3dzVaQ0UxRS1Pc3ZIeDdSZmlQT25xMXRTQXR2VE9HQUdGbjd5d3lScjBvbGZsLXVLVFRFWFhvNWd2ME1vaDZYdlNpSjl5OU9FY2VwZXMzTXNOamhHaWZMdTlkNmdQQnhJdVdhQVBZVGc?oc=5",
+        "source": "Google News",
+        "published": "Mon, 17 Aug 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE9FTE5NSXk3dzVaQ0UxRS1Pc3ZIeDdSZmlQT25xMXRTQXR2VE9HQUdGbjd5d3lScjBvbGZsLXVLVFRFWFhvNWd2ME1vaDZYdlNpSjl5OU9FY2VwZXMzTXNOamhHaWZMdTlkNmdQQnhJdV"
+      }
+    ],
+    "IREN": [
+      {
+        "title": "IREN Limited (IREN) Reports Q4 Loss, Beats Revenue Estimates",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/iren-limited-iren-reports-q4-215501956.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Thu, 27 Aug 2026",
+        "summary": "IREN Limited (IREN) delivered earnings and revenue surprises of +18.00% and +13.54%, respectively, for the quarter ended June 2026. Do the numbers hold clues to what lies ahead for the stock?"
+      },
+      {
+        "title": "Bitcoin Price Tests $80,000 In 'Powerful Setup.' IREN Tops Sales Views.",
+        "link": "https://finance.yahoo.com/m/0d708401-4ace-39d8-8e75-49819e683b88/bitcoin-price-tests-%2480%2C000.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Thu, 27 Aug 2026",
+        "summary": "Bitcoin price shows a \"powerful setup,\" Bitwise CIO says as the crypto trades near $80,000. Miner, AI player IREN reports results."
+      },
+      {
+        "title": "IREN Stock Plunges 5% Ahead of Earnings as AI Growth Takes Center Stage",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/iren-stock-plunges-5-ahead-194353256.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Wed, 26 Aug 2026",
+        "summary": "IREN Stock Under Pressure Ahead of Earnings Despite $4 Billion Revenue Target"
+      },
+      {
+        "title": "IREN Slides 6% as Traders De-Risk Before Q4 Earnings, Core Scientific Declines 4%",
+        "link": "https://247wallst.com/investing/2026/08/26/iren-slides-6-as-traders-de-risk-before-q4-earnings-core-scientific-declines-4/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Wed, 26 Aug 2026",
+        "summary": "IREN stock is shedding 6% ahead of back-to-back reports from NVIDIA tonight and IREN itself Thursday, putting traders who bought yesterday's rally in an uncomfortable spot before two of the most conse"
+      },
+      {
+        "title": "IREN to Report Q4 Earnings: Should You Buy, Sell or Hold the Stock?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/iren-report-q4-earnings-buy-153500923.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Wed, 26 Aug 2026",
+        "summary": "IREN's AI cloud growth and stronger funding face near-term pressure from falling Bitcoin mining revenues and impairments ahead of fiscal Q4 results."
+      },
+      {
+        "title": "Bitcoin Price Tests $80,000 In 'Powerful Setup.' IREN Tops Sales Views. - Investor's Business Daily",
+        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPNnA1STJua1paTTNGMkM1ZExmWTlacDBPZWVUVHJjUFpiUUFqVHVrN2gzMlJhWkx1a2VNNndRSU43V0JDWjRzM1p3U3ZyZVc2UE5QUHFGZzdncGlFWWRKMmhHbThPZ1h5ZXNzQkZ4dmlZUXNQUXBPNlY3MXFmRmQ5c214UGtBQ25UUXVNejVmaWJsSG1fOWdMMWJwNEFtY0RwSG8yczlEX3o0d2pBSkFHcGNHVUJPTGxpX2RneHJxMEs5TTZsMERNQjcxbHg1X28wWGR3dExMNUUwS2ZYenBuQkQ3Yw?oc=5",
+        "source": "Google News",
+        "published": "Thu, 27 Aug 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi4wFBVV95cUxPNnA1STJua1paTTNGMkM1ZExmWTlacDBPZWVUVHJjUFpiUUFqVHVrN2gzMlJhWkx1a2VNNndRSU43V0JDWjRzM1p3U3ZyZVc2UE5QUHFGZzdncGlFWWRKMmhHbThPZ1h5ZXNzQkZ4dm"
+      },
+      {
+        "title": "IREN to Report Q4 Earnings: Should You Buy, Sell or Hold the Stock? - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOY2hNQVdab1RSZzl0SlpvdXRPRUFtTUxNRWJvNmRIdHBacWdPVlJQY1BFaUJ4VFVaYUp6dGJIVTVfdTRhOUN3Tndsbm9ZdkRCakpsdmJ5UDVNTERiVWVJSVNZZm1tZlBvcEs3aGtfSDg4SDN6X28yblJXX01FRnJXcmExRlpKZ2dBbkpndGoyWkpreWk0MWdr?oc=5",
+        "source": "Google News",
+        "published": "Wed, 26 Aug 2026",
+        "summary": "<ol><li><a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxOY2hNQVdab1RSZzl0SlpvdXRPRUFtTUxNRWJvNmRIdHBacWdPVlJQY1BFaUJ4VFVaYUp6dGJIVTVfdTRhOUN3Tndsbm9ZdkRCakpsdmJ5UDVNTERiVWVJSVNZZm1tZlBvcE"
+      },
+      {
+        "title": "IREN Limited expected to post a loss of 49 cents a share - Earnings Preview - TradingView",
+        "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPM3NxYlFJU2lwUkNndEVORHEzdld4Qm84Qm1hOTB2TFlXcElROGY4ZFF5TDlzZVV0QXhydjJNeG01VkFkaWpEUEl4dThVdFNIU2hsR2VNOHRBdkhDaXVGYU5QRnl2eGhpTnpBNUxLR0c2RFFlLWs3YUJVX3psN1RxSEl2TUxxLWVrVXZ0bFlFWnp6SUUwNHB1WU9MeHVFVmZQVnBoMmVZREVsTHhWUWlCN0l1d2k5ZGk5ZHV2VWJnTUlvWTMwYjhSNHJJSGxLeXVUcmQwMm5LQm5Yd3c?oc=5",
+        "source": "Google News",
+        "published": "Tue, 25 Aug 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi2wFBVV95cUxPM3NxYlFJU2lwUkNndEVORHEzdld4Qm84Qm1hOTB2TFlXcElROGY4ZFF5TDlzZVV0QXhydjJNeG01VkFkaWpEUEl4dThVdFNIU2hsR2VNOHRBdkhDaXVGYU5QRnl2eGhpTnpBNUxLR0"
+      },
+      {
+        "title": "CRWV, NBIS, IREN Stocks Jump Overnight On Nvidia\u2019s Blowout Q2 \u2014 But Palo Alto CEO Predicts Neocloud Price Crash Is Comin",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVFJtUEJ5c2dCZUJwUzVTb1FBZ3haMzlDZW5DNWVoYk5ZVUlMejdZeEQ0ekVpQkFFR0hXM3BPVDNIcXI4Zm1udXBfSURkWWFoenE0T0J3TEdsY2paa3dCbkdiNVRHLWpEaTVQNFItTF9xS3o0RkdlT0FRaDRDaU81emR0MVh6c2k2M1FGX0lkZG84SzNJUEE?oc=5",
+        "source": "Google News",
+        "published": "Thu, 27 Aug 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxOVFJtUEJ5c2dCZUJwUzVTb1FBZ3haMzlDZW5DNWVoYk5ZVUlMejdZeEQ0ekVpQkFFR0hXM3BPVDNIcXI4Zm1udXBfSURkWWFoenE0T0J3TEdsY2paa3dCbkdiNVRHLWpEaTVQNFItTF"
+      },
+      {
+        "title": "IREN Reports FY26 Results",
+        "link": "/news/386423/iren-reports-fy26-results",
+        "source": "Finviz",
+        "published": "",
+        "summary": ""
+      },
+      {
+        "title": "What's Going On With Nebius Stock Thursday",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/whats-going-nebius-stock-thursday-194003440.html",
+        "source": "Finviz",
+        "published": "",
+        "summary": ""
+      },
+      {
+        "title": "Why the Summer Slump is Setting Up Wall Street's Next Rally",
+        "link": "/news/386328/why-the-summer-slump-is-setting-up-wall-streets-next-rally",
+        "source": "Finviz",
+        "published": "",
+        "summary": ""
       }
     ],
     "RKLB": [
       {
-        "title": "AST SpaceMobile Falls 4%, Rocket Lab Holds Steady: Is the Falcon 9 Wind-Down Really Hitting Space Stocks?",
-        "link": "https://247wallst.com/investing/2026/08/26/ast-spacemobile-falls-4-rocket-lab-holds-steady-is-the-falcon-9-wind-down-really-hitting-space-stocks/?.tsrc=rss",
+        "title": "Rocket Lab CFO Sells Nearly 10,000 Shares Amid a Rising Stock Price",
+        "link": "https://www.fool.com/coverage/filings/2026/08/27/rocket-lab-cfo-sells-nearly-10-000-shares-amid-a-rising-stock-price/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "SpaceX just wound down Falcon 9 East Coast Starlink launches, and AST SpaceMobile is taking the brunt while Rocket Lab barely flinches. The split tells you something important about which space stocks"
+        "published": "Thu, 27 Aug 2026",
+        "summary": "The space systems company reported a notable insider sale after its stock's 54% one-year surge."
       },
       {
-        "title": "RKLB vs. PL: Which Space Stock Has the Stronger Investment Case?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/rklb-vs-pl-space-stock-143600499.html?.tsrc=rss",
+        "title": "Rocket Lab Stock: Bull vs. Bear",
+        "link": "https://www.fool.com/investing/2026/08/27/rocket-lab-stock-bull-vs-bear/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "Rocket Lab and Planet Labs advance satellite infrastructure, spacecraft systems and Earth-observation applications across the space industry."
+        "published": "Thu, 27 Aug 2026",
+        "summary": "Neutron is delayed, but the space company has notched several wins this year."
       },
       {
-        "title": "What Does Rocket Lab (RKLB) Gain From Its Optical Communications Role?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/does-rocket-lab-rklb-gain-081552975.html?.tsrc=rss",
+        "title": "Is RKLB Stock A Buy Or A High-Beta Trap?",
+        "link": "https://www.trefis.com/articles/613350/is-rklb-stock-a-buy-or-a-high-beta-trap/2026-08-27?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "Rocket Lab (NasdaqGS: RKLB) optical communications terminals are being used on KSAT's Hyperion satellite as part of in orbit trials of the HYPER hybrid RF and optical relay network. The deployment pla"
+        "published": "Thu, 27 Aug 2026",
+        "summary": "The multiple rests on a launch vehicle that has yet to fly and an acquisition that has yet to close, while most of the revenue arriving today comes from satellites."
       },
       {
-        "title": "Rocket Lab Stock: Launch This Bear Put Spread That Aims For A $295 Profit",
-        "link": "https://finance.yahoo.com/m/fad62a8e-1081-31bf-a19b-c925cfc1b1f5/rocket-lab-stock%3A-launch-this.html?.tsrc=rss",
+        "title": "Why Did Rocket Lab Hike Its Iridium Bid By 30%? Analyst Says ASTS May Have Been Mystery Rival",
+        "link": "https://stocktwits.com/news-articles/markets/equity/rocketlab-hike-iridium-bid-analyst-asts-mystery-rival/cZY8sLVRJp8?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "Tue, 25 Aug 2026",
-        "summary": "Rocket Lab stock is languishing below key moving averages. That makes the launch services provider a candidate for a bearish options trade."
+        "published": "Thu, 27 Aug 2026",
+        "summary": "Farrar said AST may need telecom backing for a major spectrum deal and faces heavy competition from SpaceX."
       },
       {
-        "title": "Why Peter Beck Thinks Rocket Lab Can Become \u2018Really, Really Big\u2019 \u2014 Even As Investors Fixate On Neutron\u2019s Delays",
-        "link": "https://stocktwits.com/news-articles/markets/equity/peter-beck-rocketlab-really-big-investors-neutron-delays/cZYkeVjRJFv?.tsrc=rss",
+        "title": "Rocket Lab Insiders Sell $5.5M Worth Of Shares As Iridium Deal Advances \u2014 CEO Teases Secret Defense Programs",
+        "link": "https://stocktwits.com/news-articles/markets/equity/rocketlab-insiders-sell-shares-iridium-deal-ceo-secret-defense-programs/cZY8oDBRJpj?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "Tue, 25 Aug 2026",
-        "summary": "Electron offers a scaling blueprint, with 93 launches completed and Rocket Lab\u2019s quarterly cadence and launch revenue growing sharply since 2021."
+        "published": "Thu, 27 Aug 2026",
+        "summary": "CEO Peter Beck said Rocket Lab has \u201ca lot\u201d of undisclosed national-security programs and builds missions that \u201cjust cannot fail.\u201d"
       },
       {
-        "title": "Rocket Lab Stock (RKLB): One Neutron Launch Could Change Its Entire Financial Picture - TipRanks",
-        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSEJyNDRaeG14WVo4bWVfNDRMUFNqVTJqZlhJSU1BV1BaMlZLWDdNZlRCVDBmeXhQOVNmaXZiQ0x3Y2JseVNYb3diSUJZNk9rTjJiWlN3Ty12VnJHVjhsdHo0S29oSWRoa1RIRHU2TTBfelB3NTJfbUx0N3FXSDZFX0RhVkpPMlg0Ry1MSjA3ZldON0dJa2wwZnpyZlM5R1FmNnJDbG9GSkMtT3kxdHBzZXhB?oc=5",
+        "title": "Rocket Lab Insiders Sell $5.5M Worth Of Shares As Iridium Deal Advances \u2014 CEO Teases Secret Defense Programs - Yahoo Fin",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVHpDZnY3X1N3VUlJUmlfZmlDem5fam5ibkRqTTFqRGotdVQ5QnVxVGQxUW5wRG1rTzlRbUg3ODhIZnd0T3RicDRwTEZDU2VUbWN1S2dVeVJrU0pCLVBoeEhDVHloMTl3R1ZhWDFRZnZjNGJjSHV1T0pLU09FTmd5VGJWaXFDdGxkaUZqcm41MzE1Zy1WaHc?oc=5",
         "source": "Google News",
-        "published": "Mon, 24 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxOSEJyNDRaeG14WVo4bWVfNDRMUFNqVTJqZlhJSU1BV1BaMlZLWDdNZlRCVDBmeXhQOVNmaXZiQ0x3Y2JseVNYb3diSUJZNk9rTjJiWlN3Ty12VnJHVjhsdHo0S29oSWRoa1RIRHU2TT"
+        "published": "Thu, 27 Aug 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxPVHpDZnY3X1N3VUlJUmlfZmlDem5fam5ibkRqTTFqRGotdVQ5QnVxVGQxUW5wRG1rTzlRbUg3ODhIZnd0T3RicDRwTEZDU2VUbWN1S2dVeVJrU0pCLVBoeEhDVHloMTl3R1ZhWDFRZn"
+      },
+      {
+        "title": "Is RKLB Stock A Buy Or A High-Beta Trap? - Trefis",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdTEzZXBMNGlIc1c5QVBJcDlZTEx2WjZkQzk3RUlldEtwUzlGbG1uekxPcVlPcVFoZHBldzJIbklReHd3b3J2NDF3MEhOTi00QWpvUG5qbWxlOU01VG5GWktFdGpkMGZFYW1OTG10bXFxczJONUxCN0NyY3E4SFBzOEJzb25LYjhKdUUyejBGRE1wdHNtbzcxcmtkQnNLSmJzdFE?oc=5",
+        "source": "Google News",
+        "published": "Thu, 27 Aug 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxPdTEzZXBMNGlIc1c5QVBJcDlZTEx2WjZkQzk3RUlldEtwUzlGbG1uekxPcVlPcVFoZHBldzJIbklReHd3b3J2NDF3MEhOTi00QWpvUG5qbWxlOU01VG5GWktFdGpkMGZFYW1OTG10bX"
+      },
+      {
+        "title": "RKLB vs. PL: Which Space Stock Has the Stronger Investment Case? - TradingView",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQXo1TXMxSWJGQnh3SEF6eWdDd3pzMl9UeFA4cVVQYXR2S1FBVHhGdFJCTVRSal9LT210WExyUndUU1p5M3dtTTg3MW5odGx2QkJKRlVWWHVoVldQZnFaeVZxTUJPSXU5UGJvME1QdjhtY1FFTE1jRVU3VkNiM0ZwUHRvRGdDWW5PVVhjN00wZXdRZkgzaWI5T3BCbkVvN1hPTThjMlNySTgzZ1JMbUVtcjJxRGh5QklS?oc=5",
+        "source": "Google News",
+        "published": "Wed, 26 Aug 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQXo1TXMxSWJGQnh3SEF6eWdDd3pzMl9UeFA4cVVQYXR2S1FBVHhGdFJCTVRSal9LT210WExyUndUU1p5M3dtTTg3MW5odGx2QkJKRlVWWHVoVldQZnFaeVZxTUJPSXU5UGJvME1Qdj"
       },
       {
         "title": "Rocket Lab: Neutron May Yet Again Be Delayed (NASDAQ:RKLB) - Seeking Alpha",
         "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQWDl1cmkwWk1jT1JZRGRmc19WMVdEaS1idDRXQzNkVDNmaUxicjQzNGt2YjJJd0JjNEVkdEs3bGpGYld5OTdwVXVnd0prMXR5UWdvdmcxN0t4MnVsV21KcGVRRV9uR0ZYb3JpSklMOG80RzRxcEQ2ZkJkYTVEN3A4WmRDWnlnWUpfVnBKeQ?oc=5",
         "source": "Google News",
         "published": "Tue, 25 Aug 2026",
-        "summary": "<ol><li><a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxQWDl1cmkwWk1jT1JZRGRmc19WMVdEaS1idDRXQzNkVDNmaUxicjQzNGt2YjJJd0JjNEVkdEs3bGpGYld5OTdwVXVnd0prMXR5UWdvdmcxN0t4MnVsV21KcGVRRV9uR0ZYb3"
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxQWDl1cmkwWk1jT1JZRGRmc19WMVdEaS1idDRXQzNkVDNmaUxicjQzNGt2YjJJd0JjNEVkdEs3bGpGYld5OTdwVXVnd0prMXR5UWdvdmcxN0t4MnVsV21KcGVRRV9uR0ZYb3JpSklMOG"
       },
       {
-        "title": "RKLB vs. PL: Which Space Stock Has the Stronger Investment Case? - Yahoo Finance",
-        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPX3pleWZXMTZEUXZCZ1JVSzNwLU8wSEFJNFo5VDMwTDN3eHZsNDNuWHNPVXBSTVNud3ZIcGlRcW1ia19IbWpKTzBjZEt0U2tBY0NBNWtvMWtGMkpLM29mMXA3TnN5VEpsc1FyeXFITzZ3Ym5xN2R2VU5Hd29SMGZsZE1kQ0tSbjZMMlBOajVnUmU?oc=5",
-        "source": "Google News",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxPX3pleWZXMTZEUXZCZ1JVSzNwLU8wSEFJNFo5VDMwTDN3eHZsNDNuWHNPVXBSTVNud3ZIcGlRcW1ia19IbWpKTzBjZEt0U2tBY0NBNWtvMWtGMkpLM29mMXA3TnN5VEpsc1FyeXFITz"
-      },
-      {
-        "title": "AST SpaceMobile Falls 4%, Rocket Lab Holds Steady: Is the Falcon 9 Wind-Down Really Hitting Space Stocks? - 24/7 Wall St",
-        "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQMDlUa2dhekdYN3FxWFpoMmx3MW1SLU9nUWZ3eUN3MDVtTUJxc3VjWmpUVnVHbnBBTG1kYW5YRkdQWWlQY0NfWXRKQ25BdGU5RzZqQjd1aEhNa3dWLXJDeDBRMEExNGZuZjY1NTdtMFRpMG9PVVFZZ3pCU3hMdnRWYlFjdW00Umd2RHZzNjR0cHFub19wWE84RnJILXNjNkZfRFJpVjNDUllsdEt2VGFXOGs0cE1HcElqYnV3Wk12cUVmdnBaRF91bkp1TlRfTHJ3WklObldXOXFYWTVBdXc?oc=5",
-        "source": "Google News",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi3gFBVV95cUxQMDlUa2dhekdYN3FxWFpoMmx3MW1SLU9nUWZ3eUN3MDVtTUJxc3VjWmpUVnVHbnBBTG1kYW5YRkdQWWlQY0NfWXRKQ25BdGU5RzZqQjd1aEhNa3dWLXJDeDBRMEExNGZuZjY1NTdtMF"
-      },
-      {
-        "title": "ASTS, RKLB, SPCX, LUNR Chase An August Win: What SpaceXs Falcon 9 Wind-Down Means For Space Stocks",
-        "link": "https://finance.yahoo.com/m/9286fb91-685b-34a5-b22f-9a5591b07a91/asts%2C-rklb%2C-spcx%2C-lunr-chase.html",
+        "title": "Why Are Nasdaq, S&P 500 Futures Soaring Premarket? NVDA, MU, MRVL, OKTA, CRM, WEN, RKLB Stocks In Focus",
+        "link": "https://finance.yahoo.com/m/a466103b-893a-3806-a259-cf9a1f4be078/why-are-nasdaq%2C-s%26p-500.html",
         "source": "Finviz",
         "published": "",
         "summary": ""
-      },
-      {
-        "title": "Top Stock Reports for Berkshire Hathaway, Roche & RTX",
-        "link": "/news/385497/top-stock-reports-for-berkshire-hathaway-roche-rtx",
-        "source": "Finviz",
-        "published": "",
-        "summary": ""
-      }
-    ],
-    "GOOG": [
-      {
-        "title": "Morgan Stanley sees big change coming for Alphabet stock",
-        "link": "https://www.thestreet.com/investing/alphabet-google-tpu-opportunity?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "One part of Alphabet\u2019s AI story is getting harder to ignore"
-      },
-      {
-        "title": "Warren Buffett \u201cBlew It\u201d on Alphabet (GOOGL) And Made It Berkshire\u2019s Third-Biggest Bet",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/warren-buffett-blew-alphabet-googl-202343918.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "Released on August 14, Berkshire Hathaway\u2019s second-quarter 13F filing showed the conglomerate became a net buyer of nearly $19.8 billion in stocks, its first net-buying quarter in 14 quarters. The shi"
-      },
-      {
-        "title": "Alphabet's $84.75 Billion Raise Carries a $40 Billion Asterisk",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/alphabets-84-75-billion-raise-190832372.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "Almost half the headline financing primarily addresses employee-share taxes rather than directly expanding AI infrastructure."
-      },
-      {
-        "title": "Berkshire Hathaway and Billionaire David Tepper Are Piling Into Alphabet Stock. Here Is Why the Tech Giant Is a Screamin",
-        "link": "https://www.fool.com/investing/2026/08/26/berkshire-hathaway-and-billionaire-david-tepper/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "Alphabet was a popular buy among some successful funds in Q2."
-      },
-      {
-        "title": "Google, Microsoft and Amazon Are Eyeing China's Hottest AI Model",
-        "link": "https://finance.yahoo.com/technology/ai/articles/google-microsoft-amazon-could-open-175433833.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "Moonshot is seeking up to 30% of Kimi K3 revenue from U.S. cloud giants."
-      },
-      {
-        "title": "Alphabet Stock (GOOG) Opinions on AI Advancements and Bond Offering - Quiver Quantitative",
-        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQclc1VXhpdlNUUnB4dkNsOXB3VHN1dlVnUzJzaVNUSFBjU1ZrejE1cTlia25uMG1FQ0IyTENaTy1BdDBsVGpfcjhwY05OejRiQ1M5RU9YcVpnZWRVQXhQZXpkOXdtb3gwWnRTZ2owcVlWbXhIUlExQUNyMXdNQThIRHhhMmJOOW50ckw5UmVHeEVxTUxteHh6Nzd2VXFfMXQ0czhWUHNiaw?oc=5",
-        "source": "Google News",
-        "published": "Sun, 23 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxQclc1VXhpdlNUUnB4dkNsOXB3VHN1dlVnUzJzaVNUSFBjU1ZrejE1cTlia25uMG1FQ0IyTENaTy1BdDBsVGpfcjhwY05OejRiQ1M5RU9YcVpnZWRVQXhQZXpkOXdtb3gwWnRTZ2owcV"
-      },
-      {
-        "title": "Morgan Stanley sees big change coming for Alphabet stock - thestreet.com",
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9jdmpaMkx3WWFEUzZGeXFRN3ZmdkR1NE0wYkNJTzNSX2FZSHp2SGpKSmw3X1AwUmlJR0F5aE4zSThXVllOcUlJQjNGSUIyUjlLNkhIYzVhQjY2bzRiME5Jd3A0TUJaN3F0Q0FxY1dORVJwWjBJb3c?oc=5",
-        "source": "Google News",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE9jdmpaMkx3WWFEUzZGeXFRN3ZmdkR1NE0wYkNJTzNSX2FZSHp2SGpKSmw3X1AwUmlJR0F5aE4zSThXVllOcUlJQjNGSUIyUjlLNkhIYzVhQjY2bzRiME5Jd3A0TUJaN3F0Q0FxY1dORV"
-      },
-      {
-        "title": "Alphabet (GOOGL) Stock Price Forecast 2026: Cloud Hit $20B But FCF Collapsed \u2014 Buy or Short? - TradingKey",
-        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQeXNna0FPVFVzVTBlNUM5NVVCNU9TLVhBazdFMVhkaFpBelZTMHBGV2ZqWTBwdFhwUVp3ajJLWXVaNTZURlFrRlhVQ010NDZzVTFhblZESDlvME0wWkhhemJBaXlyREZDLXhpckVRM3QxUlA2dW1idHlFQkEtT3FlbEdIb05UT1QtOFcySkRlc0pwRzc2Z25JQXE2YU8zS2JvLUh1ZUxEd3c5a2lETlItcXo3UEN6ZnA0c185SjNlN1J1QzI2VkE?oc=5",
-        "source": "Google News",
-        "published": "Tue, 25 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxQeXNna0FPVFVzVTBlNUM5NVVCNU9TLVhBazdFMVhkaFpBelZTMHBGV2ZqWTBwdFhwUVp3ajJLWXVaNTZURlFrRlhVQ010NDZzVTFhblZESDlvME0wWkhhemJBaXlyREZDLXhpckVRM3"
-      },
-      {
-        "title": "Alphabet Stock Dips Wednesday as Investors Weigh AI Spending Against Cloud Growth - Benzinga",
-        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNa2JOcVdQNDVneU9rLUVld1BzY251ZTZBQlAtbFV4ZEVCcmNMbFVhRFQyZm9zS1R4SG83Y0R2MFpKV0RHSGNZUVBsWjNHYlZxTEFPcmYwdTlXODJUS3pHOF9EdktEVTFlTFBSdFZpSGVob2J4YXdGZGczS1NPZE9hMW1PTlNRWW05QVRmTG45TkhLNzVBWXJ2Q3FnVUZOcHk5V25WQk41REcwa21ia05GakhBNlE5MW9EWjNWc2hKbU1Sc2wwbTlPREpxc3JxRDA?oc=5",
-        "source": "Google News",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxNa2JOcVdQNDVneU9rLUVld1BzY251ZTZBQlAtbFV4ZEVCcmNMbFVhRFQyZm9zS1R4SG83Y0R2MFpKV0RHSGNZUVBsWjNHYlZxTEFPcmYwdTlXODJUS3pHOF9EdktEVTFlTFBSdFZpSG"
-      },
-      {
-        "title": "It's 'hard' to argue that Nvidia's financing is circular, analyst says",
-        "link": "https://finance.yahoo.com/video/hard-argue-nvidias-financing-circular-210803102.html",
-        "source": "Finviz",
-        "published": "",
-        "summary": ""
-      },
-      {
-        "title": "Nvidia crushed earnings but one analyst is rating it a \"sell\"",
-        "link": "https://finance.yahoo.com/video/nvidia-crushed-earnings-one-analyst-210118074.html",
-        "source": "Finviz",
-        "published": "",
-        "summary": ""
-      },
-      {
-        "title": "Nvidia reports impressive Q2 earnings as AI boom rolls on",
-        "link": "https://finance.yahoo.com/video/nvidia-reports-impressive-q2-earnings-as-ai-boom-rolls-on-203300281.html",
-        "source": "Finviz",
-        "published": "",
-        "summary": ""
-      }
-    ],
-    "PLTR": [
-      {
-        "title": "Michael Burry Buys NVDA Calls As A \u2018Hedge,\u2019 Adds To ORCL, PLTR, NBIS Shorts \u2014 Why He Thinks \u2018Nvidia Will Not Distribute ",
-        "link": "https://stocktwits.com/news-articles/markets/equity/michael-burry-buys-nvda-calls-as-a-hedge-adds-to-orcl-pltr-nbis-shorts-why-he-thinks-nvidia-will-not-distribute-enough-to-shareholders/cZYVdSURJpP?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "The \u201cBig Short\u201d investor says his theoretical value for Nvidia is \u201cmuch lower than today\u2019s market value\u201d as he sees a short run for its monopoly power."
-      },
-      {
-        "title": "Palantir CEO Alexander Karp Dumps $86 million in Palantir Stock",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/palantir-ceo-alexander-karp-dumps-194530513.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "Palantir Stock in Spotlight as CEO Karp Unloads Nearly 500,000 Shares"
-      },
-      {
-        "title": "Jim Cramer on Palantir (PLTR): \u201cIt\u2019s a Great Spec, But It Is a Spec\u201d",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-palantir-pltr-great-192217829.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "During the August 24 Mad Money lightning round, when a caller inquired about Palantir Technologies Inc. (NASDAQ:PLTR), Cramer responded: Okay, now here\u2019s the issue with Palantir. I have been committed"
-      },
-      {
-        "title": "Palantir Just Ripped 43% in a Month. Is It Time to Sell?",
-        "link": "https://247wallst.com/investing/2026/08/26/palantir-just-ripped-43-in-a-month-is-it-time-to-sell/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "Palantir just staged one of the sharpest recoveries in enterprise software, but the stock still sits below where the year began and trades at a valuation that makes most analysts nervous. The math on "
-      },
-      {
-        "title": "PLTR Stock Gains Nearly 2% After William Blair Flags Palantir\u2019s Maven System To Hit $1B ARR",
-        "link": "https://stocktwits.com/news-articles/markets/equity/pltr-stock-gains-nearly-2-after-william-blair-flags-palantir-s-maven-system-to-hit-1-b-arr/cZYVcA1RJY6?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "William Blair has an \u2018overweight\u2019 rating on Palantir stock."
-      },
-      {
-        "title": "Palantir Stock Could Be in for a Big September. Here\u2019s Why. - Yahoo Finance",
-        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOb29NVW8wcUxSNWM2blkzTmgxbHZ2cTRQUWVFRWR3d3dyLXhfQy1uVGFJQnZTc29pQUFQU09HMWdqNHF5aWt0VjBYcFgtbVlFc3VjWUdjU2dmUEdFcFlId0o3YzdDU2tpYlpZRVIwem4zaGhXcG9xYXZhbHJibXZ4cldJUHZ5Q01PTjVKMjVvUDE4VWR6Q1VHZUJFcXo4NERC?oc=5",
-        "source": "Google News",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxOb29NVW8wcUxSNWM2blkzTmgxbHZ2cTRQUWVFRWR3d3dyLXhfQy1uVGFJQnZTc29pQUFQU09HMWdqNHF5aWt0VjBYcFgtbVlFc3VjWUdjU2dmUEdFcFlId0o3YzdDU2tpYlpZRVIwem"
-      },
-      {
-        "title": "The Real Question Behind Palantir Stock\u2019s High Price - Trefis",
-        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZlpaYnRVSG1oanBzdjZqMVNSVW1TRnZRZTRrb0xHaDVyNU9GSkpBeVBjU0UxcUViWERhbXBpbEhwb0pFSmVWMDNtelF1ZGxldnZCUnZ2RDh1WEkzcWJrYmpfbHB1WlBtaU4xRjZiUjZrU1BuMnRJTVNNZTNfdDVmWmk3eUdpMmpNb0ZISnZvNjFCeVdjZnpLdEVMTDhTOHlGMUlDMHU4QzJydFRTUmJpN1RB?oc=5",
-        "source": "Google News",
-        "published": "Tue, 25 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxPZlpaYnRVSG1oanBzdjZqMVNSVW1TRnZRZTRrb0xHaDVyNU9GSkpBeVBjU0UxcUViWERhbXBpbEhwb0pFSmVWMDNtelF1ZGxldnZCUnZ2RDh1WEkzcWJrYmpfbHB1WlBtaU4xRjZiUj"
-      },
-      {
-        "title": "Selling Palantir at a Big Profit to Increase Our Cash on Hand - TheStreet Pro",
-        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQa2NTTElIZjZDQkJXUjVjMVZhZDNjYTN0V2xwRFUxWW5adkoweWw0NFRmS2VTNXV5NHdNZXFOM3BOdTBUN2hQR2F5WTdsY1g2d0poYjVweEowS2ExY3o3Mmt3by1RSGRwWE5qRm9ISHZXRTR6OHl1Y1NISzRSMG1rN1Rqb0FfZ0dnWW4tM19pNFZ1VzltMWo1ZnpVU292dw?oc=5",
-        "source": "Google News",
-        "published": "Tue, 25 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxQa2NTTElIZjZDQkJXUjVjMVZhZDNjYTN0V2xwRFUxWW5adkoweWw0NFRmS2VTNXV5NHdNZXFOM3BOdTBUN2hQR2F5WTdsY1g2d0poYjVweEowS2ExY3o3Mmt3by1RSGRwWE5qRm9ISH"
-      },
-      {
-        "title": "Michael Burry Buys NVDA Calls As A Hedge, Adds To ORCL, PLTR, NBIS Shorts  Why He Thinks Nvidia Will Not Distribute Enou",
-        "link": "https://finance.yahoo.com/m/88e9a603-cb0e-3687-b238-6b1ef1a92822/michael-burry-buys-nvda-calls.html",
-        "source": "Finviz",
-        "published": "",
-        "summary": ""
-      },
-      {
-        "title": "PLTR Stock Gains Nearly 2% After William Blair Flags Palantirs Maven System To Hit $1B ARR",
-        "link": "https://finance.yahoo.com/m/3cde1ef2-0c46-3b5b-b018-6eef3372c616/pltr-stock-gains-nearly-2%25.html",
-        "source": "Finviz",
-        "published": "",
-        "summary": ""
-      }
-    ],
-    "MCD": [
-      {
-        "title": "McDonald's discontinues fan favorite after 13 years",
-        "link": "https://www.thestreet.com/restaurants/mcdonalds-discontinues-pumpkin-spice-adds-caramel-apple-pie-latte-2026?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "The fast-food giant is ending a 13-year tradition as it brings an all-American flavor to its fall menu."
-      },
-      {
-        "title": "Can MCD's Unified Digital Platform Unlock More Growth & Productivity?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/mcds-unified-digital-platform-unlock-153000716.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Tue, 25 Aug 2026",
-        "summary": "McDonald's unified digital platform could unlock growth, personalization and productivity as integration across major markets nears completion."
-      },
-      {
-        "title": "ETFs to Gain as Trump Waives Off Tariffs on Beef Imports Temporarily",
-        "link": "https://finance.yahoo.com/economy/policy/articles/etfs-gain-trump-waives-off-133700416.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "Trump's 90-day beef tariff waiver could lower costs for fast-food chains and meat distributors, benefiting ETFs with exposure to these companies."
-      },
-      {
-        "title": "Are dividends an overlooked path to long-term wealth?",
-        "link": "https://finance.yahoo.com/video/dividends-overlooked-path-long-term-203355382.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Tue, 25 Aug 2026",
-        "summary": "The Bahnsen Group CIO, David Bahnsen, talks with Market Domination's Josh Lipton about how dividend growth investing can build long-term wealth and outperform inflation. Bahnsen emphasizes that young "
-      },
-      {
-        "title": "Yum Brands Stock Zigs When The Market Zags",
-        "link": "https://www.trefis.com/articles/612769/yum-brands-stock-zigs-when-the-market-zags/2026-08-25?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Tue, 25 Aug 2026",
-        "summary": "The fast-food giant is standing out in a down market, but its real value for your portfolio is a story told over years, not days."
-      },
-      {
-        "title": "MCD Announces Menu Upgrades, Store Revamp To Drive Growth \u2014 But Stock Ends Lower - Stocktwits",
-        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZDhET00zZk9Ka2laZDhUOG9IWldvNWZTM040aHFIOXZXdEt4c0dWN25KVjJNaExHYmNKRVJraHdLMHlSbFZua2NWOVlCYklLNTZKN0hpVkdRR0JhR01aX0g4OHpGS3RLeFpkVE9ZTThPWEZTU05pSlppTVN1SE9fRWs2NXpmb0NrX1NDdmZaOHV1NHU5ZHluVXc2UmNlSnBpSmM2Q09MdHJNbHFWVHc?oc=5",
-        "source": "Google News",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxNZDhET00zZk9Ka2laZDhUOG9IWldvNWZTM040aHFIOXZXdEt4c0dWN25KVjJNaExHYmNKRVJraHdLMHlSbFZua2NWOVlCYklLNTZKN0hpVkdRR0JhR01aX0g4OHpGS3RLeFpkVE9ZTT"
-      },
-      {
-        "title": "McDonald\u2019s Just Started Selling Energy Drinks. How to Play MCD Stock Here. - Yahoo Finance",
-        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPYThfT3NBaTM0ZkgwMGVESDNzNnpBakNPTl9xeGNOQ3dxeHpKc3UwZFVuN0J0MWJ2dmlOd2tCN1VuNHpqWGY0dkJkdE9XQXhIbU95RDJRZG9DYnYycFE0a1NrNHh5VTlXOFQxS1ZaQ0F2MHdYdTY2RUtyQ1ZtYVZqeXA1R0RqUUlIWlFYVUFkUnpWX0drTjEyTFpqUE1CblNWZXAw?oc=5",
-        "source": "Google News",
-        "published": "Sat, 22 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxPYThfT3NBaTM0ZkgwMGVESDNzNnpBakNPTl9xeGNOQ3dxeHpKc3UwZFVuN0J0MWJ2dmlOd2tCN1VuNHpqWGY0dkJkdE9XQXhIbU95RDJRZG9DYnYycFE0a1NrNHh5VTlXOFQxS1ZaQ0"
-      },
-      {
-        "title": "Argus Has Lowered Expectations for McDonald's (NYSE:MCD) Stock Price - MarketBeat",
-        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSGNfQ3dDNVlrcFR0UTV2aS1GQjQyckotTzhCdnFVZ2pwVGR2Z0FfLUhWLUlVamtMQzVXdnc3LUxRUFJ1d2ZuSDNjNi1nS2F0Sk9nbG5XUlFsWkpMeEdPa0hMaEtvYWR5VllQWS1mdU1hcFlhMl9OQ18zOXV1SlZZUEJjMGVNX0lsVWFuMnRySVREa3BZUUdhdDJ1MnUxQ19Jek13bU1ndnZ1Ty1CSEZ3eDA3WmhuVmVFTjh4QVVnakNqYjhHSGc?oc=5",
-        "source": "Google News",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxPSGNfQ3dDNVlrcFR0UTV2aS1GQjQyckotTzhCdnFVZ2pwVGR2Z0FfLUhWLUlVamtMQzVXdnc3LUxRUFJ1d2ZuSDNjNi1nS2F0Sk9nbG5XUlFsWkpMeEdPa0hMaEtvYWR5VllQWS1mdU"
-      },
-      {
-        "title": "Is McDonald\u2019s Unified Digital Platform Reshaping the Investment Case For MCD\u2019s Cash Generation Profile? - simplywall.st",
-        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPRVY5NVlEb2tFYl9fN0U4ZVZxMDRoSFo4OGprSmxjc2JIdmRlT0xLNE44RnVYNFRuMW9nN2IwdEhCQjRxbzZZbkpTUTdMdS1wWW0tYU9MNVk2SWxIeW5YNGVqRjZFTlFFTFIxYmxCSHdmanl0bVhkbEFMQlJnby1nTzk5bWhlRWVEVHBMcmIzVjRXZm52cEJUNUhQY0lUeEViY3V4UmNvUVYwTTBja0xiV1l5SFl3YnUwVnBJQXdpTG1aQ3BNaUhNVTFfNFV5Z2vSAdQBQVVfeXFMUHRWeW5kSnBFRS1hbDg1U1c1NmdSVDVhb0dvcXFEbzQxcm0zUk1EbFJoV0dOdzhBenBseHdxOFNheG42WVBMVHlldnkxbUxRcGtSa0xsZkVIWW1wYi00VUN2LUFCNG1XZzZDNzRNY043ekRNODNYLVlHQnczMVRfRmJOYWFZWU5xODh1NTctRmVqSnIxOW1GYXFTRlJvcXVCMlRVMk9qTzR0T19mQ1MxUGFIQ3FZOTRpUDR2MXVwLTBqRURLX2s4bmJxN0lieFZmOFZOSjU?oc=5",
-        "source": "Google News",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxPRVY5NVlEb2tFYl9fN0U4ZVZxMDRoSFo4OGprSmxjc2JIdmRlT0xLNE44RnVYNFRuMW9nN2IwdEhCQjRxbzZZbkpTUTdMdS1wWW0tYU9MNVk2SWxIeW5YNGVqRjZFTlFFTFIxYmxCSH"
-      },
-      {
-        "title": "Consumer spending, Burger King, McDonald's",
-        "link": "https://www.nrn.com/restaurant-finance/consumer-spending-burger-king-mcdonald-s",
-        "source": "Finviz",
-        "published": "",
-        "summary": ""
-      },
-      {
-        "title": "McDonald's is bringing back its spicy chicken nuggets for the first time in two years",
-        "link": "https://qz.com/mcdonalds-spicy-chicken-mcnuggets-return-fall-2026-082626",
-        "source": "Finviz",
-        "published": "",
-        "summary": ""
-      },
-      {
-        "title": "12 stocks for 'bottom-fishing' investors looking for cheap growth opportunities",
-        "link": "https://www.marketwatch.com/story/12-stocks-for-bottom-fishing-investors-looking-for-cheap-growth-opportunities-d232ea75?mod=mw_FV",
-        "source": "Finviz",
-        "published": "",
-        "summary": ""
-      }
-    ],
-    "NFLX": [
-      {
-        "title": "Jim Cramer Says Netflix Worth the Risk as Wolfe Raises Price Target to $95",
-        "link": "https://247wallst.com/investing/2026/08/26/jim-cramer-says-netflix-worth-the-risk-as-wolfe-raises-price-target-to-95/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "Jim Cramer called Netflix a falling knife worth catching, but the chart tells a different story about when that window actually opened and whether retail viewers are hearing advice that already expire"
-      },
-      {
-        "title": "Netflix Stock Could Swing A Third Lower Or Half Higher In The Year Ahead",
-        "link": "https://www.trefis.com/articles/613010/netflix-stock-could-swing-a-third-lower-or-half-higher-in-the-year-ahead/2026-08-26?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "The band its options price for the year ahead is wide on both sides, and the optimistic end does not quite reach the stock's high of the past twelve months."
-      },
-      {
-        "title": "3-Year Streaming Outlook: Slowing Down Pricing Hikes",
-        "link": "https://www.mediapost.com/publications/article/417445/3-year-streaming-outlook-slowing-down-pricing-hik.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "Higher-priced ad-free options have seen greater price increases over the last three years vs. those for ad-supported tiers - at $1.62 per month vs. $1.21 per month."
-      },
-      {
-        "title": "NFLX Stock Eyes Sixth Week Of Gains: Netflix Reportedly Mulls Adding Rival Streamers To Compete With YouTube, Roku",
-        "link": "https://stocktwits.com/news-articles/markets/equity/nflx-stock-eyes-sixth-week-of-gains-netflix-reportedly-mulls-adding-rival-streamers-to-compete-with-you-tube-roku/cZYNmeQRJoz?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "The New York Times reported earlier Tuesday that the streaming service is considering adding more streamers, like Comcast\u2019s Peacock and Fox One, to its roster."
-      },
-      {
-        "title": "Is Netflix Getting Its Groove Back?",
-        "link": "https://www.thedailyupside.com/industries/consumer/is-netflix-getting-its-groove-back/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "One analyst says investors disenchanted with Netflix have lost the plot (in much the same way as the final season of Stranger Things)."
-      },
-      {
-        "title": "Netflix Stock Is Trending Higher: What's Happening? - Benzinga",
-        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObGRQcUpIbmlZMGlLeExPWlRGdkRnNW9LX2lxY1NGMWZNMkkwRzNmY1lFMWg0QUpZWjlzR2p0OUh4VkZveVo5LXo3UDF4dUx4SzlCOFBXdmttU05maks0R3RRR1pzRXVnZ1B4VUtoZmNPaGhsNkdWdU5TNDFMZllCSzVIbXpLTnVKRVE2UDRUbXhPajZvVjQtSHFiQ3ZubFdsMkMweFNaX2NlQ2kyblE?oc=5",
-        "source": "Google News",
-        "published": "Tue, 25 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxObGRQcUpIbmlZMGlLeExPWlRGdkRnNW9LX2lxY1NGMWZNMkkwRzNmY1lFMWg0QUpZWjlzR2p0OUh4VkZveVo5LXo3UDF4dUx4SzlCOFBXdmttU05maks0R3RRR1pzRXVnZ1B4VUtoZm"
-      },
-      {
-        "title": "NFLX Stock Eyes Sixth Week Of Gains: Netflix Reportedly Mulls Adding Rival Streamers To Compete With YouTube, Roku - Yah",
-        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTXpLbDAxQTYwbU90cXRtSHRMS3p0OWloLU9YWi1vb01hdkdEV3AwR3d4SW5ZZ3RuUjM1NldZQ0ptZWZSdmxqMjRUSXpqczdNOVpscEVGdlBNTzZiUmRsTHpZc3RaZVBUTjBfN2c4WWFySVRJX2FtOXEtZHFXaVBvUlpOVDU4OVMyUXhmY2VhR2llekRQcGc?oc=5",
-        "source": "Google News",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxPTXpLbDAxQTYwbU90cXRtSHRMS3p0OWloLU9YWi1vb01hdkdEV3AwR3d4SW5ZZ3RuUjM1NldZQ0ptZWZSdmxqMjRUSXpqczdNOVpscEVGdlBNTzZiUmRsTHpZc3RaZVBUTjBfN2c4WW"
-      },
-      {
-        "title": "Get Paid 12% A Year To Hold NFLX Stock You Already Own - Trefis",
-        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTGRsejZ0WmFzY2dOMUVoMG9EYkVPcVpveldCTml6b3BObWtKbW5mUVMyWUR2V0dGc1FDTUx4dnExZ3g5R3l0ZVUtRlVlZGV5R2FVbThDcFNlczFaSDlTQkJ2VmZpU2tLTmN1c3lEeEdiZHFudmN5aEJCSVI4S1hnWk04dUx0dG9abHc1SVc2V3BiRGFlNzN6TzlLQ0x0dmdIM0pyVk16R1RrUU9CM1VUTjdOWkI?oc=5",
-        "source": "Google News",
-        "published": "Mon, 24 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxPTGRsejZ0WmFzY2dOMUVoMG9EYkVPcVpveldCTml6b3BObWtKbW5mUVMyWUR2V0dGc1FDTUx4dnExZ3g5R3l0ZVUtRlVlZGV5R2FVbThDcFNlczFaSDlTQkJ2VmZpU2tLTmN1c3lEeE"
-      },
-      {
-        "title": "\u2018Here\u2019s the Test,\u2019 Says Investor About Netflix Stock - TipRanks",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOV2ZXWkphQ0U4VGR2OWxpVm12b3BQaHplcl9xZ1g0bG5aeXFMbW0wbVhkdGs3UURPLUFkeTlGaUpHOWhjekVtbm05WWJnN1dTbUJvTHROM3NTaXVWeWVmNHJwMmFRQ01SbjRUYmVwRHEyeHBfQUpiOXBMem40d1NqcTd0Wlo?oc=5",
-        "source": "Google News",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOV2ZXWkphQ0U4VGR2OWxpVm12b3BQaHplcl9xZ1g0bG5aeXFMbW0wbVhkdGs3UURPLUFkeTlGaUpHOWhjekVtbm05WWJnN1dTbUJvTHROM3NTaXVWeWVmNHJwMmFRQ01SbjRUYmVwRH"
       }
     ],
     "LULU": [
+      {
+        "title": "lululemon Q2 Earnings Upcoming: Is It Likely to Surprise Investors?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/lululemon-q2-earnings-upcoming-likely-140400250.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Thu, 27 Aug 2026",
+        "summary": "LULU's Q2 results are likely to reflect international growth and Power of Three X2 gains amid North America softness and margin pressures."
+      },
+      {
+        "title": "NKE, LULU Stocks Head For Weekly Losses: Wall Street Turns Wary, Says Consumer Recovery Isn\u2019t Here Yet",
+        "link": "https://stocktwits.com/news-articles/markets/equity/nke-lulu-stocks-head-for-weekly-losses-wall-street-turns-wary-says-consumer-recovery-isn-t-here-yet/cZY8uB5RJpr?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Thu, 27 Aug 2026",
+        "summary": "Analysts cut price targets amid weak demand, softer traffic and China concerns."
+      },
       {
         "title": "Is Lululemon Athletica (LULU) About To Cut Its 2026 Outlook?",
         "link": "https://finance.yahoo.com/markets/stocks/articles/lululemon-athletica-lulu-cut-2026-150658391.html?.tsrc=rss",
@@ -541,46 +497,39 @@
         "summary": "UBS expects Lululemon to reduce its fiscal 2026 earnings forecast by around $1.25 per share, according to The Fly."
       },
       {
-        "title": "Lululemon Athletica Expected to Cut Fiscal 2026 Outlook on Weak US, China Sales, UBS Says",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/lululemon-athletica-expected-cut-fiscal-154618841.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Tue, 25 Aug 2026",
-        "summary": "Lululemon Athletica (LULU) is expected to cut its fiscal 2026 earnings per share outlook due to weak"
-      },
-      {
-        "title": "Lululemon Athletica Set to Top Second Quarter Earnings Expectations on Cost Control, Share Repurchases, UBS Says",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/lululemon-athletica-set-top-second-152024332.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Tue, 25 Aug 2026",
-        "summary": "Lululemon Athletica (LULU) is poised to top Wall Street's view for its second-quarter earnings per s"
-      },
-      {
-        "title": "Should You Buy Lululemon Stock Before Sept. 3? - Yahoo Finance",
-        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQOUNDSW5OTkhRcXBLUGdZbHdFejk1enY5YWhIdGlNM2hxdkp0RW1fY2hQZERTVWp5clpkWFVmRDV5UWUwQmtPeFc5ZkV4ZFN0UGhGV1EwYmxoZHRlUTgzZUNUNTlXek9reTRHNXBwdXNPY20tLTNzajVDOWFpRXRpckNnOVdZVEgzQ2o0dGNMTU15dzl1MFE?oc=5",
+        "title": "LULU Stock Declines: Texas Launches Probe Over Potential Presence Of Harmful Chemicals In Its Activewear - Stocktwits",
+        "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQV1VoZ09WVWt1WG8xTk5PeW5jamVFWGtCVUpXeGpJUWl5VnZ0V0xrY09lUDM2OElNQTN1UFRYRzJQQWhDZ05sYThKcmRJVEkzd29jUGFJR2F5NDBPZGVqU191czktNmszd1VxUlFmMHM2a1RLZXBydDNhMFdKcVNDVGxnc21DVnNaSjJxNjRkQ1FZWDhQU2t5dkM2RmNpRW1RMlQ1N3haY083TTJMUU1sYkx2azk4UHRzdS1SdmlHeFhxV1FleGZsaktuMFYwWHBaaXRvYkJBR0xvZTZPTmVfSGE4VGpENjRsemc5TG9fVUNMNllKTi1qSXJ0Yw?oc=5",
         "source": "Google News",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxQOUNDSW5OTkhRcXBLUGdZbHdFejk1enY5YWhIdGlNM2hxdkp0RW1fY2hQZERTVWp5clpkWFVmRDV5UWUwQmtPeFc5ZkV4ZFN0UGhGV1EwYmxoZHRlUTgzZUNUNTlXek9reTRHNXBwdX"
+        "published": "Thu, 27 Aug 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi-wFBVV95cUxQV1VoZ09WVWt1WG8xTk5PeW5jamVFWGtCVUpXeGpJUWl5VnZ0V0xrY09lUDM2OElNQTN1UFRYRzJQQWhDZ05sYThKcmRJVEkzd29jUGFJR2F5NDBPZGVqU191czktNmszd1VxUlFmMH"
       },
       {
-        "title": "Lululemon (LULU) Stock Looks Undervalued As Shares Remain Down 70% - simplywall.st",
-        "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQX25tVE9HMUUyNl9FaUh1b1UxcWZZazBGdTdLbEZqWUJmNWZaaDdUR3YtVWNZNFducEpFVXVpbnhUeldTLUo3Y2phMTVUaXY4Q1VyWkxYRkhLNGZUZmZWWnpqRi1yR21RcFRvbVVyR1I4eTN6ZTJXUktDVm5lOXd0UUVLOU1fajNKM3FmV2RnM0F6M2ZRZWpOM2NiTTg5MUY4ZDZlcEJRR25yUWVnNTFrVWFGQm95bUNSUjF6LTByYVVyOURnYUZyY1VLcUxRTWhUT0NBcXNkUFZ0WElYUnRENdIB5gFBVV95cUxPUl91bXpmS25EUF9mZDRxVXpXVGFjcFlsWWQwbF9RdHVXcDNMdkMzUVNhSzVmbzFaQ3RqclFMQ210RnRDVU1XU203cmdsZ0UzQllGTHhPZVFXbkFjTzlRaUV4TzdNNXpiX3VQRUlCTk9sem9HWndNOWxuT1RBcjRGWTJ2ejNSTlhpbmpHckNPcWJUX2VpNGZrWkRHTHduU2ZHVHVqcEVnVGo5RVFrMnNRdk83c0VwYTdkUXJseHgza1hESnlTUERmQXlaMURSMFFMVHZWeGtpZnlMaVhlZTVWM05jLUNmUQ?oc=5",
+        "title": "Will Lululemon (LULU) Beat Estimates Again in Its Next Earnings Report? - Yahoo Finance Singapore",
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOX1c2cEhXTlo5X1pMLVpVVXNlVkZFOXEwOVRNcVFRaUJWTjVFOW9lTVkxUWNvUFVORjNSSWxIc3EwbE0wRjhWNjVTUTUwTUZORkNzYXJULUd3aW9pcHMtZFpFTzBDVzFnRnVLWmY1RzIyb0w0cm5wQjZUSjB2SERxVzltZDYwdTBhc2trNw?oc=5",
         "source": "Google News",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi4AFBVV95cUxQX25tVE9HMUUyNl9FaUh1b1UxcWZZazBGdTdLbEZqWUJmNWZaaDdUR3YtVWNZNFducEpFVXVpbnhUeldTLUo3Y2phMTVUaXY4Q1VyWkxYRkhLNGZUZmZWWnpqRi1yR21RcFRvbVVyR1"
+        "published": "Thu, 27 Aug 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxOX1c2cEhXTlo5X1pMLVpVVXNlVkZFOXEwOVRNcVFRaUJWTjVFOW9lTVkxUWNvUFVORjNSSWxIc3EwbE0wRjhWNjVTUTUwTUZORkNzYXJULUd3aW9pcHMtZFpFTzBDVzFnRnVLWmY1Rz"
       },
       {
-        "title": "Should You Buy Lululemon Stock Before Sept. 3? - The Motley Fool",
-        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSGlJNEV6cU40OXZxNDR1Mkk5N1VPZlVsUDRoNTVwY3pjVEFWQ09OU3JpVGFyVmNLRUlxZWxtcTRpcDhmVWhza3V4VEN3NEdmd2o2RFdWNF9LU0pXOUdOM0hMcmdvenItQy04Z2JYd0lwclRnWU9sUlFLQzV6WklRRTA1UkJqTEZPRmRGaDRjMmEtTmlGMVB3?oc=5",
+        "title": "lululemon athletica inc. $LULU Shares Acquired by Algert Global LLC - MarketBeat",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQWDlyMEJ0MktBYTdzWXZLd1k2RllFS0YyRDlnaGVVZ0FLZWRHdUtKbUwtZ0t4TnhyZ0ZkNXlFYzJmMm05Q19sVi02clE0ZHhkYWduWHUzcDJVbG5FWFZrNkxPMGlwb1BvU01PbDZhMi1wM19vYzNlMGRaUEJJWFJHTkVHZVdYaDJ5NG9QckZFNWdYTVpLUGZXdlgzRC0wOFhZeWNlS1FBbm5RTlZSZFRGSkNsU3BTQnkzYVpQZllUY18wWmM5?oc=5",
         "source": "Google News",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxNSGlJNEV6cU40OXZxNDR1Mkk5N1VPZlVsUDRoNTVwY3pjVEFWQ09OU3JpVGFyVmNLRUlxZWxtcTRpcDhmVWhza3V4VEN3NEdmd2o2RFdWNF9LU0pXOUdOM0hMcmdvenItQy04Z2JYd0"
+        "published": "Thu, 27 Aug 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxQWDlyMEJ0MktBYTdzWXZLd1k2RllFS0YyRDlnaGVVZ0FLZWRHdUtKbUwtZ0t4TnhyZ0ZkNXlFYzJmMm05Q19sVi02clE0ZHhkYWduWHUzcDJVbG5FWFZrNkxPMGlwb1BvU01PbDZhMi"
       },
       {
-        "title": "KeyBanc reiterates Lululemon stock rating amid soft U.S. trends - Investing.com",
-        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOeUtfMHVJcnZPWDBhWnNxbXhxMkIzV2NSR3ZPVGtNNHkyX252QkNfQWdCYy1RVHBIY3BRTXZOYld4VHZRNHJrT3JvZ2lPV01TX1hXZzJ3SGpoSGx5TG1GRTNQYnZySXRSQUw2LVozZzQzWGJuaWh4S1Ryd1YzSGd2S2xFVEI5cmRvYVlWT0RtdExWSWx0QmtrZnN1YWdrRTdyTXFUVGxITFdPNkVvMU5CTlJhbHZRSVBLWXZkQ2Zn?oc=5",
+        "title": "lululemon Q2 Earnings Upcoming: Is It Likely to Surprise Investors? - TradingView",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOVGt2d2JPeVFZNFNGTi1abnNDLVg1RVlLTGVwNHIxSFoyQnJ4WkVPYzdRT2V3M2V3Zkk0dWE5S1NQdHJHVndJbzhnUUpnU2FLUHhOX3cycXZsVTVDWWpDS3JrZTBPYVJCUFVmUTd5TjJ0d2lfUVVzOV9raTd1MUx1eGY2V3lxajQwQkZ4NTNmV21OZW5QbVRuSFlHaFM3NEUyWjYxcEtvTjk1c1V2T3ZyVWdQUloyTGN6MlFNeDl3?oc=5",
         "source": "Google News",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxOeUtfMHVJcnZPWDBhWnNxbXhxMkIzV2NSR3ZPVGtNNHkyX252QkNfQWdCYy1RVHBIY3BRTXZOYld4VHZRNHJrT3JvZ2lPV01TX1hXZzJ3SGpoSGx5TG1GRTNQYnZySXRSQUw2LVozZz"
+        "published": "Thu, 27 Aug 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxOVGt2d2JPeVFZNFNGTi1abnNDLVg1RVlLTGVwNHIxSFoyQnJ4WkVPYzdRT2V3M2V3Zkk0dWE5S1NQdHJHVndJbzhnUUpnU2FLUHhOX3cycXZsVTVDWWpDS3JrZTBPYVJCUFVmUTd5Tj"
+      },
+      {
+        "title": "NKE, LULU Stocks Head For Weekly Losses: Wall Street Turns Wary, Says Consumer Recovery Isnt Here Yet",
+        "link": "https://finance.yahoo.com/m/e0abaa32-1327-3dc6-9e00-8abca2d6c747/nke%2C-lulu-stocks-head-for.html",
+        "source": "Finviz",
+        "published": "",
+        "summary": ""
       },
       {
         "title": "Dick's Sporting Goods Stock Usually Heals Fast, But Not From Falls The Market Does Not Share",
@@ -592,6 +541,85 @@
       {
         "title": "lululemon athletica inc. stock underperforms Tuesday when compared to competitors",
         "link": "https://www.marketwatch.com/data-news/lululemon-athletica-inc-stock-underperforms-tuesday-when-compared-to-competitors-3db0d9b9-b9c16740754b?mod=mw_FV",
+        "source": "Finviz",
+        "published": "",
+        "summary": ""
+      }
+    ],
+    "NOW": [
+      {
+        "title": "Jim Cramer tells investors exactly what to do with 1 popular stock",
+        "link": "https://www.thestreet.com/investing/stocks/servicenow-stock-now-jim-cramer-advice?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Thu, 27 Aug 2026",
+        "summary": "Cramer says investors should take some profits in the AI software giant while keeping a stake for further upside."
+      },
+      {
+        "title": "Why ServiceNow Rallied Today",
+        "link": "https://www.fool.com/investing/2026/08/27/why-servicenow-rallied-today/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Thu, 27 Aug 2026",
+        "summary": "The software sector got a lift from Salesforce's earnings report last night, showing that fears of a \"SaaS-pocalypse\" may have been overblown."
+      },
+      {
+        "title": "Q2 Earnings Roundup: ServiceNow (NYSE:NOW) And The Rest Of The Automation Software Segment",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/q2-earnings-roundup-servicenow-nyse-182507179.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Thu, 27 Aug 2026",
+        "summary": "Quarterly earnings results are a good time to check in on a company\u2019s progress, especially compared to its peers in the same sector. Today we are looking at ServiceNow (NYSE:NOW) and the best and wors"
+      },
+      {
+        "title": "ServiceNow, IBD Stock Of The Day, Clears Early Buy Point As 'SaaSpocalypse' Fears Fade",
+        "link": "https://finance.yahoo.com/m/3bbefbee-a3f5-36c6-a562-6eb10a2701ed/servicenow%2C-ibd-stock-of-the.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Thu, 27 Aug 2026",
+        "summary": "ServiceNow stock nears a buy point as easing AI disruption fears and AI product sales fuel a sharp rebound from early 2026 plunge."
+      },
+      {
+        "title": "Sophus IT Solutions Named an OpenAI Select Partner, Expanding Production AI Deployments and Geospatial Intelligence Solu",
+        "link": "https://finance.yahoo.com/technology/ai/articles/sophus-solutions-named-openai-select-125500278.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Thu, 27 Aug 2026",
+        "summary": "Sophus IT Solutions (https://www.linkedin.com/company/sophusitsolutions), an AI native engineering and professional services firm specializing in enterprise AI and geospatial intelligence, today annou"
+      },
+      {
+        "title": "ServiceNow, IBD Stock Of The Day, Clears Early Buy Point As 'SaaSpocalypse' Fears Fade - Investor's Business Daily",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdFFjOERPeXIyanRIVjlFdUQ2a053OFZrYy0xaERqd3dhTnFVYzd2Wk9oTE5oTlE3N09XUzVzMGV4RTE1QS02VFlXTTBPMkU2T1d4S25VM01OeFQ3eXM5cjNRUGwyeEdfS3lleno1SlczQ205dEg3MG1FcFNHdlp5cExwM2ZzQWUtVUE4S09jRzMwRXRlQUpQQ0xZcUd5UlAyNUEyWVdYb1RxNUJySUhlNWNWVHJfalc4UE9nUms4SnhWQQ?oc=5",
+        "source": "Google News",
+        "published": "Thu, 27 Aug 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdFFjOERPeXIyanRIVjlFdUQ2a053OFZrYy0xaERqd3dhTnFVYzd2Wk9oTE5oTlE3N09XUzVzMGV4RTE1QS02VFlXTTBPMkU2T1d4S25VM01OeFQ3eXM5cjNRUGwyeEdfS3lleno1Sl"
+      },
+      {
+        "title": "NVIDIA vs. AMD: Only One AI Stock Is a Solid Buy Now - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPczc5WDBsbXBDT2xmZlp1WDcwTlZQU0JPLThGZ3RyS2hCZU5TOFk5SV93WGd2VnV5Q2VidkgxdGF6YURURlJLUzRuRUNSU3ZuZV9WT0lKSnQ0VmpsZk95dG15TkpLQnZYU21KTFlsTnQwREtOZ1V2d1NQS2pvYjVzY2pQWTlrN0YwbVVvazFMWmw?oc=5",
+        "source": "Google News",
+        "published": "Thu, 27 Aug 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxPczc5WDBsbXBDT2xmZlp1WDcwTlZQU0JPLThGZ3RyS2hCZU5TOFk5SV93WGd2VnV5Q2VidkgxdGF6YURURlJLUzRuRUNSU3ZuZV9WT0lKSnQ0VmpsZk95dG15TkpLQnZYU21KTFlsTn"
+      },
+      {
+        "title": "ServiceNow Stock (NOW) Opinions on Salesforce Earnings Rally - Quiver Quantitative",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMzlMeXA0Wlc1TjhhZzQ1WFM3TzBLSnhwa0ZrMlJSMFhsTERVRko3aS1Pdmk5VkpYMkloQXU2eS12Zm1CSWpXam0tUUlGSmM3WkppbFN2aUJaTmZVdmFKZU1mZ29hNmJqN21TLWwwb284ZUFuTUQxd1FYcFlaWFJTV1puU1JnaWI0Q1dBSHduWm1tLUc3eXRSNDlFdmFTZw?oc=5",
+        "source": "Google News",
+        "published": "Thu, 27 Aug 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxOMzlMeXA0Wlc1TjhhZzQ1WFM3TzBLSnhwa0ZrMlJSMFhsTERVRko3aS1Pdmk5VkpYMkloQXU2eS12Zm1CSWpXam0tUUlGSmM3WkppbFN2aUJaTmZVdmFKZU1mZ29hNmJqN21TLWwwb2"
+      },
+      {
+        "title": "ServiceNow Stock Climbs Thursday: What's Going On? - Benzinga",
+        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcE1PdllXV0FWWHk2OF95bTNVdDhSQ201cjQ2UkJqQUZOLTNkVjhwR0V4Z1BGX2lWbFBIbTB1RXdlT1ZGOUl4SFdWUmJ2SDhIQjF2SFdFVTgyVFNXb2VCN1BnVG5valpidXQ1LU5Qd0hOcGZKa0tNSjJ1S0xrMDZlenhnbkcwWGRoUHRrOTlOUVVrb0RYM24tOC1Yck5oNzUzakhDMnN1aHpzMmpY?oc=5",
+        "source": "Google News",
+        "published": "Thu, 27 Aug 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxQcE1PdllXV0FWWHk2OF95bTNVdDhSQ201cjQ2UkJqQUZOLTNkVjhwR0V4Z1BGX2lWbFBIbTB1RXdlT1ZGOUl4SFdWUmJ2SDhIQjF2SFdFVTgyVFNXb2VCN1BnVG5valpidXQ1LU5Qd0"
+      },
+      {
+        "title": "Software Stocks Are Surging Back-And Salesforce Just Showed Why",
+        "link": "https://www.barrons.com/articles/software-stocks-igv-etf-salesforce-anthropic-7a45f70e?mod=bar_FV",
+        "source": "Finviz",
+        "published": "",
+        "summary": ""
+      },
+      {
+        "title": "Salesforce sparks a software-stock rally - and pushes back on AI doomsday fears",
+        "link": "https://www.marketwatch.com/story/salesforce-stock-is-jumping-what-wall-street-is-saying-about-its-earnings-and-its-anthropic-relationship-853ada85?mod=mw_FV",
         "source": "Finviz",
         "published": "",
         "summary": ""
@@ -634,25 +662,25 @@
         "summary": "Atomera Incorporated (NASDAQ:ATOM) is one of the Best Semiconductor Stocks to Buy Under $30. On May 5, the company released its Q1 2026 results. Atomera Incorporated (NASDAQ:ATOM) made progress toward"
       },
       {
-        "title": "Atomera Inc (ATOM) Stock Price, Quote, News & History - Benzinga",
-        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9QRC0yMkwyUXFEeS1ucmh0OVVmWFFESkhsNzNnLVd1N001eUFtTnRkenJ5emxmWU1NaDRjeVBuc1RrdUhvY1V2WGpXaw?oc=5",
+        "title": "ATOM Stock Plunges Over 40% Premarket \u2013 What's Causing the Selloff? - Stocktwits",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQb1l5Q1FwWHVsRkRuRHZ1Q21mclY0Q2EyTThUbEwwaDFGVTRVSEtfUW5JM1NGbFEyWWt4SWxzYjZ3UzhBa3Vpc2lhNHpkMnNETUdRcDFxVkFJQVF4QVRDaExYMzNvN0dEVk1Fb1BCcDN6VFlOdjNjMGU1ZUZuZlhQUmNfOUZxSjJnbTFVd2tFeHJCa3FCUGwzZU1HbTRJRXhlVTh6MTVGMDhHTWd2N1hrSWwyajdXVjRETGNteQ?oc=5",
         "source": "Google News",
-        "published": "Fri, 21 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiS0FVX3lxTE9QRC0yMkwyUXFEeS1ucmh0OVVmWFFESkhsNzNnLVd1N001eUFtTnRkenJ5emxmWU1NaDRjeVBuc1RrdUhvY1V2WGpXaw?oc=5\" target=\"_blank\">Atomera Inc (ATOM) Stock "
+        "published": "Thu, 27 Aug 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxQb1l5Q1FwWHVsRkRuRHZ1Q21mclY0Q2EyTThUbEwwaDFGVTRVSEtfUW5JM1NGbFEyWWt4SWxzYjZ3UzhBa3Vpc2lhNHpkMnNETUdRcDFxVkFJQVF4QVRDaExYMzNvN0dEVk1Fb1BCcD"
       },
       {
-        "title": "Nasdaq, S&P 500 Futures Edge Lower Ahead Of Fed Week, AI Earnings Test: Why POET, ATOM, OGN, QCOM, NTLA Are In Focus - S",
-        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOSEhIMHl0Xzd3R1BUbEFZVVlNSDE3THFsUnRXem54akl1YWNnSUxDa3JHZWd4YlFlaUs4a3JnNVNaRGx6MTR3N1N3by1UWHJtZFBzTlEyUFBVbW4tLUhJV1JRaFh4QTE5R05CSTZOZlN3OWFhdC1PUnFBNHVjbzJsVGR4ZHFNOS1NVTFMQ0VjbFMxM1dBSUpxdWFjUEhLU3hhZjZkeHlFeVIxUXFVZG9wM0pFSkd3eEJYLVZSTlY1VjU0X25xWFU5dG5B?oc=5",
+        "title": "ATOM Stock Soars Toward Record Month: Synopsys Collaboration Fuels Retail Hype - Stocktwits",
+        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNZnpYVWlQWGtwUU42T1JTUUNNZ21Qd045cDB5akJjM2c3N1NwSHItX1N4Q0dGelFMcUQ4Yk92Ny00Xzk4UjlVeHBIbU5peG5EVy1sLTMzTFkyRVpCeW9qdGkya3RjTFFGUkM4ZS1LazZobVdlMy1UTDQyZVY1QUpzc202RWFkMGRsZzdrcHBucUlmOFN1ZmxsZnoxeERDQTM4NkJicF95SDBMQkppNlJjSi1aX0YxSm41NUQtLTF3STA2bDRmM0dlOVNJNEF4ZnN0TDBSSXZPZFE?oc=5",
         "source": "Google News",
-        "published": "Tue, 25 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxOSEhIMHl0Xzd3R1BUbEFZVVlNSDE3THFsUnRXem54akl1YWNnSUxDa3JHZWd4YlFlaUs4a3JnNVNaRGx6MTR3N1N3by1UWHJtZFBzTlEyUFBVbW4tLUhJV1JRaFh4QTE5R05CSTZOZl"
+        "published": "Wed, 26 Aug 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi2AFBVV95cUxNZnpYVWlQWGtwUU42T1JTUUNNZ21Qd045cDB5akJjM2c3N1NwSHItX1N4Q0dGelFMcUQ4Yk92Ny00Xzk4UjlVeHBIbU5peG5EVy1sLTMzTFkyRVpCeW9qdGkya3RjTFFGUkM4ZS1Laz"
       },
       {
-        "title": "ATOM Should I Buy - Intellectia AI",
-        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBfMW43eExweWVIc0k3aEZmVTZSQUI4eEQ2b1dPTnNJQTNsaWI4QWtjcVdVSGYwNVhubURYX1BCb0Joa0RxMFZFdDF3WFh4Y0E3X1ZKeS1YeGI0R2tGb3c?oc=5",
+        "title": "Japan's first atom-based quantum computer is operational; it is expected to start with about 50 qubits - Stock Titan",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOSTBxaGxueDUyVUtLb0dNc0VJZ3Y4WWxlZG1EZUhRaUpMWnRlRlBOeUhxck9zaFZPcm12UENsOUlsQmZfMEdNRjdRYWRYaHpxdzBSYkE0NHBlbVZZN01ia21Fa051QXpuOWdnblR2MmtXSWVnR3NmUzlDVkZGSUN0bGNZdC1VZWF3VEZpdjg2TXctNFdaZWVqRy1oUmwxaG4xekpGSmctbTgySWg3YkJ6aXloVjRVQUJQZGEwY1R6WQ?oc=5",
         "source": "Google News",
-        "published": "Sat, 22 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTFBfMW43eExweWVIc0k3aEZmVTZSQUI4eEQ2b1dPTnNJQTNsaWI4QWtjcVdVSGYwNVhubURYX1BCb0Joa0RxMFZFdDF3WFh4Y0E3X1ZKeS1YeGI0R2tGb3c?oc=5\" target=\"_blank\">"
+        "published": "Mon, 24 Aug 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxOSTBxaGxueDUyVUtLb0dNc0VJZ3Y4WWxlZG1EZUhRaUpMWnRlRlBOeUhxck9zaFZPcm12UENsOUlsQmZfMEdNRjdRYWRYaHpxdzBSYkE0NHBlbVZZN01ia21Fa051QXpuOWdnblR2Mm"
       },
       {
         "title": "Infleqtion (INFQ), The Complete History From ColdQuanta In 2007 - Quantum Zeitgeist",
@@ -720,18 +748,18 @@
         "summary": "<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE9faU5HMy0wSWpzN1BUS09wTjdLcmViNkpJbTkySG9jWnJwMnZqVFZzMWxfMnZ1LXdPdGZJNmVEZlo3TmJEQnJpRUdCbFkzdmNOX3BYbzVQR0F2YnM?oc=5\" target=\"_blank\">SCO "
       },
       {
+        "title": "Viasat Inc (VSAT) Stock Down 3.3% but Still Overvalued -- GF Sco - GuruFocus",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcVFsUkF2dlc3b0gyaTNKSDBLTWUtWFFVVEY0cGlvbWNzUGtESVNBN2Z4QjY0QklaNEtaendvRGNWdFhkaUdIYkxmTnhnTlIzbW0yRHdOQzQ3eVpXS0V1X1c4WkF2aUxuQWY0dmpaazZ2dlBhVnM0VXRHNHlJbjFzMzB1RHBWcnM3b1RoUjN2X1ZseTdNV3JZb1ZHUXRHWW0tSF9TZ0ZKSQ?oc=5",
+        "source": "Google News",
+        "published": "Mon, 24 Aug 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxNcVFsUkF2dlc3b0gyaTNKSDBLTWUtWFFVVEY0cGlvbWNzUGtESVNBN2Z4QjY0QklaNEtaendvRGNWdFhkaUdIYkxmTnhnTlIzbW0yRHdOQzQ3eVpXS0V1X1c4WkF2aUxuQWY0dmpaaz"
+      },
+      {
         "title": "SCO 260821 31.50P (SCO260821P31500) Stock Options Chain | Quotes & News - Moomoo",
         "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1paTdGTk9uWFNyS05BMTk5czZFSVcwNV9Wcjh0QjhZS1dfSWtvUmlxa2EzYS0ydFE4alczYzdaUW5Mbm5URTFKMXkwU1FkYVNvUWpqLVRhdGVKNEd6Nmc?oc=5",
         "source": "Google News",
         "published": "Thu, 20 Aug 2026",
         "summary": "<a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTE1paTdGTk9uWFNyS05BMTk5czZFSVcwNV9Wcjh0QjhZS1dfSWtvUmlxa2EzYS0ydFE4alczYzdaUW5Mbm5URTFKMXkwU1FkYVNvUWpqLVRhdGVKNEd6Nmc?oc=5\" target=\"_blank\">"
-      },
-      {
-        "title": "Ford Motor Co (F) Stock Down 3.3% but Still Overvalued -- GF Sco - GuruFocus",
-        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNckNHLTI3STJBdEU1aUNkamJyb3JzVWp2QVZYVXdlM1lGSWtFYjV1VEZHRHo3RkRFYkNnYkx2YTdhQXJ0MVhLcGdyc1BlZEhhVldkTmI0bDkzMTRKM1VhWWNXU0xQVHdDR3RTcVVlSmxnNDNpOEJza01Zd0Q3ZkVTZDBMY1NrYjRtZ042TkdycWxTOG44akp2VXRnc0M4VWJ2bDlwTVMwMA?oc=5",
-        "source": "Google News",
-        "published": "Mon, 24 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxNckNHLTI3STJBdEU1aUNkamJyb3JzVWp2QVZYVXdlM1lGSWtFYjV1VEZHRHo3RkRFYkNnYkx2YTdhQXJ0MVhLcGdyc1BlZEhhVldkTmI0bDkzMTRKM1VhWWNXU0xQVHdDR3RTcVVlSm"
       },
       {
         "title": "Understanding Momentum Shifts in (SCO) - Stock Traders Daily",
@@ -750,6 +778,164 @@
       {
         "title": "Oil Just Spiked 35%: Ride It or Fade It?",
         "link": "/news/332882/oil-just-spiked-35-ride-it-or-fade-it",
+        "source": "Finviz",
+        "published": "",
+        "summary": ""
+      }
+    ],
+    "PLTR": [
+      {
+        "title": "Palantir Billionaire Peter Thiel Just Bought This Magnificent Artificial Intelligence (AI) Stock Up 347,260% Since Its I",
+        "link": "https://www.fool.com/investing/2026/08/27/palantir-billionaire-peter-thiel-just-bought-this/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Thu, 27 Aug 2026",
+        "summary": "Thiel is most famous for co-founding PayPal and Palantir, and being Facebook's earliest outside investor."
+      },
+      {
+        "title": "This 1 Number Proves Why You Should Buy Palantir on Every Dip",
+        "link": "https://247wallst.com/investing/2026/08/27/this-1-number-proves-why-you-should-buy-palantir-on-every-dip/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Thu, 27 Aug 2026",
+        "summary": "One metric separates Palantir from every other enterprise software company at scale, and understanding it changes how you think about buying the dips that keep rattling nervous shareholders."
+      },
+      {
+        "title": "Palantir's Pentagon AI Business Is Closing In on $1 Billion a Year",
+        "link": "https://finance.yahoo.com/technology/ai/articles/palantirs-pentagon-ai-business-closing-141456628.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Thu, 27 Aug 2026",
+        "summary": "Maven is becoming a major growth engine."
+      },
+      {
+        "title": "Palantir Technologies Stock Surged On Evidence That Was Already Public",
+        "link": "https://www.trefis.com/articles/613346/palantir-technologies-stock-surged-on-evidence-that-was-already-public/2026-08-27?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Thu, 27 Aug 2026",
+        "summary": "The customers, the contracts, and the expansion rate behind Palantir's run were all on the record before the price moved, and the options market had stopped bracing for a big move."
+      },
+      {
+        "title": "Peter Thiel Has Steadily Sold Down His Palantir Stake for Years, Yet Remains Its Largest Individual Shareholder. Here's ",
+        "link": "https://www.fool.com/investing/2026/08/27/peter-thiel-has-steadily-sold-down-his-palantir-st/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Thu, 27 Aug 2026",
+        "summary": "Over the long term, Thiel has sold tens of millions of Palantir shares, but his wealth remains closely tied to the company."
+      },
+      {
+        "title": "The Real Question Behind Palantir Stock\u2019s High Price - Trefis",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZlpaYnRVSG1oanBzdjZqMVNSVW1TRnZRZTRrb0xHaDVyNU9GSkpBeVBjU0UxcUViWERhbXBpbEhwb0pFSmVWMDNtelF1ZGxldnZCUnZ2RDh1WEkzcWJrYmpfbHB1WlBtaU4xRjZiUjZrU1BuMnRJTVNNZTNfdDVmWmk3eUdpMmpNb0ZISnZvNjFCeVdjZnpLdEVMTDhTOHlGMUlDMHU4QzJydFRTUmJpN1RB?oc=5",
+        "source": "Google News",
+        "published": "Tue, 25 Aug 2026",
+        "summary": "<ol><li><a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxPZlpaYnRVSG1oanBzdjZqMVNSVW1TRnZRZTRrb0xHaDVyNU9GSkpBeVBjU0UxcUViWERhbXBpbEhwb0pFSmVWMDNtelF1ZGxldnZCUnZ2RDh1WEkzcWJrYmpfbHB1WlBtaU"
+      },
+      {
+        "title": "Michael Burry Buys NVDA Calls As A \u2018Hedge,\u2019 Adds To ORCL, PLTR, NBIS Shorts \u2014 Why He Thinks \u2018Nvidia Will Not Distribute ",
+        "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxNa0tfci1EV3RQUHhyYXE1Q0VYTWRVTVdnY0VXM1p5aHRWYlQtWlZaQkswXzloRmUxMTdiVU5YZmhKdEQzRnhxemVuSGY3QWxKRGJ5XzE1UzE5ZlN1cWtKNk1fTGFITFRkTUdMbjRjWFlLTGhDYllYQVRIWDRIOEIzRGRId0YydmJueHk3enJPc3NrcTdFeDY1XzVYaUtULVhLem5lVGNHRTFheVFTZ3V5MnRIaHBZMVk0TC1QRzlPMlpZTDU1YWt5cjVhZUVQOWgyRXdEM2hvTkJaZk5JaW9Hakd1azlzbExxTTBNYmVEV20zSVpBSmRTMVpjZmZTMTE4UEJ1cG51eFRoajVvbGFtSDVjUXpSNi0zSG92N3pZQUM?oc=5",
+        "source": "Google News",
+        "published": "Wed, 26 Aug 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAJBVV95cUxNa0tfci1EV3RQUHhyYXE1Q0VYTWRVTVdnY0VXM1p5aHRWYlQtWlZaQkswXzloRmUxMTdiVU5YZmhKdEQzRnhxemVuSGY3QWxKRGJ5XzE1UzE5ZlN1cWtKNk1fTGFITFRkTUdMbjRjWF"
+      },
+      {
+        "title": "Palantir Technologies Stock Surged On Evidence That Was Already Public - Trefis",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPT0kxaTNaMUtDbG45eEl1SDNUUnNkX194VVZVSm5yOXI3LUo5ZlZ5MWRJdmNaWFc3aW1QcnZidFItejBYZDg0dXFQU1dWcXhCdEFkLURfSjhiTGtDNGRva0lZVi05WUpTMHMtcmpCV0w5VjdQeDZZVGxPTm8xa3Q2bi1yUnNwUnQzX2xuRUlPandXNVhydGhRdnB3M0VnbHc5eWYyZ09ia2h3YUVyR0R5b1VDb2o4cjg3NGZURjl0VmtWSmdWODhvR1Boaw?oc=5",
+        "source": "Google News",
+        "published": "Thu, 27 Aug 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxPT0kxaTNaMUtDbG45eEl1SDNUUnNkX194VVZVSm5yOXI3LUo5ZlZ5MWRJdmNaWFc3aW1QcnZidFItejBYZDg0dXFQU1dWcXhCdEFkLURfSjhiTGtDNGRva0lZVi05WUpTMHMtcmpCV0"
+      },
+      {
+        "title": "Palantir Stock Could Be in for a Big September. Here\u2019s Why. - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOb29NVW8wcUxSNWM2blkzTmgxbHZ2cTRQUWVFRWR3d3dyLXhfQy1uVGFJQnZTc29pQUFQU09HMWdqNHF5aWt0VjBYcFgtbVlFc3VjWUdjU2dmUEdFcFlId0o3YzdDU2tpYlpZRVIwem4zaGhXcG9xYXZhbHJibXZ4cldJUHZ5Q01PTjVKMjVvUDE4VWR6Q1VHZUJFcXo4NERC?oc=5",
+        "source": "Google News",
+        "published": "Wed, 26 Aug 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxOb29NVW8wcUxSNWM2blkzTmgxbHZ2cTRQUWVFRWR3d3dyLXhfQy1uVGFJQnZTc29pQUFQU09HMWdqNHF5aWt0VjBYcFgtbVlFc3VjWUdjU2dmUEdFcFlId0o3YzdDU2tpYlpZRVIwem"
+      },
+      {
+        "title": "ETFs that invest in AI stocks rise sharply",
+        "link": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-nvidia-beat-expectations-earnings-jackson-hole-marvell-results/card/etfs-that-invest-in-ai-stocks-rise-sharply-cWhQUpKw8rxvpO5prXSZ?mod=mw_FV",
+        "source": "Finviz",
+        "published": "",
+        "summary": ""
+      },
+      {
+        "title": "3 Reasons Growth Investors Will Love Palantir Technologies (PLTR)",
+        "link": "https://qz.com/3-reasons-growth-investors-will-love-palantir-technologies-pltr",
+        "source": "Finviz",
+        "published": "",
+        "summary": ""
+      }
+    ],
+    "GOOG": [
+      {
+        "title": "Should SpaceX Join the \"Magnificent Seven\"? Here's 1 Stock I'd Kick Out to Make Room.",
+        "link": "https://www.fool.com/investing/2026/08/27/should-spacex-join-the-magnificent-seven-heres-1-s/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Thu, 27 Aug 2026",
+        "summary": "SpaceX would be right at home among the \"Magnificent Seven.\""
+      },
+      {
+        "title": "Google just added a strange Android feature commuters may love",
+        "link": "https://www.thestreet.com/automotive/google-added-motion-sickness-android-feature-commuters-may-love?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Thu, 27 Aug 2026",
+        "summary": "Android\u2019s weirdest new feature solves a very human problem"
+      },
+      {
+        "title": "Google Rehires an AI Founder as Cloud Reaches 21% of Sales",
+        "link": "https://finance.yahoo.com/technology/ai/articles/google-rehires-ai-founder-cloud-191346218.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Thu, 27 Aug 2026",
+        "summary": "Barret Zoph returns to DeepMind while Alphabet's fastest-growing major segment demands more research talent."
+      },
+      {
+        "title": "Google Makes Quiet Change to AI Oversight",
+        "link": "https://finance.yahoo.com/technology/ai/articles/google-makes-quiet-change-ai-190653772.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Thu, 27 Aug 2026",
+        "summary": "A broader AI overhaul is starting to take shape"
+      },
+      {
+        "title": "5 Reasons to Buy Broadcom Stock Before Its Sept. 2 Earnings",
+        "link": "https://www.fool.com/investing/2026/08/27/5-reasons-to-buy-broadcom-stock-before-its-sept-2/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Thu, 27 Aug 2026",
+        "summary": "Broadcom looks like both a short-term and long-term buy."
+      },
+      {
+        "title": "Alphabet Stock (GOOG) Opinions on AI Advancements and Bond Offering - Quiver Quantitative",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQclc1VXhpdlNUUnB4dkNsOXB3VHN1dlVnUzJzaVNUSFBjU1ZrejE1cTlia25uMG1FQ0IyTENaTy1BdDBsVGpfcjhwY05OejRiQ1M5RU9YcVpnZWRVQXhQZXpkOXdtb3gwWnRTZ2owcVlWbXhIUlExQUNyMXdNQThIRHhhMmJOOW50ckw5UmVHeEVxTUxteHh6Nzd2VXFfMXQ0czhWUHNiaw?oc=5",
+        "source": "Google News",
+        "published": "Sun, 23 Aug 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxQclc1VXhpdlNUUnB4dkNsOXB3VHN1dlVnUzJzaVNUSFBjU1ZrejE1cTlia25uMG1FQ0IyTENaTy1BdDBsVGpfcjhwY05OejRiQ1M5RU9YcVpnZWRVQXhQZXpkOXdtb3gwWnRTZ2owcV"
+      },
+      {
+        "title": "This Analyst Just Called Alphabet 2027\u2019s Best Stock. She Might Be Right - 24/7 Wall St.",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSTBfamFuTzJQSXIyd2JxSUFGa1htY0t6TXlycG1CT2JSR2FPWkpGNzh6RkwyX3lyOFk2Y25sZ1lYNVhLOXU2WFlsMjJURDU5NWpWaHgtdThGamFrazA3LTNTMXNFdzUya2Z3d3NoOUtDMURCckx6SlVfY0RFWjllOHEwU185dmdoZzR1NWRvYWw2ZHd2OWhIa0JXXzloNmxUN2xqRzVRbU1SNzVZMGZOSHJTVQ?oc=5",
+        "source": "Google News",
+        "published": "Thu, 27 Aug 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxQSTBfamFuTzJQSXIyd2JxSUFGa1htY0t6TXlycG1CT2JSR2FPWkpGNzh6RkwyX3lyOFk2Y25sZ1lYNVhLOXU2WFlsMjJURDU5NWpWaHgtdThGamFrazA3LTNTMXNFdzUya2Z3d3NoOU"
+      },
+      {
+        "title": "Not An Honest Company, But Still A Safe Buy. Google (GOOG) Stock Analysis | Martin Shkreli Chandler Simpson (e2OB71sezu)",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB2blRYSmY4UVdPY1JPQnUxX1daN0dwTjQyamFkQ05Yc1NQeUVmUjRpUFZpWjdzQ0d4TjFiLTdrd0lBQzROaTBSb2lqNE5NdVpPOTgxVG5GSllMcHZLX2tmRQ?oc=5",
+        "source": "Google News",
+        "published": "Thu, 27 Aug 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYEFVX3lxTFB2blRYSmY4UVdPY1JPQnUxX1daN0dwTjQyamFkQ05Yc1NQeUVmUjRpUFZpWjdzQ0d4TjFiLTdrd0lBQzROaTBSb2lqNE5NdVpPOTgxVG5GSllMcHZLX2tmRQ?oc=5\" target=\"_blan"
+      },
+      {
+        "title": "Google Cloud Just Gave Rezolve AI a Major Vote of Confidence - MarketBeat",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZmJ6aFhCOG1BSmh5ZDh0aDRvXzAtUld3LU5lMHdRU3JnZHRwRjNNQ2pyS1RKRjJWN1hDRmx3dnVCSUlKR01uMWlRaXBpSy1rUVl0ZGR0MlJoYmVDMEwwU1FycGNvVFdwWURRTm1GLWxJOUc5c2FjX3RpdmdrSHJpQ0tnVXNtRlhRZkJJLWNNZGQ3eEFSR2trOFBLT0lJdw?oc=5",
+        "source": "Google News",
+        "published": "Thu, 27 Aug 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxPZmJ6aFhCOG1BSmh5ZDh0aDRvXzAtUld3LU5lMHdRU3JnZHRwRjNNQ2pyS1RKRjJWN1hDRmx3dnVCSUlKR01uMWlRaXBpSy1rUVl0ZGR0MlJoYmVDMEwwU1FycGNvVFdwWURRTm1GLW"
+      },
+      {
+        "title": "Exclusive-Anthropic planned, then abandoned $7 billion purchase of MatX, sources say",
+        "link": "https://finance.yahoo.com/technology/ai/articles/exclusive-anthropic-planned-then-abandoned-212219718.html",
+        "source": "Finviz",
+        "published": "",
+        "summary": ""
+      },
+      {
+        "title": "Broadcom Faces New AI Challenge as Google Deepens Marvell Partnership",
+        "link": "https://finance.yahoo.com/technology/ai/articles/broadcom-faces-ai-challenge-google-190817740.html",
         "source": "Finviz",
         "published": "",
         "summary": ""
@@ -778,18 +964,25 @@
         "summary": "Sound Shore Management, an investment management firm, has released its investor letter for the second quarter of 2026. The letter can be downloaded here. The Sound Shore Fund\u2019s Investor Class (SSHFX)"
       },
       {
-        "title": "Qualcomm Is Poised for a Breakout in 2027",
-        "link": "https://www.fool.com/investing/2026/08/25/qualcomm-is-poised-for-a-breakout-in-2027/?.tsrc=rss",
+        "title": "Applied Materials Appoints Akash Palkhiwala to Board of Directors",
+        "link": "https://finance.yahoo.com/technology/articles/applied-materials-appoints-akash-palkhiwala-200500772.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "Tue, 25 Aug 2026",
-        "summary": "Qualcomm continues to get dragged down by weakening fundamentals and Apple's departure, but AI can reignite the stock."
+        "published": "Thu, 27 Aug 2026",
+        "summary": "Akash Palkhiwala Akash Palkhiwala joins Applied Materials' Board of Directors SANTA CLARA, Calif., Aug. 27, 2026 (GLOBE NEWSWIRE) -- Applied Materials, Inc. today announced the appointment of Akash Pa"
       },
       {
-        "title": "Can Qualcomm Capitalize on Soaring Edge AI Demand With VENTUNO Q?",
-        "link": "https://finance.yahoo.com/technology/ai/articles/qualcomm-capitalize-soaring-edge-ai-143500552.html?.tsrc=rss",
+        "title": "What Does Applied Materials (AMAT) Gain From Its New Board Appointment?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/does-applied-materials-amat-gain-221344664.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "QCOM is expanding its edge AI footprint with Arduino VENTUNO Q, bringing real-time AI computing to robotics, automation and smart cities."
+        "published": "Thu, 27 Aug 2026",
+        "summary": "Applied Materials (NasdaqGS: AMAT) has appointed Akash Palkhiwala, CFO and COO of Qualcomm, to its Board of Directors and Audit Committee. Palkhiwala brings senior finance and operations experience fr"
+      },
+      {
+        "title": "QCOM Stock Jumps 15% After-Hours \u2014 Massive AI Revenue Targets And Meta Deal Power Qualcomm Rally - Stocktwits",
+        "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQT3Fxa2RSXy1qeUNZd2xENHNvc2JRUXdtUkxXZ3hzMnlrTHM3ZExSbEZySnNEMDY3ZE1NR28wZTlzRE56Y1JCN254a1dqQ0QzcWJiaEt5ZmJ3WUprUTA2R3Y0R2VXR21UanJHS1AzaTNJTFNFR3kzT3NnRHZWLUhHOG9KR2dEZjhIN01xc0lqME1TYXMwSzNHUDdFWER3anFMZ3pJalFlR01DZWN5a25iZ0Vid0hMcWlUdld1X0FBdXdJbGJZekMxTlZZX2xHZUZmdGk3c1huNlV4NVJxaGEwUEc4ZkNmWmV5bnczMU93Zmwya0E?oc=5",
+        "source": "Google News",
+        "published": "Tue, 25 Aug 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi8wFBVV95cUxQT3Fxa2RSXy1qeUNZd2xENHNvc2JRUXdtUkxXZ3hzMnlrTHM3ZExSbEZySnNEMDY3ZE1NR28wZTlzRE56Y1JCN254a1dqQ0QzcWJiaEt5ZmJ3WUprUTA2R3Y0R2VXR21UanJHS1AzaT"
       },
       {
         "title": "Qualcomm\u2019s Costs Are Inside The Guidance And Its Replacement Growth Is Not - Trefis",
@@ -799,42 +992,70 @@
         "summary": "<a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxPTmpvUHE3eEd0OUxQWHF6cTdjRnRCMXBVVkFRNGlLUTd4RXF4d0F1NzRLOFNkWldMRzQtNkFXcVBmVmJ4bzlrbm9OdzQ3RGNKSGx2YUlLVzFRZGpRNzZRbktrX0xYbW1abmpHaW1hc2"
       },
       {
-        "title": "QCOM Stock Eyes Worst Month In 7 Years: Analyst Says MSFT, GOOG May Be Behind Qualcomm\u2019s AI Momentum - Stocktwits",
-        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQlRoaU1zbVR6WlpQSFVkOHNYMXVkVlZyOU5FQ0RIRGRqaFBDN05BT2FqUy1rOXluX2ZUOG5JdlBrNmI5RlFlY0xWVlFTdXVORWZleWl6MngyNWt1dmVQSHhRdjUzbkRSS2cxRGlUZFNxbFNLV1otV1FWak9vNE5FQlk1SVJDVVJ3dmtybjFPYU01OE93b2pfcThONUxWUktBUEN3dw?oc=5",
+        "title": "The Stock Market Is Giving Investors a Second Chance to Buy This Incredible AI Chip Stock - The Motley Fool",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUUJrcVhGV1VKWWlQZWw2QTJSanhNYTA0MHhJZGhBQUktam1lTTBFYXJUc3AzdTEwSnRzYXlrTUdMYVhQWEFvcHRURmd1ZWRRWERjckUxQ3pDNUN0eHYwVnBIXzR3ZnhXc3gtSko0czFBNDEyOHIwTDZQMy1WVXhFQ3lOSlFVeWNscTNzQm9LWQ?oc=5",
         "source": "Google News",
-        "published": "Tue, 25 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxQQlRoaU1zbVR6WlpQSFVkOHNYMXVkVlZyOU5FQ0RIRGRqaFBDN05BT2FqUy1rOXluX2ZUOG5JdlBrNmI5RlFlY0xWVlFTdXVORWZleWl6MngyNWt1dmVQSHhRdjUzbkRSS2cxRGlUZF"
+        "published": "Thu, 27 Aug 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxQUUJrcVhGV1VKWWlQZWw2QTJSanhNYTA0MHhJZGhBQUktam1lTTBFYXJUc3AzdTEwSnRzYXlrTUdMYVhQWEFvcHRURmd1ZWRRWERjckUxQ3pDNUN0eHYwVnBIXzR3ZnhXc3gtSko0cz"
       },
       {
-        "title": "Qualcomm Stock: A 38% Drop and Improving Analyst Sentiment Signal a Buying Opportunity - Barchart.com",
-        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNRGFqSEc3MUhOdXJqTW12SjNabmEwQzF4VXB0TW5WbWh4ZkhqcUN5MW92SmhFQjFlUzU3aldEVkhoSWZhTGxrVDZUZVZTV0k0dEtJczFQV1lDTkdaQmVzUkU3OXJZZlNTdHljOEdfc0pSalNYV1h1VGpnYmM3NXNkS1dQdG1UY2J4U01hY1dxRXhMLVlObGhkbnN5eFViMkRPXzNNS0trM25Ra1FROVB0Z2UtaUhwbzRCVzJ5d3pSdUFTU0ZsLWVB?oc=5",
+        "title": "Qualcomm: Handset Pains Persist - Data Center Inflection In FY 2027 - Seeking Alpha",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbGJKQjFCWE1zSkROZVV6RVRvQkdxR1RKV3UxbkZMUlpYamQ0QzkzcWNVQXUtSFlwY0VaR00zNVluQWR5dmlSbHRtcWJKWno5S0ZhVEFPbmJzbVhVbEhSQzRwSE5xWGJ4SndhWEJGUGFQUVF4bUFCdWVsQkZkWm5JUEhUOGhQTEhXclZmTFpHWFB6bHduYUFnbHVSdzlTRVhhaGpMZVM1Zw?oc=5",
         "source": "Google News",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxNRGFqSEc3MUhOdXJqTW12SjNabmEwQzF4VXB0TW5WbWh4ZkhqcUN5MW92SmhFQjFlUzU3aldEVkhoSWZhTGxrVDZUZVZTV0k0dEtJczFQV1lDTkdaQmVzUkU3OXJZZlNTdHljOEdfc0"
+        "published": "Thu, 27 Aug 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxNbGJKQjFCWE1zSkROZVV6RVRvQkdxR1RKV3UxbkZMUlpYamQ0QzkzcWNVQXUtSFlwY0VaR00zNVluQWR5dmlSbHRtcWJKWno5S0ZhVEFPbmJzbVhVbEhSQzRwSE5xWGJ4SndhWEJGUG"
       },
       {
-        "title": "1 Incredible Reason to Buy Qualcomm Stock Right Now - Yahoo Finance",
-        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaGx2MnhfLXdQaTREU0JWT0JfZGpRNVpoN0NsQkhZSkpTQWp5V0t4emp5N3VYSUdzY0dXVHVaRkpIckFJNlhDSW1vc2tkNVl4R3EzbVIyR3lHbGVfZlZadHpBSXB0c1JOU2dTRk5pX3NuMWtvdGtIUllqWmlsVmxWekl3ZVFfT0ZzWDZSeW5vQ1F5ZG1BNTJaMmRwVnZiUQ?oc=5",
-        "source": "Google News",
-        "published": "Sun, 02 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxOaGx2MnhfLXdQaTREU0JWT0JfZGpRNVpoN0NsQkhZSkpTQWp5V0t4emp5N3VYSUdzY0dXVHVaRkpIckFJNlhDSW1vc2tkNVl4R3EzbVIyR3lHbGVfZlZadHpBSXB0c1JOU2dTRk5pX3"
-      },
-      {
-        "title": "The Options Market Says Micron Stock Can Halve Or Double From Here",
-        "link": "https://finance.yahoo.com/m/71b76a1a-c13a-315c-b3ac-f31f56d1b15f/the-options-market-says.html",
+        "title": "Google agrees to settle UK app developers' lawsuit for $353 million",
+        "link": "https://finance.yahoo.com/technology/articles/google-agrees-settle-uk-app-161127465.html",
         "source": "Finviz",
         "published": "",
         "summary": ""
       },
       {
-        "title": "Broadcom's Real Risk Is Its Customer List",
-        "link": "https://finance.yahoo.com/m/47462819-b2e2-31d3-b16d-36ef05d4fb34/broadcom%27s-real-risk-is-its.html",
+        "title": "Micron Spent The Memory Shortage Signing Multiyear Contracts",
+        "link": "https://finance.yahoo.com/m/7a50a3e3-24e8-3f10-b9bc-528b4fe5eb6c/micron-spent-the-memory.html",
+        "source": "Finviz",
+        "published": "",
+        "summary": ""
+      },
+      {
+        "title": "Broadcom Looks Expensive Until You Price The Order Book",
+        "link": "https://finance.yahoo.com/m/b6834641-8363-33ab-ac04-8590d2aa4ba7/broadcom-looks-expensive.html",
         "source": "Finviz",
         "published": "",
         "summary": ""
       }
     ],
     "SOFI": [
+      {
+        "title": "Affirm Stock Jumps After Earnings. This Key Number Crushed Estimates.",
+        "link": "https://finance.yahoo.com/m/d12ccd4c-48c6-3f01-b9b9-d7c60b68c677/affirm-stock-jumps-after.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Thu, 27 Aug 2026",
+        "summary": "Affirm posts better-than-expected revenue and gross merchandise volume in its fiscal fourth quarter."
+      },
+      {
+        "title": "Is SoFi Technologies (SOFI) A Bargain After Its Recent Rebound?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/sofi-technologies-sofi-bargain-recent-201859458.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Thu, 27 Aug 2026",
+        "summary": "SoFi Technologies (SOFI) drew fresh attention after its stock gained more than 3% on Tuesday, outpacing a flat financial sector and moving back above key short and intermediate term trend lines. For c"
+      },
+      {
+        "title": "SoFi Technologies' SoFi Plus: Can Paid Membership Drive Growth?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/sofi-technologies-sofi-plus-paid-170200026.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Thu, 27 Aug 2026",
+        "summary": "SOFI's paid membership gains early traction, with cross-selling and product adoption central to its growth ambitions."
+      },
+      {
+        "title": "Sezzle vs. SoFi: Which High-Growth Fintech Stock Is the Better Buy Now?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/sezzle-vs-sofi-high-growth-155100046.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Thu, 27 Aug 2026",
+        "summary": "Sezzle and its fintech rival SoFi offer contrasting growth engines, valuations and risk profiles as investors weigh focus against scale and diversification."
+      },
       {
         "title": "SoFi Rises 3% as the Stablecoin Trade Pulls Fintech Into the Crypto Bid, Coinbase Climbs 5%",
         "link": "https://247wallst.com/investing/2026/08/25/sofi-rises-3-as-the-stablecoin-trade-pulls-fintech-into-the-crypto-bid-coinbase-climbs-5/?.tsrc=rss",
@@ -843,32 +1064,11 @@
         "summary": "The stablecoin trade is escaping the crypto exchanges and hunting for new targets in fintech, and not every fintech name is getting pulled along for the ride. Which ones are catching the bid and why t"
       },
       {
-        "title": "The Fine Print I Almost Missed on My $25,000 Savings Account",
-        "link": "https://247wallst.com/personal-finance/savings-accounts/2026/08/25/the-fine-print-i-almost-missed-on-my-25000-savings-account/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Tue, 25 Aug 2026",
-        "summary": "SoFi's app showed me two different interest rates on the same $25,000, and only one of them came with an expiration date buried two screens deep. Finding that date changed what I planned to do with th"
-      },
-      {
-        "title": "SoFi to Participate in Goldman Sachs Communacopia & Technology Conference",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/sofi-participate-goldman-sachs-communacopia-120000197.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Tue, 25 Aug 2026",
-        "summary": "SAN FRANCISCO, August 25, 2026--SoFi Technologies, Inc. (NASDAQ: SOFI), the everything app for digital financial services, today announced that it will participate in the Goldman Sachs Communacopia & "
-      },
-      {
-        "title": "SoFi vs. Sezzle: Which Fintech Stock Is the Better Buy?",
-        "link": "https://www.fool.com/investing/2026/08/25/sofi-vs-sezzle-which-fintech-stock-is-the-better-b/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Tue, 25 Aug 2026",
-        "summary": "SoFi and Sezzle are both challenging traditional banking while gaining market share on big banks."
-      },
-      {
-        "title": "One Wall Street Analyst Thinks SoFi Stock Could Jump 20%. Here\u2019s Why.",
-        "link": "https://247wallst.com/investing/2026/08/21/one-wall-street-analyst-thinks-sofi-stock-could-jump-20-heres-why/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Fri, 21 Aug 2026",
-        "summary": "SoFi has been punished hard in 2026, but a fresh Wall Street initiation and back-to-back earnings beats are rewriting the story. Whether the bull case or the rate-hike risk wins out depends on factors"
+        "title": "Sezzle vs. SoFi: Which High-Growth Fintech Stock Is the Better Buy Now? - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPY1JLc18wNEVNMzE3X25FNzlsQ3dNamR3dmh6VDdnVDRvSUlpQ0twMmlNWS1kS3dHODk5a1dWZmVFclRYSUpHRHFWb2owUlVBLU83WFhNX08wbmJlOFFpVEZuUkdkRnpPbW1jSWNwQVBWWDJOWk5mQTlua2tWM0E1T2JzWnJDbDZ0TGk3VWNETWtDLVRKa0E?oc=5",
+        "source": "Google News",
+        "published": "Thu, 27 Aug 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxPY1JLc18wNEVNMzE3X25FNzlsQ3dNamR3dmh6VDdnVDRvSUlpQ0twMmlNWS1kS3dHODk5a1dWZmVFclRYSUpHRHFWb2owUlVBLU83WFhNX08wbmJlOFFpVEZuUkdkRnpPbW1jSWNwQV"
       },
       {
         "title": "2 Stocks Under $50 to Own for Decades and 1 We Turn Down - StockStory",
@@ -878,25 +1078,25 @@
         "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxNM3ctZUJHTlRESEFVa1FmMTBUN3pnd19QVXoxVk80V1VOVl9sdFdPTHJEZkxnZ0NacmdvNUhONk5KN3JfWkZyVXFucS1lbXhRbmxlcVZoZS1zLXFnRTdsZXJQV1BfaVFXTHJQSEVUa0"
       },
       {
-        "title": "Is SOFI Stock \u2018One Of The Easiest\u2019 Longs? Why The Bull Case Is Still Intact According To 3 Analysts - Stocktwits",
-        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNaEViT0pDUkg2UEo2R21neHhvcnFUTFFYWXcyN0xmaTctN1MwOTRLRFNoNEN3NEpYMDNmQTNYblRaSC1Bb0RjSGItYTQ2VExfdTVScEZ2MVZGZFozUXdEWmRyUlgzeGpqOHc1aG8ySUVvTmxST3pic0VZV1ZIZTFkc0lmZWs1YVhGOWN2OUVEbmlpeFhJVDBKYUZiVnBYN2cyYzJ3VzNFeHduZ2Z3Q3VaWnl0Snl4NkFCOUE?oc=5",
+        "title": "SoFi Technologies (NASDAQ:SOFI) Stock Price Up 1.8% - Should You Buy? - MarketBeat",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNS1JFdlFxcW8wdHJqM29McXJVMzcxd3FTeXo5SGxyMzBCZURsdnV1dlFueVh6SzNrQXNJRlBxcDJCVnpSeHctTXkxbHNNWTlwaFViLUs5WFZjdWVDS3JiN0REVVVPWEtucW8wRUFCaTQyNTRGSkFxS0FROXYzTVNnTW51VFMtNE1NMHc5b1J0d29qSlVJNVRPUlM1X205c18yVElQZjRvQS15QWdleDNpYTJfbE94YzFkMGRDWWM1SQ?oc=5",
         "source": "Google News",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxNaEViT0pDUkg2UEo2R21neHhvcnFUTFFYWXcyN0xmaTctN1MwOTRLRFNoNEN3NEpYMDNmQTNYblRaSC1Bb0RjSGItYTQ2VExfdTVScEZ2MVZGZFozUXdEWmRyUlgzeGpqOHc1aG8ySU"
+        "published": "Thu, 27 Aug 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxNS1JFdlFxcW8wdHJqM29McXJVMzcxd3FTeXo5SGxyMzBCZURsdnV1dlFueVh6SzNrQXNJRlBxcDJCVnpSeHctTXkxbHNNWTlwaFViLUs5WFZjdWVDS3JiN0REVVVPWEtucW8wRUFCaT"
       },
       {
-        "title": "Sofi Stock Is Trending: A Key Level Just Came Into Play - Sahm",
-        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPVTE3VmNWX2pLbzZHeDd5NkhIYWRpRk8wcm1zWTZzXzJuWjlWTXk2a0dKOTF0OHZqcW1sOFQyeDgwVzJWTFpQQ1hhbmdmcEViOFhaek5WNUxNNmZHSTU2MFRjcWFFY0FrZHlUSHBCQkEydk9HRmJZdTZPWGxPTFVxVk56ZGJYQkdNRHFzRWFsa09lcTh1ZXBUeURUZDlPSmpicUV5UWQ3eHFrQQ?oc=5",
+        "title": "Sofi Stock Is Failing to Break $20 This Year, but You Shouldn\u2019t Give Up Yet - Barchart.com",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTklGSkpTUXpnU2RuRXZoWDVGeHJrWWxWT0hLWU0tR1hxQ014TGxLTG0wYVUxeTJRaFNzZXJiZ252UHEwd0c4VmhhZHVKRDlCRTFjbS1ZV0lJUXY0X2N6clhYNVNkRHJORHRNWkZlQ0U5RHYwdmx4Mk05TnhfMjJfX2hrb2dHSmlwbG1pWXlhWE9aRW9ya0dhZXR1QVRfcG90VEdFZzl0OWl2ZDNXWjFVUnRqWkhzSHc?oc=5",
         "source": "Google News",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxPVTE3VmNWX2pLbzZHeDd5NkhIYWRpRk8wcm1zWTZzXzJuWjlWTXk2a0dKOTF0OHZqcW1sOFQyeDgwVzJWTFpQQ1hhbmdmcEViOFhaek5WNUxNNmZHSTU2MFRjcWFFY0FrZHlUSHBCQk"
+        "published": "Thu, 27 Aug 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxQTklGSkpTUXpnU2RuRXZoWDVGeHJrWWxWT0hLWU0tR1hxQ014TGxLTG0wYVUxeTJRaFNzZXJiZ252UHEwd0c4VmhhZHVKRDlCRTFjbS1ZV0lJUXY0X2N6clhYNVNkRHJORHRNWkZlQ0"
       },
       {
-        "title": "SoFi vs. Sezzle: Which Fintech Stock Is the Better Buy? - Yahoo Finance",
-        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTWU3UVZNdnVKdWFvNURqak1QWk01dVBnTDNHTlotMkhJemVyUXJpcElKNTAtNmNzTlBDUk5CYm9GdUgtMW5WQW9CRE1vS3Vyd0JCRTc0X25DNnZCd1VfWTBBLU9sUDV4bmMtMUhlcjl5ajJoZm9rT1c4bG1mSmJHR2lfZ1dTbkE1MkNEcWlyZEhfYy13OC1YRw?oc=5",
-        "source": "Google News",
-        "published": "Tue, 25 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxQTWU3UVZNdnVKdWFvNURqak1QWk01dVBnTDNHTlotMkhJemVyUXJpcElKNTAtNmNzTlBDUk5CYm9GdUgtMW5WQW9CRE1vS3Vyd0JCRTc0X25DNnZCd1VfWTBBLU9sUDV4bmMtMUhlcj"
+        "title": "PayPal Stock's Biggest Risk Shows Up In Its Take Rate",
+        "link": "https://finance.yahoo.com/m/ddf44be3-dbf5-3e66-afae-1472a6dddcb5/paypal-stock%27s-biggest-risk.html",
+        "source": "Finviz",
+        "published": "",
+        "summary": ""
       },
       {
         "title": "Thousands of bans just teamed up to build their own blockchain",
@@ -904,181 +1104,109 @@
         "source": "Finviz",
         "published": "",
         "summary": ""
-      },
-      {
-        "title": "Will PYPL Stock's Multiple Catch Up?",
-        "link": "https://finance.yahoo.com/m/64c01a28-056c-3bd0-bb32-b647ed1adcd6/will-pypl-stock%27s-multiple.html",
-        "source": "Finviz",
-        "published": "",
-        "summary": ""
       }
     ],
-    "DRAM": [
+    "CRM": [
       {
-        "title": "Chip stocks are crashing as the rest of the market barely flinches: AlphaCheck",
-        "link": "https://finance.yahoo.com/markets/article/chip-stocks-are-crashing-as-the-rest-of-the-market-barely-flinches-alphacheck-161342600.html?.tsrc=rss",
+        "title": "Tech investors are looking at AI with 'more nuance' as it fuels software demand",
+        "link": "https://finance.yahoo.com/video/tech-investors-looking-ai-more-195000481.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "Tue, 28 Jul 2026",
-        "summary": "Semiconductor stocks are flashing red \u2014 under the market's hood, the rally is still running green."
+        "published": "Thu, 27 Aug 2026",
+        "summary": "Salesforce stock (CRM) surges ahead by over 22% on Thursday since releasing strong second quarter earnings results, coming at a time when AI demand is driving growth within the software sector. Macqua"
       },
       {
-        "title": "Leveraged ETF Craze Turns Its Sights to Other Funds",
-        "link": "https://www.thedailyupside.com/etf/thematics-sectors/leveraged-etf-craze-turns-its-sights-to-other-funds/?.tsrc=rss",
+        "title": "Stock Market Today, Aug. 27: Salesforce Surges 23% on Anthropic Partnership and Q2 Earnings Beat",
+        "link": "https://www.fool.com/coverage/stock-market-today/2026/08/27/stock-market-today-aug-27-salesforce-surges-23-on-anthropic-partnership-and-q2-earnings-beat/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "Mon, 17 Aug 2026",
-        "summary": "Issuers are now quick to prep leveraged and inverse versions of the trendiest new ETFs."
+        "published": "Thu, 27 Aug 2026",
+        "summary": "Today, Aug. 27, 2026, the cloud software giant's stock jumped 22.6% after record quarterly results and lifted fiscal 2027 outlook, sparking broad enthusiasm across enterprise software peers."
       },
       {
-        "title": "U.S. ETF Investors at Odds: Chasing Returns or Playing the Long Game?",
-        "link": "http://www.etf.com/sections/advisor-center/us-etf-investors-odds-chasing-returns-or-playing-long-game?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
+        "title": "Salesforce just gave Wall Street a reason to believe its AI story",
+        "link": "https://www.thestreet.com/investing/salesforce-just-gave-wall-street-a-reason-to-believe-its-ai-story?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "Wed, 12 Aug 2026",
-        "summary": "<p>While U.S. ETF assets under management and flows rose to record levels in the first half of 2026, asset managers split the field with inflows from each constituency. Some continue to compete on pri"
+        "published": "Thu, 27 Aug 2026",
+        "summary": "Salesforce\u2019s AI push is finally showing up where investors wanted"
       },
       {
-        "title": "The ETFs Most Exposed to the 2026 Chip Supply Chain Crisis \u2014 Winners and Losers",
-        "link": "http://www.etf.com/sections/news/etfs-most-exposed-2026-chip-supply-chain-crisis-winners-and-losers?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
+        "title": "Stock Market Today: Nasdaq Up, Nvidia Teases New Entry As Salesforce Nears Buy Point (Live Coverage)",
+        "link": "https://finance.yahoo.com/m/6d7dc3db-8243-32c1-b651-55ee5914f052/stock-market-today%3A-nasdaq.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "Mon, 10 Aug 2026",
-        "summary": "<p>High-bandwidth memory is sold out for all of 2026. SK Hynix has warned the shortage could last past 2030. Automakers are cutting production of budget models, and PC and smartphone prices are set to"
+        "published": "Thu, 27 Aug 2026",
+        "summary": "The tech-heavy Nasdaq composite spent the entire session as the best-performing among major indexes Thursday as Wall Street reacted to big earnings reports, with Nvidia, Salesforce and CrowdStrike soa"
       },
       {
-        "title": "The DRAMa Behind Wall Street\u2019s Fastest Selling ETF",
-        "link": "https://www.thedailyupside.com/etf/thematics-sectors/the-drama-behind-wall-streets-fastest-selling-etf/?.tsrc=rss",
+        "title": "Salesforce Earnings, Revenue Beat Amid Expanded Anthropic Partnership",
+        "link": "https://finance.yahoo.com/m/9e7c5bb8-7244-32a3-8fcd-72ecb986c715/salesforce-earnings%2C-revenue.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "Mon, 10 Aug 2026",
-        "summary": "Roundhill said flows into its $24 billion memory fund, DRAM, show conviction from investors about the AI buildout. But not all are cashing in."
+        "published": "Thu, 27 Aug 2026",
+        "summary": "Salesforce stock climbed amid Q2 earnings and revenue that beat Wall Street targets while guidance came in above expectations."
       },
       {
-        "title": "The next AI boom in stock market after memory chip trade may be photonics - CNBC",
-        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZnVZYVM3dnZoNWI1NGFBdzdreFVCMEFuR1VZRENBdXNHSjRpUjljODBqY3pYZExIUjVCSUVBTDRHdDJrcUp6VjRHVnZKZGVoQ1RBbktwSVBFVFlsRWY2VTRFS3c2RFJZcjdodDdLOWVLcEhHdzBFbE13Wi12TzJsdtIBhgFBVV95cUxNazNIN0dUcWFkb0xRRkpfWW01anBCbFM4Mk1lTnRrX2dYcHc4NE9wRURWQXBZaGpPbEdncDBpT2Y2d1FhbjVFSHdDV3FMb2tvdmNzZFg4VkJBaHUzc0t2SHFqQ09HOU83OU11QWVaMmZta0tuOTFSeU5wb1gtSVdmdk9GQ0EtZw?oc=5",
+        "title": "Salesforce rockets 22% for second-best day ever, leading software rally - CNBC",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdnVXeXNJNFZXWnVPT2xyMFVqT0VtUHZTVnNma0xHY2JSS3NSQkppZGliWUhOX0Q1ODdpSVdjZlVkU2J5b2tzaHNjRTFfdnZwOENIMndEQVdneUxBdy16LUpuMWsweXpEOXgySHljNXRscnRpZWdpOUZkdWNpT253b0xWSUR4VVMwZG9pV1VRRjdUQmZWVUlBNdIBngFBVV95cUxNazB1dHJ2T1pNeE9fWGUtZGYwZmFKekd5Q0M1LTVoYjg5UGlYaEl2Z28zaHpENGlwSGJjdHh2VkJMdDNWdXdaVXFnNDh1ckJxMGhmWHJoR1h5R2Y0SnB1STFyQ3RYUmFaeFA3SVRiYWZBcmptZUltLXdHTDFaeDg1V20wR0ctR1JKWXp0VDI1RHpYdjlJSllYU2pBZ3RfZw?oc=5",
         "source": "Google News",
-        "published": "Wed, 05 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxPZnVZYVM3dnZoNWI1NGFBdzdreFVCMEFuR1VZRENBdXNHSjRpUjljODBqY3pYZExIUjVCSUVBTDRHdDJrcUp6VjRHVnZKZGVoQ1RBbktwSVBFVFlsRWY2VTRFS3c2RFJZcjdodDdLOW"
+        "published": "Thu, 27 Aug 2026",
+        "summary": "<ol><li><a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxQdnVXeXNJNFZXWnVPT2xyMFVqT0VtUHZTVnNma0xHY2JSS3NSQkppZGliWUhOX0Q1ODdpSVdjZlVkU2J5b2tzaHNjRTFfdnZwOENIMndEQVdneUxBdy16LUpuMWsweXpEOX"
       },
       {
-        "title": "MU Stock Leads Memory Chip Rally Amid Iran Relief \u2013 DRAM Surges 6% As SK Hynix, Samsung Gain - Stocktwits",
-        "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNTXBtTE9uNjRBaDcxVkNjYWw0UmlKYWlpODY4Y0N1eTFKenVZX2xSSVlKTUt4RWhUNjRoTnQtOThvd1VQc3B2eXRIRlVPVmpJM3ZOc3RJaU5ka1VZNlRPeHhnVUVyYU9za3RseVFSeGlCcnVpWUhnYzBzNy1tTlJiN0szTEs1NC1vRkxsVGl6b09yaFRZS0hZU3ByR3pMWmdVcDF5OGUzZXczZDNMVWZXMUlKVWE5Y2o4WlR1Q1BsNkt2RnVSUHdyZjV4WWRJYU01N1FQTzdRSEs2Z2NYNE5oYUQ1SWNSV2s?oc=5",
+        "title": "Stock market today: Dow, S&P 500, Nasdaq futures rise as Nvidia, Salesforce earnings boost tech - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPV19GV21jUzBTUXUzS1l3ZW5obXFHNDU3emZTLXRyMzVaVl9aTVpXUHlaSmdXeHdNbXpDeEFObmVZblQ0UFNFQmNrcGV5Vk9NaTZJemNwTjNuMTV0S3lBVFdDY1NsejRjcjRSTDdCS1Vobzk3ZWJUTkhsejhPdFEwc1ZoWHhySDFKekVHblV0TEFOLTZSMkJYMkFVMlBtYzI1VFE3U2I0a0plcXJITFE?oc=5",
         "source": "Google News",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi5wFBVV95cUxNTXBtTE9uNjRBaDcxVkNjYWw0UmlKYWlpODY4Y0N1eTFKenVZX2xSSVlKTUt4RWhUNjRoTnQtOThvd1VQc3B2eXRIRlVPVmpJM3ZOc3RJaU5ka1VZNlRPeHhnVUVyYU9za3RseVFSeG"
+        "published": "Thu, 27 Aug 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxPV19GV21jUzBTUXUzS1l3ZW5obXFHNDU3emZTLXRyMzVaVl9aTVpXUHlaSmdXeHdNbXpDeEFObmVZblQ0UFNFQmNrcGV5Vk9NaTZJemNwTjNuMTV0S3lBVFdDY1NsejRjcjRSTDdCS1"
       },
       {
-        "title": "The Biggest Risk Facing the Roundhill Memory ETF (DRAM) Right Now - Yahoo Finance",
-        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONG1fUjN5bGp0NkFKSzNrbGpQcnAyVmZTWk1Lei1xNThWMWpRSUFSTjJheHFFSjhzelY2bVhPS3JjM1hUc01BUmgxanNqYUxYUUlXeHM4LXFxYVo0LV9EYW9qMHNsWEFhWlhLX0FxR0VEd0N3Qi1CSlhNLThQR0VTdkg3TE93aVRpV3FhN0VuVE4wN3k1SllNVUVIYU83c2NWYWVr?oc=5",
+        "title": "SPY is up 0.6% today, on CRM stock price movement - Quiver Quantitative",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOaVNwOWNabDZDUlFjemlwVTNjZ0gtQ05qRjJqN0MwY1ZOX1E1ZjVyMkFpN0w1Z3FWWHZFTlhYSzdCOEVKWVlOcFZURTdlVGdRdHJjREstbFRnVm8xZUY0cXBtZ3RWQXFYVUdVX3pfVDFmd01fMzF2U0d0VmZVQXhXYmo0X2JuLVhNN0ZQTVhmTQ?oc=5",
         "source": "Google News",
-        "published": "Thu, 20 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxONG1fUjN5bGp0NkFKSzNrbGpQcnAyVmZTWk1Lei1xNThWMWpRSUFSTjJheHFFSjhzelY2bVhPS3JjM1hUc01BUmgxanNqYUxYUUlXeHM4LXFxYVo0LV9EYW9qMHNsWEFhWlhLX0FxR0"
+        "published": "Thu, 27 Aug 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxOaVNwOWNabDZDUlFjemlwVTNjZ0gtQ05qRjJqN0MwY1ZOX1E1ZjVyMkFpN0w1Z3FWWHZFTlhYSzdCOEVKWVlOcFZURTdlVGdRdHJjREstbFRnVm8xZUY0cXBtZ3RWQXFYVUdVX3pfVD"
       },
       {
-        "title": "Micron Stock Soared 206% This Year, and DRAM Scarcity Is the Reason Why. Will It Keep Climbing in 2026? - TIKR.com",
-        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNQXktYW56bkF6bTl4UHFTYzc3NEVtNWVySzRnWkhtMFFtTFVOelpxbTN1dEk5OTRNc0IzRWtrTFJNQ1FXV3MyeGpDYXpLQXNyWEpiMWxBNVdxUUhJaF9SdGpFNzBsZ3pMSUlRUWxoMVNhcGw0a191ZDNMNlhPZEpSdzlVX1RVQW5aQVFlTndRVld6NVpGeWUyUHp6U0dfWXBYclY4MnNwQlJ5NDZfeVNySXBvNk9yV0dEWEc2ODcyWlFlZjg?oc=5",
+        "title": "CRM Stock Rips To 6-Month High In Biggest Single-Day Gain Since 2020: Analysts Call Salesforce Q2 \u2018Narrative-Changing\u2019 -",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOd2p2NE5DbS1pVnRoeldnc3pWanY3UFJhNEV3Z0Job3V0UzJPcEV5c1lkekw5LVBqY1lCXzdpQWtXSmRvN0wwR2dVVEdtc01FUklBWnN1ZFlLNG50MUJWSVBLUzg0eV8ybUM2YjZFZ0xEeHNBV0tuNkVROFRubWNGejE4Vkx1TV9Vdk9Cb1R5QTltTjh1Y21PdkowcnJMRzBHNVB2ODIxYlhCeU9GWmFqU3hZMFc?oc=5",
         "source": "Google News",
-        "published": "Mon, 24 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxNQXktYW56bkF6bTl4UHFTYzc3NEVtNWVySzRnWkhtMFFtTFVOelpxbTN1dEk5OTRNc0IzRWtrTFJNQ1FXV3MyeGpDYXpLQXNyWEpiMWxBNVdxUUhJaF9SdGpFNzBsZ3pMSUlRUWxoMV"
+        "published": "Thu, 27 Aug 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxOd2p2NE5DbS1pVnRoeldnc3pWanY3UFJhNEV3Z0Job3V0UzJPcEV5c1lkekw5LVBqY1lCXzdpQWtXSmRvN0wwR2dVVEdtc01FUklBWnN1ZFlLNG50MUJWSVBLUzg0eV8ybUM2YjZFZ0"
       },
       {
-        "title": "The 10 Most Popular AI ETFs of 2026",
-        "link": "https://finance.yahoo.com/m/959aca37-524b-3408-a528-a00422fced80/the-10-most-popular-ai-etfs.html",
+        "title": "Nvidia boosts tech stocks but caution dominates ahead of Fed speech",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/asian-chip-firms-lifted-nvidia-024234685.html",
         "source": "Finviz",
         "published": "",
         "summary": ""
       },
       {
-        "title": "ETF League Tables: Roundhill Gains $315M",
-        "link": "https://finance.yahoo.com/m/c3d5d927-35fa-3318-aafb-870603c2f50c/etf-league-tables%3A-roundhill.html",
-        "source": "Finviz",
-        "published": "",
-        "summary": ""
-      }
-    ],
-    "NOW": [
-      {
-        "title": "ServiceNow (NOW) In Focus Following Tech Mahindra AI Deal As Fair Value Debate Builds",
-        "link": "https://finance.yahoo.com/technology/ai/articles/servicenow-now-focus-following-tech-210941599.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "ServiceNow (NOW) is back in focus after Tech Mahindra expanded a multi year partnership aimed at scaling AI deployments on the ServiceNow platform, while a separate employee stock offering adds anothe"
-      },
-      {
-        "title": "Pricefx Announces Integration with ServiceNow to Bring AI-Powered Deal Optimization to Sales Workflows",
-        "link": "https://finance.yahoo.com/technology/ai/articles/pricefx-announces-integration-servicenow-bring-143000139.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "CHICAGO, August 26, 2026--Pricefx, a global leader in pricing intelligence for B2B enterprises, today announced an integration with ServiceNow, the AI control tower for business reinvention, that brin"
-      },
-      {
-        "title": "NTT DATA to acquire Netgain, creating Sweden's largest pure-play ServiceNow company together with The Cloud People",
-        "link": "https://finance.yahoo.com/technology/articles/ntt-data-acquire-netgain-creating-131600021.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "NTT DATA, a global leader in AI, digital business and technology services, today announces the acquisition of Netgain AB. Together with The Cloud People, acquired by NTT DATA in December 2025, Netgain"
-      },
-      {
-        "title": "ServiceNow Just Ripped 29% in a Month. What Would It Take to Get NOW Stock Up to $150?",
-        "link": "https://247wallst.com/investing/2026/08/25/servicenow-just-ripped-29-in-a-month-what-would-it-take-to-get-now-stock-up-to-150/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Tue, 25 Aug 2026",
-        "summary": "ServiceNow has surged nearly 30% in a single month and left the broader software sector in the dust, but Wall Street's price targets and a quietly sobering Q3 forecast reveal just how much the stock s"
-      },
-      {
-        "title": "CoreX Launches AI Horizon to Guide Enterprises to AI-Native Work",
-        "link": "https://finance.yahoo.com/technology/ai/articles/corex-launches-ai-horizon-guide-125900270.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Tue, 25 Aug 2026",
-        "summary": "RADNOR, Pa., August 25, 2026--CoreX, an Elite ServiceNow Partner, today launched CoreX AI Horizon, a new approach that enables organizations to navigate the vast and rapidly expanding possibilities of"
-      },
-      {
-        "title": "AXTA vs. HWKN: Which Stock Should Value Investors Buy Now? - Yahoo Finance",
-        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQUFRHdU9JSi13Uzk5eDFmRF96SlFSb3NKdGYtZ3dhallDS1dpUG1YVi1RME51eUcycHZuYmxxb2xGcnNnSVFGbUp0N09lRVowN3NWNnU1T2lUMmlfSEdiTkU2NE96NFZSX3RKTmNjUmI3V3IxU1p0bFU2eWpOQmE5VUIyM0pZU3ZralJyTjgxUUlTU0k?oc=5",
-        "source": "Google News",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxQUFRHdU9JSi13Uzk5eDFmRF96SlFSb3NKdGYtZ3dhallDS1dpUG1YVi1RME51eUcycHZuYmxxb2xGcnNnSVFGbUp0N09lRVowN3NWNnU1T2lUMmlfSEdiTkU2NE96NFZSX3RKTmNjUm"
-      },
-      {
-        "title": "Stay updated with the S&P500 stocks that are on the move in today's after-hours session. - ChartMill",
-        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOVXVIQThwdmlnZ1VDNFNoZkdBd2U2SjZuU2tWSW12bmtKNERfVzM5eGdfV2duY3dBVGFKc3AxTXdscURmaV9EM1paRDRwSG1ZS2kzRV8xRHZLYksxWU1rWGR6Q01Kc0tmTjQtdmlQNUg5VDl2ZGp5ZG1mc0UwUktrTUh2bTM1UUlVcWhybEhVTFZ4U3laWi1yS3RxbUk1VlBEckJESnA2cnJqazAyLWhLZ0lhYURWSFVFMmpGenVoeDBwcERZUjJkQ1g5b1RJYnFSZFZn?oc=5",
-        "source": "Google News",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxOVXVIQThwdmlnZ1VDNFNoZkdBd2U2SjZuU2tWSW12bmtKNERfVzM5eGdfV2duY3dBVGFKc3AxTXdscURmaV9EM1paRDRwSG1ZS2kzRV8xRHZLYksxWU1rWGR6Q01Kc0tmTjQtdmlQNU"
-      },
-      {
-        "title": "Nvidia Isn\u2019t the Only Hero the Stock Market Needs Right Now - Barron's",
-        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNR3d4REk1OENDUkMtNVZVeFpNeVlxZjJfa2lXc3BVMkZhVVFzbW9mZ29MMXgtZ094WG1xZlVnb0FtVDRIQWV3R05LZ0c5ck13b1psUEhtMW4wWVkxajhJTkQzLW5BQmYwSHhRMHFjb1F6aWp2WHFxcWV0RVRRcWh6TQ?oc=5",
-        "source": "Google News",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxNR3d4REk1OENDUkMtNVZVeFpNeVlxZjJfa2lXc3BVMkZhVVFzbW9mZ29MMXgtZ094WG1xZlVnb0FtVDRIQWV3R05LZ0c5ck13b1psUEhtMW4wWVkxajhJTkQzLW5BQmYwSHhRMHFjb1"
-      },
-      {
-        "title": "Home Depot Stock\u2019s Upside Case Now Runs Through A Business It Bought - Trefis",
-        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPM0xMaDcxZ3Z6N1lOTVpLR28tOTNhTmVEbkxfQjkwMS16cXNMcU9SR1dvWjM5cVZDd21XQVgwZXQtSXVQQ1ROSE5pLTV6YlQzVDlJZUNoZExLVkNuVldWQ3QyNDhOT1h2ZEtDVFh1cFd3YVhrZE5EdDBTUTZKMGZCemNkcGZpUm13ZmpYZmZMSllvRTZYT0RVUUhCcVpyalVfcjg2NzhkMTAtUjlMc3pDTE9pZlRScFRlSnNDQ1JkYnpTaC01?oc=5",
-        "source": "Google News",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxPM0xMaDcxZ3Z6N1lOTVpLR28tOTNhTmVEbkxfQjkwMS16cXNMcU9SR1dvWjM5cVZDd21XQVgwZXQtSXVQQ1ROSE5pLTV6YlQzVDlJZUNoZExLVkNuVldWQ3QyNDhOT1h2ZEtDVFh1cF"
-      },
-      {
-        "title": "Salesforce, Intuit, ServiceNow, Palantir, and More Stocks That Explain Today's Market",
-        "link": "https://www.barrons.com/articles/stock-movers-6a7eb3fe?mod=bar_FV",
+        "title": "How major US stock indexes fared Thursday 8/27/2026",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/major-us-stock-indexes-fared-202438966.html",
         "source": "Finviz",
         "published": "",
         "summary": ""
       },
       {
-        "title": "The Paid-To-Hold Play On WDAY Stock: An 8.6% Annualized Income",
-        "link": "https://finance.yahoo.com/m/f19d8786-0f40-3ece-b8f8-8a8f482ac11a/the-paid-to-hold-play-on-wday.html",
-        "source": "Finviz",
-        "published": "",
-        "summary": ""
-      },
-      {
-        "title": "Tech Mahindra, ServiceNow expand partnership to advance enterprise AI",
-        "link": "https://finance.yahoo.com/m/2d438ccc-508c-3c21-bf71-253f259c2c0d/tech-mahindra%2C-servicenow.html",
+        "title": "The Stock Market Passed the Nvidia Test. Now Comes Jackson Hole.",
+        "link": "https://www.barrons.com/livecoverage/stock-market-news-today-082726/card/the-stock-market-passed-the-nvidia-test-now-comes-jackson-hole--ZMOLTSNebdPKWovXMoCM?mod=bar_FV",
         "source": "Finviz",
         "published": "",
         "summary": ""
       }
     ],
     "ADBE": [
+      {
+        "title": "Stagwell Expands Strategic Partnership with Adobe to Build the Future of Enterprise Marketing Together",
+        "link": "https://finance.yahoo.com/media-advertising/articles/stagwell-expands-strategic-partnership-adobe-170000540.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Thu, 27 Aug 2026",
+        "summary": "The multi-year collaboration embeds 's data intelligence, creative transformation and AI capabilities directly into Adobe's enterprise growth engineNEW YORK CITY, NY / ACCESS Newswire / August 27, 202"
+      },
+      {
+        "title": "LicenseFortress Expands Software License Management Services to Include Adobe Licensing",
+        "link": "https://finance.yahoo.com/technology/articles/licensefortress-expands-software-license-management-140500052.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Thu, 27 Aug 2026",
+        "summary": "LOS ANGELES, August 27, 2026--LicenseFortress, a leading independent provider of Software Asset Management (SAM) services, today announced that it has expanded its software licensing coverage to inclu"
+      },
       {
         "title": "AI Monetization Boosts ADBE's Growth Prospects Against MSFT & CRM",
         "link": "https://finance.yahoo.com/technology/ai/articles/ai-monetization-boosts-adbes-growth-154900917.html?.tsrc=rss",
@@ -1101,20 +1229,6 @@
         "summary": "RGA Investment Advisors, an investment management company, has released its second-quarter 2026 investor letter. The letter can be downloaded here. The letter addresses the incorporation of AI into in"
       },
       {
-        "title": "Why Adobe Could Be One of 2026\u2019s Most Contrarian Tech Bets",
-        "link": "https://247wallst.com/investing/2026/08/25/why-adobe-could-be-one-of-2026s-most-contrarian-tech-bets/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Tue, 25 Aug 2026",
-        "summary": "Momentum investors have abandoned Adobe, and that retreat may be exactly what makes the stock worth watching. Here is what the cash flow, insider activity, and AI conversion numbers reveal about where"
-      },
-      {
-        "title": "3 Reasons to Avoid ADBE and 1 Stock to Buy Instead",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-avoid-adbe-1-144644435.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Tue, 25 Aug 2026",
-        "summary": "Adobe trades at $276.06 per share and has stayed right on track with the overall market, gaining 7.1% over the last six months. At the same time, the S&amp;P 500 has returned 10.5%."
-      },
-      {
         "title": "Is It Time To Buy The Dip In Cash-Rich Adobe Stock? - Trefis",
         "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPV3l6MjM5M0htZ2NNSmZvaUpIcUlLYkU0amNQZ0RZWmROOEdLeHAxbmd6Z3BwT0k4UzJwZWtDOUItTU11VHptSnZxcVRmTzRmdURNNVBEdDI5SEM0QXdpaUctdmdaVFBITFRvWDBTTlh4TEtfTmZONEw5MVhNVWp1SENjakFocngyQXp6aXZ4U2puUXVkRGxNUE1tZHNZV0hvaDM2VWVPSWUxVnNTSlRMdA?oc=5",
         "source": "Google News",
@@ -1122,307 +1236,114 @@
         "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPV3l6MjM5M0htZ2NNSmZvaUpIcUlLYkU0amNQZ0RZWmROOEdLeHAxbmd6Z3BwT0k4UzJwZWtDOUItTU11VHptSnZxcVRmTzRmdURNNVBEdDI5SEM0QXdpaUctdmdaVFBITFRvWDBTTl"
       },
       {
-        "title": "Adobe (ADBE) Stock May Be Below Fair Value After Record Revenue - Yahoo Finance",
-        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNd1RjSzRQZHZWOTZjQVVIUXNzR05IUVE3VUJEM24ta1YzbEY4Z0tHQnEySWdTa2cwUlk0ZGF2MGJZSVpBNHJzb0g1WE5KTjdxcVZsRTd5T0NOd3VLVVllQm9IU1hYVWNOckZ6d2FNVERoWG5XUVN0UzBITktRZG9yQ0dFQWRrSm5CSFRULXlkR3RQUVcyQ2c?oc=5",
-        "source": "Google News",
-        "published": "Mon, 24 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxNd1RjSzRQZHZWOTZjQVVIUXNzR05IUVE3VUJEM24ta1YzbEY4Z0tHQnEySWdTa2cwUlk0ZGF2MGJZSVpBNHJzb0g1WE5KTjdxcVZsRTd5T0NOd3VLVVllQm9IU1hYVWNOckZ6d2FNVE"
-      },
-      {
-        "title": "Adobe Stock Has Soared 45% From Its 2026 Lows, But It May Already Be Too Late to Buy ADBE - Barchart.com",
-        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWWZyV29iZjBVZFF4UnpJbUlDVG9iWmVlX2NpODdNakZsV3pzNUtpdVUzSkhyQnFtMXV1TDVqMVpaYnZVRW9pRU1UQmxsT0FVSFlMUXhuQWc0ajFxczJmSDlCd25MdHJ5UUtEcUlsTjZqNi1ZRW5WM0dJemRsdDR6LWo0MjNNcGxPbXl4T21zajU1VFRqcGFsZTVFSXpTTFZ4cmNqMXZTRjkwVTdTNGpfT0lFMDFxUVZPWDhtTUVsT2RTLVI0d19jaGlMcw?oc=5",
-        "source": "Google News",
-        "published": "Fri, 21 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxQWWZyV29iZjBVZFF4UnpJbUlDVG9iWmVlX2NpODdNakZsV3pzNUtpdVUzSkhyQnFtMXV1TDVqMVpaYnZVRW9pRU1UQmxsT0FVSFlMUXhuQWc0ajFxczJmSDlCd25MdHJ5UUtEcUlsTj"
-      },
-      {
-        "title": "AI Monetization Boosts ADBE's Growth Prospects Against MSFT & CRM - Zacks Investment Research",
-        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxON3A5UWxZaHE4SjRDQzdaUU1qbEFjUm9jQnlaLURNTlZOampjRm1qZWhNejFoWVZVZU5qSDVvMWp5YWNNRWJFSU1QX1F6NThLNVFZRi1YY0p0dUlMN01lMjNmMEdHblZfbTdpWVdtcGM2YnhtOEIxYjVDb2wzaHhzd182REF3M3h0eEZycG91bEJYNEQ0S3kyc043OGdYZy1ZTFo5Tldn?oc=5",
+        "title": "AI Monetization Boosts ADBE's Growth Prospects Against MSFT & CRM - TradingView",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRHlzVENSeGY2ZEk2WURDNmphZ29YbUdHNlpqM3Q3UzRvbk5BQXBsWVFKN3V6a3ZNNkV0MFhnZ0xnSk5uN2tnSjFqUmFfNTlJb2tmUkF4alNoREpvV3laMGtvcmRocDB4UlgwS2tacldZT01YR254X3lHUDFNdExxRWd6S3cxN3JMeFhlTzlGUG0yYm90TEtmNTZveTJUMDFOWnVJOG43Wkhnem5FbGE4VXk0YnBNRmhsNVA4?oc=5",
         "source": "Google News",
         "published": "Wed, 26 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxON3A5UWxZaHE4SjRDQzdaUU1qbEFjUm9jQnlaLURNTlZOampjRm1qZWhNejFoWVZVZU5qSDVvMWp5YWNNRWJFSU1QX1F6NThLNVFZRi1YY0p0dUlMN01lMjNmMEdHblZfbTdpWVdtcG"
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRHlzVENSeGY2ZEk2WURDNmphZ29YbUdHNlpqM3Q3UzRvbk5BQXBsWVFKN3V6a3ZNNkV0MFhnZ0xnSk5uN2tnSjFqUmFfNTlJb2tmUkF4alNoREpvV3laMGtvcmRocDB4UlgwS2tacl"
       },
       {
-        "title": "Is It Time To Buy The Dip In Cash-Rich Adobe Stock?",
-        "link": "https://finance.yahoo.com/m/6139227d-dc57-39d0-8a11-440ce2a16b71/is-it-time-to-buy-the-dip-in.html",
-        "source": "Finviz",
-        "published": "",
-        "summary": ""
-      },
-      {
-        "title": "What Adobe Stock's Low Earnings Multiple Is Actually Priced On",
-        "link": "https://finance.yahoo.com/m/5d008601-4574-3044-abfd-3058074f3bf3/what-adobe-stock%27s-low.html",
-        "source": "Finviz",
-        "published": "",
-        "summary": ""
-      },
-      {
-        "title": "Want ADSK Stock 30% Cheaper? Get Paid 11% A Year While You Wait",
-        "link": "https://finance.yahoo.com/m/f4086038-9639-33db-87b2-6363116a446f/want-adsk-stock-30%25-cheaper%3F.html",
-        "source": "Finviz",
-        "published": "",
-        "summary": ""
-      }
-    ],
-    "MMM": [
-      {
-        "title": "3M (MMM) Stock May Be 11% Below Fair Value On Cash Flow",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/3m-mmm-stock-may-11-150804207.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "3M stock has delivered a strong 3 year gain, yet the current valuation picture is more nuanced, with an intrinsic value estimate pointing to some upside while market based multiples look roughly in li"
-      },
-      {
-        "title": "3M (MMM) Taps Jennifer Cunningham For Chief Human Resources Officer",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/3m-mmm-taps-jennifer-cunningham-091047116.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "3M (NYSE: MMM) appointed Jennifer Cunningham as Executive Vice President and Chief Human Resources Officer. Cunningham will lead 3M's global human resources organization, including talent, culture and"
-      },
-      {
-        "title": "3M vs. Carlisle: Which Industrial Conglomerate Stock Should You Bet On?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/3m-vs-carlisle-industrial-conglomerate-140100056.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Tue, 25 Aug 2026",
-        "summary": "MMM's industrial and transportation strength supports growth, while CSL gains from construction demand but faces rising costs and high debt."
-      },
-      {
-        "title": "3M's Consumer Segment Struggles Amid Soft Demand: What's Next?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/3ms-consumer-segment-struggles-amid-145100699.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Wed, 19 Aug 2026",
-        "summary": "MMM's Consumer segment faces weak demand, but cost management, portfolio strength and innovation could support growth ahead."
-      },
-      {
-        "title": "3M Rides on Transportation & Electronics Strength: A Sign of More Upside?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/3m-rides-transportation-electronics-strength-163700782.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Fri, 14 Aug 2026",
-        "summary": "MMM's Transportation & Electronics strength, broad industrial momentum and raised 2026 earnings outlook point to continued business growth."
-      },
-      {
-        "title": "3M (MMM) Stock May Be 11% Below Fair Value On Cash Flow - Yahoo Finance",
-        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNVhaWnBpU2Y5QXBWS0hqN0dmV2V2TjJMUUxaX25NbGQzQ21MTkJlT2E1TVd5R0hZU0lFTEZ2UUFLOTVmbFNpOEVHWEVxblZlVFRuNmJoU1laaW9MOVZLamFIMjhoMXA5Y09iYTc2b1FPU0hFcjB5aFVhdVlvTnR6T2k5bzA2MUdMLUN4bw?oc=5",
-        "source": "Google News",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxNNVhaWnBpU2Y5QXBWS0hqN0dmV2V2TjJMUUxaX25NbGQzQ21MTkJlT2E1TVd5R0hZU0lFTEZ2UUFLOTVmbFNpOEVHWEVxblZlVFRuNmJoU1laaW9MOVZLamFIMjhoMXA5Y09iYTc2b1"
-      },
-      {
-        "title": "3m Stock Price Forecast. Should You Buy MMM? - StockInvest.us",
-        "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9NaTBMVkppdFBKSE9Ma3FHcURwQmxWOW5kbDNONHBZYmIwSTVzbS1kTE1OSVRVd2gtOWhmb2tQRGMxclR3clRV?oc=5",
-        "source": "Google News",
-        "published": "Fri, 21 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiR0FVX3lxTE9NaTBMVkppdFBKSE9Ma3FHcURwQmxWOW5kbDNONHBZYmIwSTVzbS1kTE1OSVRVd2gtOWhmb2tQRGMxclR3clRV?oc=5\" target=\"_blank\">3m Stock Price Forecast. Should"
-      },
-      {
-        "title": "3M (MMM) Could Be 1% Undervalued On Its New Dividend Declaration - simplywall.st",
-        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQbU9DdEJ2dFRnVkRqZDNVSm5QNHFfVDZDUDF0Q1FuUUN1Z1dlOElBZllCTlR3a2VyNkZUSmJSUDd5R29paDdITUxHNDBuNlB1STdVQ3hvWHByYnQ4NDNWUjJMLWV3OG9LVk9DN2FOUmYyZUQ1TWRQelY5RG5hSjlzTzRMOVdaeEwzYVZ6OVZjUG05OU9fSjFwQVJ4UE5Mb2VYSU12N3R6T3hDVW4yOVZ3Zi1hZjNQeHdzN1R2UUxscm_SAcYBQVVfeXFMUFZtbkZEYklaN29mSUI5VEdZczlSWWkxdXFpNXliY2dWblZEZFI4ejRNMk1fYnlGREpKWXdfUGdBLVo4Q0ZvV0daUy1NUTF1OTlwTzZ4YTRsZkVkWEV0amk2OVRtaGZUUDVmazFOUmpUS0tEX1Y2bWNZbFZ6MnA4NWNMTnlWZlRadWhMLUlKRXgwdzJ1M3FyZ3pUU21xRzlBZnNrcjBjMEdzcV8yTlJkdG4tTjQxbmJoRF9zRlQ3T2NEajl6QWJn?oc=5",
-        "source": "Google News",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxQbU9DdEJ2dFRnVkRqZDNVSm5QNHFfVDZDUDF0Q1FuUUN1Z1dlOElBZllCTlR3a2VyNkZUSmJSUDd5R29paDdITUxHNDBuNlB1STdVQ3hvWHByYnQ4NDNWUjJMLWV3OG9LVk9DN2FOUm"
-      },
-      {
-        "title": "3M Is Finally Back, But I'm Still Not Buying The Stock (NYSE:MMM) - Seeking Alpha",
-        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNc0NMdVFya0dHa3Z0Tmw0OGhXaWMybTM5dTNtdVF6VVRtOWR6YmJxVzREN2RvYWtMM2pPMkZWUVAzbENtVDdMQmZNZkdlWXJKUHFLWDdaeGNxMGk3LXFPMVJGb1BRS0UzanJkTkdVc2dvaGQta0RDRTlMZ2F3WTM1bjltZUt3ZUs0OWsxMWw0RG12LW9MT3U5Uw?oc=5",
-        "source": "Google News",
-        "published": "Mon, 24 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxNc0NMdVFya0dHa3Z0Tmw0OGhXaWMybTM5dTNtdVF6VVRtOWR6YmJxVzREN2RvYWtMM2pPMkZWUVAzbENtVDdMQmZNZkdlWXJKUHFLWDdaeGNxMGk3LXFPMVJGb1BRS0UzanJkTkdVc2"
-      },
-      {
-        "title": "Apple upgraded, Workday downgraded: Wall Street's top analyst calls",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/apple-upgraded-brinker-initiated-wall-134131346.html",
-        "source": "Finviz",
-        "published": "",
-        "summary": ""
-      },
-      {
-        "title": "3M Board Declares Quarterly Dividend",
-        "link": "/news/382452/3m-board-declares-quarterly-dividend",
-        "source": "Finviz",
-        "published": "",
-        "summary": ""
-      },
-      {
-        "title": "Cisco, 3M share losses lead Dow's nearly 150-point fall",
-        "link": "https://www.marketwatch.com/data-news/cisco-3m-share-losses-lead-dow-s-nearly-150-point-fall-f7a7f3a1-74e72ef35538?mod=mw_FV",
-        "source": "Finviz",
-        "published": "",
-        "summary": ""
-      }
-    ],
-    "ROP": [
-      {
-        "title": "What Are Wall Street Analysts' Target Price for Roper Technologies Stock?",
-        "link": "https://www.barchart.com/story/news/3947281/what-are-wall-street-analysts-target-price-for-roper-technologies-stock?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Thu, 20 Aug 2026",
-        "summary": "Roper Technologies has underperformed the market, while analysts remain moderately optimistic on its future prospects."
-      },
-      {
-        "title": "Roche receives FDA approval for companion diagnostic tests to identify patients with HER2-positive metastatic gastroesop",
-        "link": "https://finance.yahoo.com/healthcare/articles/roche-receives-fda-approval-companion-185200868.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "Roche (SIX: RO, ROG; OTCQX: RHHBY) announced today that it has received FDA approval for expanded use of its PATHWAY\u00ae HER2 (4B5) and VENTANA\u00ae HER2 Dual ISH DNA Probe Cocktail tests. These companion di"
-      },
-      {
-        "title": "Roche receives FDA clearance for Elecsys\u00ae pTau217, advancing Alzheimer's disease assessment across primary and specialty",
-        "link": "https://finance.yahoo.com/healthcare/articles/roche-receives-fda-clearance-elecsys-110000412.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Mon, 24 Aug 2026",
-        "summary": "Roche (SIX: RO, ROP; OTCQX: RHHBY) announced today that the U.S. Food and Drug Administration (FDA) has cleared the Elecsys\u00ae Phospho-Tau (217P) Plasma (pTau217) blood test, providing clinicians across"
-      },
-      {
-        "title": "Is Roche Holding (SWX:ROP) Fully Valued After Its Latest US Manufacturing Push?",
-        "link": "https://finance.yahoo.com/healthcare/articles/roche-holding-swx-rop-fully-231256180.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Fri, 21 Aug 2026",
-        "summary": "Genentech\u2019s plan to invest $750 million in a new device fill finish facility in Hillsboro, Oregon, has put Roche Holding (SWX:ROP) back in focus for investors watching its U.S. manufacturing footprint"
-      },
-      {
-        "title": "Roche (SWX:ROP) Stock Could Be Below Fair Value After US Manufacturing Expansion",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/roche-swx-rop-stock-could-111051781.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Fri, 21 Aug 2026",
-        "summary": "Roche Holding stock has delivered a 58.5% return over the past three years, yet the current valuation checks give a more mixed read on how much upside may be left in the price. Roche Holding's 58.5% t"
-      },
-      {
-        "title": "Roche (SWX:ROP) Stock Could Be Below Fair Value After US Manufacturing Expansion - Yahoo Finance",
-        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQcVB5Z29kRkRxQk95SW5ISFBOMVdpdXdjRGlrbTVWcXVGN01qZGstWHJVMEtjTjVwbHJkdWRFVk51OXVVVkkzRnBKRlYzMHJmUTBhcHVtT2tXTWQ4Wm56WGpjMlcwUklBRFdWd1RCUVFydUs0QXJVZ1pkNXFHQUQxVWdXOTNhbDY1VE1XTVhWbzdjcFlR?oc=5",
-        "source": "Google News",
-        "published": "Fri, 21 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxQcVB5Z29kRkRxQk95SW5ISFBOMVdpdXdjRGlrbTVWcXVGN01qZGstWHJVMEtjTjVwbHJkdWRFVk51OXVVVkkzRnBKRlYzMHJmUTBhcHVtT2tXTWQ4Wm56WGpjMlcwUklBRFdWd1RCUV"
-      },
-      {
-        "title": "Down 7.7% in 4 Weeks, Here's Why You Should You Buy the Dip in Roper Technologies (ROP) - qz.com",
-        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPd0oyblpOTGdOcTNxQnNoSVYtSTA1OEU5V0kyMmVXRGwwYTF2MDVwVkFEeW9zaDJ2OXBGZzE4YnVlN2Vpc2lHQ0dXbU1mLVpRejV0OGJjMUhLbzc2NGFjdVZmWldzc0Q3ODZWV1BlOG5ndktoWU83bHZNb0E0S1A5MUNOZVRBcFZ1WkRQbjczYjlWRDFSNlVjclZidUVMbm8?oc=5",
+        "title": "3 Reasons to Avoid ADBE and 1 Stock to Buy Instead - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcng4TmRLVUptdE9IQjhrN2hHWGhwVlRMcTBIX1ZjejBXUW1JM1d0Zzh6OWZzeS1ZT0lGb2FaLTlIZnVOd0N6djZEd3kzS0Yyd09fSEtsbWJrdUR6NV9HMnpSQ3ZGOXJmNjQ4SUN2Q0x1Ukw0aGpMYUw0U2N1VVFZdURuSmFiNUF5dnR5RnF1Ykw?oc=5",
         "source": "Google News",
         "published": "Tue, 25 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxPd0oyblpOTGdOcTNxQnNoSVYtSTA1OEU5V0kyMmVXRGwwYTF2MDVwVkFEeW9zaDJ2OXBGZzE4YnVlN2Vpc2lHQ0dXbU1mLVpRejV0OGJjMUhLbzc2NGFjdVZmWldzc0Q3ODZWV1BlOG"
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxOcng4TmRLVUptdE9IQjhrN2hHWGhwVlRMcTBIX1ZjejBXUW1JM1d0Zzh6OWZzeS1ZT0lGb2FaLTlIZnVOd0N6djZEd3kzS0Yyd09fSEtsbWJrdUR6NV9HMnpSQ3ZGOXJmNjQ4SUN2Q0"
       },
       {
-        "title": "Roche (SWX:ROP) Stock Looks Undervalued As US Manufacturing Expansion Continues - simplywall.st",
-        "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOOGtYcXdLY2tyTTlvdmJheWJabFVQa3JxNTFWaWlISWJiMTBWY19UMk1YUVN0TlJlWC1nU0ZMS3FYSTM2NlVnX3RsUEthRGVNRUNXQkV5WDlIelNvUnJVenRWeTQ3RkdCcVg4NFJ0YVBYTVJoc2k3a05iblVyWjBXMWJmc0RQRkI1Wnc2QmZUNTJZUF9MN21DWllqcEF2X3cySnhNaFdtcGg4Y3ZLbE13MUxhZXlMR0pFdjB0N2dBVHktemQtNkFaVHZlOElfelZ3T1JLTS1yUzNmV19HRU4zWlFObUXSAeoBQVVfeXFMUFdTNVRIczNnWEFvUGVjTEQtWGxaNEpZNmZCMlQxQ3lQVTVZaG91dVdCQWFDaUNkY0tjLV9aRGxVRmV6d2ZuZGJYTV80QjZLMU1zbU84WEVZdjlIeXd6eFpxcmF6QS1FaWVTZE91WjRlVVJJcHpRSDN3cFNIUUt1N01IckxpOTJyZy1fOWtkc095andrbE85dWZNZ3c5RmFGS3ZBcXNLN2JLX2dnV0pES0dzVWpiTTBqQUdrUzNURzNIcUpPdXFaeFdmbTZPdENtRzZaeUJVY2NHRVRndGRBWG5qWjJfMmVKUjFn?oc=5",
+        "title": "Adobe Stock Surges As AI Momentum Draws Big Money - TipRanks",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNb2s4WkhuRHoyTVoxQ0FsckFiNXQtc2dlWmJ0alVzcF81OEE1Z0NFZEJYQ0JmQ0VEWGtpQWpmd0dSRndJb2R6YUREdWdETkpSZUdLdC1tOFF2Ql9JUHRsaEowLWxEcEhQWmE0cXRSQXc3bGRHTEZ3blBFem5VY2pBYVN2U2hvOGRTTE1FcUpTdWtpdw?oc=5",
         "source": "Google News",
-        "published": "Fri, 21 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi5AFBVV95cUxOOGtYcXdLY2tyTTlvdmJheWJabFVQa3JxNTFWaWlISWJiMTBWY19UMk1YUVN0TlJlWC1nU0ZMS3FYSTM2NlVnX3RsUEthRGVNRUNXQkV5WDlIelNvUnJVenRWeTQ3RkdCcVg4NFJ0YV"
+        "published": "Thu, 27 Aug 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxNb2s4WkhuRHoyTVoxQ0FsckFiNXQtc2dlWmJ0alVzcF81OEE1Z0NFZEJYQ0JmQ0VEWGtpQWpmd0dSRndJb2R6YUREdWdETkpSZUdLdC1tOFF2Ql9JUHRsaEowLWxEcEhQWmE0cXRSQX"
       },
       {
-        "title": "Roper Technologies: A Cautious Buy Despite The Risks (NASDAQ:ROP) - Seeking Alpha",
-        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNeEZ5TVNUa3hvcGl5MlpXaHJRdDdlY01iV2UwOEpZemZqcVZRbmJRRFdYSXVlZk9EQmZFS01RakxkREhFakxBN3lrcXNBQnU0dk9Wb3otN0VTRUJlWWhQbGN6YkNkdlU4VnByRzFIMGY1ampwZXpqVF9FQkxFdEl6LWVIOTcwc3JQazJ5VGxNVlkyYndDQlFoUi1yekQ1QmM?oc=5",
-        "source": "Google News",
-        "published": "Mon, 24 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxNeEZ5TVNUa3hvcGl5MlpXaHJRdDdlY01iV2UwOEpZemZqcVZRbmJRRFdYSXVlZk9EQmZFS01RakxkREhFakxBN3lrcXNBQnU0dk9Wb3otN0VTRUJlWWhQbGN6YkNkdlU4VnByRzFIMG"
-      },
-      {
-        "title": "Illumia Adds PayPal and Venmo for College Tuition Payments",
-        "link": "/news/383753/illumia-adds-paypal-and-venmo-for-college-tuition-payments",
+        "title": "Here are the companies leading the software comeback against OpenAI and Anthropic",
+        "link": "https://finance.yahoo.com/video/companies-leading-software-comeback-against-140939706.html",
         "source": "Finviz",
         "published": "",
         "summary": ""
       },
       {
-        "title": "PayPal and Venmo Expand to Tuition Payments in New Integrations with Illumia, Nelnet Campus Commerce, and TouchNet",
-        "link": "/news/383621/paypal-and-venmo-expand-to-tuition-payments-in-new-integrations-with-illumia-nelnet-campus-commerce-and-touchnet",
-        "source": "Finviz",
-        "published": "",
-        "summary": ""
-      },
-      {
-        "title": "Ruane Cunniff's Top Q2 2026 Move: Roper Technologies Inc at a 3.55% Portfolio Impact",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/ruane-cunniffs-top-q2-2026-120049715.html",
+        "title": "Salesforce sparks a software-stock rally - and pushes back on AI doomsday fears",
+        "link": "https://www.marketwatch.com/story/salesforce-stock-is-jumping-what-wall-street-is-saying-about-its-earnings-and-its-anthropic-relationship-853ada85?mod=mw_FV",
         "source": "Finviz",
         "published": "",
         "summary": ""
       }
     ],
-    "FAST": [
+    "AAPL": [
       {
-        "title": "Can Fastenal's 44.6% FMI Sales Mix Unlock More Operating Leverage?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/fastenals-44-6-fmi-sales-161600052.html?.tsrc=rss",
+        "title": "Wearable AI devices are creating a whole new generation of privacy concerns",
+        "link": "https://finance.yahoo.com/video/the-cloud-raises-a-new-area-of-privacy-concerns-for-airpods-with-cameras-212835059.html?.tsrc=rss",
         "source": "Yahoo Finance",
+        "published": "Thu, 27 Aug 2026",
+        "summary": "Clarip CEO Andy Sambandam assesses the privacy concerns associated with wearable devices \u2014 such as Apple's (AAPL) latest generation of AirPods featuring cameras or Meta (META) Glasses \u2014 and the cloud "
+      },
+      {
+        "title": "Here are the launches John Ternus needs to nail as Apple's next CEO",
+        "link": "https://finance.yahoo.com/video/launches-john-ternus-needs-nail-152431046.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Thu, 27 Aug 2026",
+        "summary": "Market Catalyst's Brooke DiPalma talks with TECHnalysis Research President Bob O'Donnell about the biggest hardware changes and AI integrations that could be coming to Apple as John Ternus prepares to"
+      },
+      {
+        "title": "S&P 500 investors are quietly making a huge shift",
+        "link": "https://www.thestreet.com/investing/rsp-equal-weight-sp-500-etf-100-billion-magnificent-seven?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Thu, 27 Aug 2026",
+        "summary": "The ETF milestone challenging the S&amp;P\u2019s biggest names"
+      },
+      {
+        "title": "Macro Takeaways from Apple Earnings",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/macro-takeaways-apple-earnings-204000517.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Thu, 27 Aug 2026",
+        "summary": "This AI Semi Chip Craze Will Cause Product Inflation"
+      },
+      {
+        "title": "Apple Gives Its New CEO Eight Days Before the iPhone Test",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/apple-gives-ceo-eight-days-191524791.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Thu, 27 Aug 2026",
+        "summary": "John Ternus will move from succession plan to product stage almost immediately."
+      },
+      {
+        "title": "Apple (AAPL) Stock Could Trade At A Premium Following New AI Mac Launches - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWVZicXNDZnNLSUMxdklUY1hyWmZhRWJRUF9qWE8tQ2xsVjRuRWRBYk11SXNVTGNjc3hEa21nZlN3b3dielVOblJRLTQ1d1RZQ3lXcTRBWEp3R2hqeVhJYjBITlZaVWJOVE5Ka0R3RV9UeGV0OEx6UDdnTjg4S2RmejMtZS1WdGt5M1p6U25Cd1V2UkhYNGlfNA?oc=5",
+        "source": "Google News",
+        "published": "Thu, 27 Aug 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxNWVZicXNDZnNLSUMxdklUY1hyWmZhRWJRUF9qWE8tQ2xsVjRuRWRBYk11SXNVTGNjc3hEa21nZlN3b3dielVOblJRLTQ1d1RZQ3lXcTRBWEp3R2hqeVhJYjBITlZaVWJOVE5Ka0R3RV"
+      },
+      {
+        "title": "AAPL Stock Gains \u2014 Apple Reportedly Eyes Foldable iPhone, Camera-Equipped AirPods Launches In 2027 - Stocktwits",
+        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQWGtNOTlQelFyMkJVelNVejNjQWQ5ME9lTHlkd2dJWnExazNscTRiSWVhWG1KTlVXOXBpSnEyeWZpNmdldHQxV2lwcU1OZ29HNVI4Z2pHbTFOclRzdHROSEhqMFBjekZwRU84TzF6UE0yN0NyanA2UnpoM29rakxkUXlPVEpLcHFMdTd2Rll3T0NjdElvc0xJeDVtZnBUSE9BTGdXWW9YendCMjRvdkZySkNQRDBDU2R3cUNhM0pXbHhZMkJpOUNaclZMT2M4UzhGUThEWQ?oc=5",
+        "source": "Google News",
+        "published": "Thu, 27 Aug 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxQWGtNOTlQelFyMkJVelNVejNjQWQ5ME9lTHlkd2dJWnExazNscTRiSWVhWG1KTlVXOXBpSnEyeWZpNmdldHQxV2lwcU1OZ29HNVI4Z2pHbTFOclRzdHROSEhqMFBjekZwRU84TzF6UE"
+      },
+      {
+        "title": "How to Play AAPL Stock as Apple Unveils New Macs - Barchart.com",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbk9NM2ZnQkx0Q1luUFVvTWJmalNQYnlObDhSQ2lTS2ZMWXNxaDFDeDY3YmRDX2VuNEtLbExad0p2c0dpTkJrZjVwWlVOOHFyZVd3QTQyS2R1bHFjVTVkbmJjVmNZUXhzRjk0YjVpQlJQZEhab1dwRDhzdXFBcXNLMjhKa1ZHeUlTSWRVRkJEdlpiaVlwa2t3?oc=5",
+        "source": "Google News",
+        "published": "Wed, 26 Aug 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxQbk9NM2ZnQkx0Q1luUFVvTWJmalNQYnlObDhSQ2lTS2ZMWXNxaDFDeDY3YmRDX2VuNEtLbExad0p2c0dpTkJrZjVwWlVOOHFyZVd3QTQyS2R1bHFjVTVkbmJjVmNZUXhzRjk0YjVpQl"
+      },
+      {
+        "title": "The Premium On AAPL Stock Vs What Its Peers Deliver - Trefis",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMWFDRXA3aEc1cnozMFU3QnM1TVdkNUJNVFI2TFlhR3lSNktYLVhWU1dtMVRqZFJFSm55cm1lbUwteGFGS1M0UlZLN2gxR3NOS1NNZmlyQXBzZVdfSmF6VTZVeXU3SVNEMFZ0VVhzZWY4bHBEYnNmRDFPV1hHYk5lN09xUXN2eDc1YUxjTEV0UnI1UllHM1ZIRjFkY2JOZGpKR1ZHVEh5TGhfSHBUN1JGZHp3?oc=5",
+        "source": "Google News",
         "published": "Fri, 21 Aug 2026",
-        "summary": "FAST's FMI sales rise 16.4% to $1.08 billion and reach 44.6% of Q2 revenues, as automation and fixed-cost leverage support operating efficiency."
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxNMWFDRXA3aEc1cnozMFU3QnM1TVdkNUJNVFI2TFlhR3lSNktYLVhWU1dtMVRqZFJFSm55cm1lbUwteGFGS1M0UlZLN2gxR3NOS1NNZmlyQXBzZVdfSmF6VTZVeXU3SVNEMFZ0VVhzZW"
       },
       {
-        "title": "Fastenal (FAST) Rallies On Second Quarter Update, Is The Stock Now Pricey?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/fastenal-fast-rallies-second-quarter-043606931.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Wed, 19 Aug 2026",
-        "summary": "Fastenal stock reacts to second quarter update Fastenal (FAST) has drawn fresh attention after a second quarter update that linked a 14% month share price climb to strong sales, technology-supported c"
-      },
-      {
-        "title": "Is Fastenal (FAST) Outperforming Other Industrial Products Stocks This Year?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/fastenal-fast-outperforming-other-industrial-134003080.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Tue, 18 Aug 2026",
-        "summary": "Here is how Fastenal (FAST) and Kubota Corp. (KUBTY) have performed compared to their sector so far this year."
-      },
-      {
-        "title": "Fastenal (FAST) Stock Looks Fully Valued Despite Its 108% 5 Year Run",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/fastenal-fast-stock-looks-fully-050840479.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Tue, 18 Aug 2026",
-        "summary": "Fastenal has delivered a strong 108.1% total return over the past 5 years. However, current checks suggest the stock does not screen as a clear bargain on valuation. The 108.1% 5-year return highlight"
-      },
-      {
-        "title": "Fastenal Stock Climbs 14% in a Month: Buy the High Now or Wait?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/fastenal-stock-climbs-14-month-151200885.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Mon, 17 Aug 2026",
-        "summary": "FAST stock's 14% rally reflects strong sales, technology gains and share growth, but margin and valuation pressures could limit upside."
-      },
-      {
-        "title": "Dick\u2019s Sporting Goods Stock Usually Heals Fast, But Not From Falls The Market Does Not Share - Trefis",
-        "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxORUxvQzdweXVIX1Z6OHBCbnFuSTB2SXdGNmNCUG1McTJ4N1U2dUhGZTZ4VVdSN1o2bGhmWkpUSjE1R3RUaDN6S196NUVsMTFxQlJnaHNlUjJnR3FWQ0hpWENjMURQOWxSc2ZOODlHUzk4M1pDUlJRaFA5OE0tcXFDZ2t4c2tUekFTaERXVk9mN3dnZlAwVHA2OUpCVk1xWWFJUkhWSnE0VkhDSVEyMXZSX0oySmU2WmhPNE4tTURvclNpdUJzbVZXSkxRR1EzbTU0VV93dHJNalBwcVFibGFOV2pDR3Y?oc=5",
-        "source": "Google News",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi5AFBVV95cUxORUxvQzdweXVIX1Z6OHBCbnFuSTB2SXdGNmNCUG1McTJ4N1U2dUhGZTZ4VVdSN1o2bGhmWkpUSjE1R3RUaDN6S196NUVsMTFxQlJnaHNlUjJnR3FWQ0hpWENjMURQOWxSc2ZOODlHUz"
-      },
-      {
-        "title": "Insider Trims Holdings in Fast Casual Dining Stock, After 12% Decline in Stock Price - The Motley Fool",
-        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOOU1UbWlrWWVfcG8xZmV1VE4xdmE0d3lxc3d6RTZGdmpKTVphRnlkMkxueXhIR2lpQkE2aEpnMy1KLWlYME1vMWF2LXd5VDR2MmZKdmhQVzJKdnlxOHh6YWNsb3A2blIxMGhCQmxmUUMyaDJoeFVJT0RYcDVpenF4VzAtNm8ydUhJZFh6WXBMX0Jremdua0x1RjZ6dW5PclpOTGVHdGFKRzNJMnh3bDVoblBuU0lZcmFzZ0VXLXBrSkdiWmR6cHl4ZVprdmc?oc=5",
-        "source": "Google News",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxOOU1UbWlrWWVfcG8xZmV1VE4xdmE0d3lxc3d6RTZGdmpKTVphRnlkMkxueXhIR2lpQkE2aEpnMy1KLWlYME1vMWF2LXd5VDR2MmZKdmhQVzJKdnlxOHh6YWNsb3A2blIxMGhCQmxmUU"
-      },
-      {
-        "title": "LZ vs. FAST: Which Stock Is the Better Value Option? - qz.com",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE84cEY2R21kcTJ6a1hpdm9zR05ndnh0ZlRKdDJIcDEwZXpNX0UweWVXZjdFZ01Wa0luS3lNRVNVNnNPd2xRVEQ0SmI3bzU3WTczQ0libXQyaUxNbTNmZWVGQ3JtX29YS0F2aFNrQ0FqZldrQQ?oc=5",
-        "source": "Google News",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTE84cEY2R21kcTJ6a1hpdm9zR05ndnh0ZlRKdDJIcDEwZXpNX0UweWVXZjdFZ01Wa0luS3lNRVNVNnNPd2xRVEQ0SmI3bzU3WTczQ0libXQyaUxNbTNmZWVGQ3JtX29YS0F2aFNrQ0FqZl"
-      },
-      {
-        "title": "Nebius Group Stock Leads 3 Fast Growing Insider Backed AI Infrastructure Picks - simplywall.st",
-        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMTU5MFQ3blZ6ZGFBdEVoX2lROWR6NTg1U1lCZ2FuRXM0bDR4Zmh4UVdwV0JvWWpXLWxWZ3A5Zzh1RFNRWmdtYUJ1dlBmbGNPZkNuSWQ5Z25wMzBIUWJ1dFd3SnREN2M4NDlVMmdtSDlwSjNDX29uVEYwVmZTYWZDY3E1M3hVYnVjSlFPRnFoYmdjZFJwRVNmRlBSU1FtWXAxbEpiX3NwQ0ZiMHB3TFlRNF9TbGU5dWFieU82alI4bzfSAcYBQVVfeXFMTUYxeU9iMzdrcFJzZTdORUNSOXg2RUlMWnMya2UxcUlaRWRkY0J5NUFTN1l5d3dkVjJpay0xOGR5TVBMSW1zRnhjZlJQWUx5YVNNWU9rSmRUeW9waW9KY3VZT2xTYWlsZnhjQkRmQmVuNml5Vm1uVHpyN0hubGxEODh3eDFuRHpuUFBqUzRXVFpYa093Y0diUmNETWVqTC1PN3ZYQlVIVUJobWk1QlNLYmgzNUE2VHJ1SGJqWFlUcko1X3ZSaVlR?oc=5",
-        "source": "Google News",
-        "published": "Wed, 26 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMTU5MFQ3blZ6ZGFBdEVoX2lROWR6NTg1U1lCZ2FuRXM0bDR4Zmh4UVdwV0JvWWpXLWxWZ3A5Zzh1RFNRWmdtYUJ1dlBmbGNPZkNuSWQ5Z25wMzBIUWJ1dFd3SnREN2M4NDlVMmdtSD"
-      },
-      {
-        "title": "Ferguson Added to S&P 500 and the Plumbing Stock Pops. Where It Can Go Next.",
-        "link": "https://www.barrons.com/articles/ferguson-stock-s-p-500-226222b6?mod=bar_FV",
-        "source": "Finviz",
-        "published": "",
-        "summary": ""
-      },
-      {
-        "title": "What Wall Street Pushed FAST To Explain",
-        "link": "https://finance.yahoo.com/m/a8a009fb-b091-3659-93c9-2268f30ee8bd/what-wall-street-pushed-fast.html",
-        "source": "Finviz",
-        "published": "",
-        "summary": ""
-      },
-      {
-        "title": "Neglected Quant Safety Trade Makes a Comeback as AI Risks Rise",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/neglected-quant-safety-trade-makes-114419734.html",
+        "title": "NFLX Has Bounced From This Price Before. Now What?",
+        "link": "https://finance.yahoo.com/m/ae38e1ec-23b9-3329-b345-1c5123d398c6/nflx-has-bounced-from-this.html",
         "source": "Finviz",
         "published": "",
         "summary": ""
       }
     ]
   },
-  "generated_at_utc": "2026-08-26 22:46 UTC",
-  "generated_at_tw": "2026-08-27 06:46 TW"
+  "generated_at_utc": "2026-08-27 22:43 UTC",
+  "generated_at_tw": "2026-08-28 06:43 TW"
 }
