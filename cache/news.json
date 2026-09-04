@@ -1,110 +1,172 @@
 {
-  "general": [],
+  "general": [
+    {
+      "title": "Dow falls 300 points after much stronger-than-expected jobs report: Live updates - CNBC",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1mNWp4VDc2ak1DN1JLX3cteTNHNlZVVFhrbl9tajVGNEpTSTR6bm9rWDJDcW5GbVhLQmktLWhqdUpMb0Q4Z1hhdW9LcjNGVk5kQkJkX29EUUFGWGI5VVhhN1Z0azc1WjlnMERMd3FDLUFVNzFLMHA40gF8QVVfeXFMTVVoemFpTmFxdjFvOGJsc1pRYk95LWh4R1VoNGdvNno4aG9SNmphZnVWTExaaGhIUnpra0ZtUUNMVXVWYWhHUUg0RUJ5OTA0OVVsb2YtZXp5Qno0TlVrd29Gd2lKVXhjU2prMkpFMnpkM2xacFRpTzVNMWJiNA?oc=5",
+      "source": "Google News",
+      "published": "Fri, 04 Sep 2026"
+    },
+    {
+      "title": "Stock Market Today: Bond Yields Climb, Dow Slips After Jobs Report \u2014 Live Updates - WSJ",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQV2FSU0ctdGtjRG9DOWVDNVJKNDRjR216S080eW5hN1dlZHV5OEl4UzlKT1VVT3k2Z1hqSERTSEJpWHNrZG9QbWg4RlpxbXFoM2VCNEtDT0JFdnJQWGwtbTVQeUNpMXN4OG5yQURYcUtBN2pjS1p5TnkxOWN4MjFBaw?oc=5",
+      "source": "Google News",
+      "published": "Fri, 04 Sep 2026"
+    }
+  ],
   "per_ticker": {
-    "SCO": [
+    "ATOM": [
       {
-        "title": "IEA Sees Oil Market Excess in 2027: Should You Play Short Energy ETFs?",
-        "link": "https://finance.yahoo.com/energy/articles/iea-sees-oil-market-excess-150000789.html?.tsrc=rss",
+        "title": "Atomera (ATOM) Q2 2026 Earnings Call Transcript",
+        "link": "https://www.fool.com/earnings/call-transcripts/2026/08/11/atomera-atom-q2-2026-earnings-call-transcript/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "Thu, 18 Jun 2026",
-        "summary": "The IEA sees a potential oil glut in 2027 as supply rebounds faster than demand. Could inverse energy ETFs benefit from the shifting outlook?"
+        "published": "Wed, 12 Aug 2026",
+        "summary": "Atomera clears manufacturing milestone with gate-all-around customer amid AI demand surge."
       },
       {
-        "title": "Oil\u2019s Decline Opens the Door on These 4 Sub-$30 Buys",
-        "link": "https://247wallst.com/investing/2026/05/05/oils-decline-opens-the-door-on-these-4-sub-30-buys/?.tsrc=rss",
+        "title": "Atomera Inc (ATOM) (Q2 2026) Earnings Call Highlights: GAA Milestone, New NAND TAM, and GaN ...",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/atomera-inc-atom-q2-2026-050117242.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "Tue, 05 May 2026",
-        "summary": "WTI crude is hovering near $99.89 a barrel, with the monthly trend down 1.4% even as weekly prices climbed 9.7% on fresh Strait of Hormuz tensions. The recent peak hit $114.58 on April 7 before easing"
+        "published": "Wed, 05 Aug 2026",
+        "summary": "Atomera advances toward potential license deal while expanding into NAND and RF markets, despite wider net loss and rising costs."
       },
       {
-        "title": "With oil skyrocketing, Gold at $5100 per ounce, and the Dow, and NASDAQ down, Take advantage of Great Opportunities!",
-        "link": "https://247wallst.com/investing/2026/03/10/with-oil-skyrocketing-gold-at-5100-per-ounce-and-the-dow-and-nasdaq-down-take-advantage-of-great-opportunities/?.tsrc=rss",
+        "title": "Atomera (ATOM) Introduces MST Technology to Enhance GaN-on-Silicon Performance for RF Applications",
+        "link": "https://finance.yahoo.com/technology/articles/atomera-atom-introduces-mst-technology-093540787.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "Tue, 10 Mar 2026",
-        "summary": "With the axiom of \u201cbuying low and selling high\u201d, now is the time to buy low! Our economy has excellent fundamentals, as oil production is at record levels, while $18 trillion of investment commitments"
+        "published": "Sun, 28 Jun 2026",
+        "summary": "Atomera Incorporated (NASDAQ:ATOM) is one of the best performing tech stocks to buy according to analysts. On June 4, Atomera introduced an approach using its proprietary MST technology to address per"
       },
       {
-        "title": "Can Oil Prices Rally in 2026? ETFs in Focus",
-        "link": "https://finance.yahoo.com/news/oil-prices-rally-2026-etfs-150000589.html?.tsrc=rss",
+        "title": "Atomera Breakthrough Targets Broader RF Adoption of GaN-on-Silicon",
+        "link": "https://finance.yahoo.com/sectors/technology/articles/atomera-breakthrough-targets-broader-rf-200500643.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "Wed, 17 Dec 2025",
-        "summary": "Oil prices slid to four-year lows on ceasefire hopes, China weakness, and oversupply fears, putting inverse ETFs like SCO in focus for bearish investors."
+        "published": "Thu, 04 Jun 2026",
+        "summary": "LOS GATOS, Calif., June 04, 2026--Atomera Incorporated (NASDAQ: ATOM), a semiconductor materials and technology licensing company, today announced a new approach to GaN-on-Silicon that addresses a key"
       },
       {
-        "title": "Oil Prices Near Four-Year Lows. Goldman Sachs Sees Opportunity.",
-        "link": "https://finance.yahoo.com/m/df7f1e13-f913-37b7-b465-1e455794a94c/oil-prices-near-four-year.html?.tsrc=rss",
+        "title": "Atomera (ATOM) Makes Progress Towards Adoption of MST by GAA Manufacturers",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/atomera-atom-makes-progress-towards-122221428.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "Tue, 25 Nov 2025",
-        "summary": "Oil prices fell Tuesday and analysts project prices to keep coming down in the coming years. Refining stocks are holding up."
+        "published": "Fri, 22 May 2026",
+        "summary": "Atomera Incorporated (NASDAQ:ATOM) is one of the Best Semiconductor Stocks to Buy Under $30. On May 5, the company released its Q1 2026 results. Atomera Incorporated (NASDAQ:ATOM) made progress toward"
       },
       {
-        "title": "Where are Crude Oil Prices Heading?",
-        "link": "https://finance.yahoo.com/m/92a83c41-f3e0-32d5-a90a-ca3b8cd4dd8e/where-are-crude-oil-prices.html",
+        "title": "Atomera (NASDAQ: ATOM) CTO unloads 12,679 shares in planned trades - Stock Titan",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOS1lqNFVJYV9QOHVoU2VQQVAtdDNBZW1WMV9SNWN5MVVzWTA0ak9POUxBQ1JqWGZNQTFZajlvX3VEd1JQNmVNQmxzcWw5bVVqRGxJSm5uTnEzRk1uUnY2dElMbHJ4dlJhcGVPNVFKRWRyU3N5alo5cEZzTXZjTlJIMmJEYjZGa3I2U3h3TEQ4dHFSQmNNblNva0s0dGZod3ZpN1VIdExkUXM?oc=5",
+        "source": "Google News",
+        "published": "Thu, 03 Sep 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxOS1lqNFVJYV9QOHVoU2VQQVAtdDNBZW1WMV9SNWN5MVVzWTA0ak9POUxBQ1JqWGZNQTFZajlvX3VEd1JQNmVNQmxzcWw5bVVqRGxJSm5uTnEzRk1uUnY2dElMbHJ4dlJhcGVPNVFKRW"
+      },
+      {
+        "title": "BlackRock Inc. Takes $26.05 Million Position in Atomera Incorporated $ATOM - marketbeat.com",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNR0pMM2N3R3Y1Qmk0OGxpanZ2Umt3TUJ0MVlZYVpDcWZIMU03YjJwUThLanhwMGJ1elhMZnVSNEpJYjhhWHVBUTV2T2drLUF2UkhVWXhYTlpTRDUtc0UtTXNRcFZ2SjZJYTZ3N0t5N0cxWDJ2OXd3RkVMSHB1d2RGcUNKa3pYYXpNYzZqcUE1RVNiZHZDMW5iaGxUNFR2Q2htY01tYXhEekVlT2ZURUQ3MWt2TnZ4Sm1idDlCZEN6aEZzMXl0OW53NEVyRQ?oc=5",
+        "source": "Google News",
+        "published": "Thu, 03 Sep 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxNR0pMM2N3R3Y1Qmk0OGxpanZ2Umt3TUJ0MVlZYVpDcWZIMU03YjJwUThLanhwMGJ1elhMZnVSNEpJYjhhWHVBUTV2T2drLUF2UkhVWXhYTlpTRDUtc0UtTXNRcFZ2SjZJYTZ3N0t5N0"
+      },
+      {
+        "title": "Atomera CEO Scott A. Bibaud Disposes of 13,756 Shares at $4.05 Each (NASDAQ: ATOM) - Kalkine Media",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOdlRINXJtUkZfR21Gc1lGcXQ3bmF0VFBXYlY0WGI5dEpyQ1hVNENUaW04WGk5Uml6cC00TGxjOHp2YmxIU3lCRFhleXI4aTNFVmdxcF9XSXZUTjdVMFduSGNmZW8zTWxnWnh2OUdtZXB4Y1lhSTc0S1Q3RWgySUxVd3R0T1JUVDh1OXlQUVU1emNmRkN2b2U2NW9KODljT0xRZE1NZEc2OEpwemtTWEh6R2tQMTJXMGMxaW8wTmZadw?oc=5",
+        "source": "Google News",
+        "published": "Fri, 04 Sep 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxOdlRINXJtUkZfR21Gc1lGcXQ3bmF0VFBXYlY0WGI5dEpyQ1hVNENUaW04WGk5Uml6cC00TGxjOHp2YmxIU3lCRFhleXI4aTNFVmdxcF9XSXZUTjdVMFduSGNmZW8zTWxnWnh2OUdtZX"
+      },
+      {
+        "title": "Atomera: Latest Semiconductor Breakthrough Still Does Not Make The Stock A Buy (ATOM) - Seeking Alpha",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUXF0UXBVSFRwZDlWb3lsM2VSRkQ0b1FpRVU2c2N6N2tsazBUYnlOWE15N196YTN0RkhqNWVXZ1J4RG9wYVFJTkI5c2R4YjcxeThlUGJELTZ4eTJWNElHQURNcDFuaUU1TmhCWTFtWG1RdHRhYjRNakRGa3RFaHIwQnBBVmpJMXZZeWZVSWhHbms1TU5XQWRDSDhrcGx3Qm9oMTduaVFzWHFaUQ?oc=5",
+        "source": "Google News",
+        "published": "Mon, 13 Jul 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUXF0UXBVSFRwZDlWb3lsM2VSRkQ0b1FpRVU2c2N6N2tsazBUYnlOWE15N196YTN0RkhqNWVXZ1J4RG9wYVFJTkI5c2R4YjcxeThlUGJELTZ4eTJWNElHQURNcDFuaUU1TmhCWTFtWG"
+      },
+      {
+        "title": "Atomera Incorporated Q2 2026 Earnings Call Summary",
+        "link": "https://finance.yahoo.com/m/de61dc92-48fb-3808-b5cc-e2027b87dc20/atomera-incorporated-q2-2026.html",
         "source": "Finviz",
         "published": "",
         "summary": ""
       },
       {
-        "title": "Oil Just Spiked 35%: Ride It or Fade It?",
-        "link": "/news/332882/oil-just-spiked-35-ride-it-or-fade-it",
+        "title": "Atomera Provides Second Quarter 2026 Results",
+        "link": "/news/376976/atomera-provides-second-quarter-2026-results",
         "source": "Finviz",
         "published": "",
         "summary": ""
       }
     ],
-    "IREN": [
+    "NFLX": [
       {
-        "title": "IREN Climbs 4% on $2.4B Blue Owl-Led GPU Financing; Cipher Digital Gains 2%",
-        "link": "https://247wallst.com/investing/2026/09/04/iren-climbs-4-on-2-4b-blue-owl-led-gpu-financing-cipher-digital-gains-2/?.tsrc=rss",
+        "title": "Walt Disney vs. Netflix: Which Media Stock Is a Better Buy in 2026?",
+        "link": "https://www.fool.com/coverage/better-buy/2026/09/04/walt-disney-vs-netflix-which-media-stock-is-a-better-buy-in-2026/?.tsrc=rss",
         "source": "Yahoo Finance",
         "published": "Fri, 04 Sep 2026",
-        "summary": "Blue Owl just handed IREN a massive GPU financing deal, but the coupon rate buried in the fine print reveals something uncomfortable about how Wall Street really values this emerging asset class."
+        "summary": "Netflix trades at a significant valuation premium, while Disney's diversified revenue streams offer different risk-reward profiles for 2026."
       },
       {
-        "title": "Blue Owl leads $2.4 billion IREN GPU financing at 9%",
-        "link": "https://blockspace.media/insight/blue-owl-iren-gpu-financing-nvidia-blackwell/?.tsrc=rss",
+        "title": "NFLX Stock Falls 4% As Netflix Hikes UK Subscription Prices \u2014 Region Accounts For About 20% Of EMEA Revenue",
+        "link": "https://stocktwits.com/news-articles/markets/equity/netflix-hikes-uk-subscription-prices/cZsDfT9RJDe?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Fri, 04 Sep 2026",
+        "summary": "Netflix has announced a major subscription price increase in the United Kingdom, raising its lowest-priced, ad-supported tier by a third alongside cost increases for standard and premium offerings."
+      },
+      {
+        "title": "Netflix subscription rises above \u00a320 a month for first time",
+        "link": "https://www.telegraph.co.uk/business/2026/09/04/netflix-subscription-rises-above-20-a-month-for-first-time/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Fri, 04 Sep 2026",
+        "summary": "Netflix has increased the price of its premium subscription package to above \u00a320 for the first time."
+      },
+      {
+        "title": "Netflix Falls 4% as Rate Repricing Pressures Long-Duration Growth; Disney Dips, Warner Bros. Discovery Sits Tight",
+        "link": "https://247wallst.com/investing/2026/09/04/netflix-falls-4-as-rate-repricing-pressures-long-duration-growth-disney-dips-warner-bros-discovery-sits-tight/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Fri, 04 Sep 2026",
+        "summary": "Rising Treasury yields are carving a sharp divide inside the streaming sector, and not every media stock is absorbing the pressure equally. The gap between the biggest loser and the name sitting virtu"
+      },
+      {
+        "title": "Netflix\u2019s Acquisition Wishlist: Which Streaming Target Has the Best Odds?",
+        "link": "https://247wallst.com/investing/2026/09/03/netflixs-acquisition-wishlist-which-streaming-target-has-the-best-odds/?.tsrc=rss",
         "source": "Yahoo Finance",
         "published": "Thu, 03 Sep 2026",
-        "summary": "The 30-month financing will fund air-cooled NVIDIA Blackwell Ultra infrastructure at IREN\u2019s Mackenzie campus, with capital drawn as equipment is delivered and commissioned."
+        "summary": "After losing a real bid for a major media company, Netflix now sits on a shortlist of four potential acquisition targets, but regulatory walls, controlling shareholders, and astronomical price tags el"
       },
       {
-        "title": "IREN obtains $2.4B private credit financing to buy Nvidia chips",
-        "link": "https://pitchbook.com/news/articles/iren-obtains-2-4b-private-credit-financing-to-buy-nvidia-chips?.tsrc=rss",
-        "source": "Yahoo Finance",
+        "title": "NFLX Stock Falls 4% As Netflix Hikes UK Subscription Prices \u2014 Region Accounts For About 20% Of EMEA Revenue - Yahoo Fina",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNLWFJdzNsUlROMDFpNHVETUxfQUlpd05MVzlybEVHdWpzS3BOQ2NFbl8tRzhhYjc3cldJbVM2MURBUzdqaURxdHd5SndTdWZJWFd6REI1OEVYM3hZdm52MGhFaXd2YkpodGhXV2FTd3BGQld1enNWem9WMWN1V0t5ZWhTQ3I3R1BmSEVwQ0JET21YQmJxcmc?oc=5",
+        "source": "Google News",
+        "published": "Fri, 04 Sep 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxNLWFJdzNsUlROMDFpNHVETUxfQUlpd05MVzlybEVHdWpzS3BOQ2NFbl8tRzhhYjc3cldJbVM2MURBUzdqaURxdHd5SndTdWZJWFd6REI1OEVYM3hZdm52MGhFaXd2YkpodGhXV2FTd3"
+      },
+      {
+        "title": "Netflix hikes UK prices for the second time in 2026 (NFLX:NASDAQ) - Seeking Alpha",
+        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPVE5sZW95TWtkZzl6Rk1EM0psQ3UtLUZMWVZGSGpFYU9yMndYTjc1bWltYUVpQ0o2ZTZlQzNyNTAtbmdqZkdVeXJxdXlqeENZSEdWRnFsaXhXR0FwajZZbmtlaVY3SnllY0gxX2V5eDlQQ1ZROTJzMnRCTkd1LTRpU1AtdlQweEs2Q0Vka1lEVTFnUXM?oc=5",
+        "source": "Google News",
+        "published": "Fri, 04 Sep 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxPVE5sZW95TWtkZzl6Rk1EM0psQ3UtLUZMWVZGSGpFYU9yMndYTjc1bWltYUVpQ0o2ZTZlQzNyNTAtbmdqZkdVeXJxdXlqeENZSEdWRnFsaXhXR0FwajZZbmtlaVY3SnllY0gxX2V5eD"
+      },
+      {
+        "title": "Netflix Stock (NFLX) Falls 4% as Streamer Raises Prices in the U.K. - TipRanks",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPVVRNVWZBYXdBanVwR3Y4Rmd4aHVPZkdiV2xLSG9WSlN2ZThvR2xDNDhyVDBOVFFiVFRTOFZ4bWdTbVdVWFAzRVBiRGJUVHdMbWZRWjl4U1lWRjdIbFNJenpiN3RiYUpnNEhNcHB6ZnhJbU9oeXVEOGtkdUNHZmE4c21vSTRSUF9rV2MteTVhNzBzcVBJLUg4?oc=5",
+        "source": "Google News",
+        "published": "Fri, 04 Sep 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxPVVRNVWZBYXdBanVwR3Y4Rmd4aHVPZkdiV2xLSG9WSlN2ZThvR2xDNDhyVDBOVFFiVFRTOFZ4bWdTbVdVWFAzRVBiRGJUVHdMbWZRWjl4U1lWRjdIbFNJenpiN3RiYUpnNEhNcHB6Zn"
+      },
+      {
+        "title": "Netflix Stock Rebound Fuels Ad Growth Talk: A Sign of More Upside? - TradingView",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQX3drTEI0QUhFeDRFLWtnYzM5eDlscmMzN0hjQXZESDgzNVAtSjNObUZFTVhLOHN4cTBoSXdCSlNKeUxwVGQ3eHZDSGM2Q1FOei0wNjNic05PSkhfSjJQX1p4N2dodW9yV2RaUkl4d0lMWGpsY01kRlU5M09ZMks3NlBrbmF4N2pvWnM2UF9OZ1dUblVMSFZVVHFfOFIzMTFIZHo5MnFOMzMzLWlnV0VoQ0pvMWJ2bnRhcVVJdg?oc=5",
+        "source": "Google News",
         "published": "Thu, 03 Sep 2026",
-        "summary": "AI data center platform IREN Limited obtained a $2.4 billion financing package led by private lenders to purchase Nvidia Blackwell Ultra GPUs. Blue Owl Capital Corp. is the administrative agent, colla"
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxQX3drTEI0QUhFeDRFLWtnYzM5eDlscmMzN0hjQXZESDgzNVAtSjNObUZFTVhLOHN4cTBoSXdCSlNKeUxwVGQ3eHZDSGM2Q1FOei0wNjNic05PSkhfSjJQX1p4N2dodW9yV2RaUkl4d0"
       },
       {
-        "title": "IREN's AI Cloud Revenue Just Jumped 687%",
-        "link": "https://finance.yahoo.com/technology/ai/articles/irens-ai-cloud-revenue-just-210118041.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Wed, 02 Sep 2026",
-        "summary": "Citizens kept an $80 price target as IREN's AI cloud business rapidly expands and Bitcoin mining becomes less important."
-      },
-      {
-        "title": "IREN (IREN) Gains A Clearer Path To Texas Power Expansion",
-        "link": "https://finance.yahoo.com/technology/ai/articles/iren-iren-gains-clearer-path-170708035.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Wed, 02 Sep 2026",
-        "summary": "IREN (NasdaqGS: IREN) is set to benefit from the Public Utility Commission of Texas unanimously approving a new 765-kilovolt transmission line to the Permian Basin. The approval directly targets power"
-      },
-      {
-        "title": "Jim Cramer Backs CRWV: 'If You're Going For Neoclouds, Only One I Like Is CoreWeave'",
-        "link": "https://finance.yahoo.com/m/d1938e5a-87b6-3d09-8da2-930ca98a99d6/jim-cramer-backs-crwv%3A-%27if.html",
+        "title": "NFLX Stock Falls 4% As Netflix Hikes UK Subscription Prices  Region Accounts For About 20% Of EMEA Revenue",
+        "link": "https://finance.yahoo.com/m/9d7e162e-f45d-39ae-a806-ba63ad637df5/nflx-stock-falls-4%25-as.html",
         "source": "Finviz",
         "published": "",
         "summary": ""
       },
       {
-        "title": "IREN secures $2.4B from Blue Owl-led GPU financing round",
-        "link": "https://finance.yahoo.com/m/faa7a706-5d28-31a7-9a54-ef92c4cd1ded/iren-secures-%242.4b-from-blue.html",
-        "source": "Finviz",
-        "published": "",
-        "summary": ""
-      },
-      {
-        "title": "Cipher Digitals 2.5 GW Gas Pipeline, IRENs $2.8B GPU Financing, Nscales IPO and $103B Contract Backlog",
-        "link": "https://finance.yahoo.com/m/3c9d900e-5a9f-36f2-a68d-91b5bd82e623/cipher-digital%E2%80%99s-2.5-gw-gas.html",
+        "title": "Does Google Stock's Cloud Margin Justify Its AI Bill?",
+        "link": "https://finance.yahoo.com/m/e4de28a1-3ddb-3d3b-aaeb-5761adc8caa9/does-google-stock%27s-cloud.html",
         "source": "Finviz",
         "published": "",
         "summary": ""
@@ -147,6 +209,34 @@
         "summary": "AI-linked ETFs like DRAM, QQQ, QQQM, SOXX, and EWY drew massive 2026 inflows and gains tied to semiconductors and memory chips, but recent sell-offs highlight concentration risk."
       },
       {
+        "title": "Sandisk Stock Climbs As DRAM Shortage Fuels Volatility - timothysykes.com",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObjFTQndtTkVRS3lnUnpRR1NRVTdBcEVKZU1VV2xlNUF6YjJGbjN2OENlcGVkZC1GWVl5QTl6ZlVqT0VwM1RZaFZ6eDFaMG5KcVNzbkdkZVFvSjlybmxKRDJBWU5aZGpEbDhhYUVKSEdkSXp1X0YtcmF5U05EaERPMm1rQQ?oc=5",
+        "source": "Google News",
+        "published": "Fri, 04 Sep 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxObjFTQndtTkVRS3lnUnpRR1NRVTdBcEVKZU1VV2xlNUF6YjJGbjN2OENlcGVkZC1GWVl5QTl6ZlVqT0VwM1RZaFZ6eDFaMG5KcVNzbkdkZVFvSjlybmxKRDJBWU5aZGpEbDhhYUVKSE"
+      },
+      {
+        "title": "Micron, Samsung, SK Hynix Suffer Drop In DRAM Market Share As China\u2019s CXMT Pulls Ahead - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUGt2OVJsb2NrNHZ3Y1FSUldUa1VhRlNrMWNCQ0NEcllXbkRweElsZkt2bmQyRE9qWWcwZ0YwX05kOThTMk1URVFVTGtGYlJIUUdRVWhRMVRPSlZNR1dfTmVxSlBPNTBqUUdwUHgwZ1VuRkpiczJ3Z0h6dTNpR0tvcmV6aXRzcUZtcUtkYV9zUzdTR2hydE1UWWdtUQ?oc=5",
+        "source": "Google News",
+        "published": "Thu, 03 Sep 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxQUGt2OVJsb2NrNHZ3Y1FSUldUa1VhRlNrMWNCQ0NEcllXbkRweElsZkt2bmQyRE9qWWcwZ0YwX05kOThTMk1URVFVTGtGYlJIUUdRVWhRMVRPSlZNR1dfTmVxSlBPNTBqUUdwUHgwZ1"
+      },
+      {
+        "title": "DRAM, MAGS ETF Issuer Eyes AI Photonics Opportunity With New Optical Stocks Fund - Stocktwits",
+        "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOMHV4Ti0yZy11dEctb3R5ZElNcFVfQjdia0tsN1pNZEpaZ1BMbl9MU205aFYyOGF4WHZwVUtJN1k5dlp3NDg5LTdTekN1Q0p5ZHFUVUxjWUlmQlAySmFzdmFpeUczRlpHWEthYThKb2lqZkp2YW83dXRQbElnMnZjVnIxaDFNdWFyY29NMjliajZ4UmNTN1hmYkd6Rk1jeHFNVjB1dmd3YWprUEVENjVFZVpPWlRWT0taTFVZRWZ6MlY1ektucnVUOWZCNmhIOUxRYkJtRnlEb0lMb2M?oc=5",
+        "source": "Google News",
+        "published": "Thu, 03 Sep 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi2wFBVV95cUxOMHV4Ti0yZy11dEctb3R5ZElNcFVfQjdia0tsN1pNZEpaZ1BMbl9MU205aFYyOGF4WHZwVUtJN1k5dlp3NDg5LTdTekN1Q0p5ZHFUVUxjWUlmQlAySmFzdmFpeUczRlpHWEthYThKb2"
+      },
+      {
+        "title": "DRAM: Final Call Before The Recovery Takes Off Without You (BATS:DRAM) - Seeking Alpha",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOT3V4WE1YZGdfcXAyd21CLWUyam5QWTEwZ1lXaUMzcHZFQkJya1JFYlh0Smc0WXFULVFIcncwUE5kZ3J2b2ZySkF1cTNGUTVlVndGOEJzMDdXSU9fT1l6dXQ0RjBpdmxBemt1ckNtYVdHN2pPTlZmMUpMcHNtT25YMjY4NW1YTHYxTy1CcjVUejVlOE1wR1RDc0h0djJ3blE?oc=5",
+        "source": "Google News",
+        "published": "Tue, 01 Sep 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxOT3V4WE1YZGdfcXAyd21CLWUyam5QWTEwZ1lXaUMzcHZFQkJya1JFYlh0Smc0WXFULVFIcncwUE5kZ3J2b2ZySkF1cTNGUTVlVndGOEJzMDdXSU9fT1l6dXQ0RjBpdmxBemt1ckNtYV"
+      },
+      {
         "title": "How to Play the Micron vs CXMT Memory Chip War",
         "link": "https://www.barrons.com/articles/micron-stock-cxmt-chinese-memory-chip-dram-etf-d2b135a2?mod=bar_FV",
         "source": "Finviz",
@@ -168,138 +258,166 @@
         "summary": ""
       }
     ],
-    "ATOM": [
+    "GOOG": [
       {
-        "title": "Atomera (ATOM) Q2 2026 Earnings Call Transcript",
-        "link": "https://www.fool.com/earnings/call-transcripts/2026/08/11/atomera-atom-q2-2026-earnings-call-transcript/?.tsrc=rss",
+        "title": "Jim Cramer flagged one stock quietly concentrating portfolios",
+        "link": "https://www.thestreet.com/investing/jim-cramer-caterpillar-data-center-ai-concentration-risk?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "Wed, 12 Aug 2026",
-        "summary": "Atomera clears manufacturing milestone with gate-all-around customer amid AI demand surge."
+        "published": "Fri, 04 Sep 2026",
+        "summary": "The portfolio looks diversified. Cramer says look again"
       },
       {
-        "title": "Atomera Inc (ATOM) (Q2 2026) Earnings Call Highlights: GAA Milestone, New NAND TAM, and GaN ...",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/atomera-inc-atom-q2-2026-050117242.html?.tsrc=rss",
+        "title": "Why IBM, Microsoft Back Move for Quantum Policy Czar",
+        "link": "https://finance.yahoo.com/m/20f45949-656b-316b-ae10-8ddbf6e869ef/why-ibm%2C-microsoft-back-move.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "Wed, 05 Aug 2026",
-        "summary": "Atomera advances toward potential license deal while expanding into NAND and RF markets, despite wider net loss and rising costs."
+        "published": "Fri, 04 Sep 2026",
+        "summary": "A new bill aims to secure U.S. supply chains and elevate the Commerce Department to lead national quantum policy."
       },
       {
-        "title": "Atomera (ATOM) Introduces MST Technology to Enhance GaN-on-Silicon Performance for RF Applications",
-        "link": "https://finance.yahoo.com/technology/articles/atomera-atom-introduces-mst-technology-093540787.html?.tsrc=rss",
+        "title": "Google Turns Three Everyday Apps Into Paid Gemini Microphones",
+        "link": "https://finance.yahoo.com/technology/ai/articles/google-turns-three-everyday-apps-193846909.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "Sun, 28 Jun 2026",
-        "summary": "Atomera Incorporated (NASDAQ:ATOM) is one of the best performing tech stocks to buy according to analysts. On June 4, Atomera introduced an approach using its proprietary MST technology to address per"
+        "published": "Fri, 04 Sep 2026",
+        "summary": "Voice features reach Gmail, Docs and Keep, but the enterprise rollout still waits."
       },
       {
-        "title": "Atomera Breakthrough Targets Broader RF Adoption of GaN-on-Silicon",
-        "link": "https://finance.yahoo.com/sectors/technology/articles/atomera-breakthrough-targets-broader-rf-200500643.html?.tsrc=rss",
+        "title": "Cramer Says the Magnificent Seven Are Finally Cheap and Most Investors Will Miss It",
+        "link": "https://247wallst.com/investing/2026/09/04/cramer-says-the-magnificent-seven-are-finally-cheap-and-most-investors-will-miss-it/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "Thu, 04 Jun 2026",
-        "summary": "LOS GATOS, Calif., June 04, 2026--Atomera Incorporated (NASDAQ: ATOM), a semiconductor materials and technology licensing company, today announced a new approach to GaN-on-Silicon that addresses a key"
+        "published": "Fri, 04 Sep 2026",
+        "summary": "Jim Cramer is calling the Magnificent Seven a generational buying opportunity, but the argument only holds for some of them, and getting that distinction wrong is an expensive mistake."
       },
       {
-        "title": "Atomera (ATOM) Makes Progress Towards Adoption of MST by GAA Manufacturers",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/atomera-atom-makes-progress-towards-122221428.html?.tsrc=rss",
+        "title": "Does Google Stock's Cloud Margin Justify Its AI Bill?",
+        "link": "https://www.trefis.com/articles/614403/does-google-stocks-cloud-margin-justify-its-ai-bill/2026-09-04?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "Fri, 22 May 2026",
-        "summary": "Atomera Incorporated (NASDAQ:ATOM) is one of the Best Semiconductor Stocks to Buy Under $30. On May 5, the company released its Q1 2026 results. Atomera Incorporated (NASDAQ:ATOM) made progress toward"
+        "published": "Fri, 04 Sep 2026",
+        "summary": "Alphabet (GOOGL) stock has slipped about 8% over the past three months, even as revenue growth accelerated to 24% year over year in the second quarter of 2026. What changed is the bill. Capital spendi"
       },
       {
-        "title": "Atomera Incorporated Q2 2026 Earnings Call Summary",
-        "link": "https://finance.yahoo.com/m/de61dc92-48fb-3808-b5cc-e2027b87dc20/atomera-incorporated-q2-2026.html",
+        "title": "Don\u2019t Rush to Buy GOOG Stock as Alphabet Heads Toward Bear Market Territory - Barchart.com",
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSVRycmFvT0pzdmhoTFE4Vl9rS2YxX192UG9wWjZBQ0lfRlRWdGxrd0dGOFRTODQ1M0UxTU0yWG9SdDN0YWNzRWNBZzI3dXlCekt5dUVHeDc3VHhHcEk4aTlpdGh3ZEtKd0poZmM4TGZkNmpkR1pEdVlXXzhsLXRjY3lyWTFuVzduNEdMclNLVWVHclRKS1UtWUZZQ0xnYjdCMFJDdmZTYk82ZTFmLUpoZkJJbjFuVDE4Rmc?oc=5",
+        "source": "Google News",
+        "published": "Wed, 02 Sep 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxQSVRycmFvT0pzdmhoTFE4Vl9rS2YxX192UG9wWjZBQ0lfRlRWdGxrd0dGOFRTODQ1M0UxTU0yWG9SdDN0YWNzRWNBZzI3dXlCekt5dUVHeDc3VHhHcEk4aTlpdGh3ZEtKd0poZmM4TG"
+      },
+      {
+        "title": "Alphabet: Buffett Is In, Google Keeps AdX, I'm Out - Seeking Alpha",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRzBRd0tmRHBCOC00R1I2WTBxUG1wbi05c2tfT3M2TGF0eU1aeWdldS1oa1dzc3ZPZzZJdDJhcHpPcEY1dlpMX2xWMl84LU5vd1ZJT2J0bnBnRGx5STFRVXJiNkc4R0pYMG9CQWRQZkg2TE52Q0hCWmRzNS1VbkhVRTNLV1Y1SDlhcWhMbWQ4dC0?oc=5",
+        "source": "Google News",
+        "published": "Fri, 04 Sep 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxQRzBRd0tmRHBCOC00R1I2WTBxUG1wbi05c2tfT3M2TGF0eU1aeWdldS1oa1dzc3ZPZzZJdDJhcHpPcEY1dlpMX2xWMl84LU5vd1ZJT2J0bnBnRGx5STFRVXJiNkc4R0pYMG9CQWRQZk"
+      },
+      {
+        "title": "Alphabet Stock (GOOG) Opinions on MrBeast AI Partnership - Quiver Quantitative",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVjYxN1NNaVJwVVZ3bDdaZEQ1UkxvR2Q5ZWVpeXd3cnVMNS1xT21mdE1hdVl1RkRBS29zZUo4UDRWUmRIODh1aE5YZWNINk0wRXZWcFh0bTB1eVgtbWlyLWJQSVdGMkFpTTRJSnVsWExVV0xNWDU5UkpCbmZQaml1ZDRoaWMtbVBSSHRZeTc5OFRCdmdDOEdxRQ?oc=5",
+        "source": "Google News",
+        "published": "Thu, 03 Sep 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxOVjYxN1NNaVJwVVZ3bDdaZEQ1UkxvR2Q5ZWVpeXd3cnVMNS1xT21mdE1hdVl1RkRBS29zZUo4UDRWUmRIODh1aE5YZWNINk0wRXZWcFh0bTB1eVgtbWlyLWJQSVdGMkFpTTRJSnVsWE"
+      },
+      {
+        "title": "Is Alphabet Stock A Buy Now!? | Google (GOOG) Stock Analysis! | Marianna Aprile (j6nu5qt1pN) - Mshale",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5xNzVmSUlZelQyWWRjSk4ta21XYVNoN25VQjNZb19ZemNLdU44elZVaWZqQmtObXZuTmhBZk9mdk05MjJpbVNNOVJQaTZpNWtua3N4eVBVVHlrTkFZbUthTA?oc=5",
+        "source": "Google News",
+        "published": "Fri, 04 Sep 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYEFVX3lxTE5xNzVmSUlZelQyWWRjSk4ta21XYVNoN25VQjNZb19ZemNLdU44elZVaWZqQmtObXZuTmhBZk9mdk05MjJpbVNNOVJQaTZpNWtua3N4eVBVVHlrTkFZbUthTA?oc=5\" target=\"_blan"
+      },
+      {
+        "title": "Magnificent Seven Flash Strong Signal Never Seen Before",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/magnificent-seven-flash-strong-signal-195139729.html",
         "source": "Finviz",
         "published": "",
         "summary": ""
       },
       {
-        "title": "Atomera Provides Second Quarter 2026 Results",
-        "link": "/news/376976/atomera-provides-second-quarter-2026-results",
+        "title": "Outperforming Bank Stock Has Support Piling Up",
+        "link": "/news/389153/outperforming-bank-stock-has-support-piling-up",
         "source": "Finviz",
         "published": "",
         "summary": ""
       }
     ],
-    "LULU": [
+    "NOW": [
       {
-        "title": "Is Lululemon a warning sign for retail stocks? What investors should know.",
-        "link": "https://finance.yahoo.com/video/is-lululemon-a-warning-sign-for-retail-stocks-what-investors-should-know-144135968.html?.tsrc=rss",
+        "title": "Software Stocks Are Back. 2 Winners, 2 Losers\u2014and Salesforce.",
+        "link": "https://finance.yahoo.com/m/4a55c725-57db-335b-a0da-d718324a7ce2/software-stocks-are-back.-2.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "published": "Fri, 04 Sep 2026",
-        "summary": "\"The Awesome Portfolio\" author Jared Dillian and Yahoo Finance Markets and Data Editor Jared Blikre join Yahoo Finance Executive Editor Brian Sozzi to discuss Lululemon (LULU) stock tumbling after its"
+        "summary": "Salesforce and other software stocks have impressed the market this earnings season but investors need to be careful about which ones to back."
       },
       {
-        "title": "Why Lululemon Stock Crashed Today",
-        "link": "https://www.fool.com/investing/2026/09/04/why-lululemon-stock-crashed-today/?.tsrc=rss",
+        "title": "ServiceNow Just Rallied 28% in a Month: Take Profits, or Buy More?",
+        "link": "https://247wallst.com/investing/2026/09/03/servicenow-just-rallied-28-in-a-month-take-profits-or-buy-more/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "Fri, 04 Sep 2026",
-        "summary": "The apparel retailer's turnaround plan isn't working."
+        "published": "Thu, 03 Sep 2026",
+        "summary": "ServiceNow surged nearly 30% in a month without releasing a single earnings report, leaving investors caught between locking in gains and betting the sector re-rating still has room to run."
       },
       {
-        "title": "Stock Market Today, Sept. 4: Lululemon Plummets 17% After Slashing Guidance",
-        "link": "https://www.fool.com/coverage/stock-market-today/2026/09/04/stock-market-today-sept-4-lululemon-plummets-17-after-slashing-guidance/?.tsrc=rss",
+        "title": "Palantir Rallies 7% as PwC Alliance Counters Michael Burry Bear Case, ServiceNow Climbs 5%, Salesforce Gains 3%",
+        "link": "https://247wallst.com/investing/2026/09/03/palantir-rallies-7-as-pwc-alliance-counters-michael-burry-bear-case-servicenow-climbs-5-salesforce-gains-3/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "Fri, 04 Sep 2026",
-        "summary": "On Sept. 4, 2026, the premium sportswear maker expects further losses, meaning incoming CEO Heidi O'Neill will face a prolonged turnaround."
+        "published": "Thu, 03 Sep 2026",
+        "summary": "Michael Burry just renewed his short case against Palantir, and Palantir answered with a major alliance announcement that sent the stock surging. Whether that response actually addresses the receivabl"
       },
       {
-        "title": "LULU Q2 Deep Dive: Brand Sentiment and Product Pressures Drive Revenue Decline and Lower Outlook",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/lulu-q2-deep-dive-brand-212610855.html?.tsrc=rss",
+        "title": "Is ServiceNow (NOW) Quietly Becoming the Default AI Commerce Platform for Enterprise Partners?",
+        "link": "https://finance.yahoo.com/technology/ai/articles/servicenow-now-quietly-becoming-default-211056308.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "Fri, 04 Sep 2026",
-        "summary": "Athletic apparel retailer Lululemon (NASDAQ:LULU) fell short of the market\u2019s revenue expectations in Q2 CY2026, with sales falling 4.3% year on year to $2.42 billion. Next quarter\u2019s revenue guidance o"
+        "published": "Wed, 02 Sep 2026",
+        "summary": "In August 2026, Pricefx announced its Deal Optimization App for the ServiceNow AI Platform, embedding AI-guided pricing, negotiation insights, and product recommendations directly into ServiceNow sale"
       },
       {
-        "title": "Sector Update: Consumer Stocks Fall Late Afternoon",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-fall-afternoon-193633461.html?.tsrc=rss",
+        "title": "How Is ServiceNow's Stock Performance Compared to Other Software - Application Stocks?",
+        "link": "https://www.barchart.com/story/news/4382940/how-is-servicenow-s-stock-performance-compared-to-other-software-application-stocks?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "Fri, 04 Sep 2026",
-        "summary": "Consumer stocks were lower late Friday afternoon, with the State Street Consumer Staples Select Sect"
+        "published": "Tue, 01 Sep 2026",
+        "summary": "Despite ServiceNow\u2019s weak performance relative to its peers over the past year, Wall Street analysts remain moderately optimistic about the stock\u2019s prospects"
       },
       {
-        "title": "Lululemon made a really stupid decision this year that explains why its stock is getting crushed - Yahoo Finance",
-        "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOeG55bXZQdEdZeTVYcDJmWi1RU1hfTjg4RzVrM3dIUWoybVBQX3p4cTkxbnBJM2tHRDJ3Smk3NWRrM2JZc1BXb2Zub2p5M1Fscy1pSFdFNVZseEhia1VrRlFkOEdHZWRRODhhcm1USlBXbDRMc2Y0bmNsSEY2VnVCMTRXUTlLUWp6R0Q3RlF4MVRxTXlTUV8wMUxoRzVhMmljWDFZVnRJejRVOFhOR1hMcm1rQl8zNHlWNUVHdnVaU24tbUVsemV5emtRS0s0YWlkZ3RpeDdLdW1pRE45NnZuVmtmTEpGZnY3SWlkcFV3QVRZZw?oc=5",
+        "title": "You Can Take a Tesla Cybercab Later Today. The Stock Isn\u2019t Feeling Any Excitement. - barrons.com",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQUV9aenlYTkZwSnhGNkxmdjJqanRSbGV5ZzM1OTNubnJLcHhNZGZ3YUkxUG9BOVdFX2UzRjVsWDdYUXdQaFNHX2VmS2lRTjNNdTZtSVBHczJlQzVMUGwtVnF5MmxWNnUxaEc3VEJDY0MyNnQyOUZiSTdHUVJVWTBfbQ?oc=5",
         "source": "Google News",
         "published": "Fri, 04 Sep 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi8gFBVV95cUxOeG55bXZQdEdZeTVYcDJmWi1RU1hfTjg4RzVrM3dIUWoybVBQX3p4cTkxbnBJM2tHRDJ3Smk3NWRrM2JZc1BXb2Zub2p5M1Fscy1pSFdFNVZseEhia1VrRlFkOEdHZWRRODhhcm1USl"
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxQUV9aenlYTkZwSnhGNkxmdjJqanRSbGV5ZzM1OTNubnJLcHhNZGZ3YUkxUG9BOVdFX2UzRjVsWDdYUXdQaFNHX2VmS2lRTjNNdTZtSVBHczJlQzVMUGwtVnF5MmxWNnUxaEc3VEJDY0"
       },
       {
-        "title": "Lululemon stock plunges 20% on disappointing earnings and outlook - CNBC",
-        "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5sa3JMSDdtMGZGVzdpcXBWb0dldnVKY2N1MlVmbnczS0xFM2hiUm9KOHZXUnNxc3Noa2ZQdy1McFdRenNFN3JEcFJ4LWtCUG5YZTFHY2xSNGVKdzk5M3hfQ0F6YWVHS0V6TWJmQWpqR1FJSFl4eHlJ0gF8QVVfeXFMUGd4cl9GZVVSdkM5TnRnU0FxLS1JYVhzSGEtakRadlpERlNNa1NkX0xPdnptM1I2b01oN0NBb25vb09EbmdpanFrejZraGpPNFkzc3A4dXllRXcyZjlhdUhDdU5pVWJQQXVmRHZQZHphUjFLVGEzM0htR0J4Yg?oc=5",
+        "title": "NOW Stock Surges 7% After-Hours As ServiceNow Beats Q2 Estimates, Lifts Full-Year Outlook - Stocktwits",
+        "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNME5WNjdjRmcwS2VzRE9NcE0wQzAzSDE1R3oySXVxcVpDNmFpMHU0MjlZMmZTV0hNZDZIenRQcE1kTk5jVi1iUW9RSFZncG9FbFFNSk9FWDJmTEZrYlZRTjVQRG1scmJWeHZUSEZ4eUd2dW5GSTktejdlZFU0dmkyeFlsRGlaT0tuMHJieDVWa2Eyb09EdHJfT0pOTlgyRTdyY1lQRWpzU2lINnZnVUZYRF83aDgyVnEzYjlFRUxJQndFakxmS1B0bjAzWWc5SXJnV2lzUDFUeDNFcWxnYlE0Zi0zSDh0aDROWHp1a0F2WUFvdw?oc=5",
         "source": "Google News",
         "published": "Thu, 03 Sep 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTE5sa3JMSDdtMGZGVzdpcXBWb0dldnVKY2N1MlVmbnczS0xFM2hiUm9KOHZXUnNxc3Noa2ZQdy1McFdRenNFN3JEcFJ4LWtCUG5YZTFHY2xSNGVKdzk5M3hfQ0F6YWVHS0V6TWJmQWpqR1"
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi8gFBVV95cUxNME5WNjdjRmcwS2VzRE9NcE0wQzAzSDE1R3oySXVxcVpDNmFpMHU0MjlZMmZTV0hNZDZIenRQcE1kTk5jVi1iUW9RSFZncG9FbFFNSk9FWDJmTEZrYlZRTjVQRG1scmJWeHZUSEZ4eU"
       },
       {
-        "title": "LULU stock sinks 18%: Michael Burry calls Lululemon a \u2018trickster,\u2019 eyes dip buying under $100 - Seeking Alpha",
-        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObUljQ2dWU1VpZkpnSzhNQmt1X1JFVXpvSFlpOC1TZ3YyMEJ6X2dzbG95Zk1BZ2d0SUhuSzZETkwzRlJkMTBtUFlvYVlvSXB4WG9kTDNLcEVRLTFYa3FTLUVjQmtpcFI2V19VTTBWOVRtVmdmQk93VGE0M0szR1lzcUVfNk14bEVOTmJwaW1JUFAyZ0IySWN2QmR3TTRIZjdINXJJajhpNmxDOXpqWUoyNXdDdHBSNkVQYkppaVJ2NTIzNjg?oc=5",
+        "title": "2 High-Yield Dividend Stocks Worth Buying Right Now - The Motley Fool",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMmlfMFdSdV9WUlAyLUEwcDFFNExZRERZekMwZnR6M1RUazZKVmd3dGFQZ1RBcHU1TnM4T05UTHhqc3I5UzJMejItVnAzZEctei1xbWZxeXBLWjU1d09tOUsteERESWtCS1dGS2ZsRVY0WU9WQkdTWkpqTHhTSWxuSXZySkQxb2pJU0k4SV9JelR0bkxUcXQyOQ?oc=5",
         "source": "Google News",
         "published": "Fri, 04 Sep 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxObUljQ2dWU1VpZkpnSzhNQmt1X1JFVXpvSFlpOC1TZ3YyMEJ6X2dzbG95Zk1BZ2d0SUhuSzZETkwzRlJkMTBtUFlvYVlvSXB4WG9kTDNLcEVRLTFYa3FTLUVjQmtpcFI2V19VTTBWOV"
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxNMmlfMFdSdV9WUlAyLUEwcDFFNExZRERZekMwZnR6M1RUazZKVmd3dGFQZ1RBcHU1TnM4T05UTHhqc3I5UzJMejItVnAzZEctei1xbWZxeXBLWjU1d09tOUsteERESWtCS1dGS2ZsRV"
       },
       {
-        "title": "lululemon athletica inc. Announces Second Quarter Fiscal 2026 Results - Lululemon",
-        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUlpBQUhya1dobkVqWDl3cFZlbFZFRFpJWHRkM2tKbTEzdXBLM2ZCUGNyZDZnWGFtN2U0Yld0YkNxeVJrQ01wX1liVkdIbmRPM21vNUlhWC10OFdLZFVYWDVqYjBRdFIxRVFIN0JSVVhWTXRQZlIxTlhIeGJRbHIwampxbGRia3BF?oc=5",
+        "title": "ServiceNow investors must consider latest alert from Bank of America - thestreet.com",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOLTQ0eFNTcnVOMnM3WFdtQ29nMGhjUmVUNDJ1ME9pYy1wZ3AyRVZiMmltMTNwQkxvcDdfYU11RGJMT21rMXVQcVFvLTZjWDR1VVlOa0hEUkg3b3YwU0hiQXRnNlpuSWdRVXp6b05JRy1zaE5fSzB0Sm1fcDc3OFlpOXZnTXc1NTBqT1NUTDhDNV94eXB1eFIyYWdFTEJZX0V1cFlqNGRnTW8yR2ZaYlVPYkJ5ZEl5bXRqMFpGQVBR?oc=5",
         "source": "Google News",
-        "published": "Thu, 03 Sep 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUlpBQUhya1dobkVqWDl3cFZlbFZFRFpJWHRkM2tKbTEzdXBLM2ZCUGNyZDZnWGFtN2U0Yld0YkNxeVJrQ01wX1liVkdIbmRPM21vNUlhWC10OFdLZFVYWDVqYjBRdFIxRVFIN0JSVV"
+        "published": "Fri, 21 Aug 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxOLTQ0eFNTcnVOMnM3WFdtQ29nMGhjUmVUNDJ1ME9pYy1wZ3AyRVZiMmltMTNwQkxvcDdfYU11RGJMT21rMXVQcVFvLTZjWDR1VVlOa0hEUkg3b3YwU0hiQXRnNlpuSWdRVXp6b05JRy"
       },
       {
-        "title": "Stocks Log Sluggish Start to September Amid Geopolitical Buzz",
-        "link": "/news/389157/stocks-log-sluggish-start-to-september-amid-geopolitical-buzz",
+        "title": "Software Stocks Are Back. 2 Winners, 2 Losers-and Salesforce.",
+        "link": "https://www.barrons.com/articles/salesforce-stock-software-ai-winners-losers-ed4679cb?mod=bar_FV",
         "source": "Finviz",
         "published": "",
         "summary": ""
       },
       {
-        "title": "The Stock Market Survived a Strong Jobs Report. Can It Survive Inflation?",
-        "link": "https://www.barrons.com/articles/the-stock-market-survived-a-strong-jobs-report-can-it-survive-inflation-6b3a3f60?mod=bar_FV",
+        "title": "ServiceNow Inc. stock outperforms competitors on strong trading day",
+        "link": "https://www.marketwatch.com/data-news/servicenow-inc-stock-outperforms-competitors-on-strong-trading-day-79bcddcf-570dbc23648a?mod=mw_FV",
         "source": "Finviz",
         "published": "",
         "summary": ""
       },
       {
-        "title": "Lululemon Stock Has Plunged. Why It Faces a Long Road to Recovery.",
-        "link": "https://www.barrons.com/articles/lululemon-stock-retail-apparel-7ad6fcd5?mod=bar_FV",
+        "title": "Dow Jumps 624 Points as Treasury Yields, Rate-Hike Odds Drop: Stock Market Today",
+        "link": "https://finance.yahoo.com/m/5ace08aa-a369-3705-b5ec-c7f9e06a270f/dow-jumps-624-points-as.html",
         "source": "Finviz",
         "published": "",
         "summary": ""
@@ -342,6 +460,34 @@
         "summary": "Lauren Stat sold 1,342 shares under a pre-arranged trading plan as Palantir continues to post rapid revenue growth."
       },
       {
+        "title": "Palantir Technologies Inc. (PLTR) Just Flashed Golden Cross Signal: Do You Buy? - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUjVkbEU2RXVjbnUwXzZrcE8tSGhnU1pnc3Uzckk5aWI5bldsOGVabVNBN0V1aS1zSHdFNS1hNnlfMVRIMEZQNTg5X3Z6SHRxS3RWbGt1WmloclJZVWFoZHJRejlhVFRhVmVSd3FMMTUxdWRGWmZTR3dUWXFGQm9NdzBOdHBoZHB2T2hsME44VlNkUUdtTjc4YjcxN05QTWRaUmc?oc=5",
+        "source": "Google News",
+        "published": "Fri, 04 Sep 2026",
+        "summary": "<ol><li><a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxOUjVkbEU2RXVjbnUwXzZrcE8tSGhnU1pnc3Uzckk5aWI5bldsOGVabVNBN0V1aS1zSHdFNS1hNnlfMVRIMEZQNTg5X3Z6SHRxS3RWbGt1WmloclJZVWFoZHJRejlhVFRhVm"
+      },
+      {
+        "title": "A Palantir Director Just Sold Nearly $245,000 of Stock - TradingView",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNVFzNFFPM0ZDdFRreHlIcXpVdnFzclpncUJyc09IbVkwVzR2ajZXV3pLc2pOMnpoRDlwbFR4d2V5QjN2YkcwVTZBYTZIRkdURmtMQkZnc2N3dmdESkEtSV9VWjBRUGtTSTZKS1JWaWxYOVVPdklEbjVQbHFGd3VEZGsySU9qRHFOTVRlbGdKYmtTb0VkeDRIR3V2Zm9scVVHTVZZWXRNdXFVdjNBV1BZZ19nRQ?oc=5",
+        "source": "Google News",
+        "published": "Fri, 04 Sep 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxQNVFzNFFPM0ZDdFRreHlIcXpVdnFzclpncUJyc09IbVkwVzR2ajZXV3pLc2pOMnpoRDlwbFR4d2V5QjN2YkcwVTZBYTZIRkdURmtMQkZnc2N3dmdESkEtSV9VWjBRUGtTSTZKS1JWaW"
+      },
+      {
+        "title": "PLTR Stock Gains Nearly 2% After William Blair Flags Palantir\u2019s Maven System To Hit $1B ARR - Stocktwits",
+        "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNbHBtcWRudGJaTUJIQjRJNnJnbGYybmx0LWc2eVhvZjdOZjdNMV91dWZrRmxjQ2ZnZkJFcEQtLTd1ejg5SWFNMTNwMVN6UWlpRnBoelhSM25JX3JVRnh6Yms0Y3p0Vmp1OGc3aE43bFNPck54Mks4YUpmbzZQUUhRYmFUaFZtd1FlOHNFVDZBVjktRGhxLWhUM0MwQ0tNYldDRGZOYUUtNUF2M2FEWHFKWTE4VVA2dXNVc1NBWlNQOC16Y1ZEN0JiT3EtQlM5VXAtTXd2M0w2dkJESlFmYmJwY2lMc3NwZHZlOFE?oc=5",
+        "source": "Google News",
+        "published": "Fri, 04 Sep 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi6gFBVV95cUxNbHBtcWRudGJaTUJIQjRJNnJnbGYybmx0LWc2eVhvZjdOZjdNMV91dWZrRmxjQ2ZnZkJFcEQtLTd1ejg5SWFNMTNwMVN6UWlpRnBoelhSM25JX3JVRnh6Yms0Y3p0Vmp1OGc3aE43bF"
+      },
+      {
+        "title": "Palantir Technologies Inc Stock (PLTR) Moved Down by 3.13% on Sep 2: What Investors Need To Know - TradingKey",
+        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZlp4bEtDb2VYQzQ3WG85TmZ0eGpxbjhDZHViT0xaVVFYTVVzcGQ4Y3VjSU5wdlpOUVJHZlozR1pEYi1JZ3d0WVJMOE1HWEdVMGUxNlZwRTF5cE1yd2VDc1BKaFd5bHJJLXJaNTVuRzdKeE51QzNRb01ZZFhPcjhaN0VoamVHM1cwSjBr?oc=5",
+        "source": "Google News",
+        "published": "Wed, 02 Sep 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZlp4bEtDb2VYQzQ3WG85TmZ0eGpxbjhDZHViT0xaVVFYTVVzcGQ4Y3VjSU5wdlpOUVJHZlozR1pEYi1JZ3d0WVJMOE1HWEdVMGUxNlZwRTF5cE1yd2VDc1BKaFd5bHJJLXJaNTVuRz"
+      },
+      {
         "title": "Nasdaq Futures Edge Higher As Jobs Report Takes Center Stage: TSLA, LULU, ORCL, PL, NVDA, PLTR, RKLB In Focus",
         "link": "https://finance.yahoo.com/m/11ad69f3-6c95-391b-bc60-eaf8821f3c8d/nasdaq-futures-edge-higher-as.html",
         "source": "Finviz",
@@ -351,57 +497,6 @@
       {
         "title": "Palantir Stock Posts Best Day In A Month After Expanded PwC AI Deal, Defying Michael Burrys Bearish Bet",
         "link": "https://finance.yahoo.com/m/3c08272f-bc32-356a-a445-db4f7e506a98/palantir-stock-posts-best-day.html",
-        "source": "Finviz",
-        "published": "",
-        "summary": ""
-      }
-    ],
-    "GOOG": [
-      {
-        "title": "Google Turns Three Everyday Apps Into Paid Gemini Microphones",
-        "link": "https://finance.yahoo.com/technology/ai/articles/google-turns-three-everyday-apps-193846909.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Fri, 04 Sep 2026",
-        "summary": "Voice features reach Gmail, Docs and Keep, but the enterprise rollout still waits."
-      },
-      {
-        "title": "Cramer Says the Magnificent Seven Are Finally Cheap and Most Investors Will Miss It",
-        "link": "https://247wallst.com/investing/2026/09/04/cramer-says-the-magnificent-seven-are-finally-cheap-and-most-investors-will-miss-it/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Fri, 04 Sep 2026",
-        "summary": "Jim Cramer is calling the Magnificent Seven a generational buying opportunity, but the argument only holds for some of them, and getting that distinction wrong is an expensive mistake."
-      },
-      {
-        "title": "Does Google Stock's Cloud Margin Justify Its AI Bill?",
-        "link": "https://www.trefis.com/articles/614403/does-google-stocks-cloud-margin-justify-its-ai-bill/2026-09-04?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Fri, 04 Sep 2026",
-        "summary": "Alphabet (GOOGL) stock has slipped about 8% over the past three months, even as revenue growth accelerated to 24% year over year in the second quarter of 2026. What changed is the bill. Capital spendi"
-      },
-      {
-        "title": "2008 All Over Again: Why Investors Should Be Worried as Americans Turn to Google for Help With Their Mortgages",
-        "link": "https://www.barchart.com/story/news/4446953/2008-all-over-again-why-investors-should-be-worried-as-americans-turn-to-google-for-help-with-their-mortgages?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Fri, 04 Sep 2026",
-        "summary": "Google searches for mortgage assistance have surged in 2026, and there are plenty of data points that tell us the housing market is in bad shape. But are we anywhere close to 2008 territory yet?"
-      },
-      {
-        "title": "Elon Musk Touts a \u2018Storm\u2019 of Tesla Cybercabs in Austin, Says They Offer Better \u2018Operational Efficiency\u2019 Than Waymo",
-        "link": "https://finance.yahoo.com/technology/articles/elon-musk-touts-storm-tesla-203024849.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Fri, 04 Sep 2026",
-        "summary": "Tesla Inc. CEO Elon Musk has backed the Cybercab ahead of its launch event in Austin, Texas, as the EV maker looks to expand its Robotaxi network. A Storm Of Cybercabs In a post on X in the early hour"
-      },
-      {
-        "title": "Magnificent Seven Flash Strong Signal Never Seen Before",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/magnificent-seven-flash-strong-signal-195139729.html",
-        "source": "Finviz",
-        "published": "",
-        "summary": ""
-      },
-      {
-        "title": "Outperforming Bank Stock Has Support Piling Up",
-        "link": "/news/389153/outperforming-bank-stock-has-support-piling-up",
         "source": "Finviz",
         "published": "",
         "summary": ""
@@ -486,294 +581,169 @@
         "summary": ""
       }
     ],
-    "NOW": [
+    "IREN": [
       {
-        "title": "Software Stocks Are Back. 2 Winners, 2 Losers\u2014and Salesforce.",
-        "link": "https://finance.yahoo.com/m/4a55c725-57db-335b-a0da-d718324a7ce2/software-stocks-are-back.-2.html?.tsrc=rss",
+        "title": "IREN Climbs 4% on $2.4B Blue Owl-Led GPU Financing; Cipher Digital Gains 2%",
+        "link": "https://247wallst.com/investing/2026/09/04/iren-climbs-4-on-2-4b-blue-owl-led-gpu-financing-cipher-digital-gains-2/?.tsrc=rss",
         "source": "Yahoo Finance",
         "published": "Fri, 04 Sep 2026",
-        "summary": "Salesforce and other software stocks have impressed the market this earnings season but investors need to be careful about which ones to back."
+        "summary": "Blue Owl just handed IREN a massive GPU financing deal, but the coupon rate buried in the fine print reveals something uncomfortable about how Wall Street really values this emerging asset class."
       },
       {
-        "title": "ServiceNow Just Rallied 28% in a Month: Take Profits, or Buy More?",
-        "link": "https://247wallst.com/investing/2026/09/03/servicenow-just-rallied-28-in-a-month-take-profits-or-buy-more/?.tsrc=rss",
+        "title": "Blue Owl leads $2.4 billion IREN GPU financing at 9%",
+        "link": "https://blockspace.media/insight/blue-owl-iren-gpu-financing-nvidia-blackwell/?.tsrc=rss",
         "source": "Yahoo Finance",
         "published": "Thu, 03 Sep 2026",
-        "summary": "ServiceNow surged nearly 30% in a month without releasing a single earnings report, leaving investors caught between locking in gains and betting the sector re-rating still has room to run."
+        "summary": "The 30-month financing will fund air-cooled NVIDIA Blackwell Ultra infrastructure at IREN\u2019s Mackenzie campus, with capital drawn as equipment is delivered and commissioned."
       },
       {
-        "title": "Palantir Rallies 7% as PwC Alliance Counters Michael Burry Bear Case, ServiceNow Climbs 5%, Salesforce Gains 3%",
-        "link": "https://247wallst.com/investing/2026/09/03/palantir-rallies-7-as-pwc-alliance-counters-michael-burry-bear-case-servicenow-climbs-5-salesforce-gains-3/?.tsrc=rss",
+        "title": "IREN obtains $2.4B private credit financing to buy Nvidia chips",
+        "link": "https://pitchbook.com/news/articles/iren-obtains-2-4b-private-credit-financing-to-buy-nvidia-chips?.tsrc=rss",
         "source": "Yahoo Finance",
         "published": "Thu, 03 Sep 2026",
-        "summary": "Michael Burry just renewed his short case against Palantir, and Palantir answered with a major alliance announcement that sent the stock surging. Whether that response actually addresses the receivabl"
+        "summary": "AI data center platform IREN Limited obtained a $2.4 billion financing package led by private lenders to purchase Nvidia Blackwell Ultra GPUs. Blue Owl Capital Corp. is the administrative agent, colla"
       },
       {
-        "title": "Is ServiceNow (NOW) Quietly Becoming the Default AI Commerce Platform for Enterprise Partners?",
-        "link": "https://finance.yahoo.com/technology/ai/articles/servicenow-now-quietly-becoming-default-211056308.html?.tsrc=rss",
+        "title": "IREN's AI Cloud Revenue Just Jumped 687%",
+        "link": "https://finance.yahoo.com/technology/ai/articles/irens-ai-cloud-revenue-just-210118041.html?.tsrc=rss",
         "source": "Yahoo Finance",
         "published": "Wed, 02 Sep 2026",
-        "summary": "In August 2026, Pricefx announced its Deal Optimization App for the ServiceNow AI Platform, embedding AI-guided pricing, negotiation insights, and product recommendations directly into ServiceNow sale"
+        "summary": "Citizens kept an $80 price target as IREN's AI cloud business rapidly expands and Bitcoin mining becomes less important."
       },
       {
-        "title": "How Is ServiceNow's Stock Performance Compared to Other Software - Application Stocks?",
-        "link": "https://www.barchart.com/story/news/4382940/how-is-servicenow-s-stock-performance-compared-to-other-software-application-stocks?.tsrc=rss",
+        "title": "IREN (IREN) Gains A Clearer Path To Texas Power Expansion",
+        "link": "https://finance.yahoo.com/technology/ai/articles/iren-iren-gains-clearer-path-170708035.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "Tue, 01 Sep 2026",
-        "summary": "Despite ServiceNow\u2019s weak performance relative to its peers over the past year, Wall Street analysts remain moderately optimistic about the stock\u2019s prospects"
+        "published": "Wed, 02 Sep 2026",
+        "summary": "IREN (NasdaqGS: IREN) is set to benefit from the Public Utility Commission of Texas unanimously approving a new 765-kilovolt transmission line to the Permian Basin. The approval directly targets power"
       },
       {
-        "title": "You Can Take a Tesla Cybercab Later Today. The Stock Isn\u2019t Feeling Any Excitement. - Barron's",
-        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQUV9aenlYTkZwSnhGNkxmdjJqanRSbGV5ZzM1OTNubnJLcHhNZGZ3YUkxUG9BOVdFX2UzRjVsWDdYUXdQaFNHX2VmS2lRTjNNdTZtSVBHczJlQzVMUGwtVnF5MmxWNnUxaEc3VEJDY0MyNnQyOUZiSTdHUVJVWTBfbQ?oc=5",
-        "source": "Google News",
-        "published": "Fri, 04 Sep 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxQUV9aenlYTkZwSnhGNkxmdjJqanRSbGV5ZzM1OTNubnJLcHhNZGZ3YUkxUG9BOVdFX2UzRjVsWDdYUXdQaFNHX2VmS2lRTjNNdTZtSVBHczJlQzVMUGwtVnF5MmxWNnUxaEc3VEJDY0"
-      },
-      {
-        "title": "NOW Stock Surges 7% After-Hours As ServiceNow Beats Q2 Estimates, Lifts Full-Year Outlook - Stocktwits",
-        "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNME5WNjdjRmcwS2VzRE9NcE0wQzAzSDE1R3oySXVxcVpDNmFpMHU0MjlZMmZTV0hNZDZIenRQcE1kTk5jVi1iUW9RSFZncG9FbFFNSk9FWDJmTEZrYlZRTjVQRG1scmJWeHZUSEZ4eUd2dW5GSTktejdlZFU0dmkyeFlsRGlaT0tuMHJieDVWa2Eyb09EdHJfT0pOTlgyRTdyY1lQRWpzU2lINnZnVUZYRF83aDgyVnEzYjlFRUxJQndFakxmS1B0bjAzWWc5SXJnV2lzUDFUeDNFcWxnYlE0Zi0zSDh0aDROWHp1a0F2WUFvdw?oc=5",
+        "title": "IREN Stock Jumps as Bernstein Flags 144% Upside on 2 GW of Gross Power by 2029 - TipRanks",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNTl3dzFpTl9MYUEtOWR5OXk5cWktZUMtT2pObWYwV0RWeTRxMk9QcDFsWThlVUt4dHpWQVF4VFhqZW5JMll2MmotVHFYMG1GM1NCUU44NFowVjBGQzlVM2ZxWFcxdVY0Ny1FUTh5ZTIyaGl4aFBMcWppOXd6ak1FQUk5OWczVllDM2J6dTFsdC1fcUxkYjAwQ0tIZU5nc1BqM2QzdXBhR0tadDg?oc=5",
         "source": "Google News",
         "published": "Thu, 03 Sep 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi8gFBVV95cUxNME5WNjdjRmcwS2VzRE9NcE0wQzAzSDE1R3oySXVxcVpDNmFpMHU0MjlZMmZTV0hNZDZIenRQcE1kTk5jVi1iUW9RSFZncG9FbFFNSk9FWDJmTEZrYlZRTjVQRG1scmJWeHZUSEZ4eU"
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNTl3dzFpTl9MYUEtOWR5OXk5cWktZUMtT2pObWYwV0RWeTRxMk9QcDFsWThlVUt4dHpWQVF4VFhqZW5JMll2MmotVHFYMG1GM1NCUU44NFowVjBGQzlVM2ZxWFcxdVY0Ny1FUTh5ZT"
       },
       {
-        "title": "2 High-Yield Dividend Stocks Worth Buying Right Now - The Motley Fool",
-        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMmlfMFdSdV9WUlAyLUEwcDFFNExZRERZekMwZnR6M1RUazZKVmd3dGFQZ1RBcHU1TnM4T05UTHhqc3I5UzJMejItVnAzZEctei1xbWZxeXBLWjU1d09tOUsteERESWtCS1dGS2ZsRVY0WU9WQkdTWkpqTHhTSWxuSXZySkQxb2pJU0k4SV9JelR0bkxUcXQyOQ?oc=5",
+        "title": "Jim Cramer Backs CRWV: 'If You're Going For Neoclouds, Only One I Like Is CoreWeave' - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbWJtMEEzRnNNMVVlSEVidzRSbEFBTlFndDBKZDdCckFmNHc3Sy0wblpwNmNlQW14SUI1cEVuYTZmYTg1dm9hbWFwMWxxRkZ2Nnp2VDNjVFNPRENrVTZ3eEYwZHE1anVvTjVtTkplbldETVNiclk3ZzZXdEVZSTNoaG5IbmhiWDNYUUV5QzNXdjBtVGY0b3gw?oc=5",
         "source": "Google News",
         "published": "Fri, 04 Sep 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxNMmlfMFdSdV9WUlAyLUEwcDFFNExZRERZekMwZnR6M1RUazZKVmd3dGFQZ1RBcHU1TnM4T05UTHhqc3I5UzJMejItVnAzZEctei1xbWZxeXBLWjU1d09tOUsteERESWtCS1dGS2ZsRV"
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxNbWJtMEEzRnNNMVVlSEVidzRSbEFBTlFndDBKZDdCckFmNHc3Sy0wblpwNmNlQW14SUI1cEVuYTZmYTg1dm9hbWFwMWxxRkZ2Nnp2VDNjVFNPRENrVTZ3eEYwZHE1anVvTjVtTkplbl"
       },
       {
-        "title": "ServiceNow investors must consider latest alert from Bank of America - thestreet.com",
-        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOLTQ0eFNTcnVOMnM3WFdtQ29nMGhjUmVUNDJ1ME9pYy1wZ3AyRVZiMmltMTNwQkxvcDdfYU11RGJMT21rMXVQcVFvLTZjWDR1VVlOa0hEUkg3b3YwU0hiQXRnNlpuSWdRVXp6b05JRy1zaE5fSzB0Sm1fcDc3OFlpOXZnTXc1NTBqT1NUTDhDNV94eXB1eFIyYWdFTEJZX0V1cFlqNGRnTW8yR2ZaYlVPYkJ5ZEl5bXRqMFpGQVBR?oc=5",
+        "title": "Data Center Stocks Rally With Bitcoin: Cipher Mining Jumps 12%, TeraWulf Surges 8%, IREN Rises 4% - 24/7 Wall St.",
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQcVVoN2JaTVJyUGtwVFM5SC1RQ05zWWM5Wm5LcDlVT1FaeENHeEo5Ul9TQXE2RGdhVDVLOThtamVEZFlRODJnX3ZjVjVxcndsb2xzYmlJeDVDeFJ1RHAzeGdxdVhhb1drMUc1TUZfbU13VmRZMlROUi1WZTVDWFVuNUFLWmpRMXhrc1hyaXRwQWoyRGF0eWh5NFdiVUpadUxNbkpsV3JEdlF5bU9pUU5PbjhIMjF1dGdaLXJBREpKU2FSTFdIZ1hOOUdrQURYaVU4?oc=5",
         "source": "Google News",
-        "published": "Fri, 21 Aug 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxOLTQ0eFNTcnVOMnM3WFdtQ29nMGhjUmVUNDJ1ME9pYy1wZ3AyRVZiMmltMTNwQkxvcDdfYU11RGJMT21rMXVQcVFvLTZjWDR1VVlOa0hEUkg3b3YwU0hiQXRnNlpuSWdRVXp6b05JRy"
+        "published": "Thu, 03 Sep 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxQcVVoN2JaTVJyUGtwVFM5SC1RQ05zWWM5Wm5LcDlVT1FaeENHeEo5Ul9TQXE2RGdhVDVLOThtamVEZFlRODJnX3ZjVjVxcndsb2xzYmlJeDVDeFJ1RHAzeGdxdVhhb1drMUc1TUZfbU"
       },
       {
-        "title": "Software Stocks Are Back. 2 Winners, 2 Losers-and Salesforce.",
-        "link": "https://www.barrons.com/articles/salesforce-stock-software-ai-winners-losers-ed4679cb?mod=bar_FV",
+        "title": "IREN\u2019s Customers Are Starting To Fund The Build (NASDAQ:IREN) - Seeking Alpha",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPcXMzUlJZYl9ld05iQkJTZlFqVXA2V1RxU0lyc210N0prelluc0NnZzVfWFRSZTNhSUNhVmplWlNUeFNRemdsWWZ3bUZIQl9GWlF3NTZXZFZXYmlKWFlqbW1xTlJhZF9KeV9jM0FOcEMySlp2SGVWMGhIcGYtSUVLcTRjZG1PcjlKNl93Y2JsOWM?oc=5",
+        "source": "Google News",
+        "published": "Wed, 02 Sep 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxPcXMzUlJZYl9ld05iQkJTZlFqVXA2V1RxU0lyc210N0prelluc0NnZzVfWFRSZTNhSUNhVmplWlNUeFNRemdsWWZ3bUZIQl9GWlF3NTZXZFZXYmlKWFlqbW1xTlJhZF9KeV9jM0FOcE"
+      },
+      {
+        "title": "Jim Cramer Backs CRWV: 'If You're Going For Neoclouds, Only One I Like Is CoreWeave'",
+        "link": "https://finance.yahoo.com/m/d1938e5a-87b6-3d09-8da2-930ca98a99d6/jim-cramer-backs-crwv%3A-%27if.html",
         "source": "Finviz",
         "published": "",
         "summary": ""
       },
       {
-        "title": "ServiceNow Inc. stock outperforms competitors on strong trading day",
-        "link": "https://www.marketwatch.com/data-news/servicenow-inc-stock-outperforms-competitors-on-strong-trading-day-79bcddcf-570dbc23648a?mod=mw_FV",
+        "title": "IREN secures $2.4B from Blue Owl-led GPU financing round",
+        "link": "https://finance.yahoo.com/m/faa7a706-5d28-31a7-9a54-ef92c4cd1ded/iren-secures-%242.4b-from-blue.html",
         "source": "Finviz",
         "published": "",
         "summary": ""
       },
       {
-        "title": "Dow Jumps 624 Points as Treasury Yields, Rate-Hike Odds Drop: Stock Market Today",
-        "link": "https://finance.yahoo.com/m/5ace08aa-a369-3705-b5ec-c7f9e06a270f/dow-jumps-624-points-as.html",
+        "title": "Cipher Digitals 2.5 GW Gas Pipeline, IRENs $2.8B GPU Financing, Nscales IPO and $103B Contract Backlog",
+        "link": "https://finance.yahoo.com/m/3c9d900e-5a9f-36f2-a68d-91b5bd82e623/cipher-digital%E2%80%99s-2.5-gw-gas.html",
         "source": "Finviz",
         "published": "",
         "summary": ""
       }
     ],
-    "NFLX": [
+    "SCO": [
       {
-        "title": "Walt Disney vs. Netflix: Which Media Stock Is a Better Buy in 2026?",
-        "link": "https://www.fool.com/coverage/better-buy/2026/09/04/walt-disney-vs-netflix-which-media-stock-is-a-better-buy-in-2026/?.tsrc=rss",
+        "title": "IEA Sees Oil Market Excess in 2027: Should You Play Short Energy ETFs?",
+        "link": "https://finance.yahoo.com/energy/articles/iea-sees-oil-market-excess-150000789.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "published": "Fri, 04 Sep 2026",
-        "summary": "Netflix trades at a significant valuation premium, while Disney's diversified revenue streams offer different risk-reward profiles for 2026."
-      },
-      {
-        "title": "NFLX Stock Falls 4% As Netflix Hikes UK Subscription Prices \u2014 Region Accounts For About 20% Of EMEA Revenue",
-        "link": "https://stocktwits.com/news-articles/markets/equity/netflix-hikes-uk-subscription-prices/cZsDfT9RJDe?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Fri, 04 Sep 2026",
-        "summary": "Netflix has announced a major subscription price increase in the United Kingdom, raising its lowest-priced, ad-supported tier by a third alongside cost increases for standard and premium offerings."
-      },
-      {
-        "title": "Netflix subscription rises above \u00a320 a month for first time",
-        "link": "https://www.telegraph.co.uk/business/2026/09/04/netflix-subscription-rises-above-20-a-month-for-first-time/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Fri, 04 Sep 2026",
-        "summary": "Netflix has increased the price of its premium subscription package to above \u00a320 for the first time."
-      },
-      {
-        "title": "Netflix Falls 4% as Rate Repricing Pressures Long-Duration Growth; Disney Dips, Warner Bros. Discovery Sits Tight",
-        "link": "https://247wallst.com/investing/2026/09/04/netflix-falls-4-as-rate-repricing-pressures-long-duration-growth-disney-dips-warner-bros-discovery-sits-tight/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Fri, 04 Sep 2026",
-        "summary": "Rising Treasury yields are carving a sharp divide inside the streaming sector, and not every media stock is absorbing the pressure equally. The gap between the biggest loser and the name sitting virtu"
-      },
-      {
-        "title": "Netflix\u2019s Acquisition Wishlist: Which Streaming Target Has the Best Odds?",
-        "link": "https://247wallst.com/investing/2026/09/03/netflixs-acquisition-wishlist-which-streaming-target-has-the-best-odds/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Thu, 03 Sep 2026",
-        "summary": "After losing a real bid for a major media company, Netflix now sits on a shortlist of four potential acquisition targets, but regulatory walls, controlling shareholders, and astronomical price tags el"
-      },
-      {
-        "title": "NFLX Stock Falls 4% As Netflix Hikes UK Subscription Prices  Region Accounts For About 20% Of EMEA Revenue",
-        "link": "https://finance.yahoo.com/m/9d7e162e-f45d-39ae-a806-ba63ad637df5/nflx-stock-falls-4%25-as.html",
-        "source": "Finviz",
-        "published": "",
-        "summary": ""
-      },
-      {
-        "title": "Does Google Stock's Cloud Margin Justify Its AI Bill?",
-        "link": "https://finance.yahoo.com/m/e4de28a1-3ddb-3d3b-aaeb-5761adc8caa9/does-google-stock%27s-cloud.html",
-        "source": "Finviz",
-        "published": "",
-        "summary": ""
-      }
-    ],
-    "RKLB": [
-      {
-        "title": "Cathie Wood Just Bought 705,102 Shares of a Rocket Company 50 Times Smaller Than SpaceX",
-        "link": "https://247wallst.com/investing/2026/09/04/cathie-wood-just-bought-705102-shares-of-a-rocket-company-50-times-smaller-than-spacex/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Fri, 04 Sep 2026",
-        "summary": "ARK Invest just loaded up on a rocket company trading at a fraction of SpaceX's valuation, and the timing raises a pointed question about whether the recent selloff is a warning sign or a once-in-a-cy"
-      },
-      {
-        "title": "SPCX Stock Blasts Past ASTS, RKLB, LUNR, PL \u2014 Here\u2019s Everything Shaking Up Space Stocks This Week",
-        "link": "https://stocktwits.com/news-articles/markets/equity/spcx-stock-asts-rklb-lunr-pl-everything-space-stocks-this-week/cZswy2ERJwh?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Fri, 04 Sep 2026",
-        "summary": "Oppenheimer raised its SpaceX target to $280, while Gavin Baker said orbital data centers could eventually propel its valuation to $20 trillion."
-      },
-      {
-        "title": "Is Rocket Lab Stock a Millionaire Maker?",
-        "link": "https://www.fool.com/investing/2026/09/04/is-rocket-lab-stock-a-millionaire-maker/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Fri, 04 Sep 2026",
-        "summary": "Rocket Lab has some exciting things happening with its launch business, but keep your head out of the clouds."
-      },
-      {
-        "title": "RKLB And FLY Investors, Take Note: Planet Labs Flags SpaceX Rideshare Crunch As Smaller Operators Seek Alternatives",
-        "link": "https://stocktwits.com/news-articles/markets/equity/rklb-fly-investors-planet-labs-spacex-rideshare-crunch-smaller-operators-alternatives/cZswqIGRJw2?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Fri, 04 Sep 2026",
-        "summary": "Rocket Lab\u2019s Electron offers dedicated launch dates, orbits and mission profiles, unlike shared Falcon 9 rideshare missions."
-      },
-      {
-        "title": "Rocket Lab (RKLB) Is Getting Fresh Attention, What Is The Market Weighing?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-rklb-getting-fresh-031039379.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Fri, 04 Sep 2026",
-        "summary": "Rocket Lab (RKLB) just completed its 94th Electron launch, placing Synspective\u2019s latest StriX Earth imaging satellite into low Earth orbit and extending a run of successful missions that has attracted"
-      },
-      {
-        "title": "Nasdaq Futures Edge Higher As Jobs Report Takes Center Stage: TSLA, LULU, ORCL, PL, NVDA, PLTR, RKLB In Focus",
-        "link": "https://finance.yahoo.com/m/11ad69f3-6c95-391b-bc60-eaf8821f3c8d/nasdaq-futures-edge-higher-as.html",
-        "source": "Finviz",
-        "published": "",
-        "summary": ""
-      },
-      {
-        "title": "SPCX Stock Blasts Past ASTS, RKLB, LUNR, PL  Heres Everything Shaking Up Space Stocks This Week",
-        "link": "https://finance.yahoo.com/m/9cd9e724-c4c8-3e89-ad80-7cd52249c7a4/spcx-stock-blasts-past-asts%2C.html",
-        "source": "Finviz",
-        "published": "",
-        "summary": ""
-      }
-    ],
-    "MCD": [
-      {
-        "title": "Warren Buffett Says Greatness Isn\u2019t About \u2018Great Amounts of Money\u2019 \u2014 Despite a $140B Net Worth, He Drives a 2014 Cadilla",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/warren-buffett-says-greatness-isn-154515213.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Fri, 04 Sep 2026",
-        "summary": "A billionaire can have a private jet, a garage full of supercars and a house that needs its own ZIP code. Or he can eat a McDonald\u2019s breakfast, drive the same Cadillac for more than a decade and decid"
-      },
-      {
-        "title": "McDonald's Trades at 19.15X P/E: Is This a Discounted Opportunity?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/mcdonalds-trades-19-15x-p-140700667.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Fri, 04 Sep 2026",
-        "summary": "MCD trades below the restaurant industry's average P/E as U.S. weakness weighs on shares, while global growth and new initiatives offer hope."
-      },
-      {
-        "title": "McDonald's launches exclusive state-themed meal",
-        "link": "https://www.thestreet.com/restaurants/mcdonalds-launches-texas-meal?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Fri, 04 Sep 2026",
-        "summary": "McDonald\u2019s also brought back a menu favorite and is rolling out a new item for customers across the country."
-      },
-      {
-        "title": "Pickleman's Adds Industry Veteran Jim Morey to Executive Advisory Board to Accelerate Scalable Growth",
-        "link": "https://finance.yahoo.com/small-business/articles/picklemans-adds-industry-veteran-jim-203400437.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Thu, 03 Sep 2026",
-        "summary": "Pickleman's Gourmet Caf\u00e9 today announced that Jim Morey has joined the company's executive advisory board, bringing deep multi-unit operating, finance, and brand experience from Wawa, Inc., Outback St"
-      },
-      {
-        "title": "McDonald\u2019s Is Near a 52-Week Low. Is This the Contrarian Buy of 2026?",
-        "link": "https://247wallst.com/investing/2026/09/03/mcdonalds-is-near-a-52-week-low-is-this-the-contrarian-buy-of-2026/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Thu, 03 Sep 2026",
-        "summary": "McDonald's shares have cratered to levels not seen in over a year, and a contrarian case is quietly building that the selloff has gone too far. Whether the golden arches reward patient buyers or keep "
-      },
-      {
-        "title": "Academy Moves Forward With Lee, Wolski-David",
-        "link": "https://finance.yahoo.com/m/601872aa-8240-3f36-ae6b-3de296b5f600/academy-moves-forward-with.html",
-        "source": "Finviz",
-        "published": "",
-        "summary": ""
-      },
-      {
-        "title": "Why Did NIO, RARE, MCD Stocks Fall To 52-Week Lows?",
-        "link": "https://finance.yahoo.com/m/d6aca2a5-4231-3866-8eb2-b568bd96d21c/why-did-nio%2C-rare%2C-mcd-stocks.html",
-        "source": "Finviz",
-        "published": "",
-        "summary": ""
-      },
-      {
-        "title": "Dutch Bros Stock Is Down Sharply, But History Has A Warning For Dip Buyers",
-        "link": "https://finance.yahoo.com/m/1d94bbb4-d1f7-32ff-ba12-f5c5d0fe6763/dutch-bros-stock-is-down.html",
-        "source": "Finviz",
-        "published": "",
-        "summary": ""
-      }
-    ],
-    "2884.TW": [
-      {
-        "title": "E. Sun Financial Holding Co Ltd (TPE:2884) (Q2 2026) Earnings Call Highlights: Record Profit ...",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/e-sun-financial-holding-co-173049239.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Mon, 17 Aug 2026",
-        "summary": "E. Sun Financial Holding Co Ltd (TPE:2884) posts record Q2 net profit of TWD21.4 billion, up 27.8% year over year, driven by strong fee income and securities performance."
-      },
-      {
-        "title": "Yoshimura Food Holdings (TSE:2884) Margin Improvement Reinforces Bullish Narrative on Earnings Quality",
-        "link": "https://finance.yahoo.com/news/yoshimura-food-holdings-tse-2884-091308151.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Thu, 16 Oct 2025",
-        "summary": "Yoshimura Food Holdings K.K. (TSE:2884) reported a net profit margin of 2.7%, a notable improvement from the previous 1.9%, highlighting a stronger bottom line this year. Earnings grew by 53.4% over t"
-      },
-      {
-        "title": "Taiwan Stocks Swing Wildly by 963 Points; TAIEX Fails to Hold 47,000 Ahead of TSMC Earnings Call - finance.biggo.com",
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBjQjVpQXcxZmFKVE90TUZGdHpEbVNSM3ZlUGF4dkhFRFhndHNES1hlZGhRVzlFYUJmU19YQ3BCOUVoTmZYWExKNlh5X1RValZIUTlxcVpmRTByQU9GbjZOZ0JVbk8ycnRwRVJXWDBNMVdLWmZYZHc?oc=5",
-        "source": "Google News",
-        "published": "Mon, 06 Jul 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTFBjQjVpQXcxZmFKVE90TUZGdHpEbVNSM3ZlUGF4dkhFRFhndHNES1hlZGhRVzlFYUJmU19YQ3BCOUVoTmZYWExKNlh5X1RValZIUTlxcVpmRTByQU9GbjZOZ0JVbk8ycnRwRVJXWDBNMV"
-      },
-      {
-        "title": "Financial Heavyweights Lead Taiwan Stocks to Surge Over 1,000 Points; Cathay Financial Breaks NT$100, Fubon Financial Hi",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5GWGk3V1hTQ3F2VmROWjhMaXhYSUFRckRUREpSemE0TzZ2Um9vNEhpQ1IxTFp0YmF3RWNpU1hnaFZaaHR6M29iNjdqUDFXNDNYREo0ckgtdjVWT1NuQ3N2cw?oc=5",
-        "source": "Google News",
-        "published": "Mon, 08 Jun 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYEFVX3lxTE5GWGk3V1hTQ3F2VmROWjhMaXhYSUFRckRUREpSemE0TzZ2Um9vNEhpQ1IxTFp0YmF3RWNpU1hnaFZaaHR6M29iNjdqUDFXNDNYREo0ckgtdjVWT1NuQ3N2cw?oc=5\" target=\"_blan"
-      },
-      {
-        "title": "Taiwan Stocks Surge 587 Points to Fresh Record High; Financials Erupt as SinoPac Soars 9% in Historic Rally - finance.bi",
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBOaDZ5MzRDVHVoZ3l4WEQwOFNZNHdWeXVZZVNJWGxqMmJYODZmMDR0YWY2SGI4ZXU2TXFDNGVON3FyR0M5dGVFOHFhbjFLT3RBWmNTUzMyUF9QM1ZINVY4VWpuMkRfdURTVmV4Skxzc3IydVlBN3c?oc=5",
-        "source": "Google News",
         "published": "Thu, 18 Jun 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTFBOaDZ5MzRDVHVoZ3l4WEQwOFNZNHdWeXVZZVNJWGxqMmJYODZmMDR0YWY2SGI4ZXU2TXFDNGVON3FyR0M5dGVFOHFhbjFLT3RBWmNTUzMyUF9QM1ZINVY4VWpuMkRfdURTVmV4Skxzc3"
+        "summary": "The IEA sees a potential oil glut in 2027 as supply rebounds faster than demand. Could inverse energy ETFs benefit from the shifting outlook?"
       },
       {
-        "title": "Taiwan Stocks Surge 1,347 Points as Foreign Investors Return; Panel Giants Attract 250,000-Share Buying Spree, Leading t",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9YTG40a0RaMWVzbEZwNmJuOE1IZ1VxYmVvT2NtWm4wcWducUtkNU9WMUp3Z0Zvd3Y4MTJIR0NjVzZ0LXRfMDN5VFdXZjZMOEFiUHI0VW14aU5lNU9Jb3ZQbg?oc=5",
+        "title": "Oil\u2019s Decline Opens the Door on These 4 Sub-$30 Buys",
+        "link": "https://247wallst.com/investing/2026/05/05/oils-decline-opens-the-door-on-these-4-sub-30-buys/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Tue, 05 May 2026",
+        "summary": "WTI crude is hovering near $99.89 a barrel, with the monthly trend down 1.4% even as weekly prices climbed 9.7% on fresh Strait of Hormuz tensions. The recent peak hit $114.58 on April 7 before easing"
+      },
+      {
+        "title": "With oil skyrocketing, Gold at $5100 per ounce, and the Dow, and NASDAQ down, Take advantage of Great Opportunities!",
+        "link": "https://247wallst.com/investing/2026/03/10/with-oil-skyrocketing-gold-at-5100-per-ounce-and-the-dow-and-nasdaq-down-take-advantage-of-great-opportunities/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Tue, 10 Mar 2026",
+        "summary": "With the axiom of \u201cbuying low and selling high\u201d, now is the time to buy low! Our economy has excellent fundamentals, as oil production is at record levels, while $18 trillion of investment commitments"
+      },
+      {
+        "title": "Can Oil Prices Rally in 2026? ETFs in Focus",
+        "link": "https://finance.yahoo.com/news/oil-prices-rally-2026-etfs-150000589.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Wed, 17 Dec 2025",
+        "summary": "Oil prices slid to four-year lows on ceasefire hopes, China weakness, and oversupply fears, putting inverse ETFs like SCO in focus for bearish investors."
+      },
+      {
+        "title": "Oil Prices Near Four-Year Lows. Goldman Sachs Sees Opportunity.",
+        "link": "https://finance.yahoo.com/m/df7f1e13-f913-37b7-b465-1e455794a94c/oil-prices-near-four-year.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Tue, 25 Nov 2025",
+        "summary": "Oil prices fell Tuesday and analysts project prices to keep coming down in the coming years. Refining stocks are holding up."
+      },
+      {
+        "title": "SCO | ProShares UltraShort Bloomberg Crude Insider Trading - Quiver Quantitative",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9faU5HMy0wSWpzN1BUS09wTjdLcmViNkpJbTkySG9jWnJwMnZqVFZzMWxfMnZ1LXdPdGZJNmVEZlo3TmJEQnJpRUdCbFkzdmNOX3BYbzVQR0F2YnM?oc=5",
         "source": "Google News",
-        "published": "Thu, 21 May 2026",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYEFVX3lxTE9YTG40a0RaMWVzbEZwNmJuOE1IZ1VxYmVvT2NtWm4wcWducUtkNU9WMUp3Z0Zvd3Y4MTJIR0NjVzZ0LXRfMDN5VFdXZjZMOEFiUHI0VW14aU5lNU9Jb3ZQbg?oc=5\" target=\"_blan"
+        "published": "Sat, 22 Aug 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE9faU5HMy0wSWpzN1BUS09wTjdLcmViNkpJbTkySG9jWnJwMnZqVFZzMWxfMnZ1LXdPdGZJNmVEZlo3TmJEQnJpRUdCbFkzdmNOX3BYbzVQR0F2YnM?oc=5\" target=\"_blank\">SCO "
+      },
+      {
+        "title": "DraftKings Inc (DKNG) Stock Down 3.8% -- Now Undervalued? GF Sco - GuruFocus",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbVY5MTg0QUREd1Z6bjNHdk5HazZXc0owZVF4VGJhNEJieTFKZ2VEYVNobmJGalZ2bW5xUG5xV2QzV25aQjhDN0FKSklYeUc4dnJ0aldDUXhNMklUejEyWlE5aTAyNHltTE1YY0tETDZGaHhhaHV2TkkzSW1HNll6Nklqa2VPUXRfZ3Fwelp3MzM0cS1sZU1BYkNoajJaUVhObF9uemln?oc=5",
+        "source": "Google News",
+        "published": "Mon, 31 Aug 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxNbVY5MTg0QUREd1Z6bjNHdk5HazZXc0owZVF4VGJhNEJieTFKZ2VEYVNobmJGalZ2bW5xUG5xV2QzV25aQjhDN0FKSklYeUc4dnJ0aldDUXhNMklUejEyWlE5aTAyNHltTE1YY0tETD"
+      },
+      {
+        "title": "Understanding Momentum Shifts in (SCO) - Stock Traders Daily",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQXzg2MlJxeWZ4VjVmU3Y2X20zXzZwMEFZcU9yc25lZUF5U0E4emdzdTFHSFhnZWY5eGdabVJZY19hS3ExTWtZQ1VnTlZWZnNlYWs4Y2FMR3JNX3MwRmRuZXUyU24xR25XY1pxb01ydmdCcFRUcUxUZk1KUzZjLXAxV195c3k1V0Jfd0NjM25PQ3hxWmhCOGt1M3NpVk16TEY5WDEtTmpGcWZ3aTlNMS14aHU5RFAyUQ?oc=5",
+        "source": "Google News",
+        "published": "Thu, 16 Jul 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxQXzg2MlJxeWZ4VjVmU3Y2X20zXzZwMEFZcU9yc25lZUF5U0E4emdzdTFHSFhnZWY5eGdabVJZY19hS3ExTWtZQ1VnTlZWZnNlYWs4Y2FMR3JNX3MwRmRuZXUyU24xR25XY1pxb01ydm"
+      },
+      {
+        "title": "SCO: Excellent On Its Day, But Timing Is Everything (NYSEARCA:SCO) - Seeking Alpha",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOREJwOHhrbFZVRURhcTNNN1BYQXY2ZEIzaVMtbFRRSlY2MTBxOGNjWGxYbDAwMVFzamVxQmxsSFI0cjNDSE4yeHZWQ2VJZUJJcndzN05OSEFxZC1YNWprOGhnZ0ZhdDBZU1hxT3hBckNscVZsdlJKZTNzUFlsTHdUSU10eHAtN0I4d2JCZG53N2h3SGp0?oc=5",
+        "source": "Google News",
+        "published": "Thu, 28 May 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxOREJwOHhrbFZVRURhcTNNN1BYQXY2ZEIzaVMtbFRRSlY2MTBxOGNjWGxYbDAwMVFzamVxQmxsSFI0cjNDSE4yeHZWQ2VJZUJJcndzN05OSEFxZC1YNWprOGhnZ0ZhdDBZU1hxT3hBck"
+      },
+      {
+        "title": "Where are Crude Oil Prices Heading?",
+        "link": "https://finance.yahoo.com/m/92a83c41-f3e0-32d5-a90a-ca3b8cd4dd8e/where-are-crude-oil-prices.html",
+        "source": "Finviz",
+        "published": "",
+        "summary": ""
+      },
+      {
+        "title": "Oil Just Spiked 35%: Ride It or Fade It?",
+        "link": "/news/332882/oil-just-spiked-35-ride-it-or-fade-it",
+        "source": "Finviz",
+        "published": "",
+        "summary": ""
       }
     ],
     "SOFI": [
@@ -862,6 +832,301 @@
         "summary": ""
       }
     ],
+    "2884.TW": [
+      {
+        "title": "E. Sun Financial Holding Co Ltd (TPE:2884) (Q2 2026) Earnings Call Highlights: Record Profit ...",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/e-sun-financial-holding-co-173049239.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Mon, 17 Aug 2026",
+        "summary": "E. Sun Financial Holding Co Ltd (TPE:2884) posts record Q2 net profit of TWD21.4 billion, up 27.8% year over year, driven by strong fee income and securities performance."
+      },
+      {
+        "title": "Yoshimura Food Holdings (TSE:2884) Margin Improvement Reinforces Bullish Narrative on Earnings Quality",
+        "link": "https://finance.yahoo.com/news/yoshimura-food-holdings-tse-2884-091308151.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Thu, 16 Oct 2025",
+        "summary": "Yoshimura Food Holdings K.K. (TSE:2884) reported a net profit margin of 2.7%, a notable improvement from the previous 1.9%, highlighting a stronger bottom line this year. Earnings grew by 53.4% over t"
+      },
+      {
+        "title": "Taiwan Stocks Swing Wildly by 963 Points; TAIEX Fails to Hold 47,000 Ahead of TSMC Earnings Call - finance.biggo.com",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBjQjVpQXcxZmFKVE90TUZGdHpEbVNSM3ZlUGF4dkhFRFhndHNES1hlZGhRVzlFYUJmU19YQ3BCOUVoTmZYWExKNlh5X1RValZIUTlxcVpmRTByQU9GbjZOZ0JVbk8ycnRwRVJXWDBNMVdLWmZYZHc?oc=5",
+        "source": "Google News",
+        "published": "Mon, 06 Jul 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTFBjQjVpQXcxZmFKVE90TUZGdHpEbVNSM3ZlUGF4dkhFRFhndHNES1hlZGhRVzlFYUJmU19YQ3BCOUVoTmZYWExKNlh5X1RValZIUTlxcVpmRTByQU9GbjZOZ0JVbk8ycnRwRVJXWDBNMV"
+      },
+      {
+        "title": "Financial Heavyweights Lead Taiwan Stocks to Surge Over 1,000 Points; Cathay Financial Breaks NT$100, Fubon Financial Hi",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5GWGk3V1hTQ3F2VmROWjhMaXhYSUFRckRUREpSemE0TzZ2Um9vNEhpQ1IxTFp0YmF3RWNpU1hnaFZaaHR6M29iNjdqUDFXNDNYREo0ckgtdjVWT1NuQ3N2cw?oc=5",
+        "source": "Google News",
+        "published": "Mon, 08 Jun 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYEFVX3lxTE5GWGk3V1hTQ3F2VmROWjhMaXhYSUFRckRUREpSemE0TzZ2Um9vNEhpQ1IxTFp0YmF3RWNpU1hnaFZaaHR6M29iNjdqUDFXNDNYREo0ckgtdjVWT1NuQ3N2cw?oc=5\" target=\"_blan"
+      },
+      {
+        "title": "Taiwan Stocks Surge 587 Points to Fresh Record High; Financials Erupt as SinoPac Soars 9% in Historic Rally - finance.bi",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBOaDZ5MzRDVHVoZ3l4WEQwOFNZNHdWeXVZZVNJWGxqMmJYODZmMDR0YWY2SGI4ZXU2TXFDNGVON3FyR0M5dGVFOHFhbjFLT3RBWmNTUzMyUF9QM1ZINVY4VWpuMkRfdURTVmV4Skxzc3IydVlBN3c?oc=5",
+        "source": "Google News",
+        "published": "Thu, 18 Jun 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTFBOaDZ5MzRDVHVoZ3l4WEQwOFNZNHdWeXVZZVNJWGxqMmJYODZmMDR0YWY2SGI4ZXU2TXFDNGVON3FyR0M5dGVFOHFhbjFLT3RBWmNTUzMyUF9QM1ZINVY4VWpuMkRfdURTVmV4Skxzc3"
+      },
+      {
+        "title": "Taiwan Stocks Surge 1,347 Points as Foreign Investors Return; Panel Giants Attract 250,000-Share Buying Spree, Leading t",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9YTG40a0RaMWVzbEZwNmJuOE1IZ1VxYmVvT2NtWm4wcWducUtkNU9WMUp3Z0Zvd3Y4MTJIR0NjVzZ0LXRfMDN5VFdXZjZMOEFiUHI0VW14aU5lNU9Jb3ZQbg?oc=5",
+        "source": "Google News",
+        "published": "Thu, 21 May 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYEFVX3lxTE9YTG40a0RaMWVzbEZwNmJuOE1IZ1VxYmVvT2NtWm4wcWducUtkNU9WMUp3Z0Zvd3Y4MTJIR0NjVzZ0LXRfMDN5VFdXZjZMOEFiUHI0VW14aU5lNU9Jb3ZQbg?oc=5\" target=\"_blan"
+      }
+    ],
+    "RKLB": [
+      {
+        "title": "Cathie Wood Just Bought 705,102 Shares of a Rocket Company 50 Times Smaller Than SpaceX",
+        "link": "https://247wallst.com/investing/2026/09/04/cathie-wood-just-bought-705102-shares-of-a-rocket-company-50-times-smaller-than-spacex/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Fri, 04 Sep 2026",
+        "summary": "ARK Invest just loaded up on a rocket company trading at a fraction of SpaceX's valuation, and the timing raises a pointed question about whether the recent selloff is a warning sign or a once-in-a-cy"
+      },
+      {
+        "title": "SPCX Stock Blasts Past ASTS, RKLB, LUNR, PL \u2014 Here\u2019s Everything Shaking Up Space Stocks This Week",
+        "link": "https://stocktwits.com/news-articles/markets/equity/spcx-stock-asts-rklb-lunr-pl-everything-space-stocks-this-week/cZswy2ERJwh?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Fri, 04 Sep 2026",
+        "summary": "Oppenheimer raised its SpaceX target to $280, while Gavin Baker said orbital data centers could eventually propel its valuation to $20 trillion."
+      },
+      {
+        "title": "Is Rocket Lab Stock a Millionaire Maker?",
+        "link": "https://www.fool.com/investing/2026/09/04/is-rocket-lab-stock-a-millionaire-maker/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Fri, 04 Sep 2026",
+        "summary": "Rocket Lab has some exciting things happening with its launch business, but keep your head out of the clouds."
+      },
+      {
+        "title": "RKLB And FLY Investors, Take Note: Planet Labs Flags SpaceX Rideshare Crunch As Smaller Operators Seek Alternatives",
+        "link": "https://stocktwits.com/news-articles/markets/equity/rklb-fly-investors-planet-labs-spacex-rideshare-crunch-smaller-operators-alternatives/cZswqIGRJw2?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Fri, 04 Sep 2026",
+        "summary": "Rocket Lab\u2019s Electron offers dedicated launch dates, orbits and mission profiles, unlike shared Falcon 9 rideshare missions."
+      },
+      {
+        "title": "Rocket Lab (RKLB) Is Getting Fresh Attention, What Is The Market Weighing?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-rklb-getting-fresh-031039379.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Fri, 04 Sep 2026",
+        "summary": "Rocket Lab (RKLB) just completed its 94th Electron launch, placing Synspective\u2019s latest StriX Earth imaging satellite into low Earth orbit and extending a run of successful missions that has attracted"
+      },
+      {
+        "title": "SPCX Stock Blasts Past ASTS, RKLB, LUNR, PL \u2014 Here\u2019s Everything Shaking Up Space Stocks This Week - Stocktwits",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPUmtmV2ZKMzc2QU1WeHNIMEcxM09LMVBXWi12RkZzU0hYam0xc1RZdW1LNE9ZdmFSU3hGaC1wdWt0SkRQNGVqeFBNVXVxV2czaldwRThTc3loejNSMjBmWFoxV0MzVDJqSTZZZHQ0bGtyTmRuOVpQdjF3TGZQSnBoMUxuNEpCQUtuQWY5ZjBRMlNua2dBd1pTaFJ6bW5uVUhENXBvcjhuVzVhbmMtVVBOMkVRWEtScy1NV3c3V2pZWjIwVEQx?oc=5",
+        "source": "Google News",
+        "published": "Fri, 04 Sep 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxPUmtmV2ZKMzc2QU1WeHNIMEcxM09LMVBXWi12RkZzU0hYam0xc1RZdW1LNE9ZdmFSU3hGaC1wdWt0SkRQNGVqeFBNVXVxV2czaldwRThTc3loejNSMjBmWFoxV0MzVDJqSTZZZHQ0bG"
+      },
+      {
+        "title": "RKLB Stock Forecast 2030: Rocket Lab Valuation - Northwise",
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNWFZxNjJnbi1FV1ZIbkVvNUozN0tFWl92bTNZdTVXYTRJbVdETlg4N24tZ1ROcW9JLXVWLVlITjh2ZU5NTDNkWldLazZhSzJGclBsXzdrclRyUHlYelg1ZWRVNEdvNTlsNlFQVE5CLXd3SS1oS3pLeDZBYUFTN3FVQ0s4bmxSOVJzblVHSzJpMzRLQ0h6MmJ4R0dEdw?oc=5",
+        "source": "Google News",
+        "published": "Fri, 04 Sep 2026",
+        "summary": "<ol><li><a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxNWFZxNjJnbi1FV1ZIbkVvNUozN0tFWl92bTNZdTVXYTRJbVdETlg4N24tZ1ROcW9JLXVWLVlITjh2ZU5NTDNkWldLazZhSzJGclBsXzdrclRyUHlYelg1ZWRVNEdvNTlsNl"
+      },
+      {
+        "title": "Cathie Wood Just Bought 705,102 Shares of a Rocket Company 50 Times Smaller Than SpaceX - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVEtSN3Nmejl4eGx4OTRUaFJnLVRneU1XTkFfcnEyMjAyR1BHNUhaWkFFbnR1bEI3VXd0Q3ZmZkdqdDhNZjJ4NU5DdUhncndoSmR2cVVGVWVXenJ2N1hjRmREbHdjSmJseXpWVUxWcE9hQ0VIQVVVS2dYTG5XY3F3OGcyOG9KVTc3c3g5a0FQMW9YVHZWblU4?oc=5",
+        "source": "Google News",
+        "published": "Fri, 04 Sep 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxNVEtSN3Nmejl4eGx4OTRUaFJnLVRneU1XTkFfcnEyMjAyR1BHNUhaWkFFbnR1bEI3VXd0Q3ZmZkdqdDhNZjJ4NU5DdUhncndoSmR2cVVGVWVXenJ2N1hjRmREbHdjSmJseXpWVUxWcE"
+      },
+      {
+        "title": "RKLB And FLY Investors, Take Note: Planet Labs Flags SpaceX Rideshare Crunch As Smaller Operators Seek Alternatives - Tr",
+        "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQV0dBamtPUkNQYnJTd2FGcUphOFI0Y3ExSVNxekdLcVVtc2lXbzBXY19sZkFOdERpMDV5NHZ5TXdyamNhMmdiMmFtQUhzbUpSSktHOHVQTDI5M3BvcVN3ZXVnV2xfVHBxSWE2LXRjaWFuZWg5N3Z2bmx2aEo2VE1jbWtSVUwwSTBrX3o3ejRBVmJDc29OX2M3WkYzTTliVmc0bEpWLUdGS28tQ1VJbFBGTWllQUdRclBDMzM5UGtLRERSVEhfcWlkajJhdDgzbHdJYVRHQnRWdzhaSHM3Y3lIaWduUkhJZUhsdzV5dXNTUERibFRYYWNaLTdGQ2J3U19jWFVSag?oc=5",
+        "source": "Google News",
+        "published": "Fri, 04 Sep 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAJBVV95cUxQV0dBamtPUkNQYnJTd2FGcUphOFI0Y3ExSVNxekdLcVVtc2lXbzBXY19sZkFOdERpMDV5NHZ5TXdyamNhMmdiMmFtQUhzbUpSSktHOHVQTDI5M3BvcVN3ZXVnV2xfVHBxSWE2LXRjaW"
+      },
+      {
+        "title": "Nasdaq Futures Edge Higher As Jobs Report Takes Center Stage: TSLA, LULU, ORCL, PL, NVDA, PLTR, RKLB In Focus",
+        "link": "https://finance.yahoo.com/m/11ad69f3-6c95-391b-bc60-eaf8821f3c8d/nasdaq-futures-edge-higher-as.html",
+        "source": "Finviz",
+        "published": "",
+        "summary": ""
+      },
+      {
+        "title": "SPCX Stock Blasts Past ASTS, RKLB, LUNR, PL  Heres Everything Shaking Up Space Stocks This Week",
+        "link": "https://finance.yahoo.com/m/9cd9e724-c4c8-3e89-ad80-7cd52249c7a4/spcx-stock-blasts-past-asts%2C.html",
+        "source": "Finviz",
+        "published": "",
+        "summary": ""
+      }
+    ],
+    "MCD": [
+      {
+        "title": "Warren Buffett Says Greatness Isn\u2019t About \u2018Great Amounts of Money\u2019 \u2014 Despite a $140B Net Worth, He Drives a 2014 Cadilla",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/warren-buffett-says-greatness-isn-154515213.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Fri, 04 Sep 2026",
+        "summary": "A billionaire can have a private jet, a garage full of supercars and a house that needs its own ZIP code. Or he can eat a McDonald\u2019s breakfast, drive the same Cadillac for more than a decade and decid"
+      },
+      {
+        "title": "McDonald's Trades at 19.15X P/E: Is This a Discounted Opportunity?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/mcdonalds-trades-19-15x-p-140700667.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Fri, 04 Sep 2026",
+        "summary": "MCD trades below the restaurant industry's average P/E as U.S. weakness weighs on shares, while global growth and new initiatives offer hope."
+      },
+      {
+        "title": "McDonald's launches exclusive state-themed meal",
+        "link": "https://www.thestreet.com/restaurants/mcdonalds-launches-texas-meal?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Fri, 04 Sep 2026",
+        "summary": "McDonald\u2019s also brought back a menu favorite and is rolling out a new item for customers across the country."
+      },
+      {
+        "title": "Pickleman's Adds Industry Veteran Jim Morey to Executive Advisory Board to Accelerate Scalable Growth",
+        "link": "https://finance.yahoo.com/small-business/articles/picklemans-adds-industry-veteran-jim-203400437.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Thu, 03 Sep 2026",
+        "summary": "Pickleman's Gourmet Caf\u00e9 today announced that Jim Morey has joined the company's executive advisory board, bringing deep multi-unit operating, finance, and brand experience from Wawa, Inc., Outback St"
+      },
+      {
+        "title": "McDonald\u2019s Is Near a 52-Week Low. Is This the Contrarian Buy of 2026?",
+        "link": "https://247wallst.com/investing/2026/09/03/mcdonalds-is-near-a-52-week-low-is-this-the-contrarian-buy-of-2026/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Thu, 03 Sep 2026",
+        "summary": "McDonald's shares have cratered to levels not seen in over a year, and a contrarian case is quietly building that the selloff has gone too far. Whether the golden arches reward patient buyers or keep "
+      },
+      {
+        "title": "Why Did NIO, RARE, MCD Stocks Fall To 52-Week Lows? - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMllRYUpGSFpoRUFxYmFYWUlqVUdFemozcnAydmF5Z3JidUloRGprUEowMmpGMkp1RDlucVNmOEQ5TFp0X1J6eXlydnh2MmVDWnk1bkFEVVlTeU1HcmRrX1AzUGNlaDUzVFNxUWx5V0t0aWpCWkcxRzhtRURhdktfSFJrbjFOaUhLMGdWemdR?oc=5",
+        "source": "Google News",
+        "published": "Fri, 04 Sep 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxOMllRYUpGSFpoRUFxYmFYWUlqVUdFemozcnAydmF5Z3JidUloRGprUEowMmpGMkp1RDlucVNmOEQ5TFp0X1J6eXlydnh2MmVDWnk1bkFEVVlTeU1HcmRrX1AzUGNlaDUzVFNxUWx5V0"
+      },
+      {
+        "title": "McDonald's (NYSE:MCD) Stock Price Down 1.5% - Should You Sell? - marketbeat.com",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQeTRoYjAtQzFNRkt0N3l4RmR3SDJaSVJjcEpraWlPNkVwREFTZXVaNUFXdk11TjhzcWs4aC1Sd1NPZFhDTFU5Vm9NLWFFSWxCLWw1Q0pBT0llOFdNOWJoV2RraGpabVdpSHI0bjNVeUFDR3dPRmNmcWVDckM5WGExZnMxQXVhd0hWN2lsc2YzQ0toR1hrc0swM3IyaTNUS2Y0aUxna29FMmNfR1pTaFc0cEY0SG8?oc=5",
+        "source": "Google News",
+        "published": "Fri, 04 Sep 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxQeTRoYjAtQzFNRkt0N3l4RmR3SDJaSVJjcEpraWlPNkVwREFTZXVaNUFXdk11TjhzcWs4aC1Sd1NPZFhDTFU5Vm9NLWFFSWxCLWw1Q0pBT0llOFdNOWJoV2RraGpabVdpSHI0bjNVeU"
+      },
+      {
+        "title": "Why Did PSKY, MCD, NOC Stocks Tumble To 52-Week Lows Today? - Stocktwits",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNV1VNUzBEZkRDQnJ5c0FWSVJjTkNjbHFGUWF2RlBWV2lWWEdLdGR1QzlEdFllcVUwOEE1V0RzakU3SVB4UDJDbVNqOXhIUGE1OHpqSzY4RzVISVRUejNLVkZmZUxJaU1uckI3TjUwaVFCd3RNNHh5M2dkNUpTcjk1VmtlejVaSDBHM2J3d0YtaXR2MndRbGZYVEkzeS1xd2EwT3UtUGkxTEF0b3NfYV9NMTY0QkpFd3lVY09fbQ?oc=5",
+        "source": "Google News",
+        "published": "Fri, 04 Sep 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxNV1VNUzBEZkRDQnJ5c0FWSVJjTkNjbHFGUWF2RlBWV2lWWEdLdGR1QzlEdFllcVUwOEE1V0RzakU3SVB4UDJDbVNqOXhIUGE1OHpqSzY4RzVISVRUejNLVkZmZUxJaU1uckI3TjUwaV"
+      },
+      {
+        "title": "McDonald's (MCD) Stock May Be 2% Undervalued As Cash Flows Hold Up - simplywall.st",
+        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQUS1mRERvWF96RF9ZcV90MFVUWk5BQjJINXNXMUU2MkR1Qnk4dWk1RV9ZV2d6SUhxekJhalhMMWh5eWlla1NWdExiTnhTTHRWa0k2QmJ2cVhNalZJWjBYZ3hxZm95V3hwTGc1RWc2VUo2elJyQW5MTGxSSGM4U1pWNjBGRnhTSEptSHp3Tmp2YjRINTd5VjhBWVNUdzJvb19wRm90OERVcC02cnVNdjY5LXR4Q0hXNmFtV3MxcjdGaDgyWXBFdVpLYnZ0R1dEdkhoRXpN0gHTAUFVX3lxTFBRLWZERG9YX3pEX1lxX3QwVVRaTkFCMkg1c1cxRTYyRHVCeTh1aTVFX1lXZ3pJSHF6QmFqWEwxaHl5aWVrU1Z0TGJOeFNMdFZrSTZCYnZxWE1qVklaMFhneHFmb3lXeHBMZzVFZzZVSjZ6UnJBbkxMbFJIYzhTWlY2MEZGeFNISm1IendOanZiNEg1N3lWOEFZU1R3Mm9vX3BGb3Q4RFVwLTZydU12NjktdHhDSFc2YW1XczFyN0ZoODJZcEV1WktidnRHV0R2SGhFek0?oc=5",
+        "source": "Google News",
+        "published": "Fri, 04 Sep 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxQUS1mRERvWF96RF9ZcV90MFVUWk5BQjJINXNXMUU2MkR1Qnk4dWk1RV9ZV2d6SUhxekJhalhMMWh5eWlla1NWdExiTnhTTHRWa0k2QmJ2cVhNalZJWjBYZ3hxZm95V3hwTGc1RWc2VU"
+      },
+      {
+        "title": "Academy Moves Forward With Lee, Wolski-David",
+        "link": "https://finance.yahoo.com/m/601872aa-8240-3f36-ae6b-3de296b5f600/academy-moves-forward-with.html",
+        "source": "Finviz",
+        "published": "",
+        "summary": ""
+      },
+      {
+        "title": "Why Did NIO, RARE, MCD Stocks Fall To 52-Week Lows?",
+        "link": "https://finance.yahoo.com/m/d6aca2a5-4231-3866-8eb2-b568bd96d21c/why-did-nio%2C-rare%2C-mcd-stocks.html",
+        "source": "Finviz",
+        "published": "",
+        "summary": ""
+      },
+      {
+        "title": "Dutch Bros Stock Is Down Sharply, But History Has A Warning For Dip Buyers",
+        "link": "https://finance.yahoo.com/m/1d94bbb4-d1f7-32ff-ba12-f5c5d0fe6763/dutch-bros-stock-is-down.html",
+        "source": "Finviz",
+        "published": "",
+        "summary": ""
+      }
+    ],
+    "LULU": [
+      {
+        "title": "Why Lululemon Stock Crashed Today",
+        "link": "https://www.fool.com/investing/2026/09/04/why-lululemon-stock-crashed-today/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Fri, 04 Sep 2026",
+        "summary": "The apparel retailer's turnaround plan isn't working."
+      },
+      {
+        "title": "Stock Market Today, Sept. 4: Lululemon Plummets 17% After Slashing Guidance",
+        "link": "https://www.fool.com/coverage/stock-market-today/2026/09/04/stock-market-today-sept-4-lululemon-plummets-17-after-slashing-guidance/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Fri, 04 Sep 2026",
+        "summary": "On Sept. 4, 2026, the premium sportswear maker expects further losses, meaning incoming CEO Heidi O'Neill will face a prolonged turnaround."
+      },
+      {
+        "title": "LULU Q2 Deep Dive: Brand Sentiment and Product Pressures Drive Revenue Decline and Lower Outlook",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/lulu-q2-deep-dive-brand-212610855.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Fri, 04 Sep 2026",
+        "summary": "Athletic apparel retailer Lululemon (NASDAQ:LULU) fell short of the market\u2019s revenue expectations in Q2 CY2026, with sales falling 4.3% year on year to $2.42 billion. Next quarter\u2019s revenue guidance o"
+      },
+      {
+        "title": "Sector Update: Consumer Stocks Fall Late Afternoon",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-fall-afternoon-193633461.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Fri, 04 Sep 2026",
+        "summary": "Consumer stocks were lower late Friday afternoon, with the State Street Consumer Staples Select Sect"
+      },
+      {
+        "title": "Top Midday Decliners",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/top-midday-decliners-172727427.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Fri, 04 Sep 2026",
+        "summary": "Guidewire Software's (GWRE) fiscal 2027 outlook disappointed amid elevated expectations after its st"
+      },
+      {
+        "title": "Lululemon made a really stupid decision this year that explains why its stock is getting crushed - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOeG55bXZQdEdZeTVYcDJmWi1RU1hfTjg4RzVrM3dIUWoybVBQX3p4cTkxbnBJM2tHRDJ3Smk3NWRrM2JZc1BXb2Zub2p5M1Fscy1pSFdFNVZseEhia1VrRlFkOEdHZWRRODhhcm1USlBXbDRMc2Y0bmNsSEY2VnVCMTRXUTlLUWp6R0Q3RlF4MVRxTXlTUV8wMUxoRzVhMmljWDFZVnRJejRVOFhOR1hMcm1rQl8zNHlWNUVHdnVaU24tbUVsemV5emtRS0s0YWlkZ3RpeDdLdW1pRE45NnZuVmtmTEpGZnY3SWlkcFV3QVRZZw?oc=5",
+        "source": "Google News",
+        "published": "Fri, 04 Sep 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi8gFBVV95cUxOeG55bXZQdEdZeTVYcDJmWi1RU1hfTjg4RzVrM3dIUWoybVBQX3p4cTkxbnBJM2tHRDJ3Smk3NWRrM2JZc1BXb2Zub2p5M1Fscy1pSFdFNVZseEhia1VrRlFkOEdHZWRRODhhcm1USl"
+      },
+      {
+        "title": "Lululemon stock plunges 20% on disappointing earnings and outlook - CNBC",
+        "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5sa3JMSDdtMGZGVzdpcXBWb0dldnVKY2N1MlVmbnczS0xFM2hiUm9KOHZXUnNxc3Noa2ZQdy1McFdRenNFN3JEcFJ4LWtCUG5YZTFHY2xSNGVKdzk5M3hfQ0F6YWVHS0V6TWJmQWpqR1FJSFl4eHlJ0gF8QVVfeXFMUGd4cl9GZVVSdkM5TnRnU0FxLS1JYVhzSGEtakRadlpERlNNa1NkX0xPdnptM1I2b01oN0NBb25vb09EbmdpanFrejZraGpPNFkzc3A4dXllRXcyZjlhdUhDdU5pVWJQQXVmRHZQZHphUjFLVGEzM0htR0J4Yg?oc=5",
+        "source": "Google News",
+        "published": "Thu, 03 Sep 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTE5sa3JMSDdtMGZGVzdpcXBWb0dldnVKY2N1MlVmbnczS0xFM2hiUm9KOHZXUnNxc3Noa2ZQdy1McFdRenNFN3JEcFJ4LWtCUG5YZTFHY2xSNGVKdzk5M3hfQ0F6YWVHS0V6TWJmQWpqR1"
+      },
+      {
+        "title": "LULU stock sinks 18%: Michael Burry calls Lululemon a \u2018trickster,\u2019 eyes dip buying under $100 - Seeking Alpha",
+        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObUljQ2dWU1VpZkpnSzhNQmt1X1JFVXpvSFlpOC1TZ3YyMEJ6X2dzbG95Zk1BZ2d0SUhuSzZETkwzRlJkMTBtUFlvYVlvSXB4WG9kTDNLcEVRLTFYa3FTLUVjQmtpcFI2V19VTTBWOVRtVmdmQk93VGE0M0szR1lzcUVfNk14bEVOTmJwaW1JUFAyZ0IySWN2QmR3TTRIZjdINXJJajhpNmxDOXpqWUoyNXdDdHBSNkVQYkppaVJ2NTIzNjg?oc=5",
+        "source": "Google News",
+        "published": "Fri, 04 Sep 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxObUljQ2dWU1VpZkpnSzhNQmt1X1JFVXpvSFlpOC1TZ3YyMEJ6X2dzbG95Zk1BZ2d0SUhuSzZETkwzRlJkMTBtUFlvYVlvSXB4WG9kTDNLcEVRLTFYa3FTLUVjQmtpcFI2V19VTTBWOV"
+      },
+      {
+        "title": "lululemon athletica inc. Announces Second Quarter Fiscal 2026 Results - Lululemon",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUlpBQUhya1dobkVqWDl3cFZlbFZFRFpJWHRkM2tKbTEzdXBLM2ZCUGNyZDZnWGFtN2U0Yld0YkNxeVJrQ01wX1liVkdIbmRPM21vNUlhWC10OFdLZFVYWDVqYjBRdFIxRVFIN0JSVVhWTXRQZlIxTlhIeGJRbHIwampxbGRia3BF?oc=5",
+        "source": "Google News",
+        "published": "Thu, 03 Sep 2026",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUlpBQUhya1dobkVqWDl3cFZlbFZFRFpJWHRkM2tKbTEzdXBLM2ZCUGNyZDZnWGFtN2U0Yld0YkNxeVJrQ01wX1liVkdIbmRPM21vNUlhWC10OFdLZFVYWDVqYjBRdFIxRVFIN0JSVV"
+      },
+      {
+        "title": "Stocks Log Sluggish Start to September Amid Geopolitical Buzz",
+        "link": "/news/389157/stocks-log-sluggish-start-to-september-amid-geopolitical-buzz",
+        "source": "Finviz",
+        "published": "",
+        "summary": ""
+      },
+      {
+        "title": "The Stock Market Survived a Strong Jobs Report. Can It Survive Inflation?",
+        "link": "https://www.barrons.com/articles/the-stock-market-survived-a-strong-jobs-report-can-it-survive-inflation-6b3a3f60?mod=bar_FV",
+        "source": "Finviz",
+        "published": "",
+        "summary": ""
+      },
+      {
+        "title": "Lululemon Stock Has Plunged. Why It Faces a Long Road to Recovery.",
+        "link": "https://www.barrons.com/articles/lululemon-stock-retail-apparel-7ad6fcd5?mod=bar_FV",
+        "source": "Finviz",
+        "published": "",
+        "summary": ""
+      }
+    ],
     "AAPL": [
       {
         "title": "Apple's John Ternus needs to be his own type of CEO and 'not Tim Cook 2'",
@@ -943,6 +1208,13 @@
     ],
     "MSFT": [
       {
+        "title": "Why IBM, Microsoft Back Move for Quantum Policy Czar",
+        "link": "https://finance.yahoo.com/m/20f45949-656b-316b-ae10-8ddbf6e869ef/why-ibm%2C-microsoft-back-move.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "published": "Fri, 04 Sep 2026",
+        "summary": "A new bill aims to secure U.S. supply chains and elevate the Commerce Department to lead national quantum policy."
+      },
+      {
         "title": "Stifel Revamps Microsoft Target With a Catch",
         "link": "https://finance.yahoo.com/markets/stocks/articles/stifel-revamps-microsoft-target-catch-195258757.html?.tsrc=rss",
         "source": "Yahoo Finance",
@@ -971,13 +1243,6 @@
         "summary": "Nadella's run as Microsoft's CEO has been an incredible success."
       },
       {
-        "title": "After A Microsoft Stock Price Spike, An Options Strategy Aims For A Robust Profit In Weeks",
-        "link": "https://finance.yahoo.com/m/3d68f2dd-a33a-34bb-af88-3a72cd32da92/after-a-microsoft-stock-price.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "published": "Fri, 04 Sep 2026",
-        "summary": "Microsoft stock may consolidate after a price run-up. An options strategy could return 41% in around six weeks."
-      },
-      {
         "title": "Microsoft Stock (NASDAQ:MSFT) Slips With Launch of Project Zenith - TipRanks",
         "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQcUZrdmpYNGNlZ0FCWmNMZTRXaVd1WEpsM2M1NUtYMTl0bXhiZzBhcTlCX3NNSEl4MWUwWlpWTUNQbFZsTC01akVQY0F6RllxSnZfd3NHanNPcHp2QVN5dmozSktfb1Z0bHlqVDc0MnExZkN5MEdfR2FTS093eHB3Q093QnF6bE9fTTAtcTdQMEgxNzR1akhn?oc=5",
         "source": "Google News",
@@ -992,7 +1257,7 @@
         "summary": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxPcnR2cmxvbWF2cVlFVkwxb1FSWmlzYkhXZDJFUGNGbEt4ZTYxeVZFcFRYOFBhVUxjLUtHUl9QRVhlRXFLbHhCeFFNeU5nU2NCdXRQMDQ2V3llNHdnczhJS1RzNjhXY1ZrSVJ3QWpxNF"
       },
       {
-        "title": "Microsoft, Amazon and 8 More Stocks Set to Win in a $26 Trillion AI Market - Barron's",
+        "title": "Microsoft, Amazon and 8 More Stocks Set to Win in a $26 Trillion AI Market - barrons.com",
         "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBySmRqcFZ4YTUwQ2w0a3VqNTlpYmZXS0sxNkxFb0RBd2drcUFHMnN4clpyUHpvNVRiTXVoWWY2bnU0RnV3cG9nUGZtc3pTOW5OZC1TZEtKcHpEa3NqS0ZZaGxndlZqYXpkRUl6MkExdmM3THJpLW1xQlpCV1QxUkk?oc=5",
         "source": "Google News",
         "published": "Thu, 03 Sep 2026",
@@ -1015,13 +1280,6 @@
       {
         "title": "Own Oracle For The AI Boom? PTC's Story Looks Cleaner",
         "link": "https://finance.yahoo.com/m/819e0ebf-dba7-31f5-8896-76dce4e0b343/own-oracle-for-the-ai-boom%3F.html",
-        "source": "Finviz",
-        "published": "",
-        "summary": ""
-      },
-      {
-        "title": "Why IBM, Microsoft Back Move for Quantum Policy Czar",
-        "link": "https://www.barrons.com/articles/ibm-microsoft-stocks-quantum-technology-b97c5047?mod=bar_FV",
         "source": "Finviz",
         "published": "",
         "summary": ""
@@ -1114,6 +1372,6 @@
       }
     ]
   },
-  "generated_at_utc": "2026-09-04 22:09 UTC",
-  "generated_at_tw": "2026-09-05 06:09 TW"
+  "generated_at_utc": "2026-09-04 22:18 UTC",
+  "generated_at_tw": "2026-09-05 06:18 TW"
 }
